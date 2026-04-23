@@ -1,0 +1,1532 @@
+{
+  "doc-4fb1846e6da8a78f6dc58f2d85230793": {
+    "entity_names": [
+      "Igor Grabec",
+      "POB 394",
+      "Aircraft Frame Structures",
+      "Time Delay Estimation",
+      "Locator Performance",
+      "Non-Destructive Testing",
+      "Faculty of Mechanical Engineering",
+      "Tadej Kosel",
+      "Sound Velocity",
+      "Part I",
+      "Attenuation",
+      "SI-1001 Ljubljana",
+      "Part II",
+      "Triangulation Method",
+      "University of Ljubljana",
+      "Dimensions of Tested Area",
+      "Intelligent Acoustic Emission Locator",
+      "Properties of Stored Data",
+      "Abstract",
+      "Acoustic Emission",
+      "Aˇskerˇceva 6",
+      "Blind Source Separation",
+      "Sensor Antenna",
+      "General Regression Neural Network"
+    ],
+    "count": 24,
+    "create_time": 1776893802,
+    "update_time": 1776893802,
+    "_id": "doc-4fb1846e6da8a78f6dc58f2d85230793"
+  },
+  "doc-b1a2b103d7a60591f1a23cdc33cbb4d1": {
+    "entity_names": [
+      "Blind Source Separation",
+      "Acoustic Emission Analysis",
+      "Independent Component Analysis",
+      "Igor Grabec",
+      "Tadej Kosel",
+      "Aluminum Band Specimen",
+      "Aircraft Frame Structures",
+      "Developing Defects",
+      "University of Ljubljana",
+      "Acoustic Emission",
+      "Signal Components",
+      "Faculty of Mechanical Engineering",
+      "Independent Components"
+    ],
+    "count": 13,
+    "create_time": 1776893897,
+    "update_time": 1776893897,
+    "_id": "doc-b1a2b103d7a60591f1a23cdc33cbb4d1"
+  },
+  "doc-cc4186ce653954282ee0cf160907777b": {
+    "entity_names": [
+      "Evolution of Cognition",
+      "The World as Evolving Information",
+      "Psychological Principles",
+      "Instituto de Investigaciones en Matem aticas Aplicadas y en Sistemas Universidad Nacional Aut onoma de M exico",
+      "Carlos Gershenson",
+      "Thermodynamic Principles",
+      "Cybernetic Principles",
+      "Eight Tentative Laws of Information",
+      "Evolution of Life",
+      "Darwinian Principles",
+      "Complexity Principles",
+      "Computer Sciences Department",
+      "New England Complex Systems Institute",
+      "Information",
+      "Matter and Energy",
+      "Centrum Leo Apostel",
+      "Vrije Universiteit Brussel",
+      "Philosophical Principles"
+    ],
+    "count": 18,
+    "create_time": 1776893992,
+    "update_time": 1776893992,
+    "_id": "doc-cc4186ce653954282ee0cf160907777b"
+  },
+  "doc-5fd1c1e7a77d943a923684ee35f9df45": {
+    "entity_names": [
+      "INDIA",
+      "Abstract-Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems",
+      "Acausal Systems",
+      "Evolvable Embedded Systems",
+      "Mohd Abubakr",
+      "Hyderabad",
+      "Semiconductor Technology",
+      "Embedded Systems",
+      "Electronics and Communication Engineering",
+      "Gokaraju Rangaraju Institute of Engineering and Technology",
+      "Rali Manikya Vinay",
+      "Architecture for Pseudo Acausal Evolvable Embedded Systems"
+    ],
+    "count": 12,
+    "create_time": 1776894082,
+    "update_time": 1776894082,
+    "_id": "doc-5fd1c1e7a77d943a923684ee35f9df45"
+  },
+  "doc-cdc6963f9d4b6e7b7f8b485fbca41b2e": {
+    "entity_names": [
+      "Collaborative Filtering",
+      "Jianlin Cheng",
+      "Ordinal Regression",
+      "Information Retrieval",
+      "NNRank",
+      "Gaussian Processes",
+      "Abstract",
+      "Introduction",
+      "Protein Ranking in Bioinformatics",
+      "Web Page Ranking",
+      "University of Central Florida",
+      "Perceptron Method",
+      "Support Vector Machines",
+      "School of Electrical Engineering and Computer Science",
+      "Ordinary Perceptron",
+      "Neural Network Approach to Ordinal Regression"
+    ],
+    "count": 16,
+    "create_time": 1776894191,
+    "update_time": 1776894191,
+    "_id": "doc-cdc6963f9d4b6e7b7f8b485fbca41b2e"
+  },
+  "doc-5909b7c343302c5c6e46ae53af79d1fb": {
+    "entity_names": [
+      "Constraint Satisfaction Problems",
+      "Calculating Valid Domains",
+      "BDD-Based Interactive Configuration",
+      "Henrik Reif Andersen",
+      "IT University of Copenhagen",
+      "Introduction",
+      "Complete",
+      "Backtrack-Free",
+      "Services",
+      "Interactive Configuration Problems",
+      "Computational Logic and Algorithms Group",
+      "Abstract",
+      "Tarik Hadzic",
+      "Rune Moller Jensen",
+      "Physical Products",
+      "Constraint Satisfaction Problems (CSP)",
+      "Valid Domains Computations",
+      "Content",
+      "CLab Configuration Framework"
+    ],
+    "count": 19,
+    "create_time": 1776894309,
+    "update_time": 1776894309,
+    "_id": "doc-5909b7c343302c5c6e46ae53af79d1fb"
+  },
+  "doc-8eda31ea06eca7bd003fd898052de8b7": {
+    "entity_names": [
+      "Marina del Rey",
+      "Resource Discovery",
+      "Exploiting Social Annotation for Automatic Resource Discovery",
+      "Social Bookmarking Sites",
+      "Keyword-Based Search",
+      "Kristina Lerman",
+      "Query",
+      "Metadata",
+      "Probabilistic Model",
+      "Information Domain",
+      "Information Integration Applications",
+      "Abstract",
+      "Mediators or Mashups",
+      "del.icio.us",
+      "USC Information Sciences Institute",
+      "Hidden Web",
+      "Link Structure",
+      "Anon Plangprasopchok",
+      "Document Contents",
+      "User Annotation Process"
+    ],
+    "count": 20,
+    "create_time": 1776894425,
+    "update_time": 1776894425,
+    "_id": "doc-8eda31ea06eca7bd003fd898052de8b7"
+  },
+  "doc-4df620313d6ee9e6d5f5fb31851504f6": {
+    "entity_names": [
+      "Research Paper",
+      "California",
+      "Kristina Lerman",
+      "Abstract",
+      "Marina del Rey",
+      "Anon Plangprasopchok",
+      "Personalized Image Search Results",
+      "Flickr",
+      "Chio Wong",
+      "Information Sciences Institute",
+      "Tag Search",
+      "Tag",
+      "Social Network",
+      "User",
+      "University of Southern California",
+      "Metadata"
+    ],
+    "count": 16,
+    "create_time": 1776894545,
+    "update_time": 1776894545,
+    "_id": "doc-4df620313d6ee9e6d5f5fb31851504f6"
+  },
+  "doc-85d895e87b46372843b97111376b3e0b": {
+    "entity_names": [
+      "Università di Padova",
+      "Network",
+      "Unicast and Multicast QoS Routing with Soft Constraint Logic Programming",
+      "Università Chieti-Pescara",
+      "Università di Pisa",
+      "Francesca Rossi",
+      "Soft Constraint Logic Programming",
+      "Stefano Bistarelli",
+      "Weighted Graph",
+      "Istituto di Informatica e Telematica",
+      "And-Or Graph",
+      "IMT - Institute for Advanced Studies",
+      "Ugo Montanari",
+      "c-semiring structures",
+      "Packet",
+      "Quality of Service",
+      "Francesco Santini"
+    ],
+    "count": 17,
+    "create_time": 1776894655,
+    "update_time": 1776894655,
+    "_id": "doc-85d895e87b46372843b97111376b3e0b"
+  },
+  "doc-f354010502f8a151f7e17787e6f6597c": {
+    "entity_names": [
+      "Alberto M. R. D avila",
+      "MAMMOTH-mult structural aligner",
+      "Instituto Oswaldo Cruz, Fiocruz",
+      "V ıtor Santos Costa",
+      "Gerson Zaverucha",
+      "Twilight Zone",
+      "COPPE Engenharia de Sistemas e Computac   ao, UFRJ",
+      "Remote Homologue Protein Families",
+      "SCOP database",
+      "BIOINFORMATICS",
+      "Motivation",
+      "Leave-One-Family-Out Cross-Validation",
+      "HMMER-STRUCT",
+      "Profile Hidden Markov Models (pHMMs)",
+      "Protein Families",
+      "CRACS and DCC-FCUP, Universidade do Porto",
+      "Juliana S Bernardes",
+      "Precision/Recall Curves",
+      "Paired Two-Tailed T-Test"
+    ],
+    "count": 19,
+    "create_time": 1776894772,
+    "update_time": 1776894772,
+    "_id": "doc-f354010502f8a151f7e17787e6f6597c"
+  },
+  "doc-c7dddce75421e9135a860c4379dc0b24": {
+    "entity_names": [
+      "Voice user interface",
+      "Command recognition",
+      "Handicapped people",
+      "Speech recognition",
+      "Hidden Markov Models (HMMs)",
+      "Abstract",
+      "Introduction",
+      "CMUSphinx System",
+      "Carnegie Mellon University",
+      "Artificial intelligence",
+      "Arabic Automated Speech Recognition System (ASR)",
+      "Dictation",
+      "Interactive Voice Response",
+      "Arabic language",
+      "Arabic",
+      "CMU Sphinx-4",
+      "Paper"
+    ],
+    "count": 17,
+    "create_time": 1776894879,
+    "update_time": 1776894879,
+    "_id": "doc-c7dddce75421e9135a860c4379dc0b24"
+  },
+  "doc-654411ba7dd624250e000fbecb7d8ea0": {
+    "entity_names": [
+      "M. Harti",
+      "Automated Speech Recognition System (ASR)",
+      "Acoustic Model",
+      "Faculté des Sciences",
+      "Arabic Speech Recognition System",
+      "H. Satori",
+      "Arabic Language",
+      "Artificial Intelligence",
+      "Discrete Hidden Markov Models (HMMs)",
+      "Dhar Mehraz Fès",
+      "Carnegie Mellon University",
+      "CMU-Sphinx4",
+      "N. Chenfour",
+      "UFR Informatique et Nouvelles Technologies d Information et de Communication"
+    ],
+    "count": 14,
+    "create_time": 1776894985,
+    "update_time": 1776894985,
+    "_id": "doc-654411ba7dd624250e000fbecb7d8ea0"
+  },
+  "doc-ca5d216b6256cf7dc9f09696b9e6b817": {
+    "entity_names": [
+      "N. LEONE",
+      "G. TERRACINA",
+      "V. LIO",
+      "LDL++",
+      "Smodels",
+      "Theory and Practice of Logic Programming (TPLP)",
+      "DBMSs",
+      "DLVDB",
+      "Dipartimento di Matematica, Universit a della Calabria",
+      "XSB",
+      "Rende (CS)",
+      "DLV",
+      "commercial Database Systems",
+      "C. PANETTA",
+      "Via P. Bucci"
+    ],
+    "count": 15,
+    "create_time": 1776895100,
+    "update_time": 1776895100,
+    "_id": "doc-ca5d216b6256cf7dc9f09696b9e6b817"
+  },
+  "doc-9c9101278d4ad2800d73f6b61edcaf29": {
+    "entity_names": [
+      "Web Ontology Language",
+      "Digital Library Research and Prototyping Team",
+      "Virtual Machines",
+      "Semantic Web",
+      "Resource Description Framework (RDF)",
+      "April 16, 2007",
+      "General-Purpose Computing on a Semantic Network Substrate",
+      "October 7, 2007",
+      "Object-Oriented Programming",
+      "Los Alamos, New Mexico",
+      "Marko A. Rodriguez",
+      "Introduction",
+      "Los Alamos National Laboratory"
+    ],
+    "count": 13,
+    "create_time": 1776896982,
+    "update_time": 1776896982,
+    "_id": "doc-9c9101278d4ad2800d73f6b61edcaf29"
+  },
+  "doc-09515a99517089fa5af4576ca920495b": {
+    "entity_names": [
+      "HIV",
+      "University of the Witwatersrand",
+      "South Africa",
+      "Artificial Intelligence",
+      "Bodie Crossingham",
+      "Private Bag x3 Wits",
+      "Cognitive Science",
+      "Demographic Data",
+      "Bayesian Approach to Rough Set",
+      "Rough Set Theory",
+      "Metropolis Algorithm",
+      "Tshilidzi Marwala",
+      "Pawlak",
+      "This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method.",
+      "Markov Chain Monte Carlo"
+    ],
+    "count": 15,
+    "create_time": 1776899393,
+    "update_time": 1776899393,
+    "_id": "doc-09515a99517089fa5af4576ca920495b"
+  },
+  "doc-ec7bd9a39e04662c8ff1bc365bc4d621": {
+    "entity_names": [
+      "D. Rubin",
+      "ensemble system",
+      "incremental learning",
+      "T. Marwala",
+      "South Africa",
+      "Evolutionary Strategy",
+      "Abstract",
+      "School of Electrical and Information Engineering",
+      "Fuzzy ARTMAP",
+      "University of the Witwatersrand",
+      "support vector machines",
+      "Johannesburg",
+      "S. Mohamed",
+      "AN ADAPTIVE STRATEGY FOR THE CLASSIFICATION OF G-PROTEIN COUPLED RECEPTORS",
+      "G-Protein Coupled Receptors",
+      "neural networks",
+      "G-Coupled Protein Receptors Database",
+      "Private Bag 3, Wits, 2050, South Africa",
+      "One of the major problems in computational biology is the inability of existing classification models to incorporate expanding and new domain knowledge",
+      "bioinformatics"
+    ],
+    "count": 20,
+    "create_time": 1776900464,
+    "update_time": 1776900464,
+    "_id": "doc-ec7bd9a39e04662c8ff1bc365bc4d621"
+  },
+  "doc-24841bb6a486bb38f760656cf05b3730": {
+    "entity_names": [
+      "Direct Optimization of Ranking Measures",
+      "Structured Estimation",
+      "Max-Margin-Markov Networks",
+      "Linear Assignment Problem",
+      "Relevance Score",
+      "Introduction",
+      "Quoc V. Le",
+      "November 26, 2024",
+      "Collaborative Filtering",
+      "Web Page Ranking",
+      "Hungarian Marriage Algorithm",
+      "Ranking Problem",
+      "Support Vector Approaches",
+      "Hilbert Spaces",
+      "Alex J. Smola",
+      "Abstract"
+    ],
+    "count": 16,
+    "create_time": 1776900490,
+    "update_time": 1776900490,
+    "_id": "doc-24841bb6a486bb38f760656cf05b3730"
+  },
+  "doc-7ea6d6aa7f5aed1967e1b284594d94a0": {
+    "entity_names": [
+      "Face Recognition Systems",
+      "Carbon-Fiber Spikes",
+      "Tokyo",
+      "Pairwise Neural-Network System",
+      "Multiclass Neural-Network System",
+      "Noah Carter",
+      "V. Schetinin",
+      "World Athletics Championship",
+      "C. Maple",
+      "J. Uglov,V. Schetinin,C. Maple",
+      "J. Uglov",
+      "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+      "University of Bedfordshire"
+    ],
+    "count": 13,
+    "create_time": 1776903866,
+    "update_time": 1776903866,
+    "_id": "doc-7ea6d6aa7f5aed1967e1b284594d94a0"
+  },
+  "doc-bd04025ba3baaf2dfc24cee353c721c4": {
+    "entity_names": [
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 1,
+    "create_time": 1776903868,
+    "update_time": 1776903868,
+    "_id": "doc-bd04025ba3baaf2dfc24cee353c721c4"
+  },
+  "doc-125a4654a5c27f8524bc0d14f268b0a9": {
+    "entity_names": [
+      "World Athletics Federation",
+      "Carbon-Fiber Spikes",
+      "100m Sprint Record holder",
+      "Tokyo",
+      "Noah Carter",
+      "World Athletics Championship",
+      "100m Sprint Record"
+    ],
+    "count": 7,
+    "create_time": 1776904199,
+    "update_time": 1776904199,
+    "_id": "doc-125a4654a5c27f8524bc0d14f268b0a9"
+  },
+  "doc-ce3fc4c8e86937d2da228e79428b766d": {
+    "entity_names": [
+      "G-Protein Coupled Receptors",
+      "Machine Learning",
+      "S. Mohamed",
+      "World Athletics Federation",
+      "G-Coupled Protein Receptors Database",
+      "Computational Biology",
+      "School of Electrical and Information Engineering",
+      "S. Mohamed, D. Rubin",
+      "Neural Networks",
+      "University of the Witwatersrand",
+      "An Adaptive Strategy for the Classification of G-Protein Coupled Receptors",
+      "D. Rubin",
+      "Support Vector Machines",
+      "T. Marwala",
+      "Fuzzy ARTMAP"
+    ],
+    "count": 15,
+    "create_time": 1776904237,
+    "update_time": 1776904237,
+    "_id": "doc-ce3fc4c8e86937d2da228e79428b766d"
+  },
+  "doc-c4e871896382200311ea702ea277ecf7": {
+    "entity_names": [
+      "Computing and Information System Department",
+      "Tokyo",
+      "Pairwise Neural-Network System",
+      "Multiclass Neural-Network System",
+      "V. Schetinin",
+      "World Athletics Championship",
+      "C. Maple",
+      "J. Uglov",
+      "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+      "University of Bedfordshire",
+      "Luton"
+    ],
+    "count": 11,
+    "create_time": 1776904447,
+    "update_time": 1776904447,
+    "_id": "doc-c4e871896382200311ea702ea277ecf7"
+  },
+  "doc-d8819f47b42df8e5c2c256c15e4923f6": {
+    "entity_names": [
+      "A Note on Ontology and Ordinary Language",
+      "Washington, DC 20007 USA",
+      "World Athletics Championship in Tokyo",
+      "Walid S. Saba",
+      "Carbon-Fiber Spikes Technology",
+      "American Institutes for Research",
+      "Computing and Statistical Sciences Center",
+      "1000 Thomas Jefferson Street NW"
+    ],
+    "count": 8,
+    "create_time": 1776904570,
+    "update_time": 1776904570,
+    "_id": "doc-d8819f47b42df8e5c2c256c15e4923f6"
+  },
+  "doc-45b172ea57756f3fb58c529d1f8b6aa4": {
+    "entity_names": [
+      "World Athletics Championship in Tokyo",
+      "World Athletics Federation",
+      "Carbon-Fiber Spikes",
+      "Tokyo",
+      "The World Athletics Championship in Tokyo",
+      "100m Sprint Record"
+    ],
+    "count": 6,
+    "create_time": 1776904928,
+    "update_time": 1776904928,
+    "_id": "doc-45b172ea57756f3fb58c529d1f8b6aa4"
+  },
+  "doc-1fbb47252f8fa1089bfb224fbf2dd1c6": {
+    "entity_names": [
+      "Support vector machines (SVM)",
+      "Support Vector Machines",
+      "Gaussian Mixture Models",
+      "Unathi Mhalo",
+      "Multilayer Perceptrons",
+      "Snehashish Chakraverty",
+      "Multilayer Perceptrons (MLP)",
+      "World Athletics Federation",
+      "Tshilidzi Marwala",
+      "India",
+      "South Africa",
+      "Gaussian mixture models (GMM)",
+      "Central Building Research Institute",
+      "Fault Classification in Cylinders Using Multilayer Perceptrons, Support Vector Machines and Guassian Mixture Models",
+      "University of the Witwatersrand"
+    ],
+    "count": 15,
+    "create_time": 1776905632,
+    "update_time": 1776905632,
+    "_id": "doc-1fbb47252f8fa1089bfb224fbf2dd1c6"
+  },
+  "doc-9a5f888d4921a537b3892c6ff945d353": {
+    "entity_names": [
+      "Parameter-Less Self-Organizing Map (PLSOM)",
+      "Self-Organizing Map (SOM)",
+      "World Athletics Championship",
+      "Joaquin Sitte",
+      "Erik Berglund"
+    ],
+    "count": 5,
+    "create_time": 1776905731,
+    "update_time": 1776905731,
+    "_id": "doc-9a5f888d4921a537b3892c6ff945d353"
+  },
+  "doc-5f8730835cda1ce2fbd9ce96d24a03f8": {
+    "entity_names": [
+      "Joost N. Kok",
+      "The Netherlands",
+      "Clustering",
+      "co-occurrence of patterns",
+      "frequent patterns are subsets that occur a minimal number of times in a stream of itemsets.",
+      "Abstract",
+      "Edgar H. de Graaf",
+      "Leiden University",
+      "One way of getting a better view of data is using frequent patterns.",
+      "Maximal Frequent Patterns",
+      "clustering on the co-occurrence of patterns will give the user an improved view on the structure of the stream.",
+      "Walter A. Kosters",
+      "Title: Clustering Co-occurrence of Maximal Frequent Patterns in Streams",
+      "Leiden Institute of Advanced Computer Science"
+    ],
+    "count": 14,
+    "create_time": 1776905950,
+    "update_time": 1776905950,
+    "_id": "doc-5f8730835cda1ce2fbd9ce96d24a03f8"
+  },
+  "doc-7b8a3dbed402ba5366165d7e9b4957f3": {
+    "entity_names": [
+      "Joost N. Kok",
+      "molecules",
+      "Cutting-edge carbon-fiber spikes",
+      "Lattice information",
+      "100m sprint record set by Noah Carter",
+      "Tokyo event location",
+      "Title: Clustering with Lattices in the Analysis of Graph Patterns",
+      "Edgar H. de Graaf",
+      "frequent subgraph patterns",
+      "Abstract: Mining frequent subgraphs is an area of research where we have a given set of graphs (each graph can be seen as a transaction), and we search for (connected) subgraphs contained in many of these graphs.",
+      "Lattice2SAR",
+      "gSpan",
+      "World Athletics Championship in Tokyo",
+      "Walter A. Kosters",
+      "fragments",
+      "Leiden Institute of Advanced Computer Science"
+    ],
+    "count": 16,
+    "create_time": 1776906183,
+    "update_time": 1776906183,
+    "_id": "doc-7b8a3dbed402ba5366165d7e9b4957f3"
+  },
+  "doc-e9a297884fb967d6f3d6930535687492": {
+    "entity_names": [
+      "Intelligent Virtual Players",
+      "Neural Network Agents",
+      "Bluffing",
+      "Game Designers",
+      "World Athletics Championship",
+      "Agents",
+      "Learning to Bluff",
+      "Tee Dee Lambda Learning Algorithm"
+    ],
+    "count": 8,
+    "create_time": 1776906290,
+    "update_time": 1776906290,
+    "_id": "doc-e9a297884fb967d6f3d6930535687492"
+  },
+  "doc-2369508e40fecf212991203b1d405337": {
+    "entity_names": [
+      "World Athletics Federation",
+      "Noah Carter",
+      "World Athletics Championship Tokyo"
+    ],
+    "count": 3,
+    "create_time": 1776906413,
+    "update_time": 1776906413,
+    "_id": "doc-2369508e40fecf212991203b1d405337"
+  },
+  "doc-c5c0f1d81134d3421f1795abe260729b": {
+    "entity_names": [
+      "Weighted Matching",
+      "Max-Product",
+      "Abstract",
+      "Sujay Sanghavi",
+      "LP Relaxation",
+      "Local, Iterative Algorithm",
+      "100m Sprint Record",
+      "Probability Distribution",
+      "LIDS, MIT",
+      "Max-Product Belief Propagation",
+      "General Graphs",
+      "Equivalence of LP Relaxation and Max-Product for Weighted Matching in General Graphs"
+    ],
+    "count": 12,
+    "create_time": 1776906555,
+    "update_time": 1776906555,
+    "_id": "doc-c5c0f1d81134d3421f1795abe260729b"
+  },
+  "doc-33ed52df965980b3ec8bcfc800d74afc": {
+    "entity_names": [
+      "World Athletics Federation",
+      "World Athletics Championship"
+    ],
+    "count": 2,
+    "create_time": 1776906668,
+    "update_time": 1776906668,
+    "_id": "doc-33ed52df965980b3ec8bcfc800d74afc"
+  },
+  "doc-62902723bf43a2a2d484ef51c067a152": {
+    "entity_names": [
+      "Tokyo",
+      "World Athletics Championship"
+    ],
+    "count": 2,
+    "create_time": 1776906761,
+    "update_time": 1776906761,
+    "_id": "doc-62902723bf43a2a2d484ef51c067a152"
+  },
+  "doc-53996fb6f93cd001567230718b8fe12a": {
+    "entity_names": [
+      "Multi-Layer Perceptron Ensemble",
+      "Ensemble-Based Technique",
+      "Neural Network",
+      "F.V. Nelwamondo",
+      "T. Marwala",
+      "100m sprint record",
+      "F.V. Nelwamondo and T. Marwala",
+      "Fuzzy Artmap",
+      "Regression Problem",
+      "Online Condition Monitoring",
+      "Fuzzy-ARTMAP Ensemble",
+      "Classification Problem",
+      "School of Electrical and Information Engineering"
+    ],
+    "count": 13,
+    "create_time": 1776906953,
+    "update_time": 1776906953,
+    "_id": "doc-53996fb6f93cd001567230718b8fe12a"
+  },
+  "doc-a18125fea414ea5df93ca2bb27a87609": {
+    "entity_names": [
+      "Joost N. Kok",
+      "Mining Patterns with a Balanced Interval",
+      "Edgar H. de Graaf",
+      "Carbon-Fiber Spikes",
+      "Leiden University",
+      "100m Sprint Record",
+      "World Athletics Federation",
+      "Walter A. Kosters",
+      "The Netherlands",
+      "Leiden Institute of Advanced Computer Science"
+    ],
+    "count": 10,
+    "create_time": 1776907150,
+    "update_time": 1776907150,
+    "_id": "doc-a18125fea414ea5df93ca2bb27a87609"
+  },
+  "doc-6cb0eff2509c0c6861809593aac2c296": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776907287,
+    "update_time": 1776907287,
+    "_id": "doc-6cb0eff2509c0c6861809593aac2c296"
+  },
+  "doc-e9b04623a207823cb368859618b022a6": {
+    "entity_names": [
+      "World Athletics Championship"
+    ],
+    "count": 1,
+    "create_time": 1776907467,
+    "update_time": 1776907467,
+    "_id": "doc-e9b04623a207823cb368859618b022a6"
+  },
+  "doc-24755b5513307354cd9c784cfb90563b": {
+    "entity_names": [
+      "Alexandre Devert",
+      "genotype",
+      "ACM Press",
+      "chemicals",
+      "D. Thierens et al.",
+      "Robust Multi-Cellular Developmental Design",
+      "TAO / LRI ; INRIA Futurs, CNRS, Univ Paris-Sud F-91405, France",
+      "Nicolas Bredeche",
+      "GECCO 07",
+      "July 2007",
+      "phenotype",
+      "Marc Schoenauer",
+      "Neural Network",
+      "Proceedings of GECCO 07",
+      "Continous model",
+      "NEAT algorithm",
+      "Carbon-Fiber Spikes",
+      "flags problems",
+      "2D grid"
+    ],
+    "count": 19,
+    "create_time": 1776907711,
+    "update_time": 1776907711,
+    "_id": "doc-24755b5513307354cd9c784cfb90563b"
+  },
+  "doc-089b0c6bd4bd0479f72dcbbef975a69e": {
+    "entity_names": [
+      "University of Pretoria",
+      "Support Vector Machines",
+      "Tokyo Stadium",
+      "Gear Vibration Signal",
+      "Department of Mechanical and Aeronautical Engineering",
+      "Time Domain Average",
+      "T. Marwala",
+      "Artificial Neural Networks",
+      "Data Reduction",
+      "Dynamic Systems Group",
+      "L. Mdlazi",
+      "World Athletics Federation",
+      "P.S. Heyns",
+      "C.J. Stander",
+      "University of the Witwatersrand"
+    ],
+    "count": 15,
+    "create_time": 1776908090,
+    "update_time": 1776908090,
+    "_id": "doc-089b0c6bd4bd0479f72dcbbef975a69e"
+  },
+  "doc-8241a469f31e51d7579eae7385595dcb": {
+    "entity_names": [
+      "Structural system",
+      "Thando Tettey",
+      "T. Marwala",
+      "World Athletics Championship",
+      "Indian earthquakes at Chamoli and Uttarkashi ground motion data",
+      "B.P.P.P. Division, Central Building Research Institute Roorkee-247 667, Uttaranchal, India",
+      "Event",
+      "Artificial Neural Network (ANN)",
+      "World Athletics Federation",
+      "Response Prediction of Structural System Subject to Earthquake Motions using Artificial Neural Network",
+      "S. Chakraverty",
+      "School of Electrical and Information Engineering, University of the Witwatersrand, Private Bag 3 Wits, 2050,Republic of South Africa",
+      "Pallavi Gupta",
+      "Earthquake motions"
+    ],
+    "count": 14,
+    "create_time": 1776908525,
+    "update_time": 1776908525,
+    "_id": "doc-8241a469f31e51d7579eae7385595dcb"
+  },
+  "doc-42a7004da42a642c49b82e9dbc072f8d": {
+    "entity_names": [
+      "Cylindrical Shells",
+      "SNEHASHISH CHAKRAVERTY",
+      "Takagi-Sugeno Neuro-Fuzzy Model",
+      "Pseudomodal Energies",
+      "THANDO TETTEY AND SNEHASHISH CHAKRAVERTY",
+      "Neuro-Fuzzy Modelling",
+      "TSHILIDZI MARWALA",
+      "THANDO TETTEY",
+      "Fault Classification"
+    ],
+    "count": 9,
+    "create_time": 1776908784,
+    "update_time": 1776908784,
+    "_id": "doc-42a7004da42a642c49b82e9dbc072f8d"
+  },
+  "doc-376b41a9209aa8b6c349fd3e835850fa": {
+    "entity_names": [
+      "World Athletics Championship"
+    ],
+    "count": 1,
+    "create_time": 1776908871,
+    "update_time": 1776908871,
+    "_id": "doc-376b41a9209aa8b6c349fd3e835850fa"
+  },
+  "doc-5384c337528b81d6d96c3709b48bc026": {
+    "entity_names": [
+      "Tokyo",
+      "World Athletics Federation (overseeing the World Athletics Championship)",
+      "Hybrid Centralised-Swarm Based Multi-Agent System",
+      "Captor Agents",
+      "Bradley van Aardt",
+      "Carbon-Fiber Spikes (used by Noah Carter)",
+      "Global Agent",
+      "University of Witwatersrand",
+      "Johannesburg",
+      "World Athletics Championship in Tokyo",
+      "A Study in a Hybrid Centralised-Swarm Agent Community",
+      "Tshilidzi Marwala",
+      "100m Sprint Record (broken by Noah Carter)",
+      "Pursuit Game"
+    ],
+    "count": 14,
+    "create_time": 1776909146,
+    "update_time": 1776909146,
+    "_id": "doc-5384c337528b81d6d96c3709b48bc026"
+  },
+  "doc-103c4670c41ad132562bbeb77a4ecce1": {
+    "entity_names": [
+      "On-Line Condition Monitoring using Computational Intelligence"
+    ],
+    "count": 1,
+    "create_time": 1776909287,
+    "update_time": 1776909287,
+    "_id": "doc-103c4670c41ad132562bbeb77a4ecce1"
+  },
+  "doc-33898e4a09fbbd847fa5a95728b135f8": {
+    "entity_names": [
+      "South African Antenatal Survey",
+      "Tokyo",
+      "Bodie Crossingham",
+      "Genetic Algorithms",
+      "Carbon-Fiber Spikes",
+      "HIV Data Analysis",
+      "World Athletics Federation",
+      "Rough Set Partition Sizes",
+      "Tshilidzi Marwala",
+      "University of the Witwatersrand"
+    ],
+    "count": 10,
+    "create_time": 1776909465,
+    "update_time": 1776909465,
+    "_id": "doc-33898e4a09fbbd847fa5a95728b135f8"
+  },
+  "doc-f456a5e9a603a2f846d2f09f0786ef70": {
+    "entity_names": [
+      "Abstract: We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints.",
+      "World Athletics Championship",
+      "Rustem S. Takhanov",
+      "On the monotonization of the training set"
+    ],
+    "count": 4,
+    "create_time": 1776909766,
+    "update_time": 1776909766,
+    "_id": "doc-f456a5e9a603a2f846d2f09f0786ef70"
+  },
+  "doc-07d98d98a94bccc43627a8a1e95bee8c": {
+    "entity_names": [
+      "Carbon-Fiber Spikes"
+    ],
+    "count": 1,
+    "create_time": 1776909873,
+    "update_time": 1776909873,
+    "_id": "doc-07d98d98a94bccc43627a8a1e95bee8c"
+  },
+  "doc-903aa01a9b00876912785ee16c120f51": {
+    "entity_names": [
+      "Omsk Branch of Sobolev Institute of Mathematics, Laboratory of Discrete Optimization",
+      "Crossover operators",
+      "World Athletics Championship",
+      "Carbon-Fiber Spikes",
+      "Boolean linear programming problems",
+      "World Athletics Federation",
+      "Anton Eremeev",
+      "On complexity of optimized crossover for binary representations"
+    ],
+    "count": 8,
+    "create_time": 1776910195,
+    "update_time": 1776910195,
+    "_id": "doc-903aa01a9b00876912785ee16c120f51"
+  },
+  "doc-4b650c28692f0cc935969185858bbe26": {
+    "entity_names": [
+      "Abstract",
+      "Truecluster framework",
+      "Jens Oehlschl agel",
+      "Truecluster matching",
+      "Cluster matching",
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 6,
+    "create_time": 1776910314,
+    "update_time": 1776910314,
+    "_id": "doc-4b650c28692f0cc935969185858bbe26"
+  },
+  "doc-2a009c0f98ee1f613f20c198910f56b8": {
+    "entity_names": [
+      "Tokyo",
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 2,
+    "create_time": 1776910555,
+    "update_time": 1776910555,
+    "_id": "doc-2a009c0f98ee1f613f20c198910f56b8"
+  },
+  "doc-28b40d5ee6a58b6e5bacf25b5b5d449b": {
+    "entity_names": [
+      "Blekinge Institute of Technology",
+      "Massively Multiplayer Online Games",
+      "School of Engineering",
+      "Magnus Boman",
+      "Stefan J. Johansson",
+      "Swedish Institute of Computer Science",
+      "World Athletics Championship in Tokyo",
+      "Tokyo 2024 Olympic Stadium",
+      "Tokyo Metropolitan Government",
+      "Virtual Plagues",
+      "Cutting-Edge Carbon-Fiber Spikes"
+    ],
+    "count": 11,
+    "create_time": 1776910831,
+    "update_time": 1776910831,
+    "_id": "doc-28b40d5ee6a58b6e5bacf25b5b5d449b"
+  },
+  "doc-0f7122b6bb30eedd086c3bc9cf7b238b": {
+    "entity_names": [
+      "Johan Bollen",
+      "Person-works-with",
+      "Person- collaboration has led to",
+      "Person-authored-by",
+      "Marko A. Rodriguez and Johan Bollen",
+      "World Athletics Championship in Tokyo",
+      "Organization-is-part-of",
+      "Organization-is-hosted-at"
+    ],
+    "count": 8,
+    "create_time": 1776910972,
+    "update_time": 1776910972,
+    "_id": "doc-0f7122b6bb30eedd086c3bc9cf7b238b"
+  },
+  "doc-744a48f61926f8fbe13ad978a4dceb23": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776911132,
+    "update_time": 1776911132,
+    "_id": "doc-744a48f61926f8fbe13ad978a4dceb23"
+  },
+  "doc-b0249287185bb0a3e492647c67a9e000": {
+    "entity_names": [
+      "sequential minimal optimization (SMO) decomposition methods",
+      "Carbon-Fiber Spikes",
+      "Support Vector Machines (SVMs)",
+      "decomposition method",
+      "method used"
+    ],
+    "count": 5,
+    "create_time": 1776911340,
+    "update_time": 1776911340,
+    "_id": "doc-b0249287185bb0a3e492647c67a9e000"
+  },
+  "doc-5a3eb1de2dc6b76a0e41f26d55d73adf": {
+    "entity_names": [
+      "Tokyo",
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 2,
+    "create_time": 1776911425,
+    "update_time": 1776911425,
+    "_id": "doc-5a3eb1de2dc6b76a0e41f26d55d73adf"
+  },
+  "doc-ec6366bf74039cb74e8884777cddbc19": {
+    "entity_names": [
+      "100m Sprint"
+    ],
+    "count": 1,
+    "create_time": 1776911625,
+    "update_time": 1776911625,
+    "_id": "doc-ec6366bf74039cb74e8884777cddbc19"
+  },
+  "doc-9bdac7599045488c815400ee9a5198f3": {
+    "entity_names": [
+      "Marcus Hutter",
+      "A Collection of Deﬁnitions of Intelligence",
+      "Shane Legg",
+      "Data",
+      "Person",
+      "IDSIA-07-07"
+    ],
+    "count": 6,
+    "create_time": 1776911822,
+    "update_time": 1776911822,
+    "_id": "doc-9bdac7599045488c815400ee9a5198f3"
+  },
+  "doc-5669babb656240e21812dd7ddbbf07d3": {
+    "entity_names": [
+      "World Athletics Championship"
+    ],
+    "count": 1,
+    "create_time": 1776912002,
+    "update_time": 1776912002,
+    "_id": "doc-5669babb656240e21812dd7ddbbf07d3"
+  },
+  "doc-a48fdf61230a8951ae3e0095494f7090": {
+    "entity_names": [
+      "World Athletics Championship in Tokyo",
+      "Noah Carter's 100m Sprint Record Breakthrough"
+    ],
+    "count": 2,
+    "create_time": 1776912155,
+    "update_time": 1776912155,
+    "_id": "doc-a48fdf61230a8951ae3e0095494f7090"
+  },
+  "doc-3c0bde4c8697a64eb11b818cc977af06": {
+    "entity_names": [
+      "Tokyo",
+      "Noah Carter",
+      "Carbon-Fiber Spikes",
+      "100m Sprint Record",
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 5,
+    "create_time": 1776912302,
+    "update_time": 1776912302,
+    "_id": "doc-3c0bde4c8697a64eb11b818cc977af06"
+  },
+  "doc-87d927497c7d5747bfd0ac5635c0e59b": {
+    "entity_names": [
+      "Clustering and Feature Selection using Sparse Principal Component Analysis",
+      "Biology",
+      "Alexandre d Aspremont",
+      "Ronny Luss",
+      "Sparse Principal Component Analysis"
+    ],
+    "count": 5,
+    "create_time": 1776912493,
+    "update_time": 1776912493,
+    "_id": "doc-87d927497c7d5747bfd0ac5635c0e59b"
+  },
+  "doc-ba249f18e1be74d98c61e6e542e19fc9": {
+    "entity_names": [
+      "Binary Distribution",
+      "Tokyo Olympics",
+      "Sparse Maximum Likelihood Estimation",
+      "Maximum Likelihood Estimation",
+      "Alexandre d Aspremont",
+      "Leslie Pack Kaelbling",
+      "World Athletics Federation",
+      "Gaussian Distribution",
+      "Model Selection Through Sparse Maximum Likelihood Estimation",
+      "Nesterov s First Order Method",
+      "International Association of Athletics Federations (IAAF)",
+      "Wainwright & Jordan (2006)",
+      "Log Determinant Relaxation",
+      "Laurent El Ghaoui"
+    ],
+    "count": 14,
+    "create_time": 1776912710,
+    "update_time": 1776912710,
+    "_id": "doc-ba249f18e1be74d98c61e6e542e19fc9"
+  },
+  "doc-f305fa30b8e016d9510c1e08bbe05ae7": {
+    "entity_names": [
+      "EECS Department, U.C. Berkeley",
+      "Linear Combination",
+      "INRIA - Willow project",
+      "World Athletics Championship",
+      "Francis Bach",
+      "Alexandre d Aspremont",
+      "ORFE, Princeton University",
+      "Number of Nonzero Coefficients",
+      "Sample Covariance Matrix",
+      "Sparse Principal Component Analysis",
+      "Princeton University",
+      "Variance Explained",
+      "Optimal Solutions for Sparse Principal Component Analysis",
+      "Laurent El Ghaoui"
+    ],
+    "count": 14,
+    "create_time": 1776912908,
+    "update_time": 1776912908,
+    "_id": "doc-f305fa30b8e016d9510c1e08bbe05ae7"
+  },
+  "doc-191912a30d0736b9f9271c38f341ae59": {
+    "entity_names": [
+      "Robotics & Planetary Exploration Laboratory; Transdisciplinary Laboratory Centro de Astrobiolog ıa (I",
+      "Department of Electronic Systems Engineering",
+      "University of Malta, Malta",
+      "The Cyborg Astrobiologist: Porting from a wearable computer to the Astrobiology Phone-cam",
+      "McDonnell Center for the Space Sciences",
+      "Concept",
+      "Patrick C. McGuire",
+      "Alexandra Bartolo",
+      "Department of Earth and Planetary Sciences and Department of Physics Campus Box 1169, Washington University, St. Louis, 63130 USA"
+    ],
+    "count": 9,
+    "create_time": 1776913065,
+    "update_time": 1776913065,
+    "_id": "doc-191912a30d0736b9f9271c38f341ae59"
+  },
+  "doc-b40b035e13e886bead9e7051116db997": {
+    "entity_names": [
+      "Title",
+      "The proposal is to use clusters, graphs and networks as models in order to analyse the Web structure.",
+      "Clusters, Graphs, and Networks for Analysing Internet-Web-Supported Communication within a Virtual Community",
+      "The Internet can be thought of as a social network, where users interact with each other and form relationships based on their shared interests or activities.",
+      "Clustering is a method for grouping objects in such a way that objects within each cluster are more similar to each other than they are to objects outside the cluster.",
+      "A virtual community is a group of people who share common interests or goals and interact with each other online, often through social media platforms or forums.",
+      "Clusters provide knowledge representation and organization."
+    ],
+    "count": 7,
+    "create_time": 1776913233,
+    "update_time": 1776913233,
+    "_id": "doc-b40b035e13e886bead9e7051116db997"
+  },
+  "doc-141c06e0d5fdb5a62f770460f4e4fee2": {
+    "entity_names": [
+      "World Athletics Championship"
+    ],
+    "count": 1,
+    "create_time": 1776913472,
+    "update_time": 1776913472,
+    "_id": "doc-141c06e0d5fdb5a62f770460f4e4fee2"
+  },
+  "doc-578acc8759752f0fc7a16bdd21bb899e": {
+    "entity_names": [
+      "Optimal Design of Ad Hoc Injection Networks by Using Genetic Algorithms",
+      "Genetic Algorithms",
+      "Small-World Network Properties",
+      "World Athletics Federation",
+      "Mobile Multi-Hop Ad Hoc Networks",
+      "Injection Networks"
+    ],
+    "count": 6,
+    "create_time": 1776913672,
+    "update_time": 1776913672,
+    "_id": "doc-578acc8759752f0fc7a16bdd21bb899e"
+  },
+  "doc-b26b0b9aabf4438e22351d0065a1bddc": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776913769,
+    "update_time": 1776913769,
+    "_id": "doc-b26b0b9aabf4438e22351d0065a1bddc"
+  },
+  "doc-78e9481ef6e887768e631b1377d506dc": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776913934,
+    "update_time": 1776913934,
+    "_id": "doc-78e9481ef6e887768e631b1377d506dc"
+  },
+  "doc-7281bb730cc42b7a5595f141c42bc040": {
+    "entity_names": [
+      "Event,Organization",
+      "Faculty of Information and Communication Technology",
+      "PRACTICAL APPROACH TO KNOWLEDGE-BASED QUESTION ANSWERING WITH NATURAL LANGUAGE UNDERSTANDING AND ADVANCED REASONING",
+      "Organization",
+      "A thesis submitted in fulfillment of the requirements for the degree of Master of Science in Information and Communication Technology",
+      "WILSON WONG YIK SEN"
+    ],
+    "count": 6,
+    "create_time": 1776914140,
+    "update_time": 1776914140,
+    "_id": "doc-7281bb730cc42b7a5595f141c42bc040"
+  },
+  "doc-8849c2f629d2a8770744f269683c4852": {
+    "entity_names": [
+      "Probabilistic Neural Network (PNN)",
+      "1800 leaves",
+      "A Leaf Recognition Algorithm for Plant Classification Using Probabilistic Neural Network",
+      "32 kinds of plants",
+      "5 principal variables",
+      "12 leaf features",
+      "Orthogonalization",
+      "90% accuracy",
+      "Image and data processing techniques",
+      "PNN training",
+      "Input vector"
+    ],
+    "count": 11,
+    "create_time": 1776914704,
+    "update_time": 1776914704,
+    "_id": "doc-8849c2f629d2a8770744f269683c4852"
+  },
+  "doc-2c25db1a452aa3898d5480488e9aadb9": {
+    "entity_names": [
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 1,
+    "create_time": 1776914807,
+    "update_time": 1776914807,
+    "_id": "doc-2c25db1a452aa3898d5480488e9aadb9"
+  },
+  "doc-0475f8bccbe12a1dac7e002fc3e8db53": {
+    "entity_names": [
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 1,
+    "create_time": 1776914935,
+    "update_time": 1776914935,
+    "_id": "doc-0475f8bccbe12a1dac7e002fc3e8db53"
+  },
+  "doc-1ec43ed1a04f3c022e2b6e7fb8c1a78e": {
+    "entity_names": [
+      "Herbert Van de Sompel",
+      "Tokyo",
+      "Johan Bollen",
+      "50 million articles",
+      "A Practical Ontology for the Large-Scale Modeling of Scholarly Artifacts and their Usage",
+      "World Athletics Championship",
+      "Los Alamos, NM 87545",
+      "Los Alamos National Laboratory",
+      "Digital Library Research & Prototyping Team",
+      "1 billion usage events",
+      "Marko A. Rodriguez",
+      "authors and journals",
+      "scholarly artifact usage"
+    ],
+    "count": 13,
+    "create_time": 1776915222,
+    "update_time": 1776915222,
+    "_id": "doc-1ec43ed1a04f3c022e2b6e7fb8c1a78e"
+  },
+  "doc-43642f57fda6e4781cebb368a8603aed": {
+    "entity_names": [
+      "Postbus 716",
+      "MPI",
+      "Data-Parallel Aleph",
+      "9700AS Groningen",
+      "Stasinos Th. Konstantopoulos",
+      "YAP Prolog",
+      "A Data-Parallel Version of Aleph",
+      "The Netherlands",
+      "Alfa-Informatica, Rijksuniversiteit Groningen"
+    ],
+    "count": 9,
+    "create_time": 1776915375,
+    "update_time": 1776915375,
+    "_id": "doc-43642f57fda6e4781cebb368a8603aed"
+  },
+  "doc-f76e2f2db6572fc7e5417d2c0bc42280": {
+    "entity_names": [
+      "Subset-Sum Problem",
+      "Oana Muntean",
+      "Light-Based Device",
+      "Noah Carter",
+      "Babe s-Bolyai University",
+      "World Athletics Championship",
+      "Carbon-Fiber Spikes",
+      "100m Sprint Record",
+      "World Athletics Federation",
+      "Mihai Oltean"
+    ],
+    "count": 10,
+    "create_time": 1776915587,
+    "update_time": 1776915587,
+    "_id": "doc-f76e2f2db6572fc7e5417d2c0bc42280"
+  },
+  "doc-cd75cb6ead2b8f37fc55248322ba9cf9": {
+    "entity_names": [
+      "Tokyo",
+      "Carbon-Fiber Spikes",
+      "World Athletics Championship Tokyo"
+    ],
+    "count": 3,
+    "create_time": 1776915765,
+    "update_time": 1776915765,
+    "_id": "doc-cd75cb6ead2b8f37fc55248322ba9cf9"
+  },
+  "doc-9130cce907ab14c5089e01d021731122": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776915847,
+    "update_time": 1776915847,
+    "_id": "doc-9130cce907ab14c5089e01d021731122"
+  },
+  "doc-42cc885c048b06fbe5f0caa63e1f343e": {
+    "entity_names": [
+      "World Athletics Federation"
+    ],
+    "count": 1,
+    "create_time": 1776915940,
+    "update_time": 1776915940,
+    "_id": "doc-42cc885c048b06fbe5f0caa63e1f343e"
+  },
+  "doc-f44e4795c45a6a81ce24b11d54a1dc66": {
+    "entity_names": [
+      "Sprinting Shoes",
+      "Tokyo Olympics",
+      "Reductions from QBFs having one more quantifier in the front",
+      "PSPACE",
+      "Polynomial hierarchy",
+      "Carbon-Fiber Spikes",
+      "Quantified Boolean Formulae (QBF)",
+      "World Athletics Federation",
+      "Paolo Liberatore",
+      "September 7, 2021",
+      "Raising a Hardness Result"
+    ],
+    "count": 11,
+    "create_time": 1776916445,
+    "update_time": 1776916445,
+    "_id": "doc-f44e4795c45a6a81ce24b11d54a1dc66"
+  },
+  "doc-9291425d154049f0daf5eaba861b629c": {
+    "entity_names": [
+      "Theory of Artificial Intelligence",
+      "IDSIA",
+      "Kurt Godel",
+      "Germany",
+      "2006: Celebrating 75 years of AI - History and Outlook: the Next 25 Years",
+      "Boltzmannstr.",
+      "World Athletics Championship in Tokyo",
+      "1931",
+      "Garching bei Munchen",
+      "Jurgen Schmidhuber",
+      "TU Munich"
+    ],
+    "count": 11,
+    "create_time": 1776916642,
+    "update_time": 1776916642,
+    "_id": "doc-9291425d154049f0daf5eaba861b629c"
+  },
+  "doc-930126a40ff526f6ab6eceedfa741a91": {
+    "entity_names": [
+      "Title",
+      "England",
+      "100m Sprint Record Holder (previously held by Noah Carter)",
+      "Department of Computer Science",
+      "Abstract",
+      "Royal Holloway",
+      "September 26, 2018",
+      "Egham TW20 0EX",
+      "World Athletics Federation",
+      "Entity_types",
+      "Input Text",
+      "Title: On Ultrametric Algorithmic Information",
+      "University of London",
+      "Fionn Murtagh"
+    ],
+    "count": 14,
+    "create_time": 1776916926,
+    "update_time": 1776916926,
+    "_id": "doc-930126a40ff526f6ab6eceedfa741a91"
+  },
+  "doc-bd66a4dff5ebceaf24ee30ae75056124": {
+    "entity_names": [
+      "Tokyo",
+      "Noah Carter",
+      "Algorithm",
+      "World Athletics Championship",
+      "Carbon-Fiber Spikes",
+      "Effective Generation of Subjectively Random Binary Sequences",
+      "Yasmine B. Sanderson"
+    ],
+    "count": 7,
+    "create_time": 1776917032,
+    "update_time": 1776917032,
+    "_id": "doc-bd66a4dff5ebceaf24ee30ae75056124"
+  },
+  "doc-c3000bbdbfcbc20eb535bcc64944e7df": {
+    "entity_names": [
+      "World Athletics Championship"
+    ],
+    "count": 1,
+    "create_time": 1776917158,
+    "update_time": 1776917158,
+    "_id": "doc-c3000bbdbfcbc20eb535bcc64944e7df"
+  },
+  "doc-7091df43fbf18b10afcdb4aee463c7b4": {
+    "entity_names": [
+      "Johan Bollen",
+      "Semantic Network",
+      "Jennifer H. Watkins",
+      "Resource Description Framework (RDF)",
+      "Marko A. Rodriguez",
+      "Resource Description Framework (RDF) Schema (RDFS)",
+      "Carlos Gershenson",
+      "Web Ontology Language (OWL)",
+      "Triple-store (semantic network database)"
+    ],
+    "count": 9,
+    "create_time": 1776917585,
+    "update_time": 1776917585,
+    "_id": "doc-7091df43fbf18b10afcdb4aee463c7b4"
+  },
+  "doc-31e814809484e2e32f1a300a53505881": {
+    "entity_names": [
+      "Tokyo",
+      "Noah Carter",
+      "Solving Constraint Satisfaction Problems through Belief Propagation-guided decimation",
+      "Carbon-Fiber Spikes",
+      "100m Sprint Record",
+      "World Athletics Federation",
+      "World Athletics Championship in Tokyo"
+    ],
+    "count": 7,
+    "create_time": 1776918318,
+    "update_time": 1776918318,
+    "_id": "doc-31e814809484e2e32f1a300a53505881"
+  },
+  "doc-0b7409008443ecef86beaee620af2e7f": {
+    "entity_names": [
+      "Tokyo",
+      "Noah Carter's Sprint Training Program",
+      "Noah Carter's Previous Records",
+      "Carbon-Fiber Spikes Technology",
+      "World Athletics Championship Tokyo"
+    ],
+    "count": 5,
+    "create_time": 1776918606,
+    "update_time": 1776918606,
+    "_id": "doc-0b7409008443ecef86beaee620af2e7f"
+  },
+  "doc-338bfc64b247f430276eb83cd02e7eff": {
+    "entity_names": [
+      "Jean Dezert",
+      "Xinde Li and Xinhan Huang",
+      "Florentin Smarandache",
+      "World Athletics Federation",
+      "Xinde Li, Xinhan Huang, Florentin Smarandache, Jean Dezert"
+    ],
+    "count": 5,
+    "create_time": 1776918755,
+    "update_time": 1776918755,
+    "_id": "doc-338bfc64b247f430276eb83cd02e7eff"
+  },
+  "doc-77cdde83fb9401053628d216141f51e8": {
+    "entity_names": [
+      "World Athletics Federation",
+      "Tokyo Stadium",
+      "Record Breaking"
+    ],
+    "count": 3,
+    "create_time": 1776918905,
+    "update_time": 1776918905,
+    "_id": "doc-77cdde83fb9401053628d216141f51e8"
+  },
+  "doc-739dd79489662ba784564dce7db2c583": {
+    "entity_names": [
+      "Vukosi N. Marivate",
+      "Support Vector Regression",
+      "Principal components",
+      "Autoencoder Neural Networks",
+      "School of Electrical and Information Engineering",
+      "Tshilidzi Marwala",
+      "University of the Witwatersrand",
+      "Fulufhelo V. Nelwamodo",
+      "Data Imputation Models"
+    ],
+    "count": 9,
+    "create_time": 1776919106,
+    "update_time": 1776919106,
+    "_id": "doc-739dd79489662ba784564dce7db2c583"
+  },
+  "doc-3868fdfd614e68dbdcdec9c13eb0df71": {
+    "entity_names": [
+      "Learn++",
+      "Incremental Learning",
+      "Wine datasets",
+      "Incremental Learning Using Genetic Algorithm (ILUGA)",
+      "Tokyo Organizing Committee",
+      "World Athletics Championship in Tokyo",
+      "Optical Character Recognition (OCR)",
+      "Tshilidzi Marwala",
+      "School of Electrical and Information Engineering",
+      "Cutting-edge Technology",
+      "Gregory Hulley",
+      "University of the Witwatersrand",
+      "Evolving Classifiers: Methods for Incremental Learning"
+    ],
+    "count": 13,
+    "create_time": 1776919335,
+    "update_time": 1776919335,
+    "_id": "doc-3868fdfd614e68dbdcdec9c13eb0df71"
+  }
+}

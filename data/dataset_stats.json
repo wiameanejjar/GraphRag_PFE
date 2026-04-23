@@ -1,0 +1,58 @@
+{
+  "corpus_arxiv": {
+    "total_docs": 493,
+    "total_chunks": 13959,
+    "avg_tokens_per_chunk": 502,
+    "min_tokens": 2,
+    "max_tokens": 512,
+    "top_themes": [
+      [
+        "cs.AI",
+        493
+      ],
+      [
+        "cs.NE",
+        65
+      ],
+      [
+        "cs.LG",
+        60
+      ],
+      [
+        "cs.LO",
+        57
+      ],
+      [
+        "cs.MA",
+        26
+      ],
+      [
+        "cs.CV",
+        25
+      ],
+      [
+        "cs.IT",
+        23
+      ],
+      [
+        "math.IT",
+        23
+      ],
+      [
+        "cs.CC",
+        20
+      ],
+      [
+        "cs.CL",
+        19
+      ]
+    ]
+  },
+  "benchmark_hotpotqa": {
+    "total_questions": 2000,
+    "question_types": {
+      "comparison": 380,
+      "bridge": 1620
+    }
+  }
+}

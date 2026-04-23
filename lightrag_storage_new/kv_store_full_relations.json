@@ -1,0 +1,2678 @@
+{
+  "doc-4fb1846e6da8a78f6dc58f2d85230793": {
+    "relation_pairs": [
+      [
+        "Intelligent Acoustic Emission Locator",
+        "Tadej Kosel"
+      ],
+      [
+        "Intelligent Acoustic Emission Locator",
+        "Locator Performance"
+      ],
+      [
+        "Igor Grabec",
+        "Intelligent Acoustic Emission Locator"
+      ],
+      [
+        "Intelligent Acoustic Emission Locator",
+        "Properties of Stored Data"
+      ],
+      [
+        "Intelligent Acoustic Emission Locator",
+        "Triangulation Method"
+      ],
+      [
+        "Intelligent Acoustic Emission Locator",
+        "Sound Velocity"
+      ],
+      [
+        "Dimensions of Tested Area",
+        "Intelligent Acoustic Emission Locator"
+      ],
+      [
+        "Attenuation",
+        "Intelligent Acoustic Emission Locator"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776893802,
+    "update_time": 1776893802,
+    "_id": "doc-4fb1846e6da8a78f6dc58f2d85230793"
+  },
+  "doc-b1a2b103d7a60591f1a23cdc33cbb4d1": {
+    "relation_pairs": [
+      [
+        "Igor Grabec",
+        "Tadej Kosel"
+      ],
+      [
+        "Acoustic Emission",
+        "Acoustic Emission Analysis"
+      ],
+      [
+        "Acoustic Emission",
+        "Signal Components"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Blind Source Separation"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Tadej Kosel"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Independent Component Analysis"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Aircraft Frame Structures"
+      ],
+      [
+        "Blind Source Separation",
+        "Independent Components"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Igor Grabec"
+      ],
+      [
+        "Independent Component Analysis",
+        "Independent Components"
+      ],
+      [
+        "Acoustic Emission Analysis",
+        "Developing Defects"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776893897,
+    "update_time": 1776893897,
+    "_id": "doc-b1a2b103d7a60591f1a23cdc33cbb4d1"
+  },
+  "doc-cc4186ce653954282ee0cf160907777b": {
+    "relation_pairs": [
+      [
+        "Complexity Principles",
+        "Eight Tentative Laws of Information"
+      ],
+      [
+        "Carlos Gershenson",
+        "Instituto de Investigaciones en Matem aticas Aplicadas y en Sistemas Universidad Nacional Aut onoma de M exico"
+      ],
+      [
+        "Carlos Gershenson",
+        "Computer Sciences Department"
+      ],
+      [
+        "Cybernetic Principles",
+        "Eight Tentative Laws of Information"
+      ],
+      [
+        "Darwinian Principles",
+        "Evolution of Life"
+      ],
+      [
+        "Eight Tentative Laws of Information",
+        "Thermodynamic Principles"
+      ],
+      [
+        "Eight Tentative Laws of Information",
+        "Philosophical Principles"
+      ],
+      [
+        "Evolution of Cognition",
+        "Psychological Principles"
+      ],
+      [
+        "Carlos Gershenson",
+        "Eight Tentative Laws of Information"
+      ],
+      [
+        "Carlos Gershenson",
+        "New England Complex Systems Institute"
+      ],
+      [
+        "Carlos Gershenson",
+        "The World as Evolving Information"
+      ],
+      [
+        "Darwinian Principles",
+        "Eight Tentative Laws of Information"
+      ],
+      [
+        "Eight Tentative Laws of Information",
+        "Psychological Principles"
+      ],
+      [
+        "Evolution of Life",
+        "Thermodynamic Principles"
+      ],
+      [
+        "Complexity Principles",
+        "Evolution of Life"
+      ],
+      [
+        "Evolution of Life",
+        "Philosophical Principles"
+      ],
+      [
+        "Evolution of Cognition",
+        "Evolution of Life"
+      ],
+      [
+        "Carlos Gershenson",
+        "Centrum Leo Apostel"
+      ],
+      [
+        "Cybernetic Principles",
+        "Evolution of Cognition"
+      ],
+      [
+        "Carlos Gershenson",
+        "Vrije Universiteit Brussel"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1776893992,
+    "update_time": 1776893992,
+    "_id": "doc-cc4186ce653954282ee0cf160907777b"
+  },
+  "doc-5fd1c1e7a77d943a923684ee35f9df45": {
+    "relation_pairs": [
+      [
+        "Electronics and Communication Engineering",
+        "Gokaraju Rangaraju Institute of Engineering and Technology"
+      ],
+      [
+        "Gokaraju Rangaraju Institute of Engineering and Technology",
+        "Mohd Abubakr"
+      ],
+      [
+        "Abstract-Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems",
+        "Mohd Abubakr"
+      ],
+      [
+        "Mohd Abubakr",
+        "Rali Manikya Vinay"
+      ],
+      [
+        "Abstract-Advances in semiconductor technology are contributing to the increasing complexity in the design of embedded systems",
+        "Rali Manikya Vinay"
+      ],
+      [
+        "Gokaraju Rangaraju Institute of Engineering and Technology",
+        "Rali Manikya Vinay"
+      ],
+      [
+        "Architecture for Pseudo Acausal Evolvable Embedded Systems",
+        "Mohd Abubakr"
+      ],
+      [
+        "Electronics and Communication Engineering",
+        "Mohd Abubakr"
+      ],
+      [
+        "Architecture for Pseudo Acausal Evolvable Embedded Systems",
+        "Rali Manikya Vinay"
+      ],
+      [
+        "Electronics and Communication Engineering",
+        "Rali Manikya Vinay"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776894082,
+    "update_time": 1776894082,
+    "_id": "doc-5fd1c1e7a77d943a923684ee35f9df45"
+  },
+  "doc-cdc6963f9d4b6e7b7f8b485fbca41b2e": {
+    "relation_pairs": [
+      [
+        "Introduction",
+        "Neural Network Approach to Ordinal Regression"
+      ],
+      [
+        "Collaborative Filtering",
+        "NNRank"
+      ],
+      [
+        "Jianlin Cheng",
+        "School of Electrical Engineering and Computer Science"
+      ],
+      [
+        "NNRank",
+        "Protein Ranking in Bioinformatics"
+      ],
+      [
+        "Jianlin Cheng",
+        "Neural Network Approach to Ordinal Regression"
+      ],
+      [
+        "NNRank",
+        "Web Page Ranking"
+      ],
+      [
+        "Information Retrieval",
+        "NNRank"
+      ],
+      [
+        "Jianlin Cheng",
+        "University of Central Florida"
+      ],
+      [
+        "Neural Network Approach to Ordinal Regression",
+        "Ordinal Regression"
+      ],
+      [
+        "NNRank",
+        "Support Vector Machines"
+      ],
+      [
+        "NNRank",
+        "Neural Network Approach to Ordinal Regression"
+      ],
+      [
+        "Gaussian Processes",
+        "NNRank"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1776894191,
+    "update_time": 1776894191,
+    "_id": "doc-cdc6963f9d4b6e7b7f8b485fbca41b2e"
+  },
+  "doc-5909b7c343302c5c6e46ae53af79d1fb": {
+    "relation_pairs": [
+      [
+        "CLab Configuration Framework",
+        "Henrik Reif Andersen"
+      ],
+      [
+        "Constraint Satisfaction Problems (CSP)",
+        "Interactive Configuration Problems"
+      ],
+      [
+        "Interactive Configuration Problems",
+        "Valid Domains Computations"
+      ],
+      [
+        "Computational Logic and Algorithms Group",
+        "IT University of Copenhagen"
+      ],
+      [
+        "BDD-Based Interactive Configuration",
+        "Calculating Valid Domains"
+      ],
+      [
+        "Interactive Configuration Problems",
+        "Physical Products"
+      ],
+      [
+        "Constraint Satisfaction Problems",
+        "Interactive Configuration Problems"
+      ],
+      [
+        "Calculating Valid Domains",
+        "Content"
+      ],
+      [
+        "Abstract",
+        "Calculating Valid Domains"
+      ],
+      [
+        "Backtrack-Free",
+        "Interactive Configuration Problems"
+      ],
+      [
+        "Interactive Configuration Problems",
+        "Services"
+      ],
+      [
+        "CLab Configuration Framework",
+        "Rune Moller Jensen"
+      ],
+      [
+        "CLab Configuration Framework",
+        "Interactive Configuration Problems"
+      ],
+      [
+        "CLab Configuration Framework",
+        "Tarik Hadzic"
+      ],
+      [
+        "Calculating Valid Domains",
+        "Introduction"
+      ],
+      [
+        "Complete",
+        "Interactive Configuration Problems"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1776894309,
+    "update_time": 1776894309,
+    "_id": "doc-5909b7c343302c5c6e46ae53af79d1fb"
+  },
+  "doc-8eda31ea06eca7bd003fd898052de8b7": {
+    "relation_pairs": [
+      [
+        "Kristina Lerman",
+        "USC Information Sciences Institute"
+      ],
+      [
+        "Abstract",
+        "Exploiting Social Annotation for Automatic Resource Discovery"
+      ],
+      [
+        "Anon Plangprasopchok",
+        "Exploiting Social Annotation for Automatic Resource Discovery"
+      ],
+      [
+        "Resource Discovery",
+        "del.icio.us"
+      ],
+      [
+        "Information Domain",
+        "Probabilistic Model"
+      ],
+      [
+        "Information Domain",
+        "del.icio.us"
+      ],
+      [
+        "Keyword-Based Search",
+        "Resource Discovery"
+      ],
+      [
+        "Probabilistic Model",
+        "del.icio.us"
+      ],
+      [
+        "Anon Plangprasopchok",
+        "USC Information Sciences Institute"
+      ],
+      [
+        "Probabilistic Model",
+        "Resource Discovery"
+      ],
+      [
+        "Probabilistic Model",
+        "User Annotation Process"
+      ],
+      [
+        "Mediators or Mashups",
+        "Resource Discovery"
+      ],
+      [
+        "Exploiting Social Annotation for Automatic Resource Discovery",
+        "Kristina Lerman"
+      ],
+      [
+        "User Annotation Process",
+        "del.icio.us"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776894425,
+    "update_time": 1776894425,
+    "_id": "doc-8eda31ea06eca7bd003fd898052de8b7"
+  },
+  "doc-4df620313d6ee9e6d5f5fb31851504f6": {
+    "relation_pairs": [
+      [
+        "Kristina Lerman",
+        "Personalized Image Search Results"
+      ],
+      [
+        "Metadata",
+        "User"
+      ],
+      [
+        "Metadata",
+        "Tag"
+      ],
+      [
+        "Kristina Lerman",
+        "University of Southern California"
+      ],
+      [
+        "Chio Wong",
+        "Personalized Image Search Results"
+      ],
+      [
+        "Abstract",
+        "Research Paper"
+      ],
+      [
+        "Flickr",
+        "Tag Search"
+      ],
+      [
+        "Information Sciences Institute",
+        "Marina del Rey"
+      ],
+      [
+        "Information Sciences Institute",
+        "Research Paper"
+      ],
+      [
+        "Research Paper",
+        "University of Southern California"
+      ],
+      [
+        "Flickr",
+        "Social Network"
+      ],
+      [
+        "Chio Wong",
+        "University of Southern California"
+      ],
+      [
+        "Abstract",
+        "Kristina Lerman"
+      ],
+      [
+        "Flickr",
+        "Metadata"
+      ],
+      [
+        "Anon Plangprasopchok",
+        "Personalized Image Search Results"
+      ],
+      [
+        "Abstract",
+        "Anon Plangprasopchok"
+      ],
+      [
+        "Abstract",
+        "Chio Wong"
+      ],
+      [
+        "Anon Plangprasopchok",
+        "University of Southern California"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1776894545,
+    "update_time": 1776894545,
+    "_id": "doc-4df620313d6ee9e6d5f5fb31851504f6"
+  },
+  "doc-85d895e87b46372843b97111376b3e0b": {
+    "relation_pairs": [
+      [
+        "Network",
+        "Packet"
+      ],
+      [
+        "Francesco Santini",
+        "Unicast and Multicast QoS Routing with Soft Constraint Logic Programming"
+      ],
+      [
+        "Stefano Bistarelli",
+        "Unicast and Multicast QoS Routing with Soft Constraint Logic Programming"
+      ],
+      [
+        "Network",
+        "Weighted Graph"
+      ],
+      [
+        "Stefano Bistarelli",
+        "Università Chieti-Pescara"
+      ],
+      [
+        "Network",
+        "Quality of Service"
+      ],
+      [
+        "Soft Constraint Logic Programming",
+        "Stefano Bistarelli"
+      ],
+      [
+        "Soft Constraint Logic Programming",
+        "Ugo Montanari"
+      ],
+      [
+        "Francesca Rossi",
+        "Soft Constraint Logic Programming"
+      ],
+      [
+        "Francesco Santini",
+        "Soft Constraint Logic Programming"
+      ],
+      [
+        "Ugo Montanari",
+        "Unicast and Multicast QoS Routing with Soft Constraint Logic Programming"
+      ],
+      [
+        "Francesca Rossi",
+        "Unicast and Multicast QoS Routing with Soft Constraint Logic Programming"
+      ],
+      [
+        "And-Or Graph",
+        "Network"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776894655,
+    "update_time": 1776894655,
+    "_id": "doc-85d895e87b46372843b97111376b3e0b"
+  },
+  "doc-f354010502f8a151f7e17787e6f6597c": {
+    "relation_pairs": [
+      [
+        "HMMER-STRUCT",
+        "Remote Homologue Protein Families"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Leave-One-Family-Out Cross-Validation"
+      ],
+      [
+        "HMMER-STRUCT",
+        "V ıtor Santos Costa"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Juliana S Bernardes"
+      ],
+      [
+        "Alberto M. R. D avila",
+        "HMMER-STRUCT"
+      ],
+      [
+        "HMMER-STRUCT",
+        "SCOP database"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Motivation"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Twilight Zone"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Precision/Recall Curves"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Profile Hidden Markov Models (pHMMs)"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Paired Two-Tailed T-Test"
+      ],
+      [
+        "Gerson Zaverucha",
+        "HMMER-STRUCT"
+      ],
+      [
+        "HMMER-STRUCT",
+        "Protein Families"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776894772,
+    "update_time": 1776894772,
+    "_id": "doc-f354010502f8a151f7e17787e6f6597c"
+  },
+  "doc-c7dddce75421e9135a860c4379dc0b24": {
+    "relation_pairs": [
+      [
+        "Arabic language",
+        "Speech recognition"
+      ],
+      [
+        "Arabic",
+        "Paper"
+      ],
+      [
+        "Interactive Voice Response",
+        "Speech recognition"
+      ],
+      [
+        "Speech recognition",
+        "Voice user interface"
+      ],
+      [
+        "Handicapped people",
+        "Speech recognition"
+      ],
+      [
+        "Abstract",
+        "Introduction"
+      ],
+      [
+        "Artificial intelligence",
+        "CMUSphinx System"
+      ],
+      [
+        "CMUSphinx System",
+        "Carnegie Mellon University"
+      ],
+      [
+        "Arabic Automated Speech Recognition System (ASR)",
+        "CMUSphinx System"
+      ],
+      [
+        "CMU Sphinx-4",
+        "Hidden Markov Models (HMMs)"
+      ],
+      [
+        "Command recognition",
+        "Speech recognition"
+      ],
+      [
+        "Arabic",
+        "CMUSphinx System"
+      ],
+      [
+        "Dictation",
+        "Speech recognition"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776894879,
+    "update_time": 1776894879,
+    "_id": "doc-c7dddce75421e9135a860c4379dc0b24"
+  },
+  "doc-654411ba7dd624250e000fbecb7d8ea0": {
+    "relation_pairs": [
+      [
+        "Automated Speech Recognition System (ASR)",
+        "Discrete Hidden Markov Models (HMMs)"
+      ],
+      [
+        "Acoustic Model",
+        "Arabic Language"
+      ],
+      [
+        "CMU-Sphinx4",
+        "Carnegie Mellon University"
+      ],
+      [
+        "H. Satori",
+        "UFR Informatique et Nouvelles Technologies d Information et de Communication"
+      ],
+      [
+        "Acoustic Model",
+        "Discrete Hidden Markov Models (HMMs)"
+      ],
+      [
+        "Faculté des Sciences",
+        "M. Harti"
+      ],
+      [
+        "Arabic Speech Recognition System",
+        "M. Harti"
+      ],
+      [
+        "Arabic Speech Recognition System",
+        "CMU-Sphinx4"
+      ],
+      [
+        "Acoustic Model",
+        "Artificial Intelligence"
+      ],
+      [
+        "Arabic Speech Recognition System",
+        "H. Satori"
+      ],
+      [
+        "Faculté des Sciences",
+        "N. Chenfour"
+      ],
+      [
+        "Arabic Language",
+        "Automated Speech Recognition System (ASR)"
+      ],
+      [
+        "Arabic Speech Recognition System",
+        "N. Chenfour"
+      ],
+      [
+        "Artificial Intelligence",
+        "Automated Speech Recognition System (ASR)"
+      ],
+      [
+        "Acoustic Model",
+        "Automated Speech Recognition System (ASR)"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1776894985,
+    "update_time": 1776894985,
+    "_id": "doc-654411ba7dd624250e000fbecb7d8ea0"
+  },
+  "doc-ca5d216b6256cf7dc9f09696b9e6b817": {
+    "relation_pairs": [
+      [
+        "DLVDB",
+        "Theory and Practice of Logic Programming (TPLP)"
+      ],
+      [
+        "DLVDB",
+        "Smodels"
+      ],
+      [
+        "DLVDB",
+        "G. TERRACINA"
+      ],
+      [
+        "DLVDB",
+        "LDL++"
+      ],
+      [
+        "DLVDB",
+        "commercial Database Systems"
+      ],
+      [
+        "DLVDB",
+        "N. LEONE"
+      ],
+      [
+        "DLVDB",
+        "V. LIO"
+      ],
+      [
+        "DLVDB",
+        "XSB"
+      ],
+      [
+        "DBMSs",
+        "DLVDB"
+      ],
+      [
+        "DLVDB",
+        "Rende (CS)"
+      ],
+      [
+        "DLVDB",
+        "Dipartimento di Matematica, Universit a della Calabria"
+      ],
+      [
+        "DLVDB",
+        "Via P. Bucci"
+      ],
+      [
+        "C. PANETTA",
+        "DLVDB"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776895100,
+    "update_time": 1776895100,
+    "_id": "doc-ca5d216b6256cf7dc9f09696b9e6b817"
+  },
+  "doc-9c9101278d4ad2800d73f6b61edcaf29": {
+    "relation_pairs": [
+      [
+        "Introduction",
+        "Resource Description Framework (RDF)"
+      ],
+      [
+        "Digital Library Research and Prototyping Team",
+        "Marko A. Rodriguez"
+      ],
+      [
+        "Marko A. Rodriguez",
+        "October 7, 2007"
+      ],
+      [
+        "Introduction",
+        "Virtual Machines"
+      ],
+      [
+        "Introduction",
+        "Marko A. Rodriguez"
+      ],
+      [
+        "General-Purpose Computing on a Semantic Network Substrate",
+        "Semantic Web"
+      ],
+      [
+        "Introduction",
+        "Semantic Web"
+      ],
+      [
+        "Los Alamos National Laboratory",
+        "Los Alamos, New Mexico"
+      ],
+      [
+        "General-Purpose Computing on a Semantic Network Substrate",
+        "Introduction"
+      ],
+      [
+        "Digital Library Research and Prototyping Team",
+        "Los Alamos National Laboratory"
+      ],
+      [
+        "April 16, 2007",
+        "Marko A. Rodriguez"
+      ],
+      [
+        "Introduction",
+        "Object-Oriented Programming"
+      ],
+      [
+        "General-Purpose Computing on a Semantic Network Substrate",
+        "Resource Description Framework (RDF)"
+      ],
+      [
+        "General-Purpose Computing on a Semantic Network Substrate",
+        "Marko A. Rodriguez"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1776896982,
+    "update_time": 1776896982,
+    "_id": "doc-9c9101278d4ad2800d73f6b61edcaf29"
+  },
+  "doc-09515a99517089fa5af4576ca920495b": {
+    "relation_pairs": [
+      [
+        "Private Bag x3 Wits",
+        "University of the Witwatersrand"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Metropolis Algorithm"
+      ],
+      [
+        "This paper proposes an approach to training rough set models using Bayesian framework trained using Markov Chain Monte Carlo (MCMC) method.",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Artificial Intelligence",
+        "Rough Set Theory"
+      ],
+      [
+        "Pawlak",
+        "Rough Set Theory"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "HIV"
+      ],
+      [
+        "South Africa",
+        "University of the Witwatersrand"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Bodie Crossingham"
+      ],
+      [
+        "Cognitive Science",
+        "Rough Set Theory"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Rough Set Theory"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Demographic Data"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Bayesian Approach to Rough Set",
+        "Markov Chain Monte Carlo"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1776899393,
+    "update_time": 1776899393,
+    "_id": "doc-09515a99517089fa5af4576ca920495b"
+  },
+  "doc-ec7bd9a39e04662c8ff1bc365bc4d621": {
+    "relation_pairs": [
+      [
+        "Fuzzy ARTMAP",
+        "T. Marwala"
+      ],
+      [
+        "AN ADAPTIVE STRATEGY FOR THE CLASSIFICATION OF G-PROTEIN COUPLED RECEPTORS",
+        "S. Mohamed"
+      ],
+      [
+        "Fuzzy ARTMAP",
+        "G-Coupled Protein Receptors Database"
+      ],
+      [
+        "AN ADAPTIVE STRATEGY FOR THE CLASSIFICATION OF G-PROTEIN COUPLED RECEPTORS",
+        "Abstract"
+      ],
+      [
+        "Fuzzy ARTMAP",
+        "S. Mohamed"
+      ],
+      [
+        "AN ADAPTIVE STRATEGY FOR THE CLASSIFICATION OF G-PROTEIN COUPLED RECEPTORS",
+        "D. Rubin"
+      ],
+      [
+        "Evolutionary Strategy",
+        "Fuzzy ARTMAP"
+      ],
+      [
+        "Fuzzy ARTMAP",
+        "G-Protein Coupled Receptors"
+      ],
+      [
+        "AN ADAPTIVE STRATEGY FOR THE CLASSIFICATION OF G-PROTEIN COUPLED RECEPTORS",
+        "T. Marwala"
+      ],
+      [
+        "D. Rubin",
+        "Fuzzy ARTMAP"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776900464,
+    "update_time": 1776900464,
+    "_id": "doc-ec7bd9a39e04662c8ff1bc365bc4d621"
+  },
+  "doc-24841bb6a486bb38f760656cf05b3730": {
+    "relation_pairs": [
+      [
+        "Direct Optimization of Ranking Measures",
+        "Linear Assignment Problem"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Structured Estimation"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Max-Margin-Markov Networks"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Hungarian Marriage Algorithm"
+      ],
+      [
+        "Collaborative Filtering",
+        "Direct Optimization of Ranking Measures"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Hilbert Spaces"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Relevance Score"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Support Vector Approaches"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Quoc V. Le"
+      ],
+      [
+        "Alex J. Smola",
+        "Direct Optimization of Ranking Measures"
+      ],
+      [
+        "Direct Optimization of Ranking Measures",
+        "Web Page Ranking"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1776900490,
+    "update_time": 1776900490,
+    "_id": "doc-24841bb6a486bb38f760656cf05b3730"
+  },
+  "doc-7ea6d6aa7f5aed1967e1b284594d94a0": {
+    "relation_pairs": [
+      [
+        "Multiclass Neural-Network System",
+        "Pairwise Neural-Network System"
+      ],
+      [
+        "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+        "J. Uglov,V. Schetinin,C. Maple"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Face Recognition Systems",
+        "Multiclass Neural-Network System"
+      ],
+      [
+        "Face Recognition Systems",
+        "Pairwise Neural-Network System"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776903866,
+    "update_time": 1776903866,
+    "_id": "doc-7ea6d6aa7f5aed1967e1b284594d94a0"
+  },
+  "doc-bd04025ba3baaf2dfc24cee353c721c4": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776903868,
+    "update_time": 1776903868,
+    "_id": "doc-bd04025ba3baaf2dfc24cee353c721c4"
+  },
+  "doc-125a4654a5c27f8524bc0d14f268b0a9": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "World Athletics Federation"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776904203,
+    "update_time": 1776904203,
+    "_id": "doc-125a4654a5c27f8524bc0d14f268b0a9"
+  },
+  "doc-ce3fc4c8e86937d2da228e79428b766d": {
+    "relation_pairs": [
+      [
+        "An Adaptive Strategy for the Classification of G-Protein Coupled Receptors",
+        "Machine Learning"
+      ],
+      [
+        "D. Rubin",
+        "S. Mohamed"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      [
+        "Machine Learning",
+        "Support Vector Machines"
+      ],
+      [
+        "S. Mohamed, D. Rubin",
+        "T. Marwala"
+      ],
+      [
+        "Computational Biology",
+        "G-Protein Coupled Receptors"
+      ],
+      [
+        "An Adaptive Strategy for the Classification of G-Protein Coupled Receptors",
+        "G-Coupled Protein Receptors Database"
+      ],
+      [
+        "An Adaptive Strategy for the Classification of G-Protein Coupled Receptors",
+        "G-Protein Coupled Receptors"
+      ],
+      [
+        "An Adaptive Strategy for the Classification of G-Protein Coupled Receptors",
+        "Fuzzy ARTMAP"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776904237,
+    "update_time": 1776904237,
+    "_id": "doc-ce3fc4c8e86937d2da228e79428b766d"
+  },
+  "doc-c4e871896382200311ea702ea277ecf7": {
+    "relation_pairs": [
+      [
+        "J. Uglov",
+        "University of Bedfordshire"
+      ],
+      [
+        "C. Maple",
+        "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition"
+      ],
+      [
+        "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+        "J. Uglov"
+      ],
+      [
+        "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+        "V. Schetinin"
+      ],
+      [
+        "Computing and Information System Department",
+        "University of Bedfordshire"
+      ],
+      [
+        "University of Bedfordshire",
+        "V. Schetinin"
+      ],
+      [
+        "C. Maple",
+        "University of Bedfordshire"
+      ],
+      [
+        "Comparing Robustness of Pairwise and Multiclass Neural-Network Systems for Face Recognition",
+        "Pairwise Neural-Network System"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776904447,
+    "update_time": 1776904447,
+    "_id": "doc-c4e871896382200311ea702ea277ecf7"
+  },
+  "doc-d8819f47b42df8e5c2c256c15e4923f6": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776904570,
+    "update_time": 1776904570,
+    "_id": "doc-d8819f47b42df8e5c2c256c15e4923f6"
+  },
+  "doc-45b172ea57756f3fb58c529d1f8b6aa4": {
+    "relation_pairs": [
+      [
+        "The World Athletics Championship in Tokyo",
+        "Tokyo"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "The World Athletics Championship in Tokyo",
+        "World Athletics Federation"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776904928,
+    "update_time": 1776904928,
+    "_id": "doc-45b172ea57756f3fb58c529d1f8b6aa4"
+  },
+  "doc-1fbb47252f8fa1089bfb224fbf2dd1c6": {
+    "relation_pairs": [
+      [
+        "Multilayer Perceptrons",
+        "Snehashish Chakraverty"
+      ],
+      [
+        "Support Vector Machines",
+        "Unathi Mhalo"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Federation"
+      ],
+      [
+        "Gaussian Mixture Models",
+        "Unathi Mhalo"
+      ],
+      [
+        "Support Vector Machines",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Snehashish Chakraverty",
+        "Support Vector Machines"
+      ],
+      [
+        "Gaussian Mixture Models",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Multilayer Perceptrons",
+        "Unathi Mhalo"
+      ],
+      [
+        "Multilayer Perceptrons",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Gaussian Mixture Models",
+        "Snehashish Chakraverty"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776905632,
+    "update_time": 1776905632,
+    "_id": "doc-1fbb47252f8fa1089bfb224fbf2dd1c6"
+  },
+  "doc-9a5f888d4921a537b3892c6ff945d353": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "Tokyo"
+      ],
+      [
+        "Parameter-Less Self-Organizing Map (PLSOM)",
+        "Self-Organizing Map (SOM)"
+      ],
+      [
+        "Joaquin Sitte",
+        "Parameter-Less Self-Organizing Map (PLSOM)"
+      ],
+      [
+        "Erik Berglund",
+        "Parameter-Less Self-Organizing Map (PLSOM)"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776905731,
+    "update_time": 1776905731,
+    "_id": "doc-9a5f888d4921a537b3892c6ff945d353"
+  },
+  "doc-2369508e40fecf212991203b1d405337": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "Tokyo"
+      ],
+      [
+        "100m Sprint Record",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776906413,
+    "update_time": 1776906413,
+    "_id": "doc-2369508e40fecf212991203b1d405337"
+  },
+  "doc-c5c0f1d81134d3421f1795abe260729b": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776906555,
+    "update_time": 1776906555,
+    "_id": "doc-c5c0f1d81134d3421f1795abe260729b"
+  },
+  "doc-33ed52df965980b3ec8bcfc800d74afc": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776906668,
+    "update_time": 1776906668,
+    "_id": "doc-33ed52df965980b3ec8bcfc800d74afc"
+  },
+  "doc-53996fb6f93cd001567230718b8fe12a": {
+    "relation_pairs": [
+      [
+        "Ensemble-Based Technique",
+        "F.V. Nelwamondo and T. Marwala"
+      ],
+      [
+        "Classification Problem",
+        "Fuzzy-ARTMAP Ensemble"
+      ],
+      [
+        "100m sprint record",
+        "Noah Carter"
+      ],
+      [
+        "Fuzzy Artmap",
+        "Neural Network"
+      ],
+      [
+        "Ensemble-Based Technique",
+        "Online Condition Monitoring"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "Multi-Layer Perceptron Ensemble",
+        "Regression Problem"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776906953,
+    "update_time": 1776906953,
+    "_id": "doc-53996fb6f93cd001567230718b8fe12a"
+  },
+  "doc-a18125fea414ea5df93ca2bb27a87609": {
+    "relation_pairs": [
+      [
+        "Joost N. Kok",
+        "Leiden University"
+      ],
+      [
+        "Mining Patterns with a Balanced Interval",
+        "Walter A. Kosters"
+      ],
+      [
+        "Edgar H. de Graaf",
+        "Mining Patterns with a Balanced Interval"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Edgar H. de Graaf",
+        "Leiden Institute of Advanced Computer Science"
+      ],
+      [
+        "Leiden Institute of Advanced Computer Science",
+        "The Netherlands"
+      ],
+      [
+        "Joost N. Kok",
+        "Mining Patterns with a Balanced Interval"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776907150,
+    "update_time": 1776907150,
+    "_id": "doc-a18125fea414ea5df93ca2bb27a87609"
+  },
+  "doc-6cb0eff2509c0c6861809593aac2c296": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776907287,
+    "update_time": 1776907287,
+    "_id": "doc-6cb0eff2509c0c6861809593aac2c296"
+  },
+  "doc-e9b04623a207823cb368859618b022a6": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Carbon-Fiber Spikes"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776907467,
+    "update_time": 1776907467,
+    "_id": "doc-e9b04623a207823cb368859618b022a6"
+  },
+  "doc-24755b5513307354cd9c784cfb90563b": {
+    "relation_pairs": [
+      [
+        "Alexandre Devert",
+        "TAO / LRI ; INRIA Futurs, CNRS, Univ Paris-Sud F-91405, France"
+      ],
+      [
+        "Marc Schoenauer",
+        "TAO / LRI ; INRIA Futurs, CNRS, Univ Paris-Sud F-91405, France"
+      ],
+      [
+        "Nicolas Bredeche",
+        "Robust Multi-Cellular Developmental Design"
+      ],
+      [
+        "Alexandre Devert",
+        "Robust Multi-Cellular Developmental Design"
+      ],
+      [
+        "ACM Press",
+        "Proceedings of GECCO 07"
+      ],
+      [
+        "Marc Schoenauer",
+        "Robust Multi-Cellular Developmental Design"
+      ],
+      [
+        "Nicolas Bredeche",
+        "TAO / LRI ; INRIA Futurs, CNRS, Univ Paris-Sud F-91405, France"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "D. Thierens et al.",
+        "GECCO 07"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776907711,
+    "update_time": 1776907711,
+    "_id": "doc-24755b5513307354cd9c784cfb90563b"
+  },
+  "doc-d70a69b8c2bc20e4da30d31e9c02433a": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776907876,
+    "update_time": 1776907876,
+    "_id": "doc-d70a69b8c2bc20e4da30d31e9c02433a"
+  },
+  "doc-089b0c6bd4bd0479f72dcbbef975a69e": {
+    "relation_pairs": [
+      [
+        "Tokyo Stadium",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776908090,
+    "update_time": 1776908090,
+    "_id": "doc-089b0c6bd4bd0479f72dcbbef975a69e"
+  },
+  "doc-6fceaa98bb77679e80038b75bbd9d174": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776908189,
+    "update_time": 1776908189,
+    "_id": "doc-6fceaa98bb77679e80038b75bbd9d174"
+  },
+  "doc-8241a469f31e51d7579eae7385595dcb": {
+    "relation_pairs": [
+      [
+        "Event",
+        "Response Prediction of Structural System Subject to Earthquake Motions using Artificial Neural Network"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776908525,
+    "update_time": 1776908525,
+    "_id": "doc-8241a469f31e51d7579eae7385595dcb"
+  },
+  "doc-42a7004da42a642c49b82e9dbc072f8d": {
+    "relation_pairs": [
+      [
+        "Pseudomodal Energies",
+        "THANDO TETTEY"
+      ],
+      [
+        "Fault Classification",
+        "Neuro-Fuzzy Modelling"
+      ],
+      [
+        "Neuro-Fuzzy Modelling",
+        "SNEHASHISH CHAKRAVERTY"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "THANDO TETTEY AND SNEHASHISH CHAKRAVERTY",
+        "TSHILIDZI MARWALA"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Pseudomodal Energies",
+        "Takagi-Sugeno Neuro-Fuzzy Model"
+      ],
+      [
+        "Cylindrical Shells",
+        "Pseudomodal Energies"
+      ],
+      [
+        "Cylindrical Shells",
+        "Neuro-Fuzzy Modelling"
+      ],
+      [
+        "TSHILIDZI MARWALA",
+        "Takagi-Sugeno Neuro-Fuzzy Model"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1776908784,
+    "update_time": 1776908784,
+    "_id": "doc-42a7004da42a642c49b82e9dbc072f8d"
+  },
+  "doc-376b41a9209aa8b6c349fd3e835850fa": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Federation"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776908871,
+    "update_time": 1776908871,
+    "_id": "doc-376b41a9209aa8b6c349fd3e835850fa"
+  },
+  "doc-5384c337528b81d6d96c3709b48bc026": {
+    "relation_pairs": [
+      [
+        "World Athletics Championship in Tokyo",
+        "World Athletics Federation (overseeing the World Athletics Championship)"
+      ],
+      [
+        "A Study in a Hybrid Centralised-Swarm Agent Community",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "100m Sprint Record (broken by Noah Carter)",
+        "Noah Carter"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "Captor Agents",
+        "Pursuit Game"
+      ],
+      [
+        "Global Agent",
+        "Hybrid Centralised-Swarm Based Multi-Agent System"
+      ],
+      [
+        "Carbon-Fiber Spikes (used by Noah Carter)",
+        "Noah Carter"
+      ],
+      [
+        "A Study in a Hybrid Centralised-Swarm Agent Community",
+        "Bradley van Aardt"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776909146,
+    "update_time": 1776909146,
+    "_id": "doc-5384c337528b81d6d96c3709b48bc026"
+  },
+  "doc-103c4670c41ad132562bbeb77a4ecce1": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776909287,
+    "update_time": 1776909287,
+    "_id": "doc-103c4670c41ad132562bbeb77a4ecce1"
+  },
+  "doc-33898e4a09fbbd847fa5a95728b135f8": {
+    "relation_pairs": [
+      [
+        "Genetic Algorithms",
+        "Rough Set Partition Sizes"
+      ],
+      [
+        "Tshilidzi Marwala",
+        "University of the Witwatersrand"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Bodie Crossingham",
+        "University of the Witwatersrand"
+      ],
+      [
+        "Bodie Crossingham",
+        "Tshilidzi Marwala"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776909465,
+    "update_time": 1776909465,
+    "_id": "doc-33898e4a09fbbd847fa5a95728b135f8"
+  },
+  "doc-f456a5e9a603a2f846d2f09f0786ef70": {
+    "relation_pairs": [
+      [
+        "On the monotonization of the training set",
+        "Rustem S. Takhanov"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Abstract: We consider the problem of minimal correction of the training set to make it consistent with monotonic constraints.",
+        "On the monotonization of the training set"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776909766,
+    "update_time": 1776909766,
+    "_id": "doc-f456a5e9a603a2f846d2f09f0786ef70"
+  },
+  "doc-07d98d98a94bccc43627a8a1e95bee8c": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776909873,
+    "update_time": 1776909873,
+    "_id": "doc-07d98d98a94bccc43627a8a1e95bee8c"
+  },
+  "doc-238cb673b3f53fd104905d3a2ba50feb": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776910001,
+    "update_time": 1776910001,
+    "_id": "doc-238cb673b3f53fd104905d3a2ba50feb"
+  },
+  "doc-903aa01a9b00876912785ee16c120f51": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Federation"
+      ],
+      [
+        "Anton Eremeev",
+        "Omsk Branch of Sobolev Institute of Mathematics, Laboratory of Discrete Optimization"
+      ],
+      [
+        "Boolean linear programming problems",
+        "On complexity of optimized crossover for binary representations"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Boolean linear programming problems",
+        "Crossover operators"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Anton Eremeev",
+        "On complexity of optimized crossover for binary representations"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776910195,
+    "update_time": 1776910195,
+    "_id": "doc-903aa01a9b00876912785ee16c120f51"
+  },
+  "doc-4b650c28692f0cc935969185858bbe26": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Truecluster framework",
+        "Truecluster matching"
+      ],
+      [
+        "Jens Oehlschl agel",
+        "Truecluster matching"
+      ],
+      [
+        "Cluster matching",
+        "Truecluster framework"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776910314,
+    "update_time": 1776910314,
+    "_id": "doc-4b650c28692f0cc935969185858bbe26"
+  },
+  "doc-28b40d5ee6a58b6e5bacf25b5b5d449b": {
+    "relation_pairs": [
+      [
+        "School of Engineering",
+        "Stefan J. Johansson"
+      ],
+      [
+        "Magnus Boman",
+        "Massively Multiplayer Online Games"
+      ],
+      [
+        "Blekinge Institute of Technology",
+        "School of Engineering"
+      ],
+      [
+        "Tokyo Metropolitan Government",
+        "World Athletics Federation"
+      ],
+      [
+        "Stefan J. Johansson",
+        "Virtual Plagues"
+      ],
+      [
+        "Cutting-Edge Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo 2024 Olympic Stadium",
+        "World Athletics Championship"
+      ],
+      [
+        "Magnus Boman",
+        "Virtual Plagues"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776910831,
+    "update_time": 1776910831,
+    "_id": "doc-28b40d5ee6a58b6e5bacf25b5b5d449b"
+  },
+  "doc-0f7122b6bb30eedd086c3bc9cf7b238b": {
+    "relation_pairs": [
+      [
+        "Johan Bollen",
+        "Person-authored-by"
+      ],
+      [
+        "Digital Library Research and Prototyping Team",
+        "Organization-is-part-of"
+      ],
+      [
+        "Marko A. Rodriguez and Johan Bollen",
+        "Person- collaboration has led to"
+      ],
+      [
+        "Marko A. Rodriguez",
+        "Person-works-with"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ],
+      [
+        "Johan Bollen",
+        "Person-works-with"
+      ],
+      [
+        "Marko A. Rodriguez",
+        "Person-authored-by"
+      ],
+      [
+        "Los Alamos National Laboratory",
+        "Organization-is-hosted-at"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776910972,
+    "update_time": 1776910972,
+    "_id": "doc-0f7122b6bb30eedd086c3bc9cf7b238b"
+  },
+  "doc-744a48f61926f8fbe13ad978a4dceb23": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776911132,
+    "update_time": 1776911132,
+    "_id": "doc-744a48f61926f8fbe13ad978a4dceb23"
+  },
+  "doc-b0249287185bb0a3e492647c67a9e000": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Federation"
+      ],
+      [
+        "Support Vector Machines (SVMs)",
+        "method used"
+      ],
+      [
+        "decomposition method",
+        "sequential minimal optimization (SMO) decomposition methods"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776911340,
+    "update_time": 1776911340,
+    "_id": "doc-b0249287185bb0a3e492647c67a9e000"
+  },
+  "doc-5a3eb1de2dc6b76a0e41f26d55d73adf": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776911425,
+    "update_time": 1776911425,
+    "_id": "doc-5a3eb1de2dc6b76a0e41f26d55d73adf"
+  },
+  "doc-ec6366bf74039cb74e8884777cddbc19": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776911625,
+    "update_time": 1776911625,
+    "_id": "doc-ec6366bf74039cb74e8884777cddbc19"
+  },
+  "doc-9bdac7599045488c815400ee9a5198f3": {
+    "relation_pairs": [
+      [
+        "Data",
+        "IDSIA-07-07"
+      ],
+      [
+        "100m Sprint Record",
+        "Carbon-Fiber Spikes"
+      ],
+      [
+        "Marcus Hutter",
+        "Person"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Person",
+        "Shane Legg"
+      ],
+      [
+        "A Collection of Deﬁnitions of Intelligence",
+        "Content"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1776911822,
+    "update_time": 1776911822,
+    "_id": "doc-9bdac7599045488c815400ee9a5198f3"
+  },
+  "doc-5669babb656240e21812dd7ddbbf07d3": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776912002,
+    "update_time": 1776912002,
+    "_id": "doc-5669babb656240e21812dd7ddbbf07d3"
+  },
+  "doc-3c0bde4c8697a64eb11b818cc977af06": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776912302,
+    "update_time": 1776912302,
+    "_id": "doc-3c0bde4c8697a64eb11b818cc977af06"
+  },
+  "doc-87d927497c7d5747bfd0ac5635c0e59b": {
+    "relation_pairs": [
+      [
+        "World Athletics Championship",
+        "World Athletics Federation"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776912493,
+    "update_time": 1776912493,
+    "_id": "doc-87d927497c7d5747bfd0ac5635c0e59b"
+  },
+  "doc-ba249f18e1be74d98c61e6e542e19fc9": {
+    "relation_pairs": [
+      [
+        "Tokyo Olympics",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776912710,
+    "update_time": 1776912710,
+    "_id": "doc-ba249f18e1be74d98c61e6e542e19fc9"
+  },
+  "doc-f305fa30b8e016d9510c1e08bbe05ae7": {
+    "relation_pairs": [
+      [
+        "Optimal Solutions for Sparse Principal Component Analysis",
+        "Sparse Principal Component Analysis"
+      ],
+      [
+        "Alexandre d Aspremont",
+        "ORFE, Princeton University"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "EECS Department, U.C. Berkeley",
+        "Laurent El Ghaoui"
+      ],
+      [
+        "Francis Bach",
+        "INRIA - Willow project"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776912908,
+    "update_time": 1776912908,
+    "_id": "doc-f305fa30b8e016d9510c1e08bbe05ae7"
+  },
+  "doc-191912a30d0736b9f9271c38f341ae59": {
+    "relation_pairs": [
+      [
+        "Concept",
+        "The Cyborg Astrobiologist: Porting from a wearable computer to the Astrobiology Phone-cam"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776913065,
+    "update_time": 1776913065,
+    "_id": "doc-191912a30d0736b9f9271c38f341ae59"
+  },
+  "doc-b40b035e13e886bead9e7051116db997": {
+    "relation_pairs": [
+      [
+        "Clusters provide knowledge representation and organization.",
+        "Content"
+      ],
+      [
+        "A virtual community is a group of people who share common interests or goals and interact with each other online, often through social media platforms or forums.",
+        "Content"
+      ],
+      [
+        "Clusters, Graphs, and Networks for Analysing Internet-Web-Supported Communication within a Virtual Community",
+        "Title"
+      ],
+      [
+        "Abstract",
+        "The proposal is to use clusters, graphs and networks as models in order to analyse the Web structure."
+      ],
+      [
+        "Content",
+        "The Internet can be thought of as a social network, where users interact with each other and form relationships based on their shared interests or activities."
+      ],
+      [
+        "Clustering is a method for grouping objects in such a way that objects within each cluster are more similar to each other than they are to objects outside the cluster.",
+        "Content"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776913233,
+    "update_time": 1776913233,
+    "_id": "doc-b40b035e13e886bead9e7051116db997"
+  },
+  "doc-141c06e0d5fdb5a62f770460f4e4fee2": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776913472,
+    "update_time": 1776913472,
+    "_id": "doc-141c06e0d5fdb5a62f770460f4e4fee2"
+  },
+  "doc-578acc8759752f0fc7a16bdd21bb899e": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776913672,
+    "update_time": 1776913672,
+    "_id": "doc-578acc8759752f0fc7a16bdd21bb899e"
+  },
+  "doc-b26b0b9aabf4438e22351d0065a1bddc": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776913769,
+    "update_time": 1776913769,
+    "_id": "doc-b26b0b9aabf4438e22351d0065a1bddc"
+  },
+  "doc-78e9481ef6e887768e631b1377d506dc": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Carbon-Fiber Spikes"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776913934,
+    "update_time": 1776913934,
+    "_id": "doc-78e9481ef6e887768e631b1377d506dc"
+  },
+  "doc-7281bb730cc42b7a5595f141c42bc040": {
+    "relation_pairs": [
+      [
+        "Faculty of Information and Communication Technology",
+        "Organization"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Person",
+        "WILSON WONG YIK SEN"
+      ],
+      [
+        "Concept",
+        "PRACTICAL APPROACH TO KNOWLEDGE-BASED QUESTION ANSWERING WITH NATURAL LANGUAGE UNDERSTANDING AND ADVANCED REASONING"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ],
+      [
+        "A thesis submitted in fulfillment of the requirements for the degree of Master of Science in Information and Communication Technology",
+        "Event,Organization"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776914140,
+    "update_time": 1776914140,
+    "_id": "doc-7281bb730cc42b7a5595f141c42bc040"
+  },
+  "doc-8849c2f629d2a8770744f269683c4852": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Federation"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "World Athletics Championship",
+        "World Athletics Federation"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776914704,
+    "update_time": 1776914704,
+    "_id": "doc-8849c2f629d2a8770744f269683c4852"
+  },
+  "doc-2c25db1a452aa3898d5480488e9aadb9": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776914807,
+    "update_time": 1776914807,
+    "_id": "doc-2c25db1a452aa3898d5480488e9aadb9"
+  },
+  "doc-0475f8bccbe12a1dac7e002fc3e8db53": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776914935,
+    "update_time": 1776914935,
+    "_id": "doc-0475f8bccbe12a1dac7e002fc3e8db53"
+  },
+  "doc-1ec43ed1a04f3c022e2b6e7fb8c1a78e": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776915222,
+    "update_time": 1776915222,
+    "_id": "doc-1ec43ed1a04f3c022e2b6e7fb8c1a78e"
+  },
+  "doc-43642f57fda6e4781cebb368a8603aed": {
+    "relation_pairs": [
+      [
+        "Alfa-Informatica, Rijksuniversiteit Groningen",
+        "Stasinos Th. Konstantopoulos"
+      ],
+      [
+        "A Data-Parallel Version of Aleph",
+        "Stasinos Th. Konstantopoulos"
+      ],
+      [
+        "9700AS Groningen",
+        "Postbus 716"
+      ],
+      [
+        "Stasinos Th. Konstantopoulos",
+        "The Netherlands"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776915375,
+    "update_time": 1776915375,
+    "_id": "doc-43642f57fda6e4781cebb368a8603aed"
+  },
+  "doc-f76e2f2db6572fc7e5417d2c0bc42280": {
+    "relation_pairs": [
+      [
+        "Oana Muntean",
+        "Subset-Sum Problem"
+      ],
+      [
+        "Light-Based Device",
+        "Subset-Sum Problem"
+      ],
+      [
+        "Babe s-Bolyai University",
+        "Mihai Oltean"
+      ],
+      [
+        "Babe s-Bolyai University",
+        "Oana Muntean"
+      ],
+      [
+        "Mihai Oltean",
+        "Subset-Sum Problem"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776915587,
+    "update_time": 1776915587,
+    "_id": "doc-f76e2f2db6572fc7e5417d2c0bc42280"
+  },
+  "doc-9130cce907ab14c5089e01d021731122": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776915847,
+    "update_time": 1776915847,
+    "_id": "doc-9130cce907ab14c5089e01d021731122"
+  },
+  "doc-42cc885c048b06fbe5f0caa63e1f343e": {
+    "relation_pairs": [
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776915940,
+    "update_time": 1776915940,
+    "_id": "doc-42cc885c048b06fbe5f0caa63e1f343e"
+  },
+  "doc-6e89e983912012e1819aada9701628de": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Federation"
+      ],
+      [
+        "100m Sprint Record",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Noah Carter",
+        "Tokyo"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1776916227,
+    "update_time": 1776916227,
+    "_id": "doc-6e89e983912012e1819aada9701628de"
+  },
+  "doc-f44e4795c45a6a81ce24b11d54a1dc66": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Carbon-Fiber Spikes"
+      ],
+      [
+        "Polynomial hierarchy",
+        "Raising a Hardness Result"
+      ],
+      [
+        "Quantified Boolean Formulae (QBF)",
+        "Raising a Hardness Result"
+      ],
+      [
+        "PSPACE",
+        "Raising a Hardness Result"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "World Athletics Federation"
+      ],
+      [
+        "Quantified Boolean Formulae (QBF)",
+        "Reductions from QBFs having one more quantifier in the front"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Paolo Liberatore",
+        "Raising a Hardness Result"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1776916445,
+    "update_time": 1776916445,
+    "_id": "doc-f44e4795c45a6a81ce24b11d54a1dc66"
+  },
+  "doc-9291425d154049f0daf5eaba861b629c": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Championship in Tokyo"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1776916642,
+    "update_time": 1776916642,
+    "_id": "doc-9291425d154049f0daf5eaba861b629c"
+  },
+  "doc-930126a40ff526f6ab6eceedfa741a91": {
+    "relation_pairs": [
+      [
+        "Egham TW20 0EX",
+        "Fionn Murtagh"
+      ],
+      [
+        "Department of Computer Science",
+        "Fionn Murtagh"
+      ],
+      [
+        "England",
+        "University of London"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Department of Computer Science",
+        "Royal Holloway"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ],
+      [
+        "Abstract",
+        "Title: On Ultrametric Algorithmic Information"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776916926,
+    "update_time": 1776916926,
+    "_id": "doc-930126a40ff526f6ab6eceedfa741a91"
+  },
+  "doc-7091df43fbf18b10afcdb4aee463c7b4": {
+    "relation_pairs": [
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776917585,
+    "update_time": 1776917585,
+    "_id": "doc-7091df43fbf18b10afcdb4aee463c7b4"
+  },
+  "doc-31e814809484e2e32f1a300a53505881": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "Tokyo"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776918318,
+    "update_time": 1776918318,
+    "_id": "doc-31e814809484e2e32f1a300a53505881"
+  },
+  "doc-0b7409008443ecef86beaee620af2e7f": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "World Athletics Federation"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "World Athletics Championship",
+        "World Athletics Federation"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1776918606,
+    "update_time": 1776918606,
+    "_id": "doc-0b7409008443ecef86beaee620af2e7f"
+  },
+  "doc-338bfc64b247f430276eb83cd02e7eff": {
+    "relation_pairs": [
+      [
+        "Person",
+        "Xinde Li, Xinhan Huang, Florentin Smarandache, Jean Dezert"
+      ],
+      [
+        "Person",
+        "Xinde Li and Xinhan Huang"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Jean Dezert",
+        "Person"
+      ],
+      [
+        "Florentin Smarandache",
+        "Person"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1776918755,
+    "update_time": 1776918755,
+    "_id": "doc-338bfc64b247f430276eb83cd02e7eff"
+  },
+  "doc-77cdde83fb9401053628d216141f51e8": {
+    "relation_pairs": [
+      [
+        "Record Breaking",
+        "World Athletics Championship"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1776918905,
+    "update_time": 1776918905,
+    "_id": "doc-77cdde83fb9401053628d216141f51e8"
+  },
+  "doc-739dd79489662ba784564dce7db2c583": {
+    "relation_pairs": [
+      [
+        "Fulufhelo V. Nelwamodo",
+        "Principal components"
+      ],
+      [
+        "Autoencoder Neural Networks",
+        "Principal components"
+      ],
+      [
+        "Data Imputation Models",
+        "Support Vector Regression"
+      ],
+      [
+        "Tshilidzi Marwala",
+        "Vukosi N. Marivate"
+      ],
+      [
+        "Support Vector Regression",
+        "Tshilidzi Marwala"
+      ],
+      [
+        "Fulufhelo V. Nelwamodo",
+        "Vukosi N. Marivate"
+      ],
+      [
+        "Autoencoder Neural Networks",
+        "Vukosi N. Marivate"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1776919106,
+    "update_time": 1776919106,
+    "_id": "doc-739dd79489662ba784564dce7db2c583"
+  },
+  "doc-3868fdfd614e68dbdcdec9c13eb0df71": {
+    "relation_pairs": [
+      [
+        "Tokyo Organizing Committee",
+        "World Athletics Federation"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "World Athletics Championship"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1776919335,
+    "update_time": 1776919335,
+    "_id": "doc-3868fdfd614e68dbdcdec9c13eb0df71"
+  }
+}
