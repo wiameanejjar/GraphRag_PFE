@@ -1,0 +1,1691 @@
+{
+  "doc-421873c316a2a72fa1ccf5068ebdfe92": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "content_summary": "Title: Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components\n\nAbstract: Adaptive programming practice often relies on fixed libraries of worked examples and practice problems, which require subs...",
+    "content_length": 1358,
+    "created_at": "2026-04-29T23:35:02.798972+00:00",
+    "updated_at": "2026-04-29T23:36:25.380409+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_003502_54b9ceb3",
+    "metadata": {
+      "processing_start_time": 1777505702,
+      "processing_end_time": 1777505785
+    }
+  },
+  "doc-ad3ff5a016386baadd7feb243f306901": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "content_summary": "Title: Learning to Think from Multiple Thinkers\n\nAbstract: We study learning with Chain-of-Thought (CoT) supervision from multiple thinkers, all of whom provide correct but possibly systematically different solutions, e.g., step-by-step solutions to ...",
+    "content_length": 1183,
+    "created_at": "2026-04-29T23:36:27.424546+00:00",
+    "updated_at": "2026-04-29T23:37:32.250896+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_003627_672d9be4",
+    "metadata": {
+      "processing_start_time": 1777505787,
+      "processing_end_time": 1777505852
+    }
+  },
+  "doc-7766d3554226b9ed677312825f4a488e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "content_summary": "Title: Learning to Rotate: Temporal and Semantic Rotary Encoding for Sequential Modeling\n\nAbstract: Every Transformer architecture dedicates enormous capacity to learning rich representations in semantic embedding space -- yet the rotation manifold a...",
+    "content_length": 1997,
+    "created_at": "2026-04-29T23:37:34.257818+00:00",
+    "updated_at": "2026-04-29T23:39:13.658744+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_003734_a88c9586",
+    "metadata": {
+      "processing_start_time": 1777505854,
+      "processing_end_time": 1777505953
+    }
+  },
+  "doc-a0d551161566faf30fdc24dbde48ebfa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa"
+    ],
+    "content_summary": "Title: Case-Specific Rubrics for Clinical AI Evaluation: Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters\n\nAbstract: Objective. Clinical AI documentation systems require evaluation methodologies that are clinically valid, ec...",
+    "content_length": 2051,
+    "created_at": "2026-04-29T23:39:15.674755+00:00",
+    "updated_at": "2026-04-29T23:40:48.532357+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_003915_c5426e0d",
+    "metadata": {
+      "processing_start_time": 1777505955,
+      "processing_end_time": 1777506048
+    }
+  },
+  "doc-d6c0f79672d14203995268b9dcd4b61c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "content_summary": "Title: Scalable Hyperparameter-Divergent Ensemble Training with Automatic Learning Rate Exploration for Large Models\n\nAbstract: Training large neural networks with data-parallel stochastic gradient descent allocates N GPU replicas to compute effectiv...",
+    "content_length": 1851,
+    "created_at": "2026-04-29T23:40:50.547303+00:00",
+    "updated_at": "2026-04-29T23:42:10.554116+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004050_a7da282b",
+    "metadata": {
+      "processing_start_time": 1777506050,
+      "processing_end_time": 1777506130
+    }
+  },
+  "doc-21f3a6584dd087d86a2f6b3f1a99f0fd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "content_summary": "Title: Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis\n\nAbstract: Large language models are widely used for code generation, yet they rely on an implicit assumption that the task descriptions are sufficiently detailed...",
+    "content_length": 1679,
+    "created_at": "2026-04-29T23:42:12.598306+00:00",
+    "updated_at": "2026-04-29T23:43:33.906543+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004212_1b1cdb26",
+    "metadata": {
+      "processing_start_time": 1777506132,
+      "processing_end_time": 1777506213
+    }
+  },
+  "doc-2df46a60ce12797a8d4e5b624970ede7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "content_summary": "Title: Green Shielding: A User-Centric Approach Towards Trustworthy AI\n\nAbstract: Large language models (LLMs) are increasingly deployed, yet their outputs can be highly sensitive to routine, non-adversarial variation in how users phrase queries, a g...",
+    "content_length": 1880,
+    "created_at": "2026-04-29T23:43:35.934288+00:00",
+    "updated_at": "2026-04-29T23:45:00.437322+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004335_13100d08",
+    "metadata": {
+      "processing_start_time": 1777506215,
+      "processing_end_time": 1777506300
+    }
+  },
+  "doc-7909c6cfbc42d7e40e309323a850e887": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "content_summary": "Title: Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft\n\nAbstract: Discovering causal regularities and applying them to build functional systems--the discovery-to-application loop--is a hallmark of general intellig...",
+    "content_length": 1707,
+    "created_at": "2026-04-29T23:45:02.464044+00:00",
+    "updated_at": "2026-04-29T23:46:32.188985+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004502_5ede02b4",
+    "metadata": {
+      "processing_start_time": 1777506302,
+      "processing_end_time": 1777506392
+    }
+  },
+  "doc-2c127bc04f3bde0cd314a75a26f2cec3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "content_summary": "Title: Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents\n\nAbstract: Autonomous AI agents can remain fully authorized and still become unsafe as behavior drifts, adversaries adapt, and decision patterns shift with...",
+    "content_length": 1430,
+    "created_at": "2026-04-29T23:46:34.243169+00:00",
+    "updated_at": "2026-04-29T23:47:59.025897+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004634_43ed9ef2",
+    "metadata": {
+      "processing_start_time": 1777506394,
+      "processing_end_time": 1777506479
+    }
+  },
+  "doc-ee26c6456033dbc512177b2b3161670e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ee26c6456033dbc512177b2b3161670e"
+    ],
+    "content_summary": "Title: Leveraging LLMs for Multi-File DSL Code Generation: An Industrial Case Study\n\nAbstract: Large language models (LLMs) perform strongly on general-purpose code generation, yet their applicability to enterprise domain-specific languages (DSLs) re...",
+    "content_length": 1715,
+    "created_at": "2026-04-29T23:48:01.032394+00:00",
+    "updated_at": "2026-04-29T23:49:26.308546+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004801_da9a6a10",
+    "metadata": {
+      "processing_start_time": 1777506481,
+      "processing_end_time": 1777506566
+    }
+  },
+  "doc-cd622ac8154940cde02b38a335a93d0b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "content_summary": "Title: The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applications\n\nAbstract: Given the increased use of LLMs in financial systems today, it becomes important to evaluate the safety and robustness of such systems. One failure m...",
+    "content_length": 1122,
+    "created_at": "2026-04-29T23:49:28.346404+00:00",
+    "updated_at": "2026-04-29T23:50:32.540319+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_004928_96debde0",
+    "metadata": {
+      "processing_start_time": 1777506568,
+      "processing_end_time": 1777506632
+    }
+  },
+  "doc-c55766a45b0f180acb4d559b875dcdd9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "content_summary": "Title: Benchmarking Source-Sensitive Reasoning in Turkish: Humans and LLMs under Evidential Trust Manipulation\n\nAbstract: This paper investigates whether source trustworthiness shapes Turkish evidential morphology and whether large language models (L...",
+    "content_length": 1310,
+    "created_at": "2026-04-29T23:50:34.578735+00:00",
+    "updated_at": "2026-04-29T23:51:58.507906+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005034_93a60ec7",
+    "metadata": {
+      "processing_start_time": 1777506634,
+      "processing_end_time": 1777506718
+    }
+  },
+  "doc-8bcf22c0d460fde620c812a0c96baa6f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "content_summary": "Title: Information bottleneck for learning the phase space of dynamics from high-dimensional experimental data\n\nAbstract: Identifying the dynamical state variables of a system from high-dimensional observations is a central problem across physical sc...",
+    "content_length": 1415,
+    "created_at": "2026-04-29T23:52:00.545000+00:00",
+    "updated_at": "2026-04-29T23:53:03.616077+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005200_e696a099",
+    "metadata": {
+      "processing_start_time": 1777506720,
+      "processing_end_time": 1777506783
+    }
+  },
+  "doc-d66caa329c3a04aee4985803a47142b6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "content_summary": "Title: AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents\n\nAbstract: Autonomous AI agents extend large language models into full runtime systems that load skills, ingest external content, maintain memory, plan multi-step actions, a...",
+    "content_length": 1274,
+    "created_at": "2026-04-29T23:53:05.674548+00:00",
+    "updated_at": "2026-04-29T23:54:22.763715+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005305_46f0c45c",
+    "metadata": {
+      "processing_start_time": 1777506785,
+      "processing_end_time": 1777506862
+    }
+  },
+  "doc-ffb0995b3d5e71e709d829e54fcfaf1b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "content_summary": "Title: DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference\n\nAbstract: Long-context reasoning is a critical capability of large language models (LLMs), enabling applications such as long-document understanding, summarization, and ...",
+    "content_length": 1217,
+    "created_at": "2026-04-29T23:54:24.810497+00:00",
+    "updated_at": "2026-04-29T23:55:31.754587+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005424_fa677d27",
+    "metadata": {
+      "processing_start_time": 1777506864,
+      "processing_end_time": 1777506931
+    }
+  },
+  "doc-232b2b084bf5a67744fd68472f6b18c1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "content_summary": "Title: K-MetBench: A Multi-Dimensional Benchmark for Fine-Grained Evaluation of Expert Reasoning, Locality, and Multimodality in Meteorology\n\nAbstract: The development of practical (multimodal) large language model assistants for Korean weather forec...",
+    "content_length": 1162,
+    "created_at": "2026-04-29T23:55:33.798060+00:00",
+    "updated_at": "2026-04-29T23:57:03.374306+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005533_a181bea6",
+    "metadata": {
+      "processing_start_time": 1777506933,
+      "processing_end_time": 1777507023
+    }
+  },
+  "doc-899149a6310f6cac289e14d7be815549": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "content_summary": "Title: Cortex-Inspired Continual Learning: Unsupervised Instantiation and Recovery of Functional Task Networks\n\nAbstract: Block-sequential continual learning demands that a single model both protect prior solutions from catastrophic forgetting and ef...",
+    "content_length": 2035,
+    "created_at": "2026-04-29T23:57:05.425473+00:00",
+    "updated_at": "2026-04-29T23:58:37.643640+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005705_57e02508",
+    "metadata": {
+      "processing_start_time": 1777507025,
+      "processing_end_time": 1777507117
+    }
+  },
+  "doc-2e7f40d6904acbb399d316edbe0a123b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "content_summary": "Title: Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application\n\nAbstract: On-device Small Language Models (SLMs) promise fully offline, private AI experiences for mobile users (no cloud dependency, n...",
+    "content_length": 1874,
+    "created_at": "2026-04-29T23:58:39.696765+00:00",
+    "updated_at": "2026-04-29T23:59:59.395205+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_005839_4a964163",
+    "metadata": {
+      "processing_start_time": 1777507119,
+      "processing_end_time": 1777507199
+    }
+  },
+  "doc-2643db96ff06ade733f1ed549959310e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "content_summary": "Title: Meta-CoT: Enhancing Granularity and Generalization in Image Editing\n\nAbstract: Unified multi-modal understanding/generative models have shown improved image editing performance by incorporating fine-grained understanding into their Chain-of-Th...",
+    "content_length": 1863,
+    "created_at": "2026-04-30T00:00:01.452279+00:00",
+    "updated_at": "2026-04-30T00:01:34.571849+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010001_866c28fc",
+    "metadata": {
+      "processing_start_time": 1777507201,
+      "processing_end_time": 1777507294
+    }
+  },
+  "doc-64fad5be7471e063c4b5aa89695241f8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "content_summary": "Title: XGRAG: A Graph-Native Framework for Explaining KG-based Retrieval-Augmented Generation\n\nAbstract: Graph-based Retrieval-Augmented Generation (GraphRAG) extends traditional RAG by using knowledge graphs (KGs) to give large language models (LLMs...",
+    "content_length": 1742,
+    "created_at": "2026-04-30T00:01:36.617591+00:00",
+    "updated_at": "2026-04-30T00:02:58.279884+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010136_bfea4160",
+    "metadata": {
+      "processing_start_time": 1777507296,
+      "processing_end_time": 1777507378
+    }
+  },
+  "doc-058dc72e32b67a7f3ced7c98ed821a74": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "content_summary": "Title: CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies\n\nAbstract: Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: mul...",
+    "content_length": 1783,
+    "created_at": "2026-04-30T00:03:00.348061+00:00",
+    "updated_at": "2026-04-30T00:04:27.143158+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010300_4170406b",
+    "metadata": {
+      "processing_start_time": 1777507380,
+      "processing_end_time": 1777507467
+    }
+  },
+  "doc-7a6ae8adcf4df680a3155bbab7deb847": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "content_summary": "Title: Evaluating whether AI models would sabotage AI safety research\n\nAbstract: We evaluate the propensity of frontier models to sabotage or refuse to assist with safety research when deployed as AI research agents within a frontier AI company. We a...",
+    "content_length": 1805,
+    "created_at": "2026-04-30T00:04:29.210938+00:00",
+    "updated_at": "2026-04-30T00:05:59.680439+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010429_e07cb5cb",
+    "metadata": {
+      "processing_start_time": 1777507469,
+      "processing_end_time": 1777507559
+    }
+  },
+  "doc-8f1f554e2452ba8f9ca944a83a65ca2f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "content_summary": "Title: NeSyCat: A Monad-Based Categorical Semantics of the Neurosymbolic ULLER Framework\n\nAbstract: ULLER (Unified Language for LEarning and Reasoning) offers a unified first-order logic (FOL) syntax, enabling its knowledge bases to be used directly ...",
+    "content_length": 1076,
+    "created_at": "2026-04-30T00:06:01.753942+00:00",
+    "updated_at": "2026-04-30T00:07:10.714746+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010601_74d1ff08",
+    "metadata": {
+      "processing_start_time": 1777507561,
+      "processing_end_time": 1777507630
+    }
+  },
+  "doc-b48bf4c58531cb5d0dde75c4cc92714f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "content_summary": "Title: Learning to Route Queries to Heads for Attention-based Re-ranking with Large Language Models\n\nAbstract: Large Language Models (LLMs) have recently been explored as fine-grained zero-shot re-rankers by leveraging attention signals to estimate d...",
+    "content_length": 1401,
+    "created_at": "2026-04-30T00:07:12.776163+00:00",
+    "updated_at": "2026-04-30T00:08:41.293172+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010712_dda5778e",
+    "metadata": {
+      "processing_start_time": 1777507632,
+      "processing_end_time": 1777507721
+    }
+  },
+  "doc-d09be2d2da00f2e5ea614c6692dd8991": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d09be2d2da00f2e5ea614c6692dd8991"
+    ],
+    "content_summary": "Title: Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings\n\nAbstract: We provide evidence of quantum kernel advantage under noiseless simulation in binary insurance classification on MIMIC-CXR chest radiographs usi...",
+    "content_length": 1348,
+    "created_at": "2026-04-30T00:08:43.688767+00:00",
+    "updated_at": "2026-04-30T00:10:04.030481+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_010843_a88a0b0f",
+    "metadata": {
+      "processing_start_time": 1777507723,
+      "processing_end_time": 1777507804
+    }
+  },
+  "doc-42e98b3a62403949c3551faca51d7a9a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "content_summary": "Title: Skill Retrieval Augmentation for Agentic AI\n\nAbstract: As large language models (LLMs) evolve into agentic problem solvers, they increasingly rely on external, reusable skills to handle tasks beyond their native parametric capabilities. In exi...",
+    "content_length": 1961,
+    "created_at": "2026-04-30T00:10:06.082390+00:00",
+    "updated_at": "2026-04-30T00:11:30.141820+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011006_9ec9362e",
+    "metadata": {
+      "processing_start_time": 1777507806,
+      "processing_end_time": 1777507890
+    }
+  },
+  "doc-9ac408a983efd5ccb658b88f8bdc1379": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9ac408a983efd5ccb658b88f8bdc1379"
+    ],
+    "content_summary": "Title: A systematic evaluation of vision-language models for observational astronomical reasoning tasks\n\nAbstract: Vision-language models (VLMs) are increasingly proposed as general-purpose tools for scientific data interpretation, yet their reliabil...",
+    "content_length": 1981,
+    "created_at": "2026-04-30T00:11:32.214673+00:00",
+    "updated_at": "2026-04-30T00:12:57.320650+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011132_2f294e49",
+    "metadata": {
+      "processing_start_time": 1777507892,
+      "processing_end_time": 1777507977
+    }
+  },
+  "doc-6ff6d200bec9664dc91373e5a0c44ecf": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "content_summary": "Title: FastOMOP: A Foundational Architecture for Reliable Agentic Real-World Evidence Generation on OMOP CDM data\n\nAbstract: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM), maintained by the Observational Health Data Scie...",
+    "content_length": 2033,
+    "created_at": "2026-04-30T00:12:59.466396+00:00",
+    "updated_at": "2026-04-30T00:14:29.940462+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011259_5b5973b6",
+    "metadata": {
+      "processing_start_time": 1777507979,
+      "processing_end_time": 1777508069
+    }
+  },
+  "doc-0a1b17e7c0ccc7bf601190f38e3fcdcc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "content_summary": "Title: Towards Lawful Autonomous Driving: Deriving Scenario-Aware Driving Requirements from Traffic Laws and Regulations\n\nAbstract: Driving in compliance with traffic laws and regulations is a basic requirement for human drivers, yet autonomous vehic...",
+    "content_length": 1562,
+    "created_at": "2026-04-30T00:14:32.159924+00:00",
+    "updated_at": "2026-04-30T00:15:54.798100+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011432_5202357b",
+    "metadata": {
+      "processing_start_time": 1777508072,
+      "processing_end_time": 1777508154
+    }
+  },
+  "doc-1066123ae6aaefc73a8ddbd5c757d08a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
+    ],
+    "content_summary": "Title: Aligned Multi-View Scripts for Universal Chart-to-Code Generation\n\nAbstract: Chart-to-code generation converts a chart image into an executable plotting script, enabling faithful reproduction and editable visualizations. Existing methods are l...",
+    "content_length": 1460,
+    "created_at": "2026-04-30T00:15:57.026564+00:00",
+    "updated_at": "2026-04-30T00:17:13.807322+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011557_1e70f06c",
+    "metadata": {
+      "processing_start_time": 1777508157,
+      "processing_end_time": 1777508233
+    }
+  },
+  "doc-dc8f9eb049a2563151bf117a8338d30f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "content_summary": "Title: Hierarchical Behaviour Spaces\n\nAbstract: Recent work in hierarchical reinforcement learning has shown success in scaling to billions of timesteps when learning over a set of predefined option reward functions. We show that, instead of using a ...",
+    "content_length": 848,
+    "created_at": "2026-04-30T00:17:15.899950+00:00",
+    "updated_at": "2026-04-30T00:18:30.413120+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011715_07fd96c8",
+    "metadata": {
+      "processing_start_time": 1777508235,
+      "processing_end_time": 1777508310
+    }
+  },
+  "doc-c89699ac14dbbf51441408abd5aded39": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "content_summary": "Title: GradMAP: Gradient-Based Multi-Agent Proximal Learning for Grid-Edge Flexibility\n\nAbstract: Coordinating large populations of grid-edge devices requires learning methods that remain fully decentralised in deployment while still respecting three...",
+    "content_length": 1695,
+    "created_at": "2026-04-30T00:18:32.471987+00:00",
+    "updated_at": "2026-04-30T00:20:04.337427+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_011832_a751aaed",
+    "metadata": {
+      "processing_start_time": 1777508312,
+      "processing_end_time": 1777508404
+    }
+  },
+  "doc-a26f425dc22ccfa6db36dc0592c070a7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a26f425dc22ccfa6db36dc0592c070a7"
+    ],
+    "content_summary": "Title: STELLAR-E: a Synthetic, Tailored, End-to-end LLM Application Rigorous Evaluator\n\nAbstract: The increasing reliance on Large Language Models (LLMs) across diverse sectors highlights the need for robust domain-specific and language-specific eval...",
+    "content_length": 1669,
+    "created_at": "2026-04-30T00:20:06.422218+00:00",
+    "updated_at": "2026-04-30T00:21:25.876704+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012006_5e0a7136",
+    "metadata": {
+      "processing_start_time": 1777508406,
+      "processing_end_time": 1777508485
+    }
+  },
+  "doc-9e4c751eebce71c2e7277e97601a61b7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "content_summary": "Title: Layerwise Convergence Fingerprints for Runtime Misbehavior Detection in Large Language Models\n\nAbstract: Large language models deployed at runtime can misbehave in ways that clean-data validation cannot anticipate: training-time backdoors lie ...",
+    "content_length": 1703,
+    "created_at": "2026-04-30T00:21:27.942128+00:00",
+    "updated_at": "2026-04-30T00:23:11.636930+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012127_e5c1cc28",
+    "metadata": {
+      "processing_start_time": 1777508487,
+      "processing_end_time": 1777508591
+    }
+  },
+  "doc-c67eb797e4e17e9297558aa4982bd6bd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "content_summary": "Title: Interoceptive machine framework: Toward interoception-inspired regulatory architectures in artificial intelligence\n\nAbstract: This review proposes an integrative framework grounded on interoception and embodied AI-termed the interoceptive mach...",
+    "content_length": 1722,
+    "created_at": "2026-04-30T00:23:13.742128+00:00",
+    "updated_at": "2026-04-30T00:24:32.091767+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012313_62e1cc03",
+    "metadata": {
+      "processing_start_time": 1777508593,
+      "processing_end_time": 1777508672
+    }
+  },
+  "doc-82cfdd7cca0cfa67c324b78f4bc4d5f7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "content_summary": "Title: Understanding the Limits of Automated Evaluation for Code Review Bots in Practice\n\nAbstract: Automated code review (ACR) bots are increasingly used in industrial software development to assist developers during pull request (PR) review. As ado...",
+    "content_length": 2005,
+    "created_at": "2026-04-30T00:24:34.186471+00:00",
+    "updated_at": "2026-04-30T00:26:06.333152+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012434_b715fea2",
+    "metadata": {
+      "processing_start_time": 1777508674,
+      "processing_end_time": 1777508766
+    }
+  },
+  "doc-381164f8e5eeb1538b53d25d3cf781b5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-381164f8e5eeb1538b53d25d3cf781b5"
+    ],
+    "content_summary": "Title: Why AI Harms Can't Be Fixed One Identity at a Time: What 5300 Incident Reports Reveal About Intersectionality\n\nAbstract: AI risk assessment is the primary tool for identifying harms caused by AI systems. These include intersectional harms, whi...",
+    "content_length": 1555,
+    "created_at": "2026-04-30T00:26:08.415791+00:00",
+    "updated_at": "2026-04-30T00:27:43.076163+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012608_2bbbe755",
+    "metadata": {
+      "processing_start_time": 1777508768,
+      "processing_end_time": 1777508863
+    }
+  },
+  "doc-fde07fa1707d44e8e8acbe99adf1542f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "content_summary": "Title: Beyond the Attention Stability Boundary: Agentic Self-Synthesizing Reasoning Protocols\n\nAbstract: As LLM agents transition to autonomous digital coworkers, maintaining deterministic goal-directedness in non-linear multi-turn conversations emer...",
+    "content_length": 2023,
+    "created_at": "2026-04-30T00:27:45.303991+00:00",
+    "updated_at": "2026-04-30T00:29:12.981053+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012745_b7b40b96",
+    "metadata": {
+      "processing_start_time": 1777508865,
+      "processing_end_time": 1777508952
+    }
+  },
+  "doc-6f03a6efec96a2141ce04fd7d8cd59d7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "content_summary": "Title: MIMIC: A Generative Multimodal Foundation Model for Biomolecules\n\nAbstract: Biological function emerges from coupled constraints across sequence, structure, regulation, evolution, and cellular context, yet most foundation models in biology are...",
+    "content_length": 1996,
+    "created_at": "2026-04-30T00:29:15.075478+00:00",
+    "updated_at": "2026-04-30T00:30:46.752806+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_012915_43b0b59e",
+    "metadata": {
+      "processing_start_time": 1777508955,
+      "processing_end_time": 1777509046
+    }
+  },
+  "doc-eab4a17960ad7f537284c68def47a563": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "content_summary": "Title: Deployment-Aligned Low-Precision Neural Architecture Search for Spaceborne Edge AI\n\nAbstract: Designing deep networks that meet strict latency and accuracy constraints on edge accelerators increasingly relies on hardware-aware optimization, in...",
+    "content_length": 1736,
+    "created_at": "2026-04-30T00:30:48.838555+00:00",
+    "updated_at": "2026-04-30T00:32:02.447173+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013048_567bbb2b",
+    "metadata": {
+      "processing_start_time": 1777509048,
+      "processing_end_time": 1777509122
+    }
+  },
+  "doc-33f36369f99eb44a9ac8690e998af200": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-33f36369f99eb44a9ac8690e998af200"
+    ],
+    "content_summary": "Title: GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems\n\nAbstract: The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborativ...",
+    "content_length": 1951,
+    "created_at": "2026-04-30T00:32:04.534994+00:00",
+    "updated_at": "2026-04-30T00:33:27.786162+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013204_10a009f8",
+    "metadata": {
+      "processing_start_time": 1777509124,
+      "processing_end_time": 1777509207
+    }
+  },
+  "doc-1267412c51a81ee8b84c56f1fab3a816": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1267412c51a81ee8b84c56f1fab3a816"
+    ],
+    "content_summary": "Title: Agentic clinical reasoning over longitudinal myeloma records: a retrospective evaluation against expert consensus\n\nAbstract: Multiple myeloma is managed through sequential lines of therapy over years to decades, with each decision depending on...",
+    "content_length": 1936,
+    "created_at": "2026-04-30T00:33:29.898671+00:00",
+    "updated_at": "2026-04-30T00:34:39.360765+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013329_efca1748",
+    "metadata": {
+      "processing_start_time": 1777509209,
+      "processing_end_time": 1777509279
+    }
+  },
+  "doc-5a3decb8f4308fb97c759ee307527ef5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "content_summary": "Title: Modeling Behavioral Intensity and Transitions for Generative Recommendation\n\nAbstract: Multi-behavior recommendation aims to predict user conversions by modeling various interaction types that carry distinct intent signals. Recently, generativ...",
+    "content_length": 1480,
+    "created_at": "2026-04-30T00:34:41.463464+00:00",
+    "updated_at": "2026-04-30T00:35:56.936561+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013441_fe9c29c3",
+    "metadata": {
+      "processing_start_time": 1777509281,
+      "processing_end_time": 1777509356
+    }
+  },
+  "doc-492adf3459368e3424d113800cf1ad98": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "content_summary": "Title: Measuring Successful Cooperation in Human-AI Teamwork: Development and Validation of the Perceived Cooperativity and Teaming Perception Scales\n\nAbstract: As human-AI cooperation becomes increasingly prevalent, reliable instruments for assessin...",
+    "content_length": 1298,
+    "created_at": "2026-04-30T00:35:59.022280+00:00",
+    "updated_at": "2026-04-30T00:37:20.460684+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013559_7a8a10aa",
+    "metadata": {
+      "processing_start_time": 1777509359,
+      "processing_end_time": 1777509440
+    }
+  },
+  "doc-56296c6ebf5e5c78e8b72a11ee737197": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "content_summary": "Title: SPLIT: Separating Physical-Contact via Latent Arithmetic in Image-Based Tactile Sensors\n\nAbstract: Training machine learning models for robotic tactile sensing requires vast amounts of data, yet obtaining realistic interaction data remains a c...",
+    "content_length": 1462,
+    "created_at": "2026-04-30T00:37:22.578405+00:00",
+    "updated_at": "2026-04-30T00:38:14.390646+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013722_52abd3b8",
+    "metadata": {
+      "processing_start_time": 1777509442,
+      "processing_end_time": 1777509494
+    }
+  },
+  "doc-3d2c91b0eab1eef81deef1aacaf0b98a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "content_summary": "Title: Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment\n\nAbstract: Vision-Language-Action (VLA) models are promising for generalist robot control, but on-robot deployment is bottlenecked b...",
+    "content_length": 1335,
+    "created_at": "2026-04-30T00:38:16.477831+00:00",
+    "updated_at": "2026-04-30T00:39:48.030991+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013816_420184c7",
+    "metadata": {
+      "processing_start_time": 1777509496,
+      "processing_end_time": 1777509588
+    }
+  },
+  "doc-3fae825413dbd09250459cbd5bbfe30c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "content_summary": "Title: PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model\n\nAbstract: Vision-Language Models (VLMs) have demonstrated strong performance on textbook-style physics problems, yet they frequently fail when confronted...",
+    "content_length": 1369,
+    "created_at": "2026-04-30T00:39:50.137988+00:00",
+    "updated_at": "2026-04-30T00:41:19.563989+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_013950_ceffca3b",
+    "metadata": {
+      "processing_start_time": 1777509590,
+      "processing_end_time": 1777509679
+    }
+  },
+  "doc-274e345107d112e4d4358391f4226461": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-274e345107d112e4d4358391f4226461"
+    ],
+    "content_summary": "Title: Kwai Summary Attention Technical Report\n\nAbstract: Long-context ability, has become one of the most important iteration direction of next-generation Large Language Models, particularly in semantic understanding/reasoning, code agentic intellig...",
+    "content_length": 1672,
+    "created_at": "2026-04-30T00:41:21.786612+00:00",
+    "updated_at": "2026-04-30T00:42:45.158682+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014121_99675411",
+    "metadata": {
+      "processing_start_time": 1777509681,
+      "processing_end_time": 1777509765
+    }
+  },
+  "doc-52b17af2fefc317fc473ae09097c0b2f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "content_summary": "Title: BandRouteNet: An Adaptive Band Routing Neural Network for EEG Artifact Removal\n\nAbstract: Electroencephalography (EEG) is highly susceptible to artifact contamination, such as electrooculographic (EOG) and electromyographic (EMG) interference,...",
+    "content_length": 1902,
+    "created_at": "2026-04-30T00:42:47.278004+00:00",
+    "updated_at": "2026-04-30T00:44:18.627036+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014247_ee447811",
+    "metadata": {
+      "processing_start_time": 1777509767,
+      "processing_end_time": 1777509858
+    }
+  },
+  "doc-46ffaa95d62e06c5c32f7e8193bede58": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-46ffaa95d62e06c5c32f7e8193bede58"
+    ],
+    "content_summary": "Title: Scaling Properties of Continuous Diffusion Spoken Language Models\n\nAbstract: Speech-only spoken language models (SLMs) lag behind text and text-speech models in performance, with recent discrete autoregressive (AR) SLMs indicating significant ...",
+    "content_length": 1074,
+    "created_at": "2026-04-30T00:44:20.729671+00:00",
+    "updated_at": "2026-04-30T00:45:20.271400+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014420_46eeeb3e",
+    "metadata": {
+      "processing_start_time": 1777509860,
+      "processing_end_time": 1777509920
+    }
+  },
+  "doc-cd399b744aa24b4b8e4a44b747320f02": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "content_summary": "Title: All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation\n\nAbstract: Large Audio-Language Models show consistent performance gains across speech and audio benchmarks, yet high scores may not reflect...",
+    "content_length": 1099,
+    "created_at": "2026-04-30T00:45:22.389808+00:00",
+    "updated_at": "2026-04-30T00:46:54.513480+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014522_243b37cb",
+    "metadata": {
+      "processing_start_time": 1777509922,
+      "processing_end_time": 1777510014
+    }
+  },
+  "doc-0b83f3702bd088008cc6feaedfe42bcc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "content_summary": "Title: Global Context or Local Detail? Adaptive Visual Grounding for Hallucination Mitigation\n\nAbstract: Vision-Language Models (VLMs) are frequently undermined by object hallucination--generating content that contradicts visual reality--due to an ov...",
+    "content_length": 1548,
+    "created_at": "2026-04-30T00:46:56.622952+00:00",
+    "updated_at": "2026-04-30T00:48:24.292725+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014656_85dd55dc",
+    "metadata": {
+      "processing_start_time": 1777510016,
+      "processing_end_time": 1777510104
+    }
+  },
+  "doc-05a4ca61ae3ed284142fb22c23657755": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "content_summary": "Title: Aligning with Your Own Voice: Self-Corrected Preference Learning for Hallucination Mitigation in LVLMs\n\nAbstract: Large Vision-Language Models (LVLMs) frequently suffer from hallucinations. Existing preference learning-based approaches largely...",
+    "content_length": 1004,
+    "created_at": "2026-04-30T00:48:26.414502+00:00",
+    "updated_at": "2026-04-30T00:49:53.438122+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014826_12b6a4bf",
+    "metadata": {
+      "processing_start_time": 1777510106,
+      "processing_end_time": 1777510193
+    }
+  },
+  "doc-c00a185631f5831f02808b92381af986": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "content_summary": "Title: Certified geometric robustness -- Super-DeepG\n\nAbstract: Safety-critical applications are required to perform as expected in normal operations. Image processing functions are often required to be insensitive to small geometric perturbations su...",
+    "content_length": 795,
+    "created_at": "2026-04-30T00:49:55.554028+00:00",
+    "updated_at": "2026-04-30T00:50:40.393195+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_014955_55c9a7f6",
+    "metadata": {
+      "processing_start_time": 1777510195,
+      "processing_end_time": 1777510240
+    }
+  },
+  "doc-40da9bd6834b701e84e700fdf93b5c3c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-40da9bd6834b701e84e700fdf93b5c3c"
+    ],
+    "content_summary": "Title: SeaEvo: Advancing Algorithm Discovery with Strategy Space Evolution\n\nAbstract: LLM-guided evolutionary search has emerged as a promising paradigm for automated algorithm discovery, yet most systems track search progress primarily through execu...",
+    "content_length": 1944,
+    "created_at": "2026-04-30T00:50:42.519344+00:00",
+    "updated_at": "2026-04-30T00:51:53.299321+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015042_41820fff",
+    "metadata": {
+      "processing_start_time": 1777510242,
+      "processing_end_time": 1777510313
+    }
+  },
+  "doc-a78592bca66f2cefa305ee606ed12b84": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a78592bca66f2cefa305ee606ed12b84"
+    ],
+    "content_summary": "Title: PathMoG: A Pathway-Centric Modular Graph Neural Network for Multi-Omics Survival Prediction\n\nAbstract: Cancer survival prediction from multi-omics data remains challenging because prognostic signals are high-dimensional, heterogeneous, and dis...",
+    "content_length": 1072,
+    "created_at": "2026-04-30T00:51:55.548626+00:00",
+    "updated_at": "2026-04-30T00:53:25.897994+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015155_55219a16",
+    "metadata": {
+      "processing_start_time": 1777510315,
+      "processing_end_time": 1777510405
+    }
+  },
+  "doc-8cdce5bc32612f796e2270d997774825": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "content_summary": "Title: DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models\n\nAbstract: Diffusion language models generate without a fixed left-to-right order, making token ordering a central algorithmic choice: which tokens sh...",
+    "content_length": 1923,
+    "created_at": "2026-04-30T00:53:28.007602+00:00",
+    "updated_at": "2026-04-30T00:54:52.798499+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015328_31c0b4cc",
+    "metadata": {
+      "processing_start_time": 1777510408,
+      "processing_end_time": 1777510492
+    }
+  },
+  "doc-88cefead2f3dd0243c831e2653a82609": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "content_summary": "Title: ARETE: Attention-based Rasterized Encoding for Topology Estimation using HSV-transformed Crowdsourced Vehicle Fleet Data\n\nAbstract: The continuous advancement of autonomous driving (AD) introduces challenges across multiple disciplines to ensu...",
+    "content_length": 1393,
+    "created_at": "2026-04-30T00:54:54.910625+00:00",
+    "updated_at": "2026-04-30T00:56:25.127833+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015454_34d18caa",
+    "metadata": {
+      "processing_start_time": 1777510494,
+      "processing_end_time": 1777510585
+    }
+  },
+  "doc-f36584a3c17d75781a357f1a3e17848d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "content_summary": "Title: Diffusion Templates: A Unified Plugin Framework for Controllable Diffusion\n\nAbstract: Controllable diffusion methods have substantially expanded the practical utility of diffusion models, but they are typically developed as isolated, backbone-...",
+    "content_length": 1786,
+    "created_at": "2026-04-30T00:56:27.244561+00:00",
+    "updated_at": "2026-04-30T00:57:57.086230+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015627_22ce58b5",
+    "metadata": {
+      "processing_start_time": 1777510587,
+      "processing_end_time": 1777510677
+    }
+  },
+  "doc-1275d6a1c7d7e5d54c4d93057e8775c3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "content_summary": "Title: Unveiling the Backdoor Mechanism Hidden Behind Catastrophic Overfitting in Fast Adversarial Training\n\nAbstract: Fast Adversarial Training (FAT) has attracted significant attention due to its efficiency in enhancing neural network robustness ag...",
+    "content_length": 1375,
+    "created_at": "2026-04-30T00:57:59.189333+00:00",
+    "updated_at": "2026-04-30T00:58:46.962995+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015759_9e7ed836",
+    "metadata": {
+      "processing_start_time": 1777510679,
+      "processing_end_time": 1777510726
+    }
+  },
+  "doc-4f986b39741d6de97b65a3c203f1521e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "content_summary": "Title: SycoPhantasy: Quantifying Sycophancy and Hallucination in Small Open Weight VLMs for Vision-Language Scoring of Fantasy Characters\n\nAbstract: Vision-language models (VLMs) are increasingly deployed as evaluators in tasks requiring nuanced imag...",
+    "content_length": 1525,
+    "created_at": "2026-04-30T00:58:49.091153+00:00",
+    "updated_at": "2026-04-30T01:00:24.072158+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_015849_ab7421d3",
+    "metadata": {
+      "processing_start_time": 1777510729,
+      "processing_end_time": 1777510824
+    }
+  },
+  "doc-ee6a8292ee988e4d64c218b75e3c5f57": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "content_summary": "Title: See Further, Think Deeper: Advancing VLM's Reasoning Ability with Low-level Visual Cues and Reflection\n\nAbstract: Recent advances in Vision-Language Models (VLMs) have benefited from Reinforcement Learning (RL) for enhanced reasoning. However,...",
+    "content_length": 1518,
+    "created_at": "2026-04-30T01:00:26.214873+00:00",
+    "updated_at": "2026-04-30T01:01:46.997250+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_020026_fc9425b2",
+    "metadata": {
+      "processing_start_time": 1777510826,
+      "processing_end_time": 1777510906
+    }
+  },
+  "doc-b05f1e3b035bc2b577cfa13063b2df6b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "content_summary": "Title: X-NegoBox: An Explainable Privacy-Budget Negotiation Framework for Secure Peer-to-Peer Energy Data Exchange\n\nAbstract: The decentralization of modern energy systems is transforming consumers into prosumers who continuously exchange data with a...",
+    "content_length": 1748,
+    "created_at": "2026-04-30T01:01:49.222699+00:00",
+    "updated_at": "2026-04-30T01:03:23.957699+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_020149_978c8e43",
+    "metadata": {
+      "processing_start_time": 1777510909,
+      "processing_end_time": 1777511003
+    }
+  },
+  "doc-6b926c4994391b08da12daef6571057a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "content_summary": "Title: Generative Design of a Gas Turbine Combustor Using Invertible Neural Networks\n\nAbstract: The need to burn 100% H2 in high efficient gas turbines featuring low NOx combustion in premix mode require the complete redesign of the combustion system...",
+    "content_length": 995,
+    "created_at": "2026-04-30T01:03:26.096472+00:00",
+    "updated_at": "2026-04-30T09:04:36.604917+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_020326_7e5d8ab2",
+    "metadata": {
+      "processing_start_time": 1777539797,
+      "processing_end_time": 1777539876
+    }
+  },
+  "doc-376c46f457bdeb21e2501c08f9d738a9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "content_summary": "Title: Self-Abstraction Learning for Effective and Stable Training of Deep Neural Networks\n\nAbstract: Training large-scale deep neural networks effectively and stably is essential for applying deep learning across various fields. However, conventiona...",
+    "content_length": 1041,
+    "created_at": "2026-04-30T01:12:33.062566+00:00",
+    "updated_at": "2026-04-30T09:09:02.588371+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_021233_6901459a",
+    "metadata": {
+      "processing_start_time": 1777539797,
+      "processing_end_time": 1777540142
+    }
+  },
+  "doc-1f103bf8edb0a9ccc2b0ebd0f1f5509f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "content_summary": "Title: Unconstrained Multi-view Human Pose Estimation with Algebraic Priors\n\nAbstract: Recovering 3D human pose from multi-view imagery typically relies on precise camera calibration, which is often unavailable in real-world scenarios, thereby severe...",
+    "content_length": 1568,
+    "created_at": "2026-04-30T01:13:22.069487+00:00",
+    "updated_at": "2026-04-30T09:06:09.871132+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_021322_03dd8efa",
+    "metadata": {
+      "processing_start_time": 1777539876,
+      "processing_end_time": 1777539969
+    }
+  },
+  "doc-58c2ed3090dd685477ad8ffbe51afc72": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "content_summary": "Title: SolarTformer: A Transformer Based Deep Learning Approach for Short Term Solar Power Forecasting\n\nAbstract: Accurate forecasting of solar power output is essential for efficient integration of renewable energy into the grid. In this study, an a...",
+    "content_length": 1317,
+    "created_at": "2026-04-30T09:03:17.679751+00:00",
+    "updated_at": "2026-04-30T09:07:32.435373+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_100317_2bc19beb",
+    "metadata": {
+      "processing_start_time": 1777539970,
+      "processing_end_time": 1777540052
+    }
+  },
+  "doc-22adbdae962d3d7eee22be8d522eb357": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "content_summary": "Title: Latent-Hysteresis Graph ODEs: Modeling Coupled Topology-Feature Evolution via Continuous Phase Transitions\n\nAbstract: Graph neural ordinary differential equations (Graph ODEs) extend graph learning from discrete message-passing layers to conti...",
+    "content_length": 1083,
+    "created_at": "2026-04-30T09:09:04.958825+00:00",
+    "updated_at": "2026-04-30T09:10:12.020175+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_100904_0e80f818",
+    "metadata": {
+      "processing_start_time": 1777540144,
+      "processing_end_time": 1777540212
+    }
+  },
+  "doc-245522d5b100e4d1a221b34fd4f3a20d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "content_summary": "Title: RAS: a Reliability Oriented Metric for Automatic Speech Recognition\n\nAbstract: Automatic speech recognition systems often produce confident yet incorrect transcriptions under noisy or ambiguous conditions, which can be misleading for both user...",
+    "content_length": 976,
+    "created_at": "2026-04-30T09:10:14.164544+00:00",
+    "updated_at": "2026-04-30T09:11:37.237925+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101014_29cad436",
+    "metadata": {
+      "processing_start_time": 1777540214,
+      "processing_end_time": 1777540297
+    }
+  },
+  "doc-e755a3b7fb7a07c10fdd800c398a82c8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e755a3b7fb7a07c10fdd800c398a82c8"
+    ],
+    "content_summary": "Title: Deep Learning-Enabled Dissolved Oxygen Sensing in Biofouling Environments for Ocean Monitoring\n\nAbstract: The escalating climate crisis and ecosystem degradation demand intelligent, low-cost sensors capable of robust, long-term monitoring in r...",
+    "content_length": 1218,
+    "created_at": "2026-04-30T09:11:39.374273+00:00",
+    "updated_at": "2026-04-30T09:13:02.886743+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101139_2ccb886c",
+    "metadata": {
+      "processing_start_time": 1777540299,
+      "processing_end_time": 1777540382
+    }
+  },
+  "doc-77c51309c1da2a8788990e7a8432dfd3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "content_summary": "Title: MEMCoder: Multi-dimensional Evolving Memory for Private-Library-Oriented Code Generation\n\nAbstract: Large Language Models (LLMs) excel at general code generation, but their performance drops sharply in enterprise settings that rely on internal...",
+    "content_length": 1680,
+    "created_at": "2026-04-30T09:13:05.100856+00:00",
+    "updated_at": "2026-04-30T09:14:14.521994+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101305_e695bb50",
+    "metadata": {
+      "processing_start_time": 1777540385,
+      "processing_end_time": 1777540454
+    }
+  },
+  "doc-e597d51a989e3ab5874950fc7bfbd276": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "content_summary": "Title: Adaptive ToR: Complexity-Aware Tree-Based Retrieval for Pareto-Optimal Multi-Intent NLU\n\nAbstract: Multi-intent natural language understanding requires retrieval systems that simultaneously achieve high accuracy and computational efficiency, y...",
+    "content_length": 1961,
+    "created_at": "2026-04-30T09:14:16.682757+00:00",
+    "updated_at": "2026-04-30T09:15:48.335088+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101416_767731e3",
+    "metadata": {
+      "processing_start_time": 1777540456,
+      "processing_end_time": 1777540548
+    }
+  },
+  "doc-721cf18e9625b5e00d46286185f339e9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "content_summary": "Title: RefEvo: Agentic Design with Co-Evolutionary Verification for Agile Reference Model Generation\n\nAbstract: As the complexity of System-on-Chip (SoC) designs grows, the shift-left paradigm necessitates the rapid development of high-fidelity refer...",
+    "content_length": 1844,
+    "created_at": "2026-04-30T09:15:50.535869+00:00",
+    "updated_at": "2026-04-30T09:17:10.030445+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101550_57540b9f",
+    "metadata": {
+      "processing_start_time": 1777540550,
+      "processing_end_time": 1777540630
+    }
+  },
+  "doc-92ae3699975fb22408181c1b3b3cd1ec": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "content_summary": "Title: Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing\n\nAbstract: Auditing the semantic properties of proprietary data creates a fundamental tension: verification requires transparent access, while proprietary right...",
+    "content_length": 1938,
+    "created_at": "2026-04-30T09:17:12.174181+00:00",
+    "updated_at": "2026-04-30T09:18:36.678512+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101712_5300fa47",
+    "metadata": {
+      "processing_start_time": 1777540632,
+      "processing_end_time": 1777540716
+    }
+  },
+  "doc-03219d0a39719cd1d7c96b7e9854b37a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "content_summary": "Title: Speech Enhancement Based on Drifting Models\n\nAbstract: We propose Speech Enhancement based on Drifting Models (DriftSE), a novel generative framework that formulates denoising as an equilibrium problem. Rather than relying on iterative samplin...",
+    "content_length": 1062,
+    "created_at": "2026-04-30T09:18:38.858000+00:00",
+    "updated_at": "2026-04-30T09:19:25.991717+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101838_4c9d1011",
+    "metadata": {
+      "processing_start_time": 1777540718,
+      "processing_end_time": 1777540765
+    }
+  },
+  "doc-ca6e74b9c2346c262d89440c76e3ac05": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "content_summary": "Title: Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis\n\nAbstract: Process Reward Models (PRMs) have achieved remarkable success in augmenting the reasoning capabilities of Large Language Models (LLMs) within ...",
+    "content_length": 1890,
+    "created_at": "2026-04-30T09:19:28.142512+00:00",
+    "updated_at": "2026-04-30T09:21:05.426966+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_101928_d39953bc",
+    "metadata": {
+      "processing_start_time": 1777540768,
+      "processing_end_time": 1777540865
+    }
+  },
+  "doc-c6161d66700f682888fb342ede2a5df0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c6161d66700f682888fb342ede2a5df0"
+    ],
+    "content_summary": "Title: Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk\n\nAbstract: Frontier image generation has moved from artistic synthesis toward synthetic visual evidence. Systems such as GPT Image ...",
+    "content_length": 1823,
+    "created_at": "2026-04-30T09:21:07.587935+00:00",
+    "updated_at": "2026-04-30T09:22:30.753083+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102107_9c69a7ba",
+    "metadata": {
+      "processing_start_time": 1777540867,
+      "processing_end_time": 1777540950
+    }
+  },
+  "doc-0bcb21e87d929f93a36d3bdf947fcb93": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "content_summary": "Title: MultiDx: A Multi-Source Knowledge Integration Framework towards Diagnostic Reasoning\n\nAbstract: Diagnostic prediction and clinical reasoning are critical tasks in healthcare applications. While Large Language Models (LLMs) have shown strong ca...",
+    "content_length": 1287,
+    "created_at": "2026-04-30T09:22:33.027775+00:00",
+    "updated_at": "2026-04-30T09:24:06.916897+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102233_20588295",
+    "metadata": {
+      "processing_start_time": 1777540953,
+      "processing_end_time": 1777541046
+    }
+  },
+  "doc-7a01dcb477b76a4cacbd754ce4561d7e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "content_summary": "Title: MemeScouts@LT-EDI 2026: Asking the Right Questions -- Prompted Weak Supervision for Meme Hate Speech Detection\n\nAbstract: Detecting hate speech in memes is challenging due to their multimodal nature and subtle, culturally grounded cues such as...",
+    "content_length": 1247,
+    "created_at": "2026-04-30T09:24:09.141235+00:00",
+    "updated_at": "2026-04-30T09:25:27.737269+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102409_bc48edfd",
+    "metadata": {
+      "processing_start_time": 1777541049,
+      "processing_end_time": 1777541127
+    }
+  },
+  "doc-dce3b2b12a8df42087f6abb8d46338fb": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "content_summary": "Title: Meta-Aligner: Bidirectional Preference-Policy Optimization for Multi-Objective LLMs Alignment\n\nAbstract: Multi-Objective Alignment aims to align Large Language Models (LLMs) with diverse and often conflicting human values by optimizing multipl...",
+    "content_length": 1361,
+    "created_at": "2026-04-30T09:25:29.941470+00:00",
+    "updated_at": "2026-04-30T09:26:39.784981+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102529_fdc0c44c",
+    "metadata": {
+      "processing_start_time": 1777541129,
+      "processing_end_time": 1777541199
+    }
+  },
+  "doc-a42210fb81e37b65a494b714686acf98": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "content_summary": "Title: Explanation Quality Assessment as Ranking with Listwise Rewards\n\nAbstract: We reformulate explanation quality assessment as a ranking problem rather than a generation problem. Instead of optimizing models to produce a single \"best\" explanation...",
+    "content_length": 1378,
+    "created_at": "2026-04-30T09:26:41.947789+00:00",
+    "updated_at": "2026-04-30T09:28:12.788165+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102641_8912a0ba",
+    "metadata": {
+      "processing_start_time": 1777541201,
+      "processing_end_time": 1777541292
+    }
+  },
+  "doc-a92919218c93fbc995ef28388a45a264": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "content_summary": "Title: AdapTime: Enabling Adaptive Temporal Reasoning in Large Language Models\n\nAbstract: Large language models have demonstrated strong reasoning capabilities in general knowledge question answering. However, their ability to handle temporal informa...",
+    "content_length": 1226,
+    "created_at": "2026-04-30T09:28:14.971549+00:00",
+    "updated_at": "2026-04-30T09:29:19.564336+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102814_4facdc12",
+    "metadata": {
+      "processing_start_time": 1777541294,
+      "processing_end_time": 1777541359
+    }
+  },
+  "doc-186325b8d21aab395207850cb3577223": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "content_summary": "Title: Credal Concept Bottleneck Models for Epistemic-Aleatoric Uncertainty Decomposition\n\nAbstract: Concept Bottleneck Models (CBMs) predict through human-interpretable concepts, but they typically output point concept probabilities that conflate ep...",
+    "content_length": 1364,
+    "created_at": "2026-04-30T09:29:21.837119+00:00",
+    "updated_at": "2026-04-30T09:31:05.521955+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_102921_38357d72",
+    "metadata": {
+      "processing_start_time": 1777541361,
+      "processing_end_time": 1777541465
+    }
+  },
+  "doc-306df29aef0348d52b474a51b48f7864": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "content_summary": "Title: Defusing the Trigger: Plug-and-Play Defense for Backdoored LLMs via Tail-Risk Intrinsic Geometric Smoothing\n\nAbstract: Defending against backdoor attacks in large language models remains a critical practical challenge. Existing defenses mitiga...",
+    "content_length": 1768,
+    "created_at": "2026-04-30T09:31:07.682577+00:00",
+    "updated_at": "2026-04-30T09:33:25.254484+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_103107_dfee4ad3",
+    "metadata": {
+      "processing_start_time": 1777541542,
+      "processing_end_time": 1777541605
+    }
+  },
+  "doc-ceb637d4c7b6b73e3fb46616c67758ed": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ceb637d4c7b6b73e3fb46616c67758ed"
+    ],
+    "content_summary": "Title: Multi-Dimensional Evaluation of Sustainable City Trips with LLM-as-a-Judge and Human-in-the-Loop\n\nAbstract: Evaluating nuanced conversational travel recommendations is challenging when human annotations are costly and standard metrics ignore s...",
+    "content_length": 1008,
+    "created_at": "2026-04-30T09:32:22.090815+00:00",
+    "updated_at": "2026-04-30T10:44:24.029289+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_103222_7d86bb13",
+    "metadata": {
+      "processing_start_time": 1777545761,
+      "processing_end_time": 1777545864
+    }
+  },
+  "doc-1224676ee5f3ecf7b88cc6d4ed3fea11": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+    ],
+    "content_summary": "Title: Strategic Bidding in 6G Spectrum Auctions with Large Language Models\n\nAbstract: Efficient and fair spectrum allocation is a central challenge in 6G networks, where massive connectivity and heterogeneous services continuously compete for limite...",
+    "content_length": 1479,
+    "created_at": "2026-04-30T09:38:48.237100+00:00",
+    "updated_at": "2026-04-30T10:58:07.983080+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_103848_c7cfcce2",
+    "metadata": {
+      "processing_start_time": 1777546592,
+      "processing_end_time": 1777546687
+    }
+  },
+  "doc-bbf5cdde0215fa8979b16920619610f2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "content_summary": "Title: The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers\n\nAbstract: The quest to align machine behavior with human values raises fundamental questions about the moral frameworks that should govern AI d...",
+    "content_length": 1943,
+    "created_at": "2026-04-30T09:44:58.355883+00:00",
+    "updated_at": "2026-04-30T13:19:35.400628+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_104458_62e2adac",
+    "metadata": {
+      "processing_start_time": 1777555115,
+      "processing_end_time": 1777555175
+    }
+  },
+  "doc-e7a39d8618e94f78e32100877c33915b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "content_summary": "Title: Progressive Approximation in Deep Residual Networks: Theory and Validation\n\nAbstract: The Universal Approximation Theorem (UAT) guarantees universal function approximation but does not explain how residual models distribute approximation acros...",
+    "content_length": 1450,
+    "created_at": "2026-04-30T09:57:13.744684+00:00",
+    "updated_at": "2026-04-30T10:18:13.832319+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_105713_e4a76b2d",
+    "metadata": {
+      "processing_start_time": 1777544139,
+      "processing_end_time": 1777544293
+    }
+  },
+  "doc-0344f2843fd85e4347a797b4d49c58fa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa"
+    ],
+    "content_summary": "Title: Right-to-Act: A Pre-Execution Non-Compensatory Decision Protocol for AI Systems\n\nAbstract: Current AI systems increasingly operate in contexts where their outputs directly trigger real-world actions. Most existing approaches to AI safety, risk...",
+    "content_length": 1489,
+    "created_at": "2026-04-30T10:09:32.009204+00:00",
+    "updated_at": "2026-04-30T13:20:12.195797+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_110932_3b0c40be",
+    "metadata": {
+      "processing_start_time": 1777555115,
+      "processing_end_time": 1777555212
+    }
+  },
+  "doc-806e6e5aef8defe7ecaeafa8c2ceb771": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "content_summary": "Title: Leveraging Human Feedback for Semantically-Relevant Skill Discovery\n\nAbstract: Unsupervised skill discovery in reinforcement learning aims to intrinsically motivate agents to discover diverse and useful behaviours. However, unconstrained appro...",
+    "content_length": 1384,
+    "created_at": "2026-04-30T10:24:18.413196+00:00",
+    "updated_at": "2026-04-30T13:24:33.919837+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_112418_bd137033",
+    "metadata": {
+      "processing_start_time": 1777555190,
+      "processing_end_time": 1777555473
+    }
+  },
+  "doc-36047dc281fd05d8be1315e99b53ecff": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff"
+    ],
+    "content_summary": "Title: An Analysis of the Coordination Gap between Joint and Modular Learning for Job Shop Scheduling with Transportation Resources\n\nAbstract: Efficient job-shop scheduling with transportation resources is critical for high-performance manufacturing....",
+    "content_length": 1812,
+    "created_at": "2026-04-30T10:42:41.498405+00:00",
+    "updated_at": "2026-04-30T13:22:22.421732+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_114241_5e2dbbc7",
+    "metadata": {
+      "processing_start_time": 1777555212,
+      "processing_end_time": 1777555342
+    }
+  },
+  "doc-5d04c5b21f00229db74654a2f461bcf1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "content_summary": "Title: Latency and Cost of Multi-Agent Intelligent Tutoring at Scale\n\nAbstract: Multi-agent LLM tutoring systems improve response quality through agent specialization, but each student query triggers several concurrent API calls whose latencies compo...",
+    "content_length": 1419,
+    "created_at": "2026-04-30T10:56:32.338376+00:00",
+    "updated_at": "2026-04-30T13:23:54.566596+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_115632_81a34bb8",
+    "metadata": {
+      "processing_start_time": 1777555342,
+      "processing_end_time": 1777555434
+    }
+  },
+  "dup-d19c30bdfc71e42f9a2e883d274cc45a": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-5d04c5b21f00229db74654a2f461bcf1",
+    "content_length": 1419,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-30T13:18:35.788853+00:00",
+    "updated_at": "2026-04-30T13:18:35.788853+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_141835_407b04b5",
+    "error_msg": "Content already exists. Original doc_id: doc-5d04c5b21f00229db74654a2f461bcf1, Status: pending",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-5d04c5b21f00229db74654a2f461bcf1",
+      "original_track_id": "insert_20260430_115632_81a34bb8"
+    }
+  },
+  "doc-f040ac069b42fd1e1a97678913109308": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "content_summary": "Title: SemML 2.0: Synthesizing Controllers for LTL\n\nAbstract: Synthesizing a reactive system from specifications given in linear temporal logic (LTL) is a classical problem, finding its applications in safety-critical systems design. These systems ar...",
+    "content_length": 1055,
+    "created_at": "2026-04-30T13:24:36.134248+00:00",
+    "updated_at": "2026-04-30T13:25:58.830482+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_142436_24f820e8",
+    "metadata": {
+      "processing_start_time": 1777555476,
+      "processing_end_time": 1777555558
+    }
+  },
+  "doc-c3a64e8f23903aab3f6bb572e5e0e8dc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "content_summary": "Title: Meta-Ensemble Learning with Diverse Data Splits for Improved Respiratory Sound Classification\n\nAbstract: Training reliable respiratory sound classification models remains challenging due to the limited size and subject diversity of datasets. E...",
+    "content_length": 1213,
+    "created_at": "2026-04-30T13:26:01.063137+00:00",
+    "updated_at": "2026-04-30T13:26:49.043422+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_142601_3e233522",
+    "metadata": {
+      "processing_start_time": 1777555561,
+      "processing_end_time": 1777555609
+    }
+  },
+  "doc-8f2cb4d3facf370a4d2179937a92a2a7": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "content_summary": "Title: TACO: Efficient Communication Compression of Intermediate Tensors for Scalable Tensor-Parallel LLM Training\n\nAbstract: Handling communication overhead in large-scale tensor-parallel training remains a critical challenge due to the dense, near-...",
+    "content_length": 1350,
+    "created_at": "2026-04-30T13:26:51.203270+00:00",
+    "updated_at": "2026-04-30T14:15:54.251867+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_142651_b6ed33b0",
+    "metadata": {
+      "processing_start_time": 1777558554
+    }
+  },
+  "doc-047ce2bc252a55d9055c31539d3a7c47": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-047ce2bc252a55d9055c31539d3a7c47"
+    ],
+    "content_summary": "Title: AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation\n\nAbstract: While Vision-Language-Action (VLA) models have been demonstrated possessing strong zero-shot generalization for robot control, their massive param...",
+    "content_length": 1878,
+    "created_at": "2026-04-30T13:32:56.829750+00:00",
+    "updated_at": "2026-04-30T14:16:53.689642+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_143256_3360101b",
+    "metadata": {
+      "processing_start_time": 1777558554,
+      "processing_end_time": 1777558613
+    }
+  },
+  "doc-d10488f697007297062eb31177c84c90": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "content_summary": "Title: The Kerimov-Alekberli Model: An Information-Geometric Framework for Real-Time System Stability\n\nAbstract: This study introduces the Kerimov-Alekberli model, a novel information-geometric framework that redefines AI safety by formally linking n...",
+    "content_length": 1374,
+    "created_at": "2026-04-30T13:39:05.782366+00:00",
+    "updated_at": "2026-04-30T14:16:53.863660+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_143905_c2a7d71b",
+    "metadata": {
+      "processing_start_time": 1777558613
+    }
+  },
+  "doc-db8ced0136efaaf767c85f4c9e185dbe": {
+    "status": "pending",
+    "content_summary": "Title: Jailbreaking Frontier Foundation Models Through Intention Deception\n\nAbstract: Large (vision-)language models exhibit remarkable capability but remain highly susceptible to jailbreaking. Existing safety training approaches aim to have the mode...",
+    "content_length": 1976,
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "created_at": "2026-04-30T13:47:13.569863+00:00",
+    "updated_at": "2026-04-30T14:15:54.240399+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_144713_922d4aa9",
+    "error_msg": "",
+    "metadata": {}
+  },
+  "doc-090dd9c7587ef7f5e03426647d58470b": {
+    "status": "pending",
+    "content_summary": "Title: The Pragmatic Persona: Discovering LLM Persona through Bridging Inference\n\nAbstract: Large Language Models (LLMs) reveal inherent and distinctive personas through dialogue. However, most existing persona discovery approaches rely on surface-le...",
+    "content_length": 1637,
+    "created_at": "2026-04-30T14:15:54.238408+00:00",
+    "updated_at": "2026-04-30T14:15:54.238408+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_151554_34178400",
+    "chunks_list": []
+  }
+}

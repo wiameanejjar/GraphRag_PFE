@@ -1,0 +1,3134 @@
+{
+  "doc-421873c316a2a72fa1ccf5068ebdfe92": {
+    "relation_pairs": [
+      [
+        "Pattern-based Knowledge Components",
+        "Student Code Submissions"
+      ],
+      [
+        "KC-guided Educational Content Generation",
+        "Research Paper"
+      ],
+      [
+        "Abstract",
+        "Title"
+      ],
+      [
+        "Generative Model",
+        "Pattern-based Knowledge Components"
+      ],
+      [
+        "Adaptive Programming Practice",
+        "Personalized Worked Example Generation"
+      ],
+      [
+        "Expert Evaluators",
+        "Research Paper"
+      ],
+      [
+        "Baseline Outputs",
+        "KC-conditioned Generation"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777505785,
+    "update_time": 1777505785,
+    "_id": "doc-421873c316a2a72fa1ccf5068ebdfe92"
+  },
+  "doc-ad3ff5a016386baadd7feb243f306901": {
+    "relation_pairs": [
+      [
+        "Chain-of-Thought (CoT) Supervision",
+        "Learning to Think from Multiple Thinkers"
+      ],
+      [
+        "Chain-of-Thought (CoT) Supervision",
+        "Math Problems"
+      ],
+      [
+        "Active Learning Algorithm",
+        "Target Accuracy"
+      ],
+      [
+        "Active Learning Algorithm",
+        "Chain-of-Thought (CoT) Supervision"
+      ],
+      [
+        "Chain-of-Thought (CoT) Supervision",
+        "Execution Traces"
+      ],
+      [
+        "Chain-of-Thought (CoT) Supervision",
+        "Thinkers"
+      ],
+      [
+        "Target Accuracy",
+        "Thinkers"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777505852,
+    "update_time": 1777505852,
+    "_id": "doc-ad3ff5a016386baadd7feb243f306901"
+  },
+  "doc-7766d3554226b9ed677312825f4a488e": {
+    "relation_pairs": [
+      [
+        "Learning to Rotate",
+        "Temporal and Semantic Rotary Encoding"
+      ],
+      [
+        "Imaginary Axis",
+        "Real Line"
+      ],
+      [
+        "Attention Mechanism",
+        "Rotation Manifold"
+      ],
+      [
+        "Ordinal Indices",
+        "Rotation Manifold"
+      ],
+      [
+        "Attention Mechanism",
+        "Semantic Embedding Space"
+      ],
+      [
+        "Rotary Positional Embeddings (RoPE)",
+        "Transformer Architecture"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777505953,
+    "update_time": 1777505953,
+    "_id": "doc-7766d3554226b9ed677312825f4a488e"
+  },
+  "doc-a0d551161566faf30fdc24dbde48ebfa": {
+    "relation_pairs": [
+      [
+        "Clinician-Authored Rubrics",
+        "LLM-Generated Rubrics"
+      ],
+      [
+        "Clinician-Clinician Agreement",
+        "Clinician-LLM Ranking Agreement"
+      ],
+      [
+        "Clinical AI Evaluation",
+        "Expert Review"
+      ],
+      [
+        "Clinician-Authored Rubrics",
+        "LLM Rubrics"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777506048,
+    "update_time": 1777506048,
+    "_id": "doc-a0d551161566faf30fdc24dbde48ebfa"
+  },
+  "doc-d6c0f79672d14203995268b9dcd4b61c": {
+    "relation_pairs": [
+      [
+        "Large Models",
+        "Scalable Hyperparameter-Divergent Ensemble Training"
+      ],
+      [
+        "Automatic Learning Rate",
+        "Momentum-Based Gradient-Free Meta-Update"
+      ],
+      [
+        "Hyperparameter-Divergent Ensemble Training",
+        "Scalar Hyperparameters"
+      ],
+      [
+        "Hyperparameter-Divergent Ensemble Training",
+        "Scalable Hyperparameter-Divergent Ensemble Training"
+      ],
+      [
+        "GPU Replicas",
+        "Hyperparameter-Divergent Ensemble Training"
+      ],
+      [
+        "AllReduce",
+        "Hyperparameter-Divergent Ensemble Training"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777506130,
+    "update_time": 1777506130,
+    "_id": "doc-d6c0f79672d14203995268b9dcd4b61c"
+  },
+  "doc-21f3a6584dd087d86a2f6b3f1a99f0fd": {
+    "relation_pairs": [
+      [
+        "SpecValidator",
+        "Under-Specification"
+      ],
+      [
+        "Defective Task Descriptions",
+        "Robustness of LLMs"
+      ],
+      [
+        "LiveCodeBench",
+        "SpecValidator"
+      ],
+      [
+        "SpecValidator",
+        "Syntax-Formatting"
+      ],
+      [
+        "Lexical Vagueness",
+        "SpecValidator"
+      ],
+      [
+        "Defective Task Descriptions",
+        "LLM-Based Code Generation"
+      ],
+      [
+        "Large Language Models",
+        "SpecValidator"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777506213,
+    "update_time": 1777506213,
+    "_id": "doc-21f3a6584dd087d86a2f6b3f1a99f0fd"
+  },
+  "doc-2df46a60ce12797a8d4e5b624970ede7": {
+    "relation_pairs": [
+      [
+        "Neutralization",
+        "Pareto-Like Tradeoffs"
+      ],
+      [
+        "HealthCareMagic-Diagnosis",
+        "PCS Framework"
+      ],
+      [
+        "Highly Likely and Safety-Critical Conditions",
+        "Pareto-Like Tradeoffs"
+      ],
+      [
+        "Green Shielding",
+        "User-Facing Guidance"
+      ],
+      [
+        "Agentic AI Systems",
+        "Green Shielding"
+      ],
+      [
+        "Clinician-Like Differentials",
+        "HealthCareMagic-Diagnosis"
+      ],
+      [
+        "Green Shielding",
+        "Large Language Models"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777506300,
+    "update_time": 1777506300,
+    "_id": "doc-2df46a60ce12797a8d4e5b624970ede7"
+  },
+  "doc-7909c6cfbc42d7e40e309323a850e887": {
+    "relation_pairs": [
+      [
+        "GPT-5.2",
+        "Gemini-3-Pro"
+      ],
+      [
+        "Knowledge Consolidation",
+        "Knowledge Gap Identification"
+      ],
+      [
+        "Claude-Opus-4.5",
+        "GPT-5.2"
+      ],
+      [
+        "Claude-Opus-4.5",
+        "Gemini-3-Pro"
+      ],
+      [
+        "Discovery-to-Application Loop",
+        "Knowledge Gap Identification"
+      ],
+      [
+        "Knowledge Application",
+        "Knowledge Consolidation"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777506392,
+    "update_time": 1777506392,
+    "_id": "doc-7909c6cfbc42d7e40e309323a850e887"
+  },
+  "doc-2c127bc04f3bde0cd314a75a26f2cec3": {
+    "relation_pairs": [
+      [
+        "RiskGate",
+        "Sequential Pattern Matching"
+      ],
+      [
+        "Autopilot",
+        "Kill-Switch-as-Last-Resort"
+      ],
+      [
+        "Autonomous AI Agents",
+        "Governing What You Cannot Observe"
+      ],
+      [
+        "Informational Viability Principle",
+        "RiskGate"
+      ],
+      [
+        "RiskGate",
+        "Segment-vs-Rest z-Tests"
+      ],
+      [
+        "Agent Viability Framework",
+        "Aubin's Viability Theory"
+      ],
+      [
+        "Agent Viability Framework",
+        "Viability Index"
+      ],
+      [
+        "Abstract",
+        "Governing What You Cannot Observe"
+      ],
+      [
+        "KL Divergence",
+        "RiskGate"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777506479,
+    "update_time": 1777506479,
+    "_id": "doc-2c127bc04f3bde0cd314a75a26f2cec3"
+  },
+  "doc-ee26c6456033dbc512177b2b3161670e": {
+    "relation_pairs": [
+      [
+        "BMW",
+        "Industrial Case Study"
+      ],
+      [
+        "Large Language Models (LLMs)",
+        "Repository-Scale Change Generation"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777506566,
+    "update_time": 1777506566,
+    "_id": "doc-ee26c6456033dbc512177b2b3161670e"
+  },
+  "doc-cd622ac8154940cde02b38a335a93d0b": {
+    "relation_pairs": [
+      [
+        "LLMs",
+        "Prior Work"
+      ],
+      [
+        "LLMs",
+        "Pretrained LLM"
+      ],
+      [
+        "Agentic Financial Applications",
+        "LLMs"
+      ],
+      [
+        "Input Filtering",
+        "LLMs"
+      ],
+      [
+        "Financial Systems",
+        "LLMs"
+      ],
+      [
+        "LLMs",
+        "User Preference Information"
+      ],
+      [
+        "LLMs",
+        "Sycophancy"
+      ],
+      [
+        "LLMs",
+        "User Rebuttals"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777506632,
+    "update_time": 1777506632,
+    "_id": "doc-cd622ac8154940cde02b38a335a93d0b"
+  },
+  "doc-c55766a45b0f180acb4d559b875dcdd9": {
+    "relation_pairs": [
+      [
+        "Evidential Trust Manipulation",
+        "LLMs"
+      ],
+      [
+        "Abstract",
+        "Title"
+      ],
+      [
+        "High-Trust Contexts",
+        "Low-Trust Contexts"
+      ],
+      [
+        "Humans",
+        "LLMs"
+      ],
+      [
+        "Humans",
+        "Turkish Evidential Morphology"
+      ],
+      [
+        "Human Production Experiment",
+        "LLMs"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777506718,
+    "update_time": 1777506718,
+    "_id": "doc-c55766a45b0f180acb4d559b875dcdd9"
+  },
+  "doc-8bcf22c0d460fde620c812a0c96baa6f": {
+    "relation_pairs": [
+      [
+        "Phase Space",
+        "Physical Pendulum"
+      ],
+      [
+        "DySIB",
+        "Time-Series Data"
+      ],
+      [
+        "DySIB",
+        "Latent Space"
+      ],
+      [
+        "DySIB",
+        "Hyperparameters"
+      ],
+      [
+        "DySIB",
+        "Predictive Mutual Information"
+      ],
+      [
+        "Canonical Angle and Angular Velocity",
+        "Phase Space"
+      ],
+      [
+        "Experimental Video Dataset",
+        "Physical Pendulum"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777506783,
+    "update_time": 1777506783,
+    "_id": "doc-8bcf22c0d460fde620c812a0c96baa6f"
+  },
+  "doc-d66caa329c3a04aee4985803a47142b6": {
+    "relation_pairs": [
+      [
+        "AgentWard",
+        "Lifecycle Security Architecture"
+      ],
+      [
+        "AgentWard",
+        "Autonomous AI Agents"
+      ],
+      [
+        "AgentWard",
+        "Runtime Security Controls"
+      ],
+      [
+        "AgentWard",
+        "Execution Containment"
+      ],
+      [
+        "AgentWard",
+        "Trust Propagation"
+      ],
+      [
+        "AgentWard",
+        "Defense-in-Depth Architecture"
+      ],
+      [
+        "AgentWard",
+        "OpenClaw"
+      ],
+      [
+        "AgentWard",
+        "Security Failures"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777506862,
+    "update_time": 1777506862,
+    "_id": "doc-d66caa329c3a04aee4985803a47142b6"
+  },
+  "doc-ffb0995b3d5e71e709d829e54fcfaf1b": {
+    "relation_pairs": [
+      [
+        "DepthKV",
+        "Uniform Pruning"
+      ],
+      [
+        "Large Language Models",
+        "Summarization"
+      ],
+      [
+        "DepthKV",
+        "Key-Value Cache"
+      ],
+      [
+        "Large Language Models",
+        "Long-Document Understanding"
+      ],
+      [
+        "Key-Value Cache",
+        "Long-Context LLM Inference"
+      ],
+      [
+        "Code Generation",
+        "Large Language Models"
+      ],
+      [
+        "DepthKV",
+        "Long-Context LLM Inference"
+      ],
+      [
+        "DepthKV Framework",
+        "Uniform Pruning"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777506931,
+    "update_time": 1777506931,
+    "_id": "doc-ffb0995b3d5e71e709d829e54fcfaf1b"
+  },
+  "doc-232b2b084bf5a67744fd68472f6b18c1": {
+    "relation_pairs": [
+      [
+        "K-MetBench",
+        "K-MetBench Dataset"
+      ],
+      [
+        "K-MetBench",
+        "Korean Weather Forecasters"
+      ],
+      [
+        "Global Models",
+        "Korean Models"
+      ],
+      [
+        "Korean Weather Forecasters",
+        "Multimodal Large Language Model Assistants"
+      ],
+      [
+        "Expert-Verified Rationales",
+        "Logical Validity"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777507023,
+    "update_time": 1777507023,
+    "_id": "doc-232b2b084bf5a67744fd68472f6b18c1"
+  },
+  "doc-899149a6310f6cac289e14d7be815549": {
+    "relation_pairs": [
+      [
+        "Functional Task Networks",
+        "Gradient Descent"
+      ],
+      [
+        "Dendritic Models",
+        "Mixture-of-Experts"
+      ],
+      [
+        "Gradient Descent",
+        "Smoothing Kernel"
+      ],
+      [
+        "Dendritic Models",
+        "Pyramidal Neurons"
+      ],
+      [
+        "FTN-Fast",
+        "FTN-Slow"
+      ],
+      [
+        "K-Winner-Take-All",
+        "Smoothing Kernel"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777507117,
+    "update_time": 1777507117,
+    "_id": "doc-899149a6310f6cac289e14d7be815549"
+  },
+  "doc-2e7f40d6904acbb399d316edbe0a123b": {
+    "relation_pairs": [
+      [
+        "Longitudinal Practitioner Case Study",
+        "Palabrita"
+      ],
+      [
+        "Gemma 4 E2B",
+        "Qwen3"
+      ],
+      [
+        "On-Device Small Language Models",
+        "Palabrita"
+      ],
+      [
+        "Contextual Retry with Failure Feedback",
+        "Multi-Layer Defensive Parsing"
+      ],
+      [
+        "Eight Actionable Design Heuristics",
+        "Palabrita"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777507199,
+    "update_time": 1777507199,
+    "_id": "doc-2e7f40d6904acbb399d316edbe0a123b"
+  },
+  "doc-2643db96ff06ade733f1ed549959310e": {
+    "relation_pairs": [
+      [
+        "Editing Capability Improvement",
+        "Unified Multi-Modal Understanding/Generative Models"
+      ],
+      [
+        "Meta-CoT",
+        "Two-Level Decomposition"
+      ],
+      [
+        "Chain-of-Thought (CoT)",
+        "Meta-CoT"
+      ],
+      [
+        "Editing Task",
+        "Meta-CoT"
+      ],
+      [
+        "Chain-of-Thought (CoT)",
+        "Unified Multi-Modal Understanding/Generative Models"
+      ],
+      [
+        "Editing Capability Improvement",
+        "Meta-CoT"
+      ],
+      [
+        "Meta-CoT",
+        "Task-Specific CoT Traversal"
+      ],
+      [
+        "Meta-CoT",
+        "Target"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777507294,
+    "update_time": 1777507294,
+    "_id": "doc-2643db96ff06ade733f1ed549959310e"
+  },
+  "doc-64fad5be7471e063c4b5aa89695241f8": {
+    "relation_pairs": [
+      [
+        "Knowledge Graphs (KGs)",
+        "XGRAG"
+      ],
+      [
+        "GraphRAG",
+        "RAG-Ex"
+      ],
+      [
+        "Narrative Structures",
+        "XGRAG"
+      ],
+      [
+        "GraphRAG",
+        "XGRAG"
+      ],
+      [
+        "Trustworthy AI",
+        "XGRAG"
+      ],
+      [
+        "Large Language Models (LLMs)",
+        "XGRAG"
+      ],
+      [
+        "RAG-Ex",
+        "XGRAG"
+      ],
+      [
+        "Question Types",
+        "XGRAG"
+      ],
+      [
+        "Graph Centrality Measures",
+        "XGRAG"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777507378,
+    "update_time": 1777507378,
+    "_id": "doc-64fad5be7471e063c4b5aa89695241f8"
+  },
+  "doc-058dc72e32b67a7f3ced7c98ed821a74": {
+    "relation_pairs": [
+      [
+        "CALVIN",
+        "CF-VLA"
+      ],
+      [
+        "CF-VLA",
+        "MIP"
+      ],
+      [
+        "CF-VLA",
+        "LIBERO"
+      ],
+      [
+        "CF-VLA",
+        "Number of Function Evaluations (NFE)"
+      ],
+      [
+        "CF-VLA",
+        "π_{0.5}"
+      ],
+      [
+        "CF-VLA",
+        "Coarse Stage"
+      ],
+      [
+        "CF-VLA",
+        "Vision-Language-Action Policies"
+      ],
+      [
+        "Coarse Stage",
+        "Fine Stage"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777507467,
+    "update_time": 1777507467,
+    "_id": "doc-058dc72e32b67a7f3ced7c98ed821a74"
+  },
+  "doc-7a6ae8adcf4df680a3155bbab7deb847": {
+    "relation_pairs": [
+      [
+        "Evaluating AI Models",
+        "Petri"
+      ],
+      [
+        "Evaluating AI Models",
+        "Opus 4.7 Preview"
+      ],
+      [
+        "AI Research Agents",
+        "Claude Models"
+      ],
+      [
+        "Evaluating AI Models",
+        "Mythos Preview"
+      ],
+      [
+        "AI Research Agents",
+        "Trajectories"
+      ],
+      [
+        "Claude Models",
+        "Frontier Models"
+      ],
+      [
+        "Evaluating AI Models",
+        "Frontier Models"
+      ],
+      [
+        "Prefill Awareness",
+        "Situational Awareness"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777507559,
+    "update_time": 1777507559,
+    "_id": "doc-7a6ae8adcf4df680a3155bbab7deb847"
+  },
+  "doc-8f1f554e2452ba8f9ca944a83a65ca2f": {
+    "relation_pairs": [
+      [
+        "GitHub",
+        "ULLER"
+      ],
+      [
+        "Giry Monad",
+        "NeSyCat"
+      ],
+      [
+        "Neurosymbolic Systems",
+        "ULLER"
+      ],
+      [
+        "First-Order Logic",
+        "Monads"
+      ],
+      [
+        "NeSyCat",
+        "ULLER"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777507630,
+    "update_time": 1777507630,
+    "_id": "doc-8f1f554e2452ba8f9ca944a83a65ca2f"
+  },
+  "doc-b48bf4c58531cb5d0dde75c4cc92714f": {
+    "relation_pairs": [
+      [
+        "RouteHead",
+        "Zero-Shot Re-ranking"
+      ],
+      [
+        "Query",
+        "RouteHead"
+      ],
+      [
+        "Relevance Score",
+        "RouteHead"
+      ],
+      [
+        "Pseudo Label",
+        "RouteHead"
+      ],
+      [
+        "RouteHead",
+        "Sparsity Regularizer"
+      ],
+      [
+        "Large Language Models",
+        "RouteHead"
+      ],
+      [
+        "Attention Signal",
+        "RouteHead"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777507721,
+    "update_time": 1777507721,
+    "_id": "doc-b48bf4c58531cb5d0dde75c4cc92714f"
+  },
+  "doc-d09be2d2da00f2e5ea614c6692dd8991": {
+    "relation_pairs": [
+      [
+        "Hyperparameter Tuning",
+        "QSVM with Frozen Embeddings"
+      ],
+      [
+        "QSVM",
+        "QSVM with Frozen Embeddings"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777507804,
+    "update_time": 1777507804,
+    "_id": "doc-d09be2d2da00f2e5ea614c6692dd8991"
+  },
+  "doc-42e98b3a62403949c3551faca51d7a9a": {
+    "relation_pairs": [
+      [
+        "Skill Retrieval Augmentation",
+        "Skill Retrieval Augmentation Pipeline"
+      ],
+      [
+        "Large Language Models",
+        "Parametric Capabilities"
+      ],
+      [
+        "Agent Systems",
+        "Skill Retrieval Augmentation"
+      ],
+      [
+        "Large Language Models",
+        "Skill Retrieval Augmentation"
+      ],
+      [
+        "Skill Retrieval Augmentation Pipeline",
+        "Skill Retrieval Augmentation-Bench"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777507890,
+    "update_time": 1777507890,
+    "_id": "doc-42e98b3a62403949c3551faca51d7a9a"
+  },
+  "doc-9ac408a983efd5ccb658b88f8bdc1379": {
+    "relation_pairs": [
+      [
+        "Reasoning Quality Analysis",
+        "Vision-Language Models"
+      ],
+      [
+        "Phenomenologically Plausible Cues",
+        "Vision-Language Models"
+      ],
+      [
+        "Domain-Specialized Methods",
+        "Vision-Language Models"
+      ],
+      [
+        "AstroVLBench",
+        "Vision-Language Models"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777507977,
+    "update_time": 1777507977,
+    "_id": "doc-9ac408a983efd5ccb658b88f8bdc1379"
+  },
+  "doc-6ff6d200bec9664dc91373e5a0c44ecf": {
+    "relation_pairs": [
+      [
+        "FastOMOP",
+        "OMOP CDM data"
+      ],
+      [
+        "Agent-Teams",
+        "Study Design"
+      ],
+      [
+        "FastOMOP",
+        "Observational Health Data Sciences and Informatics"
+      ],
+      [
+        "FastOMOP",
+        "LLMs"
+      ],
+      [
+        "Agent-Teams",
+        "Phenotyping"
+      ],
+      [
+        "Agent-Teams",
+        "Statistical Analysis"
+      ],
+      [
+        "Agent-Teams",
+        "FastOMOP"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777508069,
+    "update_time": 1777508069,
+    "_id": "doc-6ff6d200bec9664dc91373e5a0c44ecf"
+  },
+  "doc-0a1b17e7c0ccc7bf601190f38e3fcdcc": {
+    "relation_pairs": [
+      [
+        "Deriving Scenario-Aware Driving Requirements",
+        "Node-Wise Anchors"
+      ],
+      [
+        "Law-Scenario Matching",
+        "Mandatory and Prohibitive Requirements"
+      ],
+      [
+        "Autonomous Vehicles",
+        "Towards Lawful Autonomous Driving"
+      ],
+      [
+        "Autonomous Vehicles",
+        "Traffic Laws and Regulations"
+      ],
+      [
+        "Hierarchical Semantics",
+        "Node-Wise Anchors"
+      ],
+      [
+        "Artificial Intelligence",
+        "Large Language Models"
+      ],
+      [
+        "Real-Time Compliance Monitor",
+        "Towards Lawful Autonomous Driving"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777508154,
+    "update_time": 1777508154,
+    "_id": "doc-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+  },
+  "doc-1066123ae6aaefc73a8ddbd5c757d08a": {
+    "relation_pairs": [
+      [
+        "Chart2NCode",
+        "Faithful Reproduction"
+      ],
+      [
+        "Chart2NCode",
+        "Proprietary Systems"
+      ],
+      [
+        "Chart2NCode",
+        "Executable Plotting Script"
+      ],
+      [
+        "Chart2NCode",
+        "Universal Chart-to-Code Generation"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777508233,
+    "update_time": 1777508233,
+    "_id": "doc-1066123ae6aaefc73a8ddbd5c757d08a"
+  },
+  "doc-dc8f9eb049a2563151bf117a8338d30f": {
+    "relation_pairs": [
+      [
+        "Controller",
+        "Hierarchical Behaviour Spaces"
+      ],
+      [
+        "Hierarchical Behaviour Spaces",
+        "Linear Combinations"
+      ],
+      [
+        "Hierarchical Reinforcement Learning",
+        "Option Reward Functions"
+      ],
+      [
+        "Hierarchical Behaviour Spaces",
+        "Reward Functions"
+      ],
+      [
+        "Hierarchical Behaviour Spaces",
+        "Policies"
+      ],
+      [
+        "Controller",
+        "Linear Combinations"
+      ],
+      [
+        "Hierarchical Behaviour Spaces",
+        "NetHack Learning Environment"
+      ],
+      [
+        "Hierarchical Behaviour Spaces",
+        "Hierarchical Reinforcement Learning"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777508310,
+    "update_time": 1777508310,
+    "_id": "doc-dc8f9eb049a2563151bf117a8338d30f"
+  },
+  "doc-c89699ac14dbbf51441408abd5aded39": {
+    "relation_pairs": [
+      [
+        "GradMAP",
+        "Grid-Edge Devices"
+      ],
+      [
+        "GradMAP",
+        "Three-Phase AC Load-Flow Constraint Violations"
+      ],
+      [
+        "Grid-Edge Devices",
+        "Grid-Edge Systems"
+      ],
+      [
+        "GradMAP",
+        "Multi-Agent Reinforcement-Learning Benchmarks"
+      ],
+      [
+        "GradMAP",
+        "Grid-Edge Flexibility"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777508404,
+    "update_time": 1777508404,
+    "_id": "doc-c89699ac14dbbf51441408abd5aded39"
+  },
+  "doc-a26f425dc22ccfa6db36dc0592c070a7": {
+    "relation_pairs": [
+      [
+        "Evaluation Pipeline",
+        "STELLAR-E System"
+      ],
+      [
+        "STELLAR-E System",
+        "TGRT Self-Instruct Framework"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777508485,
+    "update_time": 1777508485,
+    "_id": "doc-a26f425dc22ccfa6db36dc0592c070a7"
+  },
+  "doc-9e4c751eebce71c2e7277e97601a61b7": {
+    "relation_pairs": [
+      [
+        "Jailbreaks",
+        "Layerwise Convergence Fingerprints"
+      ],
+      [
+        "Clean-Data Validation",
+        "Layerwise Convergence Fingerprints"
+      ],
+      [
+        "Backdoors",
+        "Layerwise Convergence Fingerprints"
+      ],
+      [
+        "Layerwise Convergence Fingerprints",
+        "Prompt Injections"
+      ],
+      [
+        "Large Language Models",
+        "Layerwise Convergence Fingerprints"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777508591,
+    "update_time": 1777508591,
+    "_id": "doc-9e4c751eebce71c2e7277e97601a61b7"
+  },
+  "doc-c67eb797e4e17e9297558aa4982bd6bd": {
+    "relation_pairs": [
+      [
+        "Human-Computer Interaction",
+        "Interoceptive Machine Framework"
+      ],
+      [
+        "Assistive Technologies",
+        "Interoceptive Machine Framework"
+      ],
+      [
+        "Interoception",
+        "Interoceptive Machine Framework"
+      ],
+      [
+        "Internal State Variables",
+        "Regulatory Loops"
+      ],
+      [
+        "Artificial Intelligence Systems",
+        "Interoceptive Machine Framework"
+      ],
+      [
+        "Embodied AI",
+        "Interoceptive Machine Framework"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777508672,
+    "update_time": 1777508672,
+    "_id": "doc-c67eb797e4e17e9297558aa4982bd6bd"
+  },
+  "doc-82cfdd7cca0cfa67c324b78f4bc4d5f7": {
+    "relation_pairs": [
+      [
+        "Prioritization Decisions",
+        "Workflow Dynamics"
+      ],
+      [
+        "Contextual Constraints",
+        "Developer Actions"
+      ],
+      [
+        "Beko",
+        "Industrial Dataset"
+      ],
+      [
+        "Developer Actions",
+        "LLM-powered ACR Bots"
+      ],
+      [
+        "Automated Code Review Bots",
+        "Pull Request"
+      ],
+      [
+        "Developer Actions",
+        "Software Engineering Director"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777508766,
+    "update_time": 1777508766,
+    "_id": "doc-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+  },
+  "doc-381164f8e5eeb1538b53d25d3cf781b5": {
+    "relation_pairs": [
+      [
+        "Abstract",
+        "Documented AI Incidents"
+      ],
+      [
+        "Abstract",
+        "Title"
+      ],
+      [
+        "Documented AI Incidents",
+        "Identity Categories"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1777508863,
+    "update_time": 1777508863,
+    "_id": "doc-381164f8e5eeb1538b53d25d3cf781b5"
+  },
+  "doc-fde07fa1707d44e8e8acbe99adf1542f": {
+    "relation_pairs": [
+      [
+        "Resilience Lift",
+        "SSRP"
+      ],
+      [
+        "APA",
+        "SSRP"
+      ],
+      [
+        "Grounding Paradox",
+        "SSRP"
+      ],
+      [
+        "Attention Latch",
+        "Information Over-squashing"
+      ],
+      [
+        "Attention Latch",
+        "SSRP"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777508952,
+    "update_time": 1777508952,
+    "_id": "doc-fde07fa1707d44e8e8acbe99adf1542f"
+  },
+  "doc-6f03a6efec96a2141ce04fd7d8cd59d7": {
+    "relation_pairs": [
+      [
+        "Evolutionary",
+        "MIMIC"
+      ],
+      [
+        "MIMIC",
+        "Nucleic Acid"
+      ],
+      [
+        "MIMIC",
+        "Structural"
+      ],
+      [
+        "MIMIC",
+        "Transcriptome"
+      ],
+      [
+        "MIMIC",
+        "Regulatory"
+      ],
+      [
+        "Genome",
+        "MIMIC"
+      ],
+      [
+        "MIMIC",
+        "Semantic/Contextual"
+      ],
+      [
+        "MIMIC",
+        "Protein"
+      ],
+      [
+        "LORE",
+        "MIMIC"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777509046,
+    "update_time": 1777509046,
+    "_id": "doc-6f03a6efec96a2141ce04fd7d8cd59d7"
+  },
+  "doc-eab4a17960ad7f537284c68def47a563": {
+    "relation_pairs": [
+      [
+        "Deployment-Aligned Low-Precision Neural Architecture Search",
+        "Neural Architecture Search"
+      ],
+      [
+        "Accuracy",
+        "Deployment-Aligned Low-Precision Neural Architecture Search"
+      ],
+      [
+        "Edge AI",
+        "Intel Movidius Myriad X Visual Processing Unit"
+      ],
+      [
+        "Edge AI",
+        "Spaceborne Edge AI"
+      ],
+      [
+        "Maritime Monitoring",
+        "Vessel Segmentation"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777509122,
+    "update_time": 1777509122,
+    "_id": "doc-eab4a17960ad7f537284c68def47a563"
+  },
+  "doc-33f36369f99eb44a9ac8690e998af200": {
+    "relation_pairs": [
+      [
+        "GAMMAF",
+        "Large Language Models"
+      ],
+      [
+        "LLM-MAS",
+        "Prompt Infection"
+      ],
+      [
+        "Adversarial Agents",
+        "LLM-MAS"
+      ],
+      [
+        "Attack Remediation",
+        "LLM-MAS"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777509207,
+    "update_time": 1777509207,
+    "_id": "doc-33f36369f99eb44a9ac8690e998af200"
+  },
+  "doc-1267412c51a81ee8b84c56f1fab3a816": {
+    "relation_pairs": [
+      [
+        "Agentic Clinical Reasoning System",
+        "Patient-Question Pairs"
+      ],
+      [
+        "48 Templates",
+        "Agentic Clinical Reasoning System"
+      ],
+      [
+        "Agentic Clinical Reasoning System",
+        "Reference Labels"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1777509279,
+    "update_time": 1777509279,
+    "_id": "doc-1267412c51a81ee8b84c56f1fab3a816"
+  },
+  "doc-5a3decb8f4308fb97c759ee307527ef5": {
+    "relation_pairs": [
+      [
+        "Interaction Types",
+        "Multi-behavior Recommendation"
+      ],
+      [
+        "Hierarchical Behavior Aggregation (HBA)",
+        "Transition Relation Encoding (TRE)"
+      ],
+      [
+        "BITRec",
+        "Transition Relation Encoding (TRE)"
+      ],
+      [
+        "Generative Sequence Modeling",
+        "Multi-behavior Recommendation"
+      ],
+      [
+        "BITRec",
+        "Generative Sequence Modeling"
+      ],
+      [
+        "Intent Signals",
+        "Multi-behavior Recommendation"
+      ],
+      [
+        "BITRec",
+        "Multi-behavior Recommendation"
+      ],
+      [
+        "BITRec",
+        "User Conversions"
+      ],
+      [
+        "BITRec",
+        "Hierarchical Behavior Aggregation (HBA)"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777509356,
+    "update_time": 1777509356,
+    "_id": "doc-5a3decb8f4308fb97c759ee307527ef5"
+  },
+  "doc-492adf3459368e3424d113800cf1ad98": {
+    "relation_pairs": [
+      [
+        "Cooperative Card Game",
+        "Perceived Cooperativity Scale"
+      ],
+      [
+        "Perceived Cooperativity Scale",
+        "Teaming Perception Scale"
+      ],
+      [
+        "Cooperation Partners",
+        "Perceived Cooperativity Scale"
+      ],
+      [
+        "LLM Interaction",
+        "Perceived Cooperativity Scale"
+      ],
+      [
+        "Cooperative Card Game",
+        "Teaming Perception Scale"
+      ],
+      [
+        "Cooperation Partners",
+        "Teaming Perception Scale"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777509440,
+    "update_time": 1777509440,
+    "_id": "doc-492adf3459368e3424d113800cf1ad98"
+  },
+  "doc-56296c6ebf5e5c78e8b72a11ee737197": {
+    "relation_pairs": [
+      [
+        "Robotic Tactile Sensing Research",
+        "SPLIT"
+      ],
+      [
+        "Latent Space Arithmetic Strategy",
+        "SPLIT"
+      ],
+      [
+        "Finite Element Method (FEM)",
+        "SPLIT"
+      ],
+      [
+        "Machine Learning Models",
+        "Robotic Tactile Sensing"
+      ],
+      [
+        "DIGIT Sensor",
+        "SPLIT"
+      ],
+      [
+        "GelSight R1.5",
+        "SPLIT"
+      ],
+      [
+        "SPLIT",
+        "Simulation"
+      ],
+      [
+        "Finite Element Method (FEM)",
+        "Simulation"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777509494,
+    "update_time": 1777509494,
+    "_id": "doc-56296c6ebf5e5c78e8b72a11ee737197"
+  },
+  "doc-3d2c91b0eab1eef81deef1aacaf0b98a": {
+    "relation_pairs": [
+      [
+        "DP-Cache",
+        "Vision-Language-Action Models"
+      ],
+      [
+        "DP-Cache",
+        "V-AEFusion"
+      ],
+      [
+        "Cross-Accelerator Leaderboard",
+        "Vision-Language-Action Models"
+      ],
+      [
+        "Cross-Accelerator Leaderboard",
+        "Heterogeneous Edge Accelerators"
+      ],
+      [
+        "V-AEFusion",
+        "Vision-Language-Action Models"
+      ],
+      [
+        "CET",
+        "Vision-Language-Action Models"
+      ],
+      [
+        "On-Robot Deployment",
+        "Vision-Language-Action Models"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777509588,
+    "update_time": 1777509588,
+    "_id": "doc-3d2c91b0eab1eef81deef1aacaf0b98a"
+  },
+  "doc-3fae825413dbd09250459cbd5bbfe30c": {
+    "relation_pairs": [
+      [
+        "PhysBench",
+        "PhysNote"
+      ],
+      [
+        "Physical Identity Drift",
+        "Vision-Language Models"
+      ],
+      [
+        "Inference-Time Insights",
+        "Physical Identity Drift"
+      ],
+      [
+        "Knowledge Notes",
+        "PhysNote"
+      ],
+      [
+        "PhysNote",
+        "Spatio-Temporal Canonicalization"
+      ],
+      [
+        "Causal Reasoning",
+        "Vision-Language Models"
+      ],
+      [
+        "Causal Reasoning",
+        "Temporal Consistency"
+      ],
+      [
+        "PhysNote",
+        "Vision-Language Models"
+      ],
+      [
+        "Inference-Time Insights",
+        "Vision-Language Models"
+      ],
+      [
+        "Temporal Consistency",
+        "Vision-Language Models"
+      ],
+      [
+        "Hierarchical Knowledge Repository",
+        "PhysNote"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1777509679,
+    "update_time": 1777509679,
+    "_id": "doc-3fae825413dbd09250459cbd5bbfe30c"
+  },
+  "doc-274e345107d112e4d4358391f4226461": {
+    "relation_pairs": [
+      [
+        "Kwai Summary Attention",
+        "Large Language Models"
+      ],
+      [
+        "Kwai Summary Attention",
+        "Semantic-Level Compression"
+      ],
+      [
+        "Kwai Summary Attention",
+        "Sequence Length"
+      ],
+      [
+        "Kwai Summary Attention",
+        "Training and Inference Costs"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777509765,
+    "update_time": 1777509765,
+    "_id": "doc-274e345107d112e4d4358391f4226461"
+  },
+  "doc-52b17af2fefc317fc473ae09097c0b2f": {
+    "relation_pairs": [
+      [
+        "BandRouteNet",
+        "Routing Mechanism"
+      ],
+      [
+        "BandRouteNet",
+        "Electroencephalography"
+      ],
+      [
+        "BandRouteNet",
+        "Electrooculographic"
+      ],
+      [
+        "BandRouteNet",
+        "Full-Band Contextual Modeling"
+      ],
+      [
+        "BandRouteNet",
+        "Neurological Diagnosis"
+      ],
+      [
+        "BandRouteNet",
+        "Conditional Parameters"
+      ],
+      [
+        "BandRouteNet",
+        "Frequency-Aware Neural Network"
+      ],
+      [
+        "BandRouteNet",
+        "Electromyographic"
+      ],
+      [
+        "Band-Specific Processing",
+        "BandRouteNet"
+      ],
+      [
+        "BandRouteNet",
+        "Coarse-Grained Signal-Level Refinement"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1777509858,
+    "update_time": 1777509858,
+    "_id": "doc-52b17af2fefc317fc473ae09097c0b2f"
+  },
+  "doc-46ffaa95d62e06c5c32f7e8193bede58": {
+    "relation_pairs": [
+      [
+        "Continuous Diffusion Spoken Language Models",
+        "Discrete Autoregressive Spoken Language Models"
+      ],
+      [
+        "Continuous Diffusion Spoken Language Models",
+        "Long-form Coherence"
+      ],
+      [
+        "Discrete Autoregressive Spoken Language Models",
+        "Speech-only Spoken Language Models"
+      ],
+      [
+        "Continuous Diffusion Spoken Language Models",
+        "Conversational Data"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777509920,
+    "update_time": 1777509920,
+    "_id": "doc-46ffaa95d62e06c5c32f7e8193bede58"
+  },
+  "doc-cd399b744aa24b4b8e4a44b747320f02": {
+    "relation_pairs": [
+      [
+        "Benchmark Performance",
+        "Robust Audio Understanding"
+      ],
+      [
+        "Acoustic Signal",
+        "Audio Reliance"
+      ],
+      [
+        "Large Audio-Language Models",
+        "Speech and Audio Benchmarks"
+      ],
+      [
+        "Benchmark Performance",
+        "Large Audio-Language Models"
+      ],
+      [
+        "Diagnostic Framework",
+        "Large Audio-Language Models"
+      ],
+      [
+        "General Knowledge",
+        "Text Priors"
+      ],
+      [
+        "Audio Reliance",
+        "Text Priors"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777510014,
+    "update_time": 1777510014,
+    "_id": "doc-cd399b744aa24b4b8e4a44b747320f02"
+  },
+  "doc-0b83f3702bd088008cc6feaedfe42bcc": {
+    "relation_pairs": [
+      [
+        "POPE",
+        "Positive-and-Negative Decoding"
+      ],
+      [
+        "Counterfactual",
+        "Positive-and-Negative Decoding"
+      ],
+      [
+        "Attention Deficit",
+        "Object Hallucination"
+      ],
+      [
+        "Linguistic Priors",
+        "Vision-Language Models"
+      ],
+      [
+        "Positive-and-Negative Decoding",
+        "Vision-Language Models"
+      ],
+      [
+        "Positive-and-Negative Decoding",
+        "Visual Fidelity"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777510104,
+    "update_time": 1777510104,
+    "_id": "doc-0b83f3702bd088008cc6feaedfe42bcc"
+  },
+  "doc-05a4ca61ae3ed284142fb22c23657755": {
+    "relation_pairs": [
+      [
+        "AVES-DPO",
+        "Preference Pairs"
+      ],
+      [
+        "Diverse Hallucinations",
+        "LVLMs"
+      ],
+      [
+        "AVES-DPO",
+        "Intrinsic Knowledge"
+      ],
+      [
+        "5.2k Samples",
+        "AVES-DPO"
+      ],
+      [
+        "Aligning with Your Own Voice",
+        "Self-Corrected Preference Learning"
+      ],
+      [
+        "AVES-DPO",
+        "Consensus-Based Verification Mechanism"
+      ],
+      [
+        "Existing Preference Learning-Based Approaches",
+        "Proprietary Models"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777510193,
+    "update_time": 1777510193,
+    "_id": "doc-05a4ca61ae3ed284142fb22c23657755"
+  },
+  "doc-c00a185631f5831f02808b92381af986": {
+    "relation_pairs": [
+      [
+        "Geometric Perturbations",
+        "Super-DeepG"
+      ],
+      [
+        "Neural Networks",
+        "Super-DeepG"
+      ],
+      [
+        "Geometric Perturbations",
+        "Image Processing Functions"
+      ],
+      [
+        "Linear Relaxation Techniques",
+        "Super-DeepG"
+      ],
+      [
+        "Certified Geometric Robustness",
+        "Super-DeepG"
+      ],
+      [
+        "Linear Relaxation Techniques",
+        "Lipschitz Optimization"
+      ],
+      [
+        "Certified Geometric Robustness",
+        "Safety-Critical Applications"
+      ],
+      [
+        "Image Dataset",
+        "Super-DeepG"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777510240,
+    "update_time": 1777510240,
+    "_id": "doc-c00a185631f5831f02808b92381af986"
+  },
+  "doc-40da9bd6834b701e84e700fdf93b5c3c": {
+    "relation_pairs": [
+      [
+        "Model",
+        "SeaEvo"
+      ],
+      [
+        "LLM-guided Evolutionary Search",
+        "SeaEvo"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777510313,
+    "update_time": 1777510313,
+    "_id": "doc-40da9bd6834b701e84e700fdf93b5c3c"
+  },
+  "doc-a78592bca66f2cefa305ee606ed12b84": {
+    "relation_pairs": [
+      [
+        "Dual-Level Attention",
+        "Survival Prediction"
+      ],
+      [
+        "Genome-Scale Inputs",
+        "PathMoG"
+      ],
+      [
+        "Gene-Expression Representations",
+        "Hierarchical Omics Modulation Module"
+      ],
+      [
+        "PathMoG",
+        "Survival Prediction"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777510405,
+    "update_time": 1777510405,
+    "_id": "doc-a78592bca66f2cefa305ee606ed12b84"
+  },
+  "doc-8cdce5bc32612f796e2270d997774825": {
+    "relation_pairs": [
+      [
+        "DPRM",
+        "DPRM Policy"
+      ],
+      [
+        "DPRM",
+        "Diffusion Language Models"
+      ],
+      [
+        "Empirical-Bernstein Rates",
+        "Online Bucketized Controller"
+      ],
+      [
+        "DPRM Policy",
+        "Soft-BoN Approximation"
+      ],
+      [
+        "DPRM Policy",
+        "Online Bucketized Controller"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777510492,
+    "update_time": 1777510492,
+    "_id": "doc-8cdce5bc32612f796e2270d997774825"
+  },
+  "doc-88cefead2f3dd0243c831e2653a82609": {
+    "relation_pairs": [
+      [
+        "ARETE",
+        "Autonomous Driving"
+      ],
+      [
+        "Detection Transformer",
+        "Lane Dividers"
+      ],
+      [
+        "ARETE",
+        "Detection Transformer"
+      ],
+      [
+        "ARETE",
+        "Internal Dataset"
+      ],
+      [
+        "ARETE",
+        "nuPlan"
+      ],
+      [
+        "Centerlines",
+        "Detection Transformer"
+      ],
+      [
+        "ARETE",
+        "HSV-transformed Crowdsourced Vehicle Fleet Data"
+      ],
+      [
+        "ARETE",
+        "nuScenes"
+      ],
+      [
+        "ARETE",
+        "High-Definition Maps"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777510585,
+    "update_time": 1777510585,
+    "_id": "doc-88cefead2f3dd0243c831e2653a82609"
+  },
+  "doc-f36584a3c17d75781a357f1a3e17848d": {
+    "relation_pairs": [
+      [
+        "Diffusion Templates",
+        "Template Models"
+      ],
+      [
+        "Datasets",
+        "Diffusion Templates"
+      ],
+      [
+        "Backbone-Specific Systems",
+        "Training Pipelines"
+      ],
+      [
+        "Backbone-Specific Systems",
+        "Parameter Formats"
+      ],
+      [
+        "Code",
+        "Diffusion Templates"
+      ],
+      [
+        "Backbone-Specific Systems",
+        "Runtime Hooks"
+      ],
+      [
+        "Diffusion Templates",
+        "Model Zoo"
+      ],
+      [
+        "Controllable Diffusion Methods",
+        "Diffusion Templates"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777510677,
+    "update_time": 1777510677,
+    "_id": "doc-f36584a3c17d75781a357f1a3e17848d"
+  },
+  "doc-1275d6a1c7d7e5d54c4d93057e8775c3": {
+    "relation_pairs": [
+      [
+        "Methodologies",
+        "Research Paper"
+      ],
+      [
+        "Backdoor Mechanism",
+        "Catastrophic Overfitting"
+      ],
+      [
+        "Abstract",
+        "Research Paper"
+      ],
+      [
+        "Vanilla Fine Tuning",
+        "Weight Outlier Suppression Constraint"
+      ],
+      [
+        "Catastrophic Overfitting",
+        "Fast Adversarial Training"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777510726,
+    "update_time": 1777510726,
+    "_id": "doc-1275d6a1c7d7e5d54c4d93057e8775c3"
+  },
+  "doc-4f986b39741d6de97b65a3c203f1521e": {
+    "relation_pairs": [
+      [
+        "LLaVA-1.6",
+        "Small Open-Weight VLMs"
+      ],
+      [
+        "Bluffing Coefficient",
+        "Sycophancy"
+      ],
+      [
+        "Hallucination",
+        "Sycophancy"
+      ],
+      [
+        "SycoPhantasy",
+        "Vision-Language Models"
+      ],
+      [
+        "Bluffing Coefficient",
+        "Vision-Language Models"
+      ],
+      [
+        "LFM2-VL",
+        "Small Open-Weight VLMs"
+      ],
+      [
+        "Bluffing Coefficient",
+        "Hallucination"
+      ],
+      [
+        "LFM2-VL",
+        "LLaVA-1.6"
+      ],
+      [
+        "Attribute-Rich Synthetic Image Evaluation Tasks",
+        "Small Open-Weight VLMs"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777510824,
+    "update_time": 1777510824,
+    "_id": "doc-4f986b39741d6de97b65a3c203f1521e"
+  },
+  "doc-ee6a8292ee988e4d64c218b75e3c5f57": {
+    "relation_pairs": [
+      [
+        "ForeSight",
+        "Reinforcement Learning"
+      ],
+      [
+        "Closed-Source Models",
+        "ForeSight-7B"
+      ],
+      [
+        "Reinforcement Learning",
+        "Vision-Language Models"
+      ],
+      [
+        "Character and Grounding SalBench",
+        "ForeSight"
+      ],
+      [
+        "Abstract",
+        "Title"
+      ],
+      [
+        "ForeSight",
+        "Vision-Language Models"
+      ],
+      [
+        "ForeSight",
+        "Low-level Visual Cues"
+      ],
+      [
+        "ForeSight",
+        "ForeSight-7B"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777510906,
+    "update_time": 1777510906,
+    "_id": "doc-ee6a8292ee988e4d64c218b75e3c5f57"
+  },
+  "doc-b05f1e3b035bc2b577cfa13063b2df6b": {
+    "relation_pairs": [
+      [
+        "APBNP",
+        "X-Contract"
+      ],
+      [
+        "APBNP",
+        "Risk-Aware Pricing"
+      ],
+      [
+        "APBNP",
+        "X-NegoBox Framework"
+      ],
+      [
+        "Energy Market",
+        "Prosumer"
+      ],
+      [
+        "DataBox",
+        "Raw Data"
+      ],
+      [
+        "Explainable Agreement",
+        "X-Contract"
+      ],
+      [
+        "DataBox",
+        "X-NegoBox Framework"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777511003,
+    "update_time": 1777511003,
+    "_id": "doc-b05f1e3b035bc2b577cfa13063b2df6b"
+  },
+  "doc-6b926c4994391b08da12daef6571057a": {
+    "relation_pairs": [
+      [
+        "Generative Design of a Gas Turbine Combustor",
+        "Invertible Neural Networks"
+      ],
+      [
+        "Database of Geometrically Parameterized Combustor Designs",
+        "Invertible Neural Networks"
+      ],
+      [
+        "Gas Turbines",
+        "Low NOx Combustion"
+      ],
+      [
+        "Gas Turbines",
+        "Premix Mode"
+      ],
+      [
+        "Invertible Neural Networks",
+        "Performance Labels"
+      ],
+      [
+        "Engine Classes",
+        "Engine Frames"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777539876,
+    "update_time": 1777539876,
+    "_id": "doc-6b926c4994391b08da12daef6571057a"
+  },
+  "doc-1f103bf8edb0a9ccc2b0ebd0f1f5509f": {
+    "relation_pairs": [
+      [
+        "Camera Calibration",
+        "Uncalibrated Settings"
+      ],
+      [
+        "Temporal Dynamics",
+        "Temporal Equivariant Rectifier (TER)"
+      ],
+      [
+        "Gröbner basis Corrector (GC)",
+        "Unconstrained Multi-view Human Pose Estimation"
+      ],
+      [
+        "Triangulation with Transformer Regressor (TTR)",
+        "Unconstrained Multi-view Human Pose Estimation"
+      ],
+      [
+        "Standard Benchmarks",
+        "Unconstrained Multi-view Human Pose Estimation"
+      ],
+      [
+        "State-of-the-art",
+        "Unconstrained Multi-view Human Pose Estimation"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777539969,
+    "update_time": 1777539969,
+    "_id": "doc-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+  },
+  "doc-58c2ed3090dd685477ad8ffbe51afc72": {
+    "relation_pairs": [
+      [
+        "Power Station-Specific Metadata",
+        "SolarTformer"
+      ],
+      [
+        "Short-Term Solar Power Forecasting",
+        "SolarTformer"
+      ],
+      [
+        "Renewable Energy",
+        "SolarTformer"
+      ],
+      [
+        "Abstract",
+        "Study"
+      ],
+      [
+        "Meteorological Data",
+        "SolarTformer"
+      ],
+      [
+        "Abstract",
+        "SolarTformer"
+      ],
+      [
+        "SolarTformer",
+        "Transformer Architecture"
+      ],
+      [
+        "SolarTformer",
+        "Study"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777540052,
+    "update_time": 1777540052,
+    "_id": "doc-58c2ed3090dd685477ad8ffbe51afc72"
+  },
+  "doc-376c46f457bdeb21e2501c08f9d738a9": {
+    "relation_pairs": [
+      [
+        "Self-Abstraction Learning",
+        "Training Data"
+      ],
+      [
+        "Deep Neural Networks",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Gradient Vanishing",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Robust Generalization",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Complex Network Regimes",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Overfitting",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Data-Scarce Regimes",
+        "Self-Abstraction Learning"
+      ],
+      [
+        "Self-Abstraction Learning",
+        "Unstable Learning"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777540142,
+    "update_time": 1777540142,
+    "_id": "doc-376c46f457bdeb21e2501c08f9d738a9"
+  },
+  "doc-22adbdae962d3d7eee22be8d522eb357": {
+    "relation_pairs": [
+      [
+        "Hysteresis Graph ODE (HGODE)",
+        "Pairwise Force"
+      ],
+      [
+        "Graph ODEs",
+        "Monostability Trap"
+      ],
+      [
+        "Double-Well Edge Potential",
+        "Hysteresis Graph ODE (HGODE)"
+      ],
+      [
+        "Graph ODEs",
+        "Hysteresis Graph ODE (HGODE)"
+      ],
+      [
+        "Graph ODEs",
+        "Latent-Hysteresis Graph ODEs"
+      ],
+      [
+        "Bipolarized Gate",
+        "Double-Well Edge Potential"
+      ],
+      [
+        "Real-World Graph Benchmarks",
+        "Theory-Driven Synthetic Diagnostics"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777540212,
+    "update_time": 1777540212,
+    "_id": "doc-22adbdae962d3d7eee22be8d522eb357"
+  },
+  "doc-245522d5b100e4d1a221b34fd4f3a20d": {
+    "relation_pairs": [
+      [
+        "RAS",
+        "Supervised Bootstrapping"
+      ],
+      [
+        "ASR Models",
+        "Abstention-Aware Transcription Framework"
+      ],
+      [
+        "ASR Models",
+        "Supervised Bootstrapping"
+      ],
+      [
+        "RAS",
+        "Reinforcement Learning"
+      ],
+      [
+        "Abstention-Aware Transcription Framework",
+        "RAS"
+      ],
+      [
+        "Automatic Speech Recognition",
+        "RAS"
+      ],
+      [
+        "Automatic Speech Recognition",
+        "Word Error Rate"
+      ],
+      [
+        "ASR Models",
+        "Reinforcement Learning"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777540297,
+    "update_time": 1777540297,
+    "_id": "doc-245522d5b100e4d1a221b34fd4f3a20d"
+  },
+  "doc-e755a3b7fb7a07c10fdd800c398a82c8": {
+    "relation_pairs": [
+      [
+        "Deep Learning-Enabled Dissolved Oxygen Sensing",
+        "Mean Average Error (MAE)"
+      ],
+      [
+        "Deep Learning-Enabled Dissolved Oxygen Sensing",
+        "Predictive Uncertainty"
+      ],
+      [
+        "Algae-Laden Water Tank",
+        "Deep Learning-Enabled Dissolved Oxygen Sensing"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1777540382,
+    "update_time": 1777540382,
+    "_id": "doc-e755a3b7fb7a07c10fdd800c398a82c8"
+  },
+  "doc-77c51309c1da2a8788990e7a8432dfd3": {
+    "relation_pairs": [
+      [
+        "MEMCoder",
+        "NdonnxEval"
+      ],
+      [
+        "MEMCoder",
+        "Objective Execution Feedback"
+      ],
+      [
+        "Large Language Models",
+        "Private Libraries"
+      ],
+      [
+        "Large Language Models",
+        "MEMCoder"
+      ],
+      [
+        "Closed Loop",
+        "MEMCoder"
+      ],
+      [
+        "MEMCoder",
+        "Retrieval-Augmented Generation"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777540454,
+    "update_time": 1777540454,
+    "_id": "doc-77c51309c1da2a8788990e7a8432dfd3"
+  },
+  "doc-e597d51a989e3ab5874950fc7bfbd276": {
+    "relation_pairs": [
+      [
+        "Adaptive Pruning Module",
+        "Adaptive ToR"
+      ],
+      [
+        "Adaptive ToR",
+        "Depth-Wise Analysis"
+      ],
+      [
+        "Adaptive ToR",
+        "Latency"
+      ],
+      [
+        "Adaptive ToR",
+        "LLM Rescoring"
+      ],
+      [
+        "Adaptive ToR",
+        "Micro-F1"
+      ],
+      [
+        "Adaptive ToR",
+        "Query Tree Classifier"
+      ],
+      [
+        "Adaptive ToR",
+        "Tree-Based Retrieval"
+      ],
+      [
+        "Adaptive ToR",
+        "Subset Accuracy"
+      ],
+      [
+        "Adaptive ToR",
+        "Token Consumption"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777540548,
+    "update_time": 1777540548,
+    "_id": "doc-e597d51a989e3ab5874950fc7bfbd276"
+  },
+  "doc-721cf18e9625b5e00d46286185f339e9": {
+    "relation_pairs": [
+      [
+        "Co-Evolutionary Verification Mechanism",
+        "RefEvo Dynamic Design Planner"
+      ],
+      [
+        "Large Language Models (LLMs)",
+        "RefEvo"
+      ],
+      [
+        "RefEvo",
+        "Testbenches (TBs)"
+      ],
+      [
+        "Co-Evolutionary Verification Mechanism",
+        "Spec Anchoring Strategy"
+      ],
+      [
+        "Dialectical Arbiter",
+        "Spec Anchoring Strategy"
+      ],
+      [
+        "Hardware Modeling",
+        "RefEvo"
+      ],
+      [
+        "RefEvo",
+        "System-on-Chip (SoC)"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777540630,
+    "update_time": 1777540630,
+    "_id": "doc-721cf18e9625b5e00d46286185f339e9"
+  },
+  "doc-92ae3699975fb22408181c1b3b3cd1ec": {
+    "relation_pairs": [
+      [
+        "GitHub",
+        "Peer-Reviewed Computer Science Papers"
+      ],
+      [
+        "LLM-based Auditor",
+        "Model Context Protocol"
+      ],
+      [
+        "Artifact Evaluation Process",
+        "Peer-Reviewed Computer Science Papers"
+      ],
+      [
+        "Agentic Witnessing",
+        "Model Context Protocol"
+      ],
+      [
+        "Agentic Witnessing",
+        "Hardware Root of Trust"
+      ],
+      [
+        "Agentic Witnessing",
+        "Artifact Evaluation Process"
+      ],
+      [
+        "Agentic Witnessing",
+        "Trusted Execution Environment"
+      ],
+      [
+        "Agentic Witnessing",
+        "Zero-Knowledge Proofs"
+      ],
+      [
+        "Agentic Witnessing",
+        "Peer-Reviewed Computer Science Papers"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777540716,
+    "update_time": 1777540716,
+    "_id": "doc-92ae3699975fb22408181c1b3b3cd1ec"
+  },
+  "doc-03219d0a39719cd1d7c96b7e9854b37a": {
+    "relation_pairs": [
+      [
+        "DriftSE",
+        "Equilibrium Problem"
+      ],
+      [
+        "DriftSE",
+        "Gaussian Prior"
+      ],
+      [
+        "DriftSE",
+        "Generative Framework"
+      ],
+      [
+        "DriftSE",
+        "Speech Distribution"
+      ],
+      [
+        "DriftSE",
+        "Noisy Observation"
+      ],
+      [
+        "DriftSE",
+        "VoiceBank-DEMAND"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777540765,
+    "update_time": 1777540765,
+    "_id": "doc-03219d0a39719cd1d7c96b7e9854b37a"
+  },
+  "doc-ca6e74b9c2346c262d89440c76e3ac05": {
+    "relation_pairs": [
+      [
+        "DataPRM",
+        "ScienceAgentBench"
+      ],
+      [
+        "DABStep",
+        "DataPRM"
+      ],
+      [
+        "Agentic Data Analysis",
+        "DataPRM"
+      ],
+      [
+        "DataPRM",
+        "Process Reward Models"
+      ],
+      [
+        "Best-of-N inference",
+        "DataPRM"
+      ],
+      [
+        "DataPRM",
+        "Outcome-reward baselines"
+      ],
+      [
+        "DataPRM",
+        "Test-Time Scaling strategies"
+      ],
+      [
+        "Large Language Models",
+        "Process Reward Models"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777540865,
+    "update_time": 1777540865,
+    "_id": "doc-ca6e74b9c2346c262d89440c76e3ac05"
+  },
+  "doc-c6161d66700f682888fb342ede2a5df0": {
+    "relation_pairs": [
+      [
+        "Celebrity and Public-Figure Imagery",
+        "Synthetic Visual Risk"
+      ],
+      [
+        "Fake Crisis Images",
+        "Synthetic Visual Risk"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777540950,
+    "update_time": 1777540950,
+    "_id": "doc-c6161d66700f682888fb342ede2a5df0"
+  },
+  "doc-0bcb21e87d929f93a36d3bdf947fcb93": {
+    "relation_pairs": [
+      [
+        "Diagnostic Reasoning",
+        "Domain Knowledge"
+      ],
+      [
+        "Diagnostic Reasoning",
+        "Knowledge Insufficiency"
+      ],
+      [
+        "Adaptability",
+        "Diagnostic Reasoning"
+      ],
+      [
+        "Diagnostic Reasoning",
+        "Large Language Models (LLMs)"
+      ],
+      [
+        "Diagnostic Prediction",
+        "MultiDx"
+      ],
+      [
+        "Diagnostic Prediction",
+        "Healthcare Applications"
+      ],
+      [
+        "Clinical Reasoning",
+        "MultiDx"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777541046,
+    "update_time": 1777541046,
+    "_id": "doc-0bcb21e87d929f93a36d3bdf947fcb93"
+  },
+  "doc-7a01dcb477b76a4cacbd754ce4561d7e": {
+    "relation_pairs": [
+      [
+        "Multimodal Hate Speech Detection",
+        "Qwen3-VLM"
+      ],
+      [
+        "Hate Speech Detection",
+        "Prompted Weak Supervision"
+      ],
+      [
+        "LT-EDI 2026",
+        "MemeScouts@LT-EDI 2026"
+      ],
+      [
+        "Multimodal Hate Speech Detection",
+        "Prompted Weak Supervision"
+      ],
+      [
+        "Error-Driven LF Expansion",
+        "Prompted Weak Supervision"
+      ],
+      [
+        "Hate Speech Detection",
+        "Vision-Language Models"
+      ],
+      [
+        "Feature Pruning",
+        "Prompted Weak Supervision"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777541127,
+    "update_time": 1777541127,
+    "_id": "doc-7a01dcb477b76a4cacbd754ce4561d7e"
+  },
+  "doc-dce3b2b12a8df42087f6abb8d46338fb": {
+    "relation_pairs": [
+      [
+        "Policy Responses",
+        "Preference-Weight-Net"
+      ],
+      [
+        "Bidirectional Preference-Policy Optimization",
+        "Extensive Empirical Results"
+      ],
+      [
+        "Meal",
+        "Preference-Weight-Net"
+      ],
+      [
+        "Bidirectional Preference-Policy Optimization",
+        "Large Language Models (LLMs)"
+      ],
+      [
+        "Bidirectional Preference-Policy Optimization",
+        "Multi-Objective Alignment"
+      ],
+      [
+        "Meta-Aligner",
+        "Multi-Objective Alignment"
+      ],
+      [
+        "Bidirectional Preference-Policy Optimization",
+        "Preference-Weight-Net"
+      ],
+      [
+        "Policy Responses",
+        "Rejection Sampling Strategy"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777541199,
+    "update_time": 1777541199,
+    "_id": "doc-dce3b2b12a8df42087f6abb8d46338fb"
+  },
+  "doc-a42210fb81e37b65a494b714686acf98": {
+    "relation_pairs": [
+      [
+        "Data Characteristics",
+        "Model Scale"
+      ],
+      [
+        "Explanation Quality Assessment",
+        "Ranking Problem"
+      ],
+      [
+        "Candidate Explanations",
+        "Reward Models"
+      ],
+      [
+        "Policy Optimization",
+        "Regression"
+      ],
+      [
+        "Code",
+        "Data"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777541292,
+    "update_time": 1777541292,
+    "_id": "doc-a42210fb81e37b65a494b714686acf98"
+  },
+  "doc-a92919218c93fbc995ef28388a45a264": {
+    "relation_pairs": [
+      [
+        "AdapTime",
+        "Temporal Reasoning"
+      ],
+      [
+        "AdapTime",
+        "Large Language Models"
+      ],
+      [
+        "Temporal Questions",
+        "Temporal Reasoning"
+      ],
+      [
+        "AdapTime",
+        "Temporal Reasoning Actions"
+      ],
+      [
+        "Temporal Questions",
+        "Temporal Reasoning Actions"
+      ],
+      [
+        "AdapTime",
+        "LLM Planner"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777541359,
+    "update_time": 1777541359,
+    "_id": "doc-a92919218c93fbc995ef28388a45a264"
+  },
+  "doc-186325b8d21aab395207850cb3577223": {
+    "relation_pairs": [
+      [
+        "Annotation",
+        "CREDENCE"
+      ],
+      [
+        "Input Ambiguity",
+        "Model Underspecification"
+      ],
+      [
+        "CREDENCE",
+        "Dedicated Ambiguity Output"
+      ],
+      [
+        "Credal Concept Bottleneck Models",
+        "Human-Interpretable Concepts"
+      ],
+      [
+        "CREDENCE",
+        "Credal Concept Bottleneck Models"
+      ],
+      [
+        "Aleatoric Uncertainty",
+        "Epistemic Uncertainty"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777541465,
+    "update_time": 1777541465,
+    "_id": "doc-186325b8d21aab395207850cb3577223"
+  },
+  "doc-306df29aef0348d52b474a51b48f7864": {
+    "relation_pairs": [
+      [
+        "Inference-Time Defense",
+        "Plug-and-Play Defense"
+      ],
+      [
+        "Complex Online Interventions",
+        "Tail-Risk Intrinsic Geometric Smoothing"
+      ],
+      [
+        "Attention Heads",
+        "Tail-Risk Intrinsic Geometric Smoothing"
+      ],
+      [
+        "Backdoor Attacks",
+        "Tail-Risk Intrinsic Geometric Smoothing"
+      ],
+      [
+        "Offline Purification",
+        "Tail-Risk Intrinsic Geometric Smoothing"
+      ],
+      [
+        "Backdoor Attacks",
+        "Defusing the Trigger"
+      ],
+      [
+        "Large Language Models",
+        "Tail-Risk Intrinsic Geometric Smoothing"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777541605,
+    "update_time": 1777541605,
+    "_id": "doc-306df29aef0348d52b474a51b48f7864"
+  },
+  "doc-e7a39d8618e94f78e32100877c33915b": {
+    "relation_pairs": [
+      [
+        "Layer-wise Progressive Approximation",
+        "Theory"
+      ],
+      [
+        "Deep Residual Networks",
+        "Validation"
+      ],
+      [
+        "Deep Residual Networks Theory and Validation",
+        "Theory"
+      ],
+      [
+        "Deep Residual Networks",
+        "Progressive Trajectories"
+      ],
+      [
+        "Residual Networks",
+        "Universal Approximation Theorem"
+      ],
+      [
+        "Deep Residual Networks",
+        "Layer-wise Progressive Approximation"
+      ],
+      [
+        "Deep Residual Networks",
+        "Theory"
+      ],
+      [
+        "Progressive Trajectories",
+        "Theory"
+      ],
+      [
+        "Deep Residual Networks Theory and Validation",
+        "Validation"
+      ],
+      [
+        "Layer-wise Progressive Approximation",
+        "Progressive Trajectories"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1777544293,
+    "update_time": 1777544293,
+    "_id": "doc-e7a39d8618e94f78e32100877c33915b"
+  },
+  "doc-ceb637d4c7b6b73e3fb46616c67758ed": {
+    "relation_pairs": [
+      [
+        "Prompts and Code",
+        "Research Study"
+      ],
+      [
+        "Human Annotations",
+        "LLMs"
+      ],
+      [
+        "Stakeholder-Centric Goals",
+        "Standard Metrics"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1777545864,
+    "update_time": 1777545864,
+    "_id": "doc-ceb637d4c7b6b73e3fb46616c67758ed"
+  },
+  "doc-1224676ee5f3ecf7b88cc6d4ed3fea11": {
+    "relation_pairs": [
+      [
+        "6G Networks",
+        "Strategic Bidding in 6G Spectrum Auctions"
+      ],
+      [
+        "Heuristic Strategies",
+        "LLM-guided Bidding"
+      ],
+      [
+        "LLM-guided Bidding",
+        "VCG Mechanism"
+      ],
+      [
+        "Budget Constraints",
+        "LLM-guided Bidding"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777546687,
+    "update_time": 1777546687,
+    "_id": "doc-1224676ee5f3ecf7b88cc6d4ed3fea11"
+  },
+  "doc-bbf5cdde0215fa8979b16920619610f2": {
+    "relation_pairs": [
+      [
+        "AI Systems",
+        "Humans"
+      ],
+      [
+        "Experimental Study",
+        "U.S. Adults"
+      ],
+      [
+        "Designers",
+        "Moral Frameworks"
+      ],
+      [
+        "AI Systems",
+        "Designers"
+      ],
+      [
+        "AI Systems",
+        "Moral Frameworks"
+      ],
+      [
+        "Company Engineers",
+        "Repair Robot"
+      ],
+      [
+        "Humans",
+        "Moral Frameworks"
+      ],
+      [
+        "Runaway Mine Train Scenario",
+        "U.S. Adults"
+      ],
+      [
+        "Designers",
+        "Humans"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777555171,
+    "update_time": 1777555171,
+    "_id": "doc-bbf5cdde0215fa8979b16920619610f2"
+  },
+  "doc-0344f2843fd85e4347a797b4d49c58fa": {
+    "relation_pairs": [
+      [
+        "Compensatory Decision Regime",
+        "Right-to-Act Protocol"
+      ],
+      [
+        "Pre-execution Decision Layer",
+        "Right-to-Act Protocol"
+      ],
+      [
+        "Pre-execution Legitimacy Boundary",
+        "Right-to-Act Protocol"
+      ],
+      [
+        "Deterministic Decision Making",
+        "Non-compensatory Decision Regime"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777555212,
+    "update_time": 1777555212,
+    "_id": "doc-0344f2843fd85e4347a797b4d49c58fa"
+  },
+  "doc-36047dc281fd05d8be1315e99b53ecff": {
+    "relation_pairs": [
+      [
+        "Joint Training",
+        "Modular Training"
+      ],
+      [
+        "Dispatching Rules",
+        "Job Scheduling Agents"
+      ],
+      [
+        "Resource Scarcity",
+        "Temporal Dominance"
+      ],
+      [
+        "Automatic Guided Vehicle Scheduling Agents",
+        "Job Scheduling Agents"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777555342,
+    "update_time": 1777555342,
+    "_id": "doc-36047dc281fd05d8be1315e99b53ecff"
+  },
+  "doc-5d04c5b21f00229db74654a2f461bcf1": {
+    "relation_pairs": [
+      [
+        "ITAS",
+        "Multi-agent LLM tutoring systems"
+      ],
+      [
+        "Single Seminar",
+        "University-Wide Rollout"
+      ],
+      [
+        "Provisioned Throughput",
+        "Standard PayGo"
+      ],
+      [
+        "Priority PayGo",
+        "Provisioned Throughput"
+      ],
+      [
+        "Priority PayGo",
+        "Standard PayGo"
+      ],
+      [
+        "Gemini 2.5 Flash",
+        "ITAS"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777555434,
+    "update_time": 1777555434,
+    "_id": "doc-5d04c5b21f00229db74654a2f461bcf1"
+  },
+  "doc-806e6e5aef8defe7ecaeafa8c2ceb771": {
+    "relation_pairs": [
+      [
+        "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+        "Unsupervised Skill Discovery"
+      ],
+      [
+        "Reward Function",
+        "Semantically Relevant Skill Discovery"
+      ],
+      [
+        "Semantic Labelling",
+        "Semantically Relevant Skill Discovery"
+      ],
+      [
+        "Human Feedback",
+        "Semantic Labelling"
+      ],
+      [
+        "Semantically Relevant Skill Discovery",
+        "Skill Spaces"
+      ],
+      [
+        "Reinforcement Learning",
+        "Unsupervised Skill Discovery"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777555473,
+    "update_time": 1777555473,
+    "_id": "doc-806e6e5aef8defe7ecaeafa8c2ceb771"
+  },
+  "doc-f040ac069b42fd1e1a97678913109308": {
+    "relation_pairs": [
+      [
+        "Mealy Machines",
+        "SemML 2.0"
+      ],
+      [
+        "Partial Exploration",
+        "SemML 2.0"
+      ],
+      [
+        "Machine-Learning Guidance",
+        "SemML 2.0"
+      ],
+      [
+        "Heuristics and Improvements",
+        "SemML 2.0"
+      ],
+      [
+        "AIGER Circuits",
+        "SemML 2.0"
+      ],
+      [
+        "Automata-Theoretic Approach",
+        "SemML 2.0"
+      ],
+      [
+        "Linear Temporal Logic (LTL)",
+        "SemML 2.0"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777555558,
+    "update_time": 1777555558,
+    "_id": "doc-f040ac069b42fd1e1a97678913109308"
+  },
+  "doc-c3a64e8f23903aab3f6bb572e5e0e8dc": {
+    "relation_pairs": [
+      [
+        "Clinical Data",
+        "Meta-Ensemble Learning"
+      ],
+      [
+        "Meta-Ensemble Learning",
+        "Respiratory Sound Classification"
+      ],
+      [
+        "Meta-Ensemble Learning",
+        "State-of-the-Art Performance"
+      ],
+      [
+        "Benchmark",
+        "Meta-Ensemble Learning"
+      ],
+      [
+        "Ivanov et al.",
+        "Meta-Ensemble Learning"
+      ],
+      [
+        "Diverse Data Splits",
+        "Meta-Ensemble Learning"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777555609,
+    "update_time": 1777555609,
+    "_id": "doc-c3a64e8f23903aab3f6bb572e5e0e8dc"
+  },
+  "doc-047ce2bc252a55d9055c31539d3a7c47": {
+    "relation_pairs": [
+      [
+        "Inference Latency",
+        "Network Jitter"
+      ],
+      [
+        "AsyncShield",
+        "Vision-Language-Action (VLA) Models"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1777558613,
+    "update_time": 1777558613,
+    "_id": "doc-047ce2bc252a55d9055c31539d3a7c47"
+  }
+}

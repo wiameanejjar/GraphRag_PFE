@@ -1,0 +1,53 @@
+{
+  "arxiv": {
+    "nb_documents": 500,
+    "tokens_mean": 258.076,
+    "tokens_median": 259.0,
+    "tokens_min": 95,
+    "tokens_max": 497,
+    "tokens_total": 129038,
+    "top_categories": {
+      "cs.AI": 500,
+      "cs.LG": 151,
+      "cs.CL": 118,
+      "cs.CV": 78,
+      "cs.CR": 36,
+      "cs.SE": 33,
+      "cs.IR": 24,
+      "cs.MA": 22,
+      "cs.HC": 21,
+      "cs.CY": 19,
+      "cs.RO": 16,
+      "cs.LO": 9,
+      "cs.NE": 9,
+      "stat.ML": 8,
+      "eess.SP": 8
+    },
+    "year_distribution": {
+      "2026": 500
+    }
+  },
+  "hotpotqa": {
+    "nb_questions": 7405,
+    "types": {
+      "comparison": 1487,
+      "bridge": 5918
+    },
+    "levels": {
+      "hard": 7405
+    },
+    "question_length_mean": 15.721404456448345
+  },
+  "chunking": {
+    "chunk_size_tokens": 512,
+    "overlap_tokens": 50,
+    "overlap_percent": 9.8,
+    "total_chunks": 501,
+    "chunks_per_doc_mean": 1.0,
+    "chunks_per_doc_max": 2,
+    "tokens_per_chunk_mean": 277.0,
+    "tokens_per_chunk_min": 60,
+    "tokens_per_chunk_max": 512,
+    "justification": "512 tokens = compromis entre GraphRAG (600) et LightRAG (1200). Overlap 50 tokens (10%) = standard littérature RAG pour préserver le contexte aux frontières entre chunks."
+  }
+}

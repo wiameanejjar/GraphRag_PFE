@@ -1,23 +1,34 @@
-# Environnement virtuel
+# ============================================
+# .gitignore — Projet Agentic GraphRAG
+# Wiame Anejjar — Master SDIA 2025-2026
+# ============================================
+
+# Données volumineuses
+agentic_graphrag/data/
+agentic_graphrag/indexes/
+agentic_graphrag/neo4j_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environnement virtuel 
 venv/
 .env/
 
-# Fichiers Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Données sensibles
+# Variables d'environnement 
 .env
-*.key
+*.env
 
-# Fichiers temporaires
-*.log
+# Modèles et fichiers lourds
+*.pkl
+*.bin
+*.h5
+
+# OS
 .DS_Store
+Thumbs.db
+
+

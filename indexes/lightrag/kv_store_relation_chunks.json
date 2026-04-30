@@ -1,0 +1,5314 @@
+{
+  "Adaptive Programming Practice<SEP>Personalized Worked Example Generation": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505770,
+    "update_time": 1777505770,
+    "_id": "Adaptive Programming Practice<SEP>Personalized Worked Example Generation"
+  },
+  "Pattern-based Knowledge Components<SEP>Student Code Submissions": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505770,
+    "update_time": 1777505770,
+    "_id": "Pattern-based Knowledge Components<SEP>Student Code Submissions"
+  },
+  "Abstract<SEP>Title": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92",
+      "chunk-c55766a45b0f180acb4d559b875dcdd9",
+      "chunk-381164f8e5eeb1538b53d25d3cf781b5",
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 4,
+    "update_time": 1777510887,
+    "_id": "Abstract<SEP>Title"
+  },
+  "KC-guided Educational Content Generation<SEP>Research Paper": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505770,
+    "update_time": 1777505770,
+    "_id": "KC-guided Educational Content Generation<SEP>Research Paper"
+  },
+  "Baseline Outputs<SEP>KC-conditioned Generation": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505770,
+    "update_time": 1777505770,
+    "_id": "Baseline Outputs<SEP>KC-conditioned Generation"
+  },
+  "Generative Model<SEP>Pattern-based Knowledge Components": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505781,
+    "update_time": 1777505781,
+    "_id": "Generative Model<SEP>Pattern-based Knowledge Components"
+  },
+  "Expert Evaluators<SEP>Research Paper": {
+    "chunk_ids": [
+      "chunk-421873c316a2a72fa1ccf5068ebdfe92"
+    ],
+    "count": 1,
+    "create_time": 1777505781,
+    "update_time": 1777505781,
+    "_id": "Expert Evaluators<SEP>Research Paper"
+  },
+  "Chain-of-Thought (CoT) Supervision<SEP>Learning to Think from Multiple Thinkers": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505837,
+    "update_time": 1777505837,
+    "_id": "Chain-of-Thought (CoT) Supervision<SEP>Learning to Think from Multiple Thinkers"
+  },
+  "Target Accuracy<SEP>Thinkers": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505837,
+    "update_time": 1777505837,
+    "_id": "Target Accuracy<SEP>Thinkers"
+  },
+  "Chain-of-Thought (CoT) Supervision<SEP>Math Problems": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505841,
+    "update_time": 1777505841,
+    "_id": "Chain-of-Thought (CoT) Supervision<SEP>Math Problems"
+  },
+  "Chain-of-Thought (CoT) Supervision<SEP>Execution Traces": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505843,
+    "update_time": 1777505843,
+    "_id": "Chain-of-Thought (CoT) Supervision<SEP>Execution Traces"
+  },
+  "Active Learning Algorithm<SEP>Chain-of-Thought (CoT) Supervision": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505845,
+    "update_time": 1777505845,
+    "_id": "Active Learning Algorithm<SEP>Chain-of-Thought (CoT) Supervision"
+  },
+  "Chain-of-Thought (CoT) Supervision<SEP>Thinkers": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505847,
+    "update_time": 1777505847,
+    "_id": "Chain-of-Thought (CoT) Supervision<SEP>Thinkers"
+  },
+  "Active Learning Algorithm<SEP>Target Accuracy": {
+    "chunk_ids": [
+      "chunk-ad3ff5a016386baadd7feb243f306901"
+    ],
+    "count": 1,
+    "create_time": 1777505847,
+    "update_time": 1777505847,
+    "_id": "Active Learning Algorithm<SEP>Target Accuracy"
+  },
+  "Learning to Rotate<SEP>Temporal and Semantic Rotary Encoding": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505938,
+    "update_time": 1777505938,
+    "_id": "Learning to Rotate<SEP>Temporal and Semantic Rotary Encoding"
+  },
+  "Rotary Positional Embeddings (RoPE)<SEP>Transformer Architecture": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505938,
+    "update_time": 1777505938,
+    "_id": "Rotary Positional Embeddings (RoPE)<SEP>Transformer Architecture"
+  },
+  "Imaginary Axis<SEP>Real Line": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505938,
+    "update_time": 1777505938,
+    "_id": "Imaginary Axis<SEP>Real Line"
+  },
+  "Attention Mechanism<SEP>Rotation Manifold": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505938,
+    "update_time": 1777505938,
+    "_id": "Attention Mechanism<SEP>Rotation Manifold"
+  },
+  "Ordinal Indices<SEP>Rotation Manifold": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505949,
+    "update_time": 1777505949,
+    "_id": "Ordinal Indices<SEP>Rotation Manifold"
+  },
+  "Attention Mechanism<SEP>Semantic Embedding Space": {
+    "chunk_ids": [
+      "chunk-7766d3554226b9ed677312825f4a488e"
+    ],
+    "count": 1,
+    "create_time": 1777505949,
+    "update_time": 1777505949,
+    "_id": "Attention Mechanism<SEP>Semantic Embedding Space"
+  },
+  "Clinician-Authored Rubrics<SEP>LLM-Generated Rubrics": {
+    "chunk_ids": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa"
+    ],
+    "count": 1,
+    "create_time": 1777506033,
+    "update_time": 1777506033,
+    "_id": "Clinician-Authored Rubrics<SEP>LLM-Generated Rubrics"
+  },
+  "Clinician-Clinician Agreement<SEP>Clinician-LLM Ranking Agreement": {
+    "chunk_ids": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa"
+    ],
+    "count": 1,
+    "create_time": 1777506033,
+    "update_time": 1777506033,
+    "_id": "Clinician-Clinician Agreement<SEP>Clinician-LLM Ranking Agreement"
+  },
+  "Clinical AI Evaluation<SEP>Expert Review": {
+    "chunk_ids": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa"
+    ],
+    "count": 1,
+    "create_time": 1777506033,
+    "update_time": 1777506033,
+    "_id": "Clinical AI Evaluation<SEP>Expert Review"
+  },
+  "Clinician-Authored Rubrics<SEP>LLM Rubrics": {
+    "chunk_ids": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa"
+    ],
+    "count": 1,
+    "create_time": 1777506042,
+    "update_time": 1777506042,
+    "_id": "Clinician-Authored Rubrics<SEP>LLM Rubrics"
+  },
+  "Hyperparameter-Divergent Ensemble Training<SEP>Scalable Hyperparameter-Divergent Ensemble Training": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506117,
+    "update_time": 1777506117,
+    "_id": "Hyperparameter-Divergent Ensemble Training<SEP>Scalable Hyperparameter-Divergent Ensemble Training"
+  },
+  "Automatic Learning Rate<SEP>Momentum-Based Gradient-Free Meta-Update": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506117,
+    "update_time": 1777506117,
+    "_id": "Automatic Learning Rate<SEP>Momentum-Based Gradient-Free Meta-Update"
+  },
+  "Large Models<SEP>Scalable Hyperparameter-Divergent Ensemble Training": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506121,
+    "update_time": 1777506121,
+    "_id": "Large Models<SEP>Scalable Hyperparameter-Divergent Ensemble Training"
+  },
+  "AllReduce<SEP>Hyperparameter-Divergent Ensemble Training": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506121,
+    "update_time": 1777506121,
+    "_id": "AllReduce<SEP>Hyperparameter-Divergent Ensemble Training"
+  },
+  "GPU Replicas<SEP>Hyperparameter-Divergent Ensemble Training": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506126,
+    "update_time": 1777506126,
+    "_id": "GPU Replicas<SEP>Hyperparameter-Divergent Ensemble Training"
+  },
+  "Hyperparameter-Divergent Ensemble Training<SEP>Scalar Hyperparameters": {
+    "chunk_ids": [
+      "chunk-d6c0f79672d14203995268b9dcd4b61c"
+    ],
+    "count": 1,
+    "create_time": 1777506128,
+    "update_time": 1777506128,
+    "_id": "Hyperparameter-Divergent Ensemble Training<SEP>Scalar Hyperparameters"
+  },
+  "Large Language Models<SEP>SpecValidator": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506196,
+    "update_time": 1777506196,
+    "_id": "Large Language Models<SEP>SpecValidator"
+  },
+  "Defective Task Descriptions<SEP>LLM-Based Code Generation": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506196,
+    "update_time": 1777506196,
+    "_id": "Defective Task Descriptions<SEP>LLM-Based Code Generation"
+  },
+  "Lexical Vagueness<SEP>SpecValidator": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506201,
+    "update_time": 1777506201,
+    "_id": "Lexical Vagueness<SEP>SpecValidator"
+  },
+  "Defective Task Descriptions<SEP>Robustness of LLMs": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506201,
+    "update_time": 1777506201,
+    "_id": "Defective Task Descriptions<SEP>Robustness of LLMs"
+  },
+  "SpecValidator<SEP>Under-Specification": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506205,
+    "update_time": 1777506205,
+    "_id": "SpecValidator<SEP>Under-Specification"
+  },
+  "SpecValidator<SEP>Syntax-Formatting": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506209,
+    "update_time": 1777506209,
+    "_id": "SpecValidator<SEP>Syntax-Formatting"
+  },
+  "LiveCodeBench<SEP>SpecValidator": {
+    "chunk_ids": [
+      "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd"
+    ],
+    "count": 1,
+    "create_time": 1777506211,
+    "update_time": 1777506211,
+    "_id": "LiveCodeBench<SEP>SpecValidator"
+  },
+  "Green Shielding<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506283,
+    "update_time": 1777506283,
+    "_id": "Green Shielding<SEP>Large Language Models"
+  },
+  "HealthCareMagic-Diagnosis<SEP>PCS Framework": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506283,
+    "update_time": 1777506283,
+    "_id": "HealthCareMagic-Diagnosis<SEP>PCS Framework"
+  },
+  "Neutralization<SEP>Pareto-Like Tradeoffs": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506283,
+    "update_time": 1777506283,
+    "_id": "Neutralization<SEP>Pareto-Like Tradeoffs"
+  },
+  "Green Shielding<SEP>User-Facing Guidance": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506289,
+    "update_time": 1777506289,
+    "_id": "Green Shielding<SEP>User-Facing Guidance"
+  },
+  "Clinician-Like Differentials<SEP>HealthCareMagic-Diagnosis": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506289,
+    "update_time": 1777506289,
+    "_id": "Clinician-Like Differentials<SEP>HealthCareMagic-Diagnosis"
+  },
+  "Highly Likely and Safety-Critical Conditions<SEP>Pareto-Like Tradeoffs": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506289,
+    "update_time": 1777506289,
+    "_id": "Highly Likely and Safety-Critical Conditions<SEP>Pareto-Like Tradeoffs"
+  },
+  "Agentic AI Systems<SEP>Green Shielding": {
+    "chunk_ids": [
+      "chunk-2df46a60ce12797a8d4e5b624970ede7"
+    ],
+    "count": 1,
+    "create_time": 1777506296,
+    "update_time": 1777506296,
+    "_id": "Agentic AI Systems<SEP>Green Shielding"
+  },
+  "GPT-5.2<SEP>Gemini-3-Pro": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506374,
+    "update_time": 1777506374,
+    "_id": "GPT-5.2<SEP>Gemini-3-Pro"
+  },
+  "Discovery-to-Application Loop<SEP>Knowledge Gap Identification": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506374,
+    "update_time": 1777506374,
+    "_id": "Discovery-to-Application Loop<SEP>Knowledge Gap Identification"
+  },
+  "Claude-Opus-4.5<SEP>GPT-5.2": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506379,
+    "update_time": 1777506379,
+    "_id": "Claude-Opus-4.5<SEP>GPT-5.2"
+  },
+  "Knowledge Consolidation<SEP>Knowledge Gap Identification": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506379,
+    "update_time": 1777506379,
+    "_id": "Knowledge Consolidation<SEP>Knowledge Gap Identification"
+  },
+  "Claude-Opus-4.5<SEP>Gemini-3-Pro": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506383,
+    "update_time": 1777506383,
+    "_id": "Claude-Opus-4.5<SEP>Gemini-3-Pro"
+  },
+  "Knowledge Application<SEP>Knowledge Consolidation": {
+    "chunk_ids": [
+      "chunk-7909c6cfbc42d7e40e309323a850e887"
+    ],
+    "count": 1,
+    "create_time": 1777506385,
+    "update_time": 1777506385,
+    "_id": "Knowledge Application<SEP>Knowledge Consolidation"
+  },
+  "Autonomous AI Agents<SEP>Governing What You Cannot Observe": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506457,
+    "update_time": 1777506457,
+    "_id": "Autonomous AI Agents<SEP>Governing What You Cannot Observe"
+  },
+  "Informational Viability Principle<SEP>RiskGate": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506457,
+    "update_time": 1777506457,
+    "_id": "Informational Viability Principle<SEP>RiskGate"
+  },
+  "Agent Viability Framework<SEP>Aubin's Viability Theory": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506457,
+    "update_time": 1777506457,
+    "_id": "Agent Viability Framework<SEP>Aubin's Viability Theory"
+  },
+  "Abstract<SEP>Governing What You Cannot Observe": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506464,
+    "update_time": 1777506464,
+    "_id": "Abstract<SEP>Governing What You Cannot Observe"
+  },
+  "KL Divergence<SEP>RiskGate": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506464,
+    "update_time": 1777506464,
+    "_id": "KL Divergence<SEP>RiskGate"
+  },
+  "Agent Viability Framework<SEP>Viability Index": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506464,
+    "update_time": 1777506464,
+    "_id": "Agent Viability Framework<SEP>Viability Index"
+  },
+  "Autopilot<SEP>Kill-Switch-as-Last-Resort": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506464,
+    "update_time": 1777506464,
+    "_id": "Autopilot<SEP>Kill-Switch-as-Last-Resort"
+  },
+  "RiskGate<SEP>Segment-vs-Rest z-Tests": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506472,
+    "update_time": 1777506472,
+    "_id": "RiskGate<SEP>Segment-vs-Rest z-Tests"
+  },
+  "RiskGate<SEP>Sequential Pattern Matching": {
+    "chunk_ids": [
+      "chunk-2c127bc04f3bde0cd314a75a26f2cec3"
+    ],
+    "count": 1,
+    "create_time": 1777506476,
+    "update_time": 1777506476,
+    "_id": "RiskGate<SEP>Sequential Pattern Matching"
+  },
+  "BMW<SEP>Industrial Case Study": {
+    "chunk_ids": [
+      "chunk-ee26c6456033dbc512177b2b3161670e"
+    ],
+    "count": 1,
+    "create_time": 1777506562,
+    "update_time": 1777506562,
+    "_id": "BMW<SEP>Industrial Case Study"
+  },
+  "Large Language Models (LLMs)<SEP>Repository-Scale Change Generation": {
+    "chunk_ids": [
+      "chunk-ee26c6456033dbc512177b2b3161670e"
+    ],
+    "count": 1,
+    "create_time": 1777506562,
+    "update_time": 1777506562,
+    "_id": "Large Language Models (LLMs)<SEP>Repository-Scale Change Generation"
+  },
+  "LLMs<SEP>Sycophancy": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506611,
+    "update_time": 1777506611,
+    "_id": "LLMs<SEP>Sycophancy"
+  },
+  "Financial Systems<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506613,
+    "update_time": 1777506613,
+    "_id": "Financial Systems<SEP>LLMs"
+  },
+  "Agentic Financial Applications<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506615,
+    "update_time": 1777506615,
+    "_id": "Agentic Financial Applications<SEP>LLMs"
+  },
+  "LLMs<SEP>User Rebuttals": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506617,
+    "update_time": 1777506617,
+    "_id": "LLMs<SEP>User Rebuttals"
+  },
+  "LLMs<SEP>Pretrained LLM": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506619,
+    "update_time": 1777506619,
+    "_id": "LLMs<SEP>Pretrained LLM"
+  },
+  "LLMs<SEP>Prior Work": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506621,
+    "update_time": 1777506621,
+    "_id": "LLMs<SEP>Prior Work"
+  },
+  "LLMs<SEP>User Preference Information": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506624,
+    "update_time": 1777506624,
+    "_id": "LLMs<SEP>User Preference Information"
+  },
+  "Input Filtering<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-cd622ac8154940cde02b38a335a93d0b"
+    ],
+    "count": 1,
+    "create_time": 1777506628,
+    "update_time": 1777506628,
+    "_id": "Input Filtering<SEP>LLMs"
+  },
+  "Humans<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "count": 1,
+    "create_time": 1777506703,
+    "update_time": 1777506703,
+    "_id": "Humans<SEP>LLMs"
+  },
+  "High-Trust Contexts<SEP>Low-Trust Contexts": {
+    "chunk_ids": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "count": 1,
+    "create_time": 1777506703,
+    "update_time": 1777506703,
+    "_id": "High-Trust Contexts<SEP>Low-Trust Contexts"
+  },
+  "Evidential Trust Manipulation<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "count": 1,
+    "create_time": 1777506710,
+    "update_time": 1777506710,
+    "_id": "Evidential Trust Manipulation<SEP>LLMs"
+  },
+  "Humans<SEP>Turkish Evidential Morphology": {
+    "chunk_ids": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "count": 1,
+    "create_time": 1777506710,
+    "update_time": 1777506710,
+    "_id": "Humans<SEP>Turkish Evidential Morphology"
+  },
+  "Human Production Experiment<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-c55766a45b0f180acb4d559b875dcdd9"
+    ],
+    "count": 1,
+    "create_time": 1777506716,
+    "update_time": 1777506716,
+    "_id": "Human Production Experiment<SEP>LLMs"
+  },
+  "DySIB<SEP>Predictive Mutual Information": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506766,
+    "update_time": 1777506766,
+    "_id": "DySIB<SEP>Predictive Mutual Information"
+  },
+  "Experimental Video Dataset<SEP>Physical Pendulum": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506766,
+    "update_time": 1777506766,
+    "_id": "Experimental Video Dataset<SEP>Physical Pendulum"
+  },
+  "Canonical Angle and Angular Velocity<SEP>Phase Space": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506766,
+    "update_time": 1777506766,
+    "_id": "Canonical Angle and Angular Velocity<SEP>Phase Space"
+  },
+  "DySIB<SEP>Latent Space": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506772,
+    "update_time": 1777506772,
+    "_id": "DySIB<SEP>Latent Space"
+  },
+  "Phase Space<SEP>Physical Pendulum": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506775,
+    "update_time": 1777506775,
+    "_id": "Phase Space<SEP>Physical Pendulum"
+  },
+  "DySIB<SEP>Hyperparameters": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506777,
+    "update_time": 1777506777,
+    "_id": "DySIB<SEP>Hyperparameters"
+  },
+  "DySIB<SEP>Time-Series Data": {
+    "chunk_ids": [
+      "chunk-8bcf22c0d460fde620c812a0c96baa6f"
+    ],
+    "count": 1,
+    "create_time": 1777506781,
+    "update_time": 1777506781,
+    "_id": "DySIB<SEP>Time-Series Data"
+  },
+  "AgentWard<SEP>Autonomous AI Agents": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506845,
+    "update_time": 1777506845,
+    "_id": "AgentWard<SEP>Autonomous AI Agents"
+  },
+  "AgentWard<SEP>Security Failures": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506847,
+    "update_time": 1777506847,
+    "_id": "AgentWard<SEP>Security Failures"
+  },
+  "AgentWard<SEP>OpenClaw": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506849,
+    "update_time": 1777506849,
+    "_id": "AgentWard<SEP>OpenClaw"
+  },
+  "AgentWard<SEP>Lifecycle Security Architecture": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506852,
+    "update_time": 1777506852,
+    "_id": "AgentWard<SEP>Lifecycle Security Architecture"
+  },
+  "AgentWard<SEP>Defense-in-Depth Architecture": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506854,
+    "update_time": 1777506854,
+    "_id": "AgentWard<SEP>Defense-in-Depth Architecture"
+  },
+  "AgentWard<SEP>Runtime Security Controls": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506856,
+    "update_time": 1777506856,
+    "_id": "AgentWard<SEP>Runtime Security Controls"
+  },
+  "AgentWard<SEP>Trust Propagation": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506858,
+    "update_time": 1777506858,
+    "_id": "AgentWard<SEP>Trust Propagation"
+  },
+  "AgentWard<SEP>Execution Containment": {
+    "chunk_ids": [
+      "chunk-d66caa329c3a04aee4985803a47142b6"
+    ],
+    "count": 1,
+    "create_time": 1777506860,
+    "update_time": 1777506860,
+    "_id": "AgentWard<SEP>Execution Containment"
+  },
+  "DepthKV<SEP>Long-Context LLM Inference": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506914,
+    "update_time": 1777506914,
+    "_id": "DepthKV<SEP>Long-Context LLM Inference"
+  },
+  "Large Language Models<SEP>Long-Document Understanding": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506914,
+    "update_time": 1777506914,
+    "_id": "Large Language Models<SEP>Long-Document Understanding"
+  },
+  "DepthKV Framework<SEP>Uniform Pruning": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506914,
+    "update_time": 1777506914,
+    "_id": "DepthKV Framework<SEP>Uniform Pruning"
+  },
+  "Key-Value Cache<SEP>Long-Context LLM Inference": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506920,
+    "update_time": 1777506920,
+    "_id": "Key-Value Cache<SEP>Long-Context LLM Inference"
+  },
+  "Large Language Models<SEP>Summarization": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506920,
+    "update_time": 1777506920,
+    "_id": "Large Language Models<SEP>Summarization"
+  },
+  "DepthKV<SEP>Key-Value Cache": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506925,
+    "update_time": 1777506925,
+    "_id": "DepthKV<SEP>Key-Value Cache"
+  },
+  "Code Generation<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506925,
+    "update_time": 1777506925,
+    "_id": "Code Generation<SEP>Large Language Models"
+  },
+  "DepthKV<SEP>Uniform Pruning": {
+    "chunk_ids": [
+      "chunk-ffb0995b3d5e71e709d829e54fcfaf1b"
+    ],
+    "count": 1,
+    "create_time": 1777506929,
+    "update_time": 1777506929,
+    "_id": "DepthKV<SEP>Uniform Pruning"
+  },
+  "K-MetBench<SEP>Korean Weather Forecasters": {
+    "chunk_ids": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "count": 1,
+    "create_time": 1777507006,
+    "update_time": 1777507006,
+    "_id": "K-MetBench<SEP>Korean Weather Forecasters"
+  },
+  "Global Models<SEP>Korean Models": {
+    "chunk_ids": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "count": 1,
+    "create_time": 1777507006,
+    "update_time": 1777507006,
+    "_id": "Global Models<SEP>Korean Models"
+  },
+  "Expert-Verified Rationales<SEP>Logical Validity": {
+    "chunk_ids": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "count": 1,
+    "create_time": 1777507006,
+    "update_time": 1777507006,
+    "_id": "Expert-Verified Rationales<SEP>Logical Validity"
+  },
+  "Korean Weather Forecasters<SEP>Multimodal Large Language Model Assistants": {
+    "chunk_ids": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "count": 1,
+    "create_time": 1777507012,
+    "update_time": 1777507012,
+    "_id": "Korean Weather Forecasters<SEP>Multimodal Large Language Model Assistants"
+  },
+  "K-MetBench<SEP>K-MetBench Dataset": {
+    "chunk_ids": [
+      "chunk-232b2b084bf5a67744fd68472f6b18c1"
+    ],
+    "count": 1,
+    "create_time": 1777507014,
+    "update_time": 1777507014,
+    "_id": "K-MetBench<SEP>K-MetBench Dataset"
+  },
+  "Functional Task Networks<SEP>Gradient Descent": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507100,
+    "update_time": 1777507100,
+    "_id": "Functional Task Networks<SEP>Gradient Descent"
+  },
+  "K-Winner-Take-All<SEP>Smoothing Kernel": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507100,
+    "update_time": 1777507100,
+    "_id": "K-Winner-Take-All<SEP>Smoothing Kernel"
+  },
+  "Dendritic Models<SEP>Mixture-of-Experts": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507100,
+    "update_time": 1777507100,
+    "_id": "Dendritic Models<SEP>Mixture-of-Experts"
+  },
+  "FTN-Fast<SEP>FTN-Slow": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507100,
+    "update_time": 1777507100,
+    "_id": "FTN-Fast<SEP>FTN-Slow"
+  },
+  "Gradient Descent<SEP>Smoothing Kernel": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507111,
+    "update_time": 1777507111,
+    "_id": "Gradient Descent<SEP>Smoothing Kernel"
+  },
+  "Dendritic Models<SEP>Pyramidal Neurons": {
+    "chunk_ids": [
+      "chunk-899149a6310f6cac289e14d7be815549"
+    ],
+    "count": 1,
+    "create_time": 1777507111,
+    "update_time": 1777507111,
+    "_id": "Dendritic Models<SEP>Pyramidal Neurons"
+  },
+  "On-Device Small Language Models<SEP>Palabrita": {
+    "chunk_ids": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "count": 1,
+    "create_time": 1777507188,
+    "update_time": 1777507188,
+    "_id": "On-Device Small Language Models<SEP>Palabrita"
+  },
+  "Gemma 4 E2B<SEP>Qwen3": {
+    "chunk_ids": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "count": 1,
+    "create_time": 1777507188,
+    "update_time": 1777507188,
+    "_id": "Gemma 4 E2B<SEP>Qwen3"
+  },
+  "Contextual Retry with Failure Feedback<SEP>Multi-Layer Defensive Parsing": {
+    "chunk_ids": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "count": 1,
+    "create_time": 1777507188,
+    "update_time": 1777507188,
+    "_id": "Contextual Retry with Failure Feedback<SEP>Multi-Layer Defensive Parsing"
+  },
+  "Longitudinal Practitioner Case Study<SEP>Palabrita": {
+    "chunk_ids": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "count": 1,
+    "create_time": 1777507195,
+    "update_time": 1777507195,
+    "_id": "Longitudinal Practitioner Case Study<SEP>Palabrita"
+  },
+  "Eight Actionable Design Heuristics<SEP>Palabrita": {
+    "chunk_ids": [
+      "chunk-2e7f40d6904acbb399d316edbe0a123b"
+    ],
+    "count": 1,
+    "create_time": 1777507197,
+    "update_time": 1777507197,
+    "_id": "Eight Actionable Design Heuristics<SEP>Palabrita"
+  },
+  "Chain-of-Thought (CoT)<SEP>Meta-CoT": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507277,
+    "update_time": 1777507277,
+    "_id": "Chain-of-Thought (CoT)<SEP>Meta-CoT"
+  },
+  "Editing Task<SEP>Meta-CoT": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507279,
+    "update_time": 1777507279,
+    "_id": "Editing Task<SEP>Meta-CoT"
+  },
+  "Chain-of-Thought (CoT)<SEP>Unified Multi-Modal Understanding/Generative Models": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507279,
+    "update_time": 1777507279,
+    "_id": "Chain-of-Thought (CoT)<SEP>Unified Multi-Modal Understanding/Generative Models"
+  },
+  "Meta-CoT<SEP>Target": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507283,
+    "update_time": 1777507283,
+    "_id": "Meta-CoT<SEP>Target"
+  },
+  "Meta-CoT<SEP>Two-Level Decomposition": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507285,
+    "update_time": 1777507285,
+    "_id": "Meta-CoT<SEP>Two-Level Decomposition"
+  },
+  "Meta-CoT<SEP>Task-Specific CoT Traversal": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507288,
+    "update_time": 1777507288,
+    "_id": "Meta-CoT<SEP>Task-Specific CoT Traversal"
+  },
+  "Editing Capability Improvement<SEP>Meta-CoT": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507290,
+    "update_time": 1777507290,
+    "_id": "Editing Capability Improvement<SEP>Meta-CoT"
+  },
+  "Editing Capability Improvement<SEP>Unified Multi-Modal Understanding/Generative Models": {
+    "chunk_ids": [
+      "chunk-2643db96ff06ade733f1ed549959310e"
+    ],
+    "count": 1,
+    "create_time": 1777507292,
+    "update_time": 1777507292,
+    "_id": "Editing Capability Improvement<SEP>Unified Multi-Modal Understanding/Generative Models"
+  },
+  "GraphRAG<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507359,
+    "update_time": 1777507359,
+    "_id": "GraphRAG<SEP>XGRAG"
+  },
+  "Knowledge Graphs (KGs)<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507361,
+    "update_time": 1777507361,
+    "_id": "Knowledge Graphs (KGs)<SEP>XGRAG"
+  },
+  "Large Language Models (LLMs)<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507363,
+    "update_time": 1777507363,
+    "_id": "Large Language Models (LLMs)<SEP>XGRAG"
+  },
+  "RAG-Ex<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507365,
+    "update_time": 1777507365,
+    "_id": "RAG-Ex<SEP>XGRAG"
+  },
+  "Graph Centrality Measures<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507367,
+    "update_time": 1777507367,
+    "_id": "Graph Centrality Measures<SEP>XGRAG"
+  },
+  "GraphRAG<SEP>RAG-Ex": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507367,
+    "update_time": 1777507367,
+    "_id": "GraphRAG<SEP>RAG-Ex"
+  },
+  "Trustworthy AI<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507371,
+    "update_time": 1777507371,
+    "_id": "Trustworthy AI<SEP>XGRAG"
+  },
+  "Question Types<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507374,
+    "update_time": 1777507374,
+    "_id": "Question Types<SEP>XGRAG"
+  },
+  "Narrative Structures<SEP>XGRAG": {
+    "chunk_ids": [
+      "chunk-64fad5be7471e063c4b5aa89695241f8"
+    ],
+    "count": 1,
+    "create_time": 1777507376,
+    "update_time": 1777507376,
+    "_id": "Narrative Structures<SEP>XGRAG"
+  },
+  "CF-VLA<SEP>Vision-Language-Action Policies": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507450,
+    "update_time": 1777507450,
+    "_id": "CF-VLA<SEP>Vision-Language-Action Policies"
+  },
+  "Coarse Stage<SEP>Fine Stage": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507450,
+    "update_time": 1777507450,
+    "_id": "Coarse Stage<SEP>Fine Stage"
+  },
+  "CF-VLA<SEP>Coarse Stage": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507454,
+    "update_time": 1777507454,
+    "_id": "CF-VLA<SEP>Coarse Stage"
+  },
+  "CF-VLA<SEP>MIP": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507456,
+    "update_time": 1777507456,
+    "_id": "CF-VLA<SEP>MIP"
+  },
+  "CF-VLA<SEP>π_{0.5}": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507458,
+    "update_time": 1777507458,
+    "_id": "CF-VLA<SEP>π_{0.5}"
+  },
+  "CF-VLA<SEP>Number of Function Evaluations (NFE)": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507460,
+    "update_time": 1777507460,
+    "_id": "CF-VLA<SEP>Number of Function Evaluations (NFE)"
+  },
+  "CALVIN<SEP>CF-VLA": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507462,
+    "update_time": 1777507462,
+    "_id": "CALVIN<SEP>CF-VLA"
+  },
+  "CF-VLA<SEP>LIBERO": {
+    "chunk_ids": [
+      "chunk-058dc72e32b67a7f3ced7c98ed821a74"
+    ],
+    "count": 1,
+    "create_time": 1777507465,
+    "update_time": 1777507465,
+    "_id": "CF-VLA<SEP>LIBERO"
+  },
+  "Evaluating AI Models<SEP>Frontier Models": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507542,
+    "update_time": 1777507542,
+    "_id": "Evaluating AI Models<SEP>Frontier Models"
+  },
+  "Prefill Awareness<SEP>Situational Awareness": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507542,
+    "update_time": 1777507542,
+    "_id": "Prefill Awareness<SEP>Situational Awareness"
+  },
+  "Claude Models<SEP>Frontier Models": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507546,
+    "update_time": 1777507546,
+    "_id": "Claude Models<SEP>Frontier Models"
+  },
+  "Evaluating AI Models<SEP>Opus 4.7 Preview": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507546,
+    "update_time": 1777507546,
+    "_id": "Evaluating AI Models<SEP>Opus 4.7 Preview"
+  },
+  "AI Research Agents<SEP>Claude Models": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507550,
+    "update_time": 1777507550,
+    "_id": "AI Research Agents<SEP>Claude Models"
+  },
+  "Evaluating AI Models<SEP>Mythos Preview": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507550,
+    "update_time": 1777507550,
+    "_id": "Evaluating AI Models<SEP>Mythos Preview"
+  },
+  "AI Research Agents<SEP>Trajectories": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507555,
+    "update_time": 1777507555,
+    "_id": "AI Research Agents<SEP>Trajectories"
+  },
+  "Evaluating AI Models<SEP>Petri": {
+    "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+    ],
+    "count": 1,
+    "create_time": 1777507555,
+    "update_time": 1777507555,
+    "_id": "Evaluating AI Models<SEP>Petri"
+  },
+  "NeSyCat<SEP>ULLER": {
+    "chunk_ids": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "count": 1,
+    "create_time": 1777507619,
+    "update_time": 1777507619,
+    "_id": "NeSyCat<SEP>ULLER"
+  },
+  "First-Order Logic<SEP>Monads": {
+    "chunk_ids": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "count": 1,
+    "create_time": 1777507619,
+    "update_time": 1777507619,
+    "_id": "First-Order Logic<SEP>Monads"
+  },
+  "Neurosymbolic Systems<SEP>ULLER": {
+    "chunk_ids": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "count": 1,
+    "create_time": 1777507624,
+    "update_time": 1777507624,
+    "_id": "Neurosymbolic Systems<SEP>ULLER"
+  },
+  "Giry Monad<SEP>NeSyCat": {
+    "chunk_ids": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "count": 1,
+    "create_time": 1777507624,
+    "update_time": 1777507624,
+    "_id": "Giry Monad<SEP>NeSyCat"
+  },
+  "GitHub<SEP>ULLER": {
+    "chunk_ids": [
+      "chunk-8f1f554e2452ba8f9ca944a83a65ca2f"
+    ],
+    "count": 1,
+    "create_time": 1777507628,
+    "update_time": 1777507628,
+    "_id": "GitHub<SEP>ULLER"
+  },
+  "Large Language Models<SEP>RouteHead": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507706,
+    "update_time": 1777507706,
+    "_id": "Large Language Models<SEP>RouteHead"
+  },
+  "Query<SEP>RouteHead": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507708,
+    "update_time": 1777507708,
+    "_id": "Query<SEP>RouteHead"
+  },
+  "Relevance Score<SEP>RouteHead": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507710,
+    "update_time": 1777507710,
+    "_id": "Relevance Score<SEP>RouteHead"
+  },
+  "Pseudo Label<SEP>RouteHead": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507712,
+    "update_time": 1777507712,
+    "_id": "Pseudo Label<SEP>RouteHead"
+  },
+  "RouteHead<SEP>Sparsity Regularizer": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507714,
+    "update_time": 1777507714,
+    "_id": "RouteHead<SEP>Sparsity Regularizer"
+  },
+  "RouteHead<SEP>Zero-Shot Re-ranking": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507717,
+    "update_time": 1777507717,
+    "_id": "RouteHead<SEP>Zero-Shot Re-ranking"
+  },
+  "Attention Signal<SEP>RouteHead": {
+    "chunk_ids": [
+      "chunk-b48bf4c58531cb5d0dde75c4cc92714f"
+    ],
+    "count": 1,
+    "create_time": 1777507719,
+    "update_time": 1777507719,
+    "_id": "Attention Signal<SEP>RouteHead"
+  },
+  "QSVM<SEP>QSVM with Frozen Embeddings": {
+    "chunk_ids": [
+      "chunk-d09be2d2da00f2e5ea614c6692dd8991"
+    ],
+    "count": 1,
+    "create_time": 1777507799,
+    "update_time": 1777507799,
+    "_id": "QSVM<SEP>QSVM with Frozen Embeddings"
+  },
+  "Hyperparameter Tuning<SEP>QSVM with Frozen Embeddings": {
+    "chunk_ids": [
+      "chunk-d09be2d2da00f2e5ea614c6692dd8991"
+    ],
+    "count": 1,
+    "create_time": 1777507801,
+    "update_time": 1777507801,
+    "_id": "Hyperparameter Tuning<SEP>QSVM with Frozen Embeddings"
+  },
+  "Large Language Models<SEP>Skill Retrieval Augmentation": {
+    "chunk_ids": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "count": 1,
+    "create_time": 1777507879,
+    "update_time": 1777507879,
+    "_id": "Large Language Models<SEP>Skill Retrieval Augmentation"
+  },
+  "Skill Retrieval Augmentation Pipeline<SEP>Skill Retrieval Augmentation-Bench": {
+    "chunk_ids": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "count": 1,
+    "create_time": 1777507879,
+    "update_time": 1777507879,
+    "_id": "Skill Retrieval Augmentation Pipeline<SEP>Skill Retrieval Augmentation-Bench"
+  },
+  "Large Language Models<SEP>Parametric Capabilities": {
+    "chunk_ids": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "count": 1,
+    "create_time": 1777507883,
+    "update_time": 1777507883,
+    "_id": "Large Language Models<SEP>Parametric Capabilities"
+  },
+  "Skill Retrieval Augmentation<SEP>Skill Retrieval Augmentation Pipeline": {
+    "chunk_ids": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "count": 1,
+    "create_time": 1777507883,
+    "update_time": 1777507883,
+    "_id": "Skill Retrieval Augmentation<SEP>Skill Retrieval Augmentation Pipeline"
+  },
+  "Agent Systems<SEP>Skill Retrieval Augmentation": {
+    "chunk_ids": [
+      "chunk-42e98b3a62403949c3551faca51d7a9a"
+    ],
+    "count": 1,
+    "create_time": 1777507888,
+    "update_time": 1777507888,
+    "_id": "Agent Systems<SEP>Skill Retrieval Augmentation"
+  },
+  "AstroVLBench<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-9ac408a983efd5ccb658b88f8bdc1379"
+    ],
+    "count": 1,
+    "create_time": 1777507968,
+    "update_time": 1777507968,
+    "_id": "AstroVLBench<SEP>Vision-Language Models"
+  },
+  "Domain-Specialized Methods<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-9ac408a983efd5ccb658b88f8bdc1379"
+    ],
+    "count": 1,
+    "create_time": 1777507970,
+    "update_time": 1777507970,
+    "_id": "Domain-Specialized Methods<SEP>Vision-Language Models"
+  },
+  "Phenomenologically Plausible Cues<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-9ac408a983efd5ccb658b88f8bdc1379"
+    ],
+    "count": 1,
+    "create_time": 1777507972,
+    "update_time": 1777507972,
+    "_id": "Phenomenologically Plausible Cues<SEP>Vision-Language Models"
+  },
+  "Reasoning Quality Analysis<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-9ac408a983efd5ccb658b88f8bdc1379"
+    ],
+    "count": 1,
+    "create_time": 1777507975,
+    "update_time": 1777507975,
+    "_id": "Reasoning Quality Analysis<SEP>Vision-Language Models"
+  },
+  "FastOMOP<SEP>Observational Health Data Sciences and Informatics": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508054,
+    "update_time": 1777508054,
+    "_id": "FastOMOP<SEP>Observational Health Data Sciences and Informatics"
+  },
+  "FastOMOP<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508056,
+    "update_time": 1777508056,
+    "_id": "FastOMOP<SEP>LLMs"
+  },
+  "Agent-Teams<SEP>FastOMOP": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508059,
+    "update_time": 1777508059,
+    "_id": "Agent-Teams<SEP>FastOMOP"
+  },
+  "FastOMOP<SEP>OMOP CDM data": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508061,
+    "update_time": 1777508061,
+    "_id": "FastOMOP<SEP>OMOP CDM data"
+  },
+  "Agent-Teams<SEP>Phenotyping": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508061,
+    "update_time": 1777508061,
+    "_id": "Agent-Teams<SEP>Phenotyping"
+  },
+  "Agent-Teams<SEP>Study Design": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508065,
+    "update_time": 1777508065,
+    "_id": "Agent-Teams<SEP>Study Design"
+  },
+  "Agent-Teams<SEP>Statistical Analysis": {
+    "chunk_ids": [
+      "chunk-6ff6d200bec9664dc91373e5a0c44ecf"
+    ],
+    "count": 1,
+    "create_time": 1777508067,
+    "update_time": 1777508067,
+    "_id": "Agent-Teams<SEP>Statistical Analysis"
+  },
+  "Autonomous Vehicles<SEP>Towards Lawful Autonomous Driving": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508139,
+    "update_time": 1777508139,
+    "_id": "Autonomous Vehicles<SEP>Towards Lawful Autonomous Driving"
+  },
+  "Artificial Intelligence<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508139,
+    "update_time": 1777508139,
+    "_id": "Artificial Intelligence<SEP>Large Language Models"
+  },
+  "Deriving Scenario-Aware Driving Requirements<SEP>Node-Wise Anchors": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508139,
+    "update_time": 1777508139,
+    "_id": "Deriving Scenario-Aware Driving Requirements<SEP>Node-Wise Anchors"
+  },
+  "Law-Scenario Matching<SEP>Mandatory and Prohibitive Requirements": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508139,
+    "update_time": 1777508139,
+    "_id": "Law-Scenario Matching<SEP>Mandatory and Prohibitive Requirements"
+  },
+  "Real-Time Compliance Monitor<SEP>Towards Lawful Autonomous Driving": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508148,
+    "update_time": 1777508148,
+    "_id": "Real-Time Compliance Monitor<SEP>Towards Lawful Autonomous Driving"
+  },
+  "Autonomous Vehicles<SEP>Traffic Laws and Regulations": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508148,
+    "update_time": 1777508148,
+    "_id": "Autonomous Vehicles<SEP>Traffic Laws and Regulations"
+  },
+  "Hierarchical Semantics<SEP>Node-Wise Anchors": {
+    "chunk_ids": [
+      "chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc"
+    ],
+    "count": 1,
+    "create_time": 1777508148,
+    "update_time": 1777508148,
+    "_id": "Hierarchical Semantics<SEP>Node-Wise Anchors"
+  },
+  "Chart2NCode<SEP>Proprietary Systems": {
+    "chunk_ids": [
+      "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
+    ],
+    "count": 1,
+    "create_time": 1777508225,
+    "update_time": 1777508225,
+    "_id": "Chart2NCode<SEP>Proprietary Systems"
+  },
+  "Chart2NCode<SEP>Universal Chart-to-Code Generation": {
+    "chunk_ids": [
+      "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
+    ],
+    "count": 1,
+    "create_time": 1777508227,
+    "update_time": 1777508227,
+    "_id": "Chart2NCode<SEP>Universal Chart-to-Code Generation"
+  },
+  "Chart2NCode<SEP>Faithful Reproduction": {
+    "chunk_ids": [
+      "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
+    ],
+    "count": 1,
+    "create_time": 1777508229,
+    "update_time": 1777508229,
+    "_id": "Chart2NCode<SEP>Faithful Reproduction"
+  },
+  "Chart2NCode<SEP>Executable Plotting Script": {
+    "chunk_ids": [
+      "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
+    ],
+    "count": 1,
+    "create_time": 1777508231,
+    "update_time": 1777508231,
+    "_id": "Chart2NCode<SEP>Executable Plotting Script"
+  },
+  "Hierarchical Behaviour Spaces<SEP>Hierarchical Reinforcement Learning": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508293,
+    "update_time": 1777508293,
+    "_id": "Hierarchical Behaviour Spaces<SEP>Hierarchical Reinforcement Learning"
+  },
+  "Hierarchical Reinforcement Learning<SEP>Option Reward Functions": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508295,
+    "update_time": 1777508295,
+    "_id": "Hierarchical Reinforcement Learning<SEP>Option Reward Functions"
+  },
+  "Hierarchical Behaviour Spaces<SEP>Reward Functions": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508295,
+    "update_time": 1777508295,
+    "_id": "Hierarchical Behaviour Spaces<SEP>Reward Functions"
+  },
+  "Controller<SEP>Hierarchical Behaviour Spaces": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508299,
+    "update_time": 1777508299,
+    "_id": "Controller<SEP>Hierarchical Behaviour Spaces"
+  },
+  "Hierarchical Behaviour Spaces<SEP>Policies": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508301,
+    "update_time": 1777508301,
+    "_id": "Hierarchical Behaviour Spaces<SEP>Policies"
+  },
+  "Controller<SEP>Linear Combinations": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508301,
+    "update_time": 1777508301,
+    "_id": "Controller<SEP>Linear Combinations"
+  },
+  "Hierarchical Behaviour Spaces<SEP>NetHack Learning Environment": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508306,
+    "update_time": 1777508306,
+    "_id": "Hierarchical Behaviour Spaces<SEP>NetHack Learning Environment"
+  },
+  "Hierarchical Behaviour Spaces<SEP>Linear Combinations": {
+    "chunk_ids": [
+      "chunk-dc8f9eb049a2563151bf117a8338d30f"
+    ],
+    "count": 1,
+    "create_time": 1777508308,
+    "update_time": 1777508308,
+    "_id": "Hierarchical Behaviour Spaces<SEP>Linear Combinations"
+  },
+  "GradMAP<SEP>Grid-Edge Flexibility": {
+    "chunk_ids": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "count": 1,
+    "create_time": 1777508393,
+    "update_time": 1777508393,
+    "_id": "GradMAP<SEP>Grid-Edge Flexibility"
+  },
+  "Grid-Edge Devices<SEP>Grid-Edge Systems": {
+    "chunk_ids": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "count": 1,
+    "create_time": 1777508393,
+    "update_time": 1777508393,
+    "_id": "Grid-Edge Devices<SEP>Grid-Edge Systems"
+  },
+  "GradMAP<SEP>Grid-Edge Devices": {
+    "chunk_ids": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "count": 1,
+    "create_time": 1777508397,
+    "update_time": 1777508397,
+    "_id": "GradMAP<SEP>Grid-Edge Devices"
+  },
+  "GradMAP<SEP>Three-Phase AC Load-Flow Constraint Violations": {
+    "chunk_ids": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "count": 1,
+    "create_time": 1777508399,
+    "update_time": 1777508399,
+    "_id": "GradMAP<SEP>Three-Phase AC Load-Flow Constraint Violations"
+  },
+  "GradMAP<SEP>Multi-Agent Reinforcement-Learning Benchmarks": {
+    "chunk_ids": [
+      "chunk-c89699ac14dbbf51441408abd5aded39"
+    ],
+    "count": 1,
+    "create_time": 1777508402,
+    "update_time": 1777508402,
+    "_id": "GradMAP<SEP>Multi-Agent Reinforcement-Learning Benchmarks"
+  },
+  "STELLAR-E System<SEP>TGRT Self-Instruct Framework": {
+    "chunk_ids": [
+      "chunk-a26f425dc22ccfa6db36dc0592c070a7"
+    ],
+    "count": 1,
+    "create_time": 1777508481,
+    "update_time": 1777508481,
+    "_id": "STELLAR-E System<SEP>TGRT Self-Instruct Framework"
+  },
+  "Evaluation Pipeline<SEP>STELLAR-E System": {
+    "chunk_ids": [
+      "chunk-a26f425dc22ccfa6db36dc0592c070a7"
+    ],
+    "count": 1,
+    "create_time": 1777508483,
+    "update_time": 1777508483,
+    "_id": "Evaluation Pipeline<SEP>STELLAR-E System"
+  },
+  "Large Language Models<SEP>Layerwise Convergence Fingerprints": {
+    "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "count": 1,
+    "create_time": 1777508580,
+    "update_time": 1777508580,
+    "_id": "Large Language Models<SEP>Layerwise Convergence Fingerprints"
+  },
+  "Backdoors<SEP>Layerwise Convergence Fingerprints": {
+    "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "count": 1,
+    "create_time": 1777508583,
+    "update_time": 1777508583,
+    "_id": "Backdoors<SEP>Layerwise Convergence Fingerprints"
+  },
+  "Jailbreaks<SEP>Layerwise Convergence Fingerprints": {
+    "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "count": 1,
+    "create_time": 1777508585,
+    "update_time": 1777508585,
+    "_id": "Jailbreaks<SEP>Layerwise Convergence Fingerprints"
+  },
+  "Layerwise Convergence Fingerprints<SEP>Prompt Injections": {
+    "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "count": 1,
+    "create_time": 1777508587,
+    "update_time": 1777508587,
+    "_id": "Layerwise Convergence Fingerprints<SEP>Prompt Injections"
+  },
+  "Clean-Data Validation<SEP>Layerwise Convergence Fingerprints": {
+    "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7"
+    ],
+    "count": 1,
+    "create_time": 1777508589,
+    "update_time": 1777508589,
+    "_id": "Clean-Data Validation<SEP>Layerwise Convergence Fingerprints"
+  },
+  "Embodied AI<SEP>Interoceptive Machine Framework": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508659,
+    "update_time": 1777508659,
+    "_id": "Embodied AI<SEP>Interoceptive Machine Framework"
+  },
+  "Internal State Variables<SEP>Regulatory Loops": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508659,
+    "update_time": 1777508659,
+    "_id": "Internal State Variables<SEP>Regulatory Loops"
+  },
+  "Interoception<SEP>Interoceptive Machine Framework": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508663,
+    "update_time": 1777508663,
+    "_id": "Interoception<SEP>Interoceptive Machine Framework"
+  },
+  "Artificial Intelligence Systems<SEP>Interoceptive Machine Framework": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508665,
+    "update_time": 1777508665,
+    "_id": "Artificial Intelligence Systems<SEP>Interoceptive Machine Framework"
+  },
+  "Human-Computer Interaction<SEP>Interoceptive Machine Framework": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508667,
+    "update_time": 1777508667,
+    "_id": "Human-Computer Interaction<SEP>Interoceptive Machine Framework"
+  },
+  "Assistive Technologies<SEP>Interoceptive Machine Framework": {
+    "chunk_ids": [
+      "chunk-c67eb797e4e17e9297558aa4982bd6bd"
+    ],
+    "count": 1,
+    "create_time": 1777508669,
+    "update_time": 1777508669,
+    "_id": "Assistive Technologies<SEP>Interoceptive Machine Framework"
+  },
+  "Automated Code Review Bots<SEP>Pull Request": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508753,
+    "update_time": 1777508753,
+    "_id": "Automated Code Review Bots<SEP>Pull Request"
+  },
+  "Beko<SEP>Industrial Dataset": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508753,
+    "update_time": 1777508753,
+    "_id": "Beko<SEP>Industrial Dataset"
+  },
+  "Contextual Constraints<SEP>Developer Actions": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508753,
+    "update_time": 1777508753,
+    "_id": "Contextual Constraints<SEP>Developer Actions"
+  },
+  "Prioritization Decisions<SEP>Workflow Dynamics": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508753,
+    "update_time": 1777508753,
+    "_id": "Prioritization Decisions<SEP>Workflow Dynamics"
+  },
+  "Developer Actions<SEP>LLM-powered ACR Bots": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508761,
+    "update_time": 1777508761,
+    "_id": "Developer Actions<SEP>LLM-powered ACR Bots"
+  },
+  "Developer Actions<SEP>Software Engineering Director": {
+    "chunk_ids": [
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
+    ],
+    "count": 1,
+    "create_time": 1777508764,
+    "update_time": 1777508764,
+    "_id": "Developer Actions<SEP>Software Engineering Director"
+  },
+  "Documented AI Incidents<SEP>Identity Categories": {
+    "chunk_ids": [
+      "chunk-381164f8e5eeb1538b53d25d3cf781b5"
+    ],
+    "count": 1,
+    "create_time": 1777508856,
+    "update_time": 1777508856,
+    "_id": "Documented AI Incidents<SEP>Identity Categories"
+  },
+  "Abstract<SEP>Documented AI Incidents": {
+    "chunk_ids": [
+      "chunk-381164f8e5eeb1538b53d25d3cf781b5"
+    ],
+    "count": 1,
+    "create_time": 1777508860,
+    "update_time": 1777508860,
+    "_id": "Abstract<SEP>Documented AI Incidents"
+  },
+  "Attention Latch<SEP>SSRP": {
+    "chunk_ids": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "count": 1,
+    "create_time": 1777508937,
+    "update_time": 1777508937,
+    "_id": "Attention Latch<SEP>SSRP"
+  },
+  "APA<SEP>SSRP": {
+    "chunk_ids": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "count": 1,
+    "create_time": 1777508942,
+    "update_time": 1777508942,
+    "_id": "APA<SEP>SSRP"
+  },
+  "Attention Latch<SEP>Information Over-squashing": {
+    "chunk_ids": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "count": 1,
+    "create_time": 1777508942,
+    "update_time": 1777508942,
+    "_id": "Attention Latch<SEP>Information Over-squashing"
+  },
+  "Resilience Lift<SEP>SSRP": {
+    "chunk_ids": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "count": 1,
+    "create_time": 1777508948,
+    "update_time": 1777508948,
+    "_id": "Resilience Lift<SEP>SSRP"
+  },
+  "Grounding Paradox<SEP>SSRP": {
+    "chunk_ids": [
+      "chunk-fde07fa1707d44e8e8acbe99adf1542f"
+    ],
+    "count": 1,
+    "create_time": 1777508950,
+    "update_time": 1777508950,
+    "_id": "Grounding Paradox<SEP>SSRP"
+  },
+  "LORE<SEP>MIMIC": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509027,
+    "update_time": 1777509027,
+    "_id": "LORE<SEP>MIMIC"
+  },
+  "MIMIC<SEP>Nucleic Acid": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509029,
+    "update_time": 1777509029,
+    "_id": "MIMIC<SEP>Nucleic Acid"
+  },
+  "MIMIC<SEP>Protein": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509031,
+    "update_time": 1777509031,
+    "_id": "MIMIC<SEP>Protein"
+  },
+  "Evolutionary<SEP>MIMIC": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509033,
+    "update_time": 1777509033,
+    "_id": "Evolutionary<SEP>MIMIC"
+  },
+  "MIMIC<SEP>Structural": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509036,
+    "update_time": 1777509036,
+    "_id": "MIMIC<SEP>Structural"
+  },
+  "MIMIC<SEP>Regulatory": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509038,
+    "update_time": 1777509038,
+    "_id": "MIMIC<SEP>Regulatory"
+  },
+  "MIMIC<SEP>Semantic/Contextual": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509040,
+    "update_time": 1777509040,
+    "_id": "MIMIC<SEP>Semantic/Contextual"
+  },
+  "Genome<SEP>MIMIC": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509042,
+    "update_time": 1777509042,
+    "_id": "Genome<SEP>MIMIC"
+  },
+  "MIMIC<SEP>Transcriptome": {
+    "chunk_ids": [
+      "chunk-6f03a6efec96a2141ce04fd7d8cd59d7"
+    ],
+    "count": 1,
+    "create_time": 1777509044,
+    "update_time": 1777509044,
+    "_id": "MIMIC<SEP>Transcriptome"
+  },
+  "Deployment-Aligned Low-Precision Neural Architecture Search<SEP>Neural Architecture Search": {
+    "chunk_ids": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "count": 1,
+    "create_time": 1777509111,
+    "update_time": 1777509111,
+    "_id": "Deployment-Aligned Low-Precision Neural Architecture Search<SEP>Neural Architecture Search"
+  },
+  "Edge AI<SEP>Spaceborne Edge AI": {
+    "chunk_ids": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "count": 1,
+    "create_time": 1777509111,
+    "update_time": 1777509111,
+    "_id": "Edge AI<SEP>Spaceborne Edge AI"
+  },
+  "Maritime Monitoring<SEP>Vessel Segmentation": {
+    "chunk_ids": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "count": 1,
+    "create_time": 1777509111,
+    "update_time": 1777509111,
+    "_id": "Maritime Monitoring<SEP>Vessel Segmentation"
+  },
+  "Accuracy<SEP>Deployment-Aligned Low-Precision Neural Architecture Search": {
+    "chunk_ids": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "count": 1,
+    "create_time": 1777509118,
+    "update_time": 1777509118,
+    "_id": "Accuracy<SEP>Deployment-Aligned Low-Precision Neural Architecture Search"
+  },
+  "Edge AI<SEP>Intel Movidius Myriad X Visual Processing Unit": {
+    "chunk_ids": [
+      "chunk-eab4a17960ad7f537284c68def47a563"
+    ],
+    "count": 1,
+    "create_time": 1777509118,
+    "update_time": 1777509118,
+    "_id": "Edge AI<SEP>Intel Movidius Myriad X Visual Processing Unit"
+  },
+  "GAMMAF<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-33f36369f99eb44a9ac8690e998af200"
+    ],
+    "count": 1,
+    "create_time": 1777509199,
+    "update_time": 1777509199,
+    "_id": "GAMMAF<SEP>Large Language Models"
+  },
+  "Adversarial Agents<SEP>LLM-MAS": {
+    "chunk_ids": [
+      "chunk-33f36369f99eb44a9ac8690e998af200"
+    ],
+    "count": 1,
+    "create_time": 1777509199,
+    "update_time": 1777509199,
+    "_id": "Adversarial Agents<SEP>LLM-MAS"
+  },
+  "Attack Remediation<SEP>LLM-MAS": {
+    "chunk_ids": [
+      "chunk-33f36369f99eb44a9ac8690e998af200"
+    ],
+    "count": 1,
+    "create_time": 1777509203,
+    "update_time": 1777509203,
+    "_id": "Attack Remediation<SEP>LLM-MAS"
+  },
+  "LLM-MAS<SEP>Prompt Infection": {
+    "chunk_ids": [
+      "chunk-33f36369f99eb44a9ac8690e998af200"
+    ],
+    "count": 1,
+    "create_time": 1777509205,
+    "update_time": 1777509205,
+    "_id": "LLM-MAS<SEP>Prompt Infection"
+  },
+  "Agentic Clinical Reasoning System<SEP>Reference Labels": {
+    "chunk_ids": [
+      "chunk-1267412c51a81ee8b84c56f1fab3a816"
+    ],
+    "count": 1,
+    "create_time": 1777509272,
+    "update_time": 1777509272,
+    "_id": "Agentic Clinical Reasoning System<SEP>Reference Labels"
+  },
+  "Agentic Clinical Reasoning System<SEP>Patient-Question Pairs": {
+    "chunk_ids": [
+      "chunk-1267412c51a81ee8b84c56f1fab3a816"
+    ],
+    "count": 1,
+    "create_time": 1777509275,
+    "update_time": 1777509275,
+    "_id": "Agentic Clinical Reasoning System<SEP>Patient-Question Pairs"
+  },
+  "48 Templates<SEP>Agentic Clinical Reasoning System": {
+    "chunk_ids": [
+      "chunk-1267412c51a81ee8b84c56f1fab3a816"
+    ],
+    "count": 1,
+    "create_time": 1777509277,
+    "update_time": 1777509277,
+    "_id": "48 Templates<SEP>Agentic Clinical Reasoning System"
+  },
+  "BITRec<SEP>Hierarchical Behavior Aggregation (HBA)": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509337,
+    "update_time": 1777509337,
+    "_id": "BITRec<SEP>Hierarchical Behavior Aggregation (HBA)"
+  },
+  "Generative Sequence Modeling<SEP>Multi-behavior Recommendation": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509337,
+    "update_time": 1777509337,
+    "_id": "Generative Sequence Modeling<SEP>Multi-behavior Recommendation"
+  },
+  "Hierarchical Behavior Aggregation (HBA)<SEP>Transition Relation Encoding (TRE)": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509341,
+    "update_time": 1777509341,
+    "_id": "Hierarchical Behavior Aggregation (HBA)<SEP>Transition Relation Encoding (TRE)"
+  },
+  "Interaction Types<SEP>Multi-behavior Recommendation": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509341,
+    "update_time": 1777509341,
+    "_id": "Interaction Types<SEP>Multi-behavior Recommendation"
+  },
+  "BITRec<SEP>Transition Relation Encoding (TRE)": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509346,
+    "update_time": 1777509346,
+    "_id": "BITRec<SEP>Transition Relation Encoding (TRE)"
+  },
+  "Intent Signals<SEP>Multi-behavior Recommendation": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509346,
+    "update_time": 1777509346,
+    "_id": "Intent Signals<SEP>Multi-behavior Recommendation"
+  },
+  "BITRec<SEP>Generative Sequence Modeling": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509350,
+    "update_time": 1777509350,
+    "_id": "BITRec<SEP>Generative Sequence Modeling"
+  },
+  "BITRec<SEP>Multi-behavior Recommendation": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509352,
+    "update_time": 1777509352,
+    "_id": "BITRec<SEP>Multi-behavior Recommendation"
+  },
+  "BITRec<SEP>User Conversions": {
+    "chunk_ids": [
+      "chunk-5a3decb8f4308fb97c759ee307527ef5"
+    ],
+    "count": 1,
+    "create_time": 1777509354,
+    "update_time": 1777509354,
+    "_id": "BITRec<SEP>User Conversions"
+  },
+  "Perceived Cooperativity Scale<SEP>Teaming Perception Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509427,
+    "update_time": 1777509427,
+    "_id": "Perceived Cooperativity Scale<SEP>Teaming Perception Scale"
+  },
+  "Cooperation Partners<SEP>Perceived Cooperativity Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509429,
+    "update_time": 1777509429,
+    "_id": "Cooperation Partners<SEP>Perceived Cooperativity Scale"
+  },
+  "Cooperative Card Game<SEP>Perceived Cooperativity Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509431,
+    "update_time": 1777509431,
+    "_id": "Cooperative Card Game<SEP>Perceived Cooperativity Scale"
+  },
+  "Cooperation Partners<SEP>Teaming Perception Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509431,
+    "update_time": 1777509431,
+    "_id": "Cooperation Partners<SEP>Teaming Perception Scale"
+  },
+  "LLM Interaction<SEP>Perceived Cooperativity Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509436,
+    "update_time": 1777509436,
+    "_id": "LLM Interaction<SEP>Perceived Cooperativity Scale"
+  },
+  "Cooperative Card Game<SEP>Teaming Perception Scale": {
+    "chunk_ids": [
+      "chunk-492adf3459368e3424d113800cf1ad98"
+    ],
+    "count": 1,
+    "create_time": 1777509436,
+    "update_time": 1777509436,
+    "_id": "Cooperative Card Game<SEP>Teaming Perception Scale"
+  },
+  "DIGIT Sensor<SEP>SPLIT": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509475,
+    "update_time": 1777509475,
+    "_id": "DIGIT Sensor<SEP>SPLIT"
+  },
+  "Machine Learning Models<SEP>Robotic Tactile Sensing": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509475,
+    "update_time": 1777509475,
+    "_id": "Machine Learning Models<SEP>Robotic Tactile Sensing"
+  },
+  "GelSight R1.5<SEP>SPLIT": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509479,
+    "update_time": 1777509479,
+    "_id": "GelSight R1.5<SEP>SPLIT"
+  },
+  "Latent Space Arithmetic Strategy<SEP>SPLIT": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509481,
+    "update_time": 1777509481,
+    "_id": "Latent Space Arithmetic Strategy<SEP>SPLIT"
+  },
+  "Finite Element Method (FEM)<SEP>SPLIT": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509483,
+    "update_time": 1777509483,
+    "_id": "Finite Element Method (FEM)<SEP>SPLIT"
+  },
+  "Robotic Tactile Sensing Research<SEP>SPLIT": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509485,
+    "update_time": 1777509485,
+    "_id": "Robotic Tactile Sensing Research<SEP>SPLIT"
+  },
+  "Finite Element Method (FEM)<SEP>Simulation": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509485,
+    "update_time": 1777509485,
+    "_id": "Finite Element Method (FEM)<SEP>Simulation"
+  },
+  "SPLIT<SEP>Simulation": {
+    "chunk_ids": [
+      "chunk-56296c6ebf5e5c78e8b72a11ee737197"
+    ],
+    "count": 1,
+    "create_time": 1777509492,
+    "update_time": 1777509492,
+    "_id": "SPLIT<SEP>Simulation"
+  },
+  "On-Robot Deployment<SEP>Vision-Language-Action Models": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509572,
+    "update_time": 1777509572,
+    "_id": "On-Robot Deployment<SEP>Vision-Language-Action Models"
+  },
+  "DP-Cache<SEP>V-AEFusion": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509572,
+    "update_time": 1777509572,
+    "_id": "DP-Cache<SEP>V-AEFusion"
+  },
+  "Cross-Accelerator Leaderboard<SEP>Vision-Language-Action Models": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509577,
+    "update_time": 1777509577,
+    "_id": "Cross-Accelerator Leaderboard<SEP>Vision-Language-Action Models"
+  },
+  "CET<SEP>Vision-Language-Action Models": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509579,
+    "update_time": 1777509579,
+    "_id": "CET<SEP>Vision-Language-Action Models"
+  },
+  "Cross-Accelerator Leaderboard<SEP>Heterogeneous Edge Accelerators": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509579,
+    "update_time": 1777509579,
+    "_id": "Cross-Accelerator Leaderboard<SEP>Heterogeneous Edge Accelerators"
+  },
+  "V-AEFusion<SEP>Vision-Language-Action Models": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509583,
+    "update_time": 1777509583,
+    "_id": "V-AEFusion<SEP>Vision-Language-Action Models"
+  },
+  "DP-Cache<SEP>Vision-Language-Action Models": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1777509585,
+    "update_time": 1777509585,
+    "_id": "DP-Cache<SEP>Vision-Language-Action Models"
+  },
+  "PhysNote<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509655,
+    "update_time": 1777509655,
+    "_id": "PhysNote<SEP>Vision-Language Models"
+  },
+  "Causal Reasoning<SEP>Temporal Consistency": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509655,
+    "update_time": 1777509655,
+    "_id": "Causal Reasoning<SEP>Temporal Consistency"
+  },
+  "Inference-Time Insights<SEP>Physical Identity Drift": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509655,
+    "update_time": 1777509655,
+    "_id": "Inference-Time Insights<SEP>Physical Identity Drift"
+  },
+  "PhysBench<SEP>PhysNote": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509662,
+    "update_time": 1777509662,
+    "_id": "PhysBench<SEP>PhysNote"
+  },
+  "Temporal Consistency<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509662,
+    "update_time": 1777509662,
+    "_id": "Temporal Consistency<SEP>Vision-Language Models"
+  },
+  "PhysNote<SEP>Spatio-Temporal Canonicalization": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509666,
+    "update_time": 1777509666,
+    "_id": "PhysNote<SEP>Spatio-Temporal Canonicalization"
+  },
+  "Causal Reasoning<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509666,
+    "update_time": 1777509666,
+    "_id": "Causal Reasoning<SEP>Vision-Language Models"
+  },
+  "Knowledge Notes<SEP>PhysNote": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509670,
+    "update_time": 1777509670,
+    "_id": "Knowledge Notes<SEP>PhysNote"
+  },
+  "Physical Identity Drift<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509670,
+    "update_time": 1777509670,
+    "_id": "Physical Identity Drift<SEP>Vision-Language Models"
+  },
+  "Hierarchical Knowledge Repository<SEP>PhysNote": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509675,
+    "update_time": 1777509675,
+    "_id": "Hierarchical Knowledge Repository<SEP>PhysNote"
+  },
+  "Inference-Time Insights<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-3fae825413dbd09250459cbd5bbfe30c"
+    ],
+    "count": 1,
+    "create_time": 1777509675,
+    "update_time": 1777509675,
+    "_id": "Inference-Time Insights<SEP>Vision-Language Models"
+  },
+  "Kwai Summary Attention<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-274e345107d112e4d4358391f4226461"
+    ],
+    "count": 1,
+    "create_time": 1777509756,
+    "update_time": 1777509756,
+    "_id": "Kwai Summary Attention<SEP>Large Language Models"
+  },
+  "Kwai Summary Attention<SEP>Semantic-Level Compression": {
+    "chunk_ids": [
+      "chunk-274e345107d112e4d4358391f4226461"
+    ],
+    "count": 1,
+    "create_time": 1777509758,
+    "update_time": 1777509758,
+    "_id": "Kwai Summary Attention<SEP>Semantic-Level Compression"
+  },
+  "Kwai Summary Attention<SEP>Sequence Length": {
+    "chunk_ids": [
+      "chunk-274e345107d112e4d4358391f4226461"
+    ],
+    "count": 1,
+    "create_time": 1777509760,
+    "update_time": 1777509760,
+    "_id": "Kwai Summary Attention<SEP>Sequence Length"
+  },
+  "Kwai Summary Attention<SEP>Training and Inference Costs": {
+    "chunk_ids": [
+      "chunk-274e345107d112e4d4358391f4226461"
+    ],
+    "count": 1,
+    "create_time": 1777509763,
+    "update_time": 1777509763,
+    "_id": "Kwai Summary Attention<SEP>Training and Inference Costs"
+  },
+  "BandRouteNet<SEP>Electroencephalography": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509837,
+    "update_time": 1777509837,
+    "_id": "BandRouteNet<SEP>Electroencephalography"
+  },
+  "BandRouteNet<SEP>Electrooculographic": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509839,
+    "update_time": 1777509839,
+    "_id": "BandRouteNet<SEP>Electrooculographic"
+  },
+  "BandRouteNet<SEP>Electromyographic": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509841,
+    "update_time": 1777509841,
+    "_id": "BandRouteNet<SEP>Electromyographic"
+  },
+  "BandRouteNet<SEP>Neurological Diagnosis": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509843,
+    "update_time": 1777509843,
+    "_id": "BandRouteNet<SEP>Neurological Diagnosis"
+  },
+  "BandRouteNet<SEP>Frequency-Aware Neural Network": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509845,
+    "update_time": 1777509845,
+    "_id": "BandRouteNet<SEP>Frequency-Aware Neural Network"
+  },
+  "Band-Specific Processing<SEP>BandRouteNet": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509847,
+    "update_time": 1777509847,
+    "_id": "Band-Specific Processing<SEP>BandRouteNet"
+  },
+  "BandRouteNet<SEP>Full-Band Contextual Modeling": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509850,
+    "update_time": 1777509850,
+    "_id": "BandRouteNet<SEP>Full-Band Contextual Modeling"
+  },
+  "BandRouteNet<SEP>Routing Mechanism": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509852,
+    "update_time": 1777509852,
+    "_id": "BandRouteNet<SEP>Routing Mechanism"
+  },
+  "BandRouteNet<SEP>Conditional Parameters": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509854,
+    "update_time": 1777509854,
+    "_id": "BandRouteNet<SEP>Conditional Parameters"
+  },
+  "BandRouteNet<SEP>Coarse-Grained Signal-Level Refinement": {
+    "chunk_ids": [
+      "chunk-52b17af2fefc317fc473ae09097c0b2f"
+    ],
+    "count": 1,
+    "create_time": 1777509856,
+    "update_time": 1777509856,
+    "_id": "BandRouteNet<SEP>Coarse-Grained Signal-Level Refinement"
+  },
+  "Discrete Autoregressive Spoken Language Models<SEP>Speech-only Spoken Language Models": {
+    "chunk_ids": [
+      "chunk-46ffaa95d62e06c5c32f7e8193bede58"
+    ],
+    "count": 1,
+    "create_time": 1777509911,
+    "update_time": 1777509911,
+    "_id": "Discrete Autoregressive Spoken Language Models<SEP>Speech-only Spoken Language Models"
+  },
+  "Continuous Diffusion Spoken Language Models<SEP>Discrete Autoregressive Spoken Language Models": {
+    "chunk_ids": [
+      "chunk-46ffaa95d62e06c5c32f7e8193bede58"
+    ],
+    "count": 1,
+    "create_time": 1777509913,
+    "update_time": 1777509913,
+    "_id": "Continuous Diffusion Spoken Language Models<SEP>Discrete Autoregressive Spoken Language Models"
+  },
+  "Continuous Diffusion Spoken Language Models<SEP>Long-form Coherence": {
+    "chunk_ids": [
+      "chunk-46ffaa95d62e06c5c32f7e8193bede58"
+    ],
+    "count": 1,
+    "create_time": 1777509915,
+    "update_time": 1777509915,
+    "_id": "Continuous Diffusion Spoken Language Models<SEP>Long-form Coherence"
+  },
+  "Continuous Diffusion Spoken Language Models<SEP>Conversational Data": {
+    "chunk_ids": [
+      "chunk-46ffaa95d62e06c5c32f7e8193bede58"
+    ],
+    "count": 1,
+    "create_time": 1777509918,
+    "update_time": 1777509918,
+    "_id": "Continuous Diffusion Spoken Language Models<SEP>Conversational Data"
+  },
+  "Audio Reliance<SEP>Text Priors": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777509999,
+    "update_time": 1777509999,
+    "_id": "Audio Reliance<SEP>Text Priors"
+  },
+  "Large Audio-Language Models<SEP>Speech and Audio Benchmarks": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777509999,
+    "update_time": 1777509999,
+    "_id": "Large Audio-Language Models<SEP>Speech and Audio Benchmarks"
+  },
+  "Benchmark Performance<SEP>Robust Audio Understanding": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777509999,
+    "update_time": 1777509999,
+    "_id": "Benchmark Performance<SEP>Robust Audio Understanding"
+  },
+  "General Knowledge<SEP>Text Priors": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777510005,
+    "update_time": 1777510005,
+    "_id": "General Knowledge<SEP>Text Priors"
+  },
+  "Acoustic Signal<SEP>Audio Reliance": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777510005,
+    "update_time": 1777510005,
+    "_id": "Acoustic Signal<SEP>Audio Reliance"
+  },
+  "Diagnostic Framework<SEP>Large Audio-Language Models": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777510005,
+    "update_time": 1777510005,
+    "_id": "Diagnostic Framework<SEP>Large Audio-Language Models"
+  },
+  "Benchmark Performance<SEP>Large Audio-Language Models": {
+    "chunk_ids": [
+      "chunk-cd399b744aa24b4b8e4a44b747320f02"
+    ],
+    "count": 1,
+    "create_time": 1777510012,
+    "update_time": 1777510012,
+    "_id": "Benchmark Performance<SEP>Large Audio-Language Models"
+  },
+  "Positive-and-Negative Decoding<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510091,
+    "update_time": 1777510091,
+    "_id": "Positive-and-Negative Decoding<SEP>Vision-Language Models"
+  },
+  "Attention Deficit<SEP>Object Hallucination": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510091,
+    "update_time": 1777510091,
+    "_id": "Attention Deficit<SEP>Object Hallucination"
+  },
+  "Linguistic Priors<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510095,
+    "update_time": 1777510095,
+    "_id": "Linguistic Priors<SEP>Vision-Language Models"
+  },
+  "POPE<SEP>Positive-and-Negative Decoding": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510095,
+    "update_time": 1777510095,
+    "_id": "POPE<SEP>Positive-and-Negative Decoding"
+  },
+  "Positive-and-Negative Decoding<SEP>Visual Fidelity": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510099,
+    "update_time": 1777510099,
+    "_id": "Positive-and-Negative Decoding<SEP>Visual Fidelity"
+  },
+  "Counterfactual<SEP>Positive-and-Negative Decoding": {
+    "chunk_ids": [
+      "chunk-0b83f3702bd088008cc6feaedfe42bcc"
+    ],
+    "count": 1,
+    "create_time": 1777510102,
+    "update_time": 1777510102,
+    "_id": "Counterfactual<SEP>Positive-and-Negative Decoding"
+  },
+  "Aligning with Your Own Voice<SEP>Self-Corrected Preference Learning": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510171,
+    "update_time": 1777510171,
+    "_id": "Aligning with Your Own Voice<SEP>Self-Corrected Preference Learning"
+  },
+  "AVES-DPO<SEP>Intrinsic Knowledge": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510171,
+    "update_time": 1777510171,
+    "_id": "AVES-DPO<SEP>Intrinsic Knowledge"
+  },
+  "Existing Preference Learning-Based Approaches<SEP>Proprietary Models": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510171,
+    "update_time": 1777510171,
+    "_id": "Existing Preference Learning-Based Approaches<SEP>Proprietary Models"
+  },
+  "Diverse Hallucinations<SEP>LVLMs": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510171,
+    "update_time": 1777510171,
+    "_id": "Diverse Hallucinations<SEP>LVLMs"
+  },
+  "AVES-DPO<SEP>Consensus-Based Verification Mechanism": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510180,
+    "update_time": 1777510180,
+    "_id": "AVES-DPO<SEP>Consensus-Based Verification Mechanism"
+  },
+  "AVES-DPO<SEP>Preference Pairs": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510187,
+    "update_time": 1777510187,
+    "_id": "AVES-DPO<SEP>Preference Pairs"
+  },
+  "5.2k Samples<SEP>AVES-DPO": {
+    "chunk_ids": [
+      "chunk-05a4ca61ae3ed284142fb22c23657755"
+    ],
+    "count": 1,
+    "create_time": 1777510189,
+    "update_time": 1777510189,
+    "_id": "5.2k Samples<SEP>AVES-DPO"
+  },
+  "Certified Geometric Robustness<SEP>Super-DeepG": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510223,
+    "update_time": 1777510223,
+    "_id": "Certified Geometric Robustness<SEP>Super-DeepG"
+  },
+  "Geometric Perturbations<SEP>Image Processing Functions": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510223,
+    "update_time": 1777510223,
+    "_id": "Geometric Perturbations<SEP>Image Processing Functions"
+  },
+  "Neural Networks<SEP>Super-DeepG": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510227,
+    "update_time": 1777510227,
+    "_id": "Neural Networks<SEP>Super-DeepG"
+  },
+  "Certified Geometric Robustness<SEP>Safety-Critical Applications": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510227,
+    "update_time": 1777510227,
+    "_id": "Certified Geometric Robustness<SEP>Safety-Critical Applications"
+  },
+  "Image Dataset<SEP>Super-DeepG": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510231,
+    "update_time": 1777510231,
+    "_id": "Image Dataset<SEP>Super-DeepG"
+  },
+  "Linear Relaxation Techniques<SEP>Super-DeepG": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510233,
+    "update_time": 1777510233,
+    "_id": "Linear Relaxation Techniques<SEP>Super-DeepG"
+  },
+  "Geometric Perturbations<SEP>Super-DeepG": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510236,
+    "update_time": 1777510236,
+    "_id": "Geometric Perturbations<SEP>Super-DeepG"
+  },
+  "Linear Relaxation Techniques<SEP>Lipschitz Optimization": {
+    "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986"
+    ],
+    "count": 1,
+    "create_time": 1777510236,
+    "update_time": 1777510236,
+    "_id": "Linear Relaxation Techniques<SEP>Lipschitz Optimization"
+  },
+  "LLM-guided Evolutionary Search<SEP>SeaEvo": {
+    "chunk_ids": [
+      "chunk-40da9bd6834b701e84e700fdf93b5c3c"
+    ],
+    "count": 1,
+    "create_time": 1777510308,
+    "update_time": 1777510308,
+    "_id": "LLM-guided Evolutionary Search<SEP>SeaEvo"
+  },
+  "Model<SEP>SeaEvo": {
+    "chunk_ids": [
+      "chunk-40da9bd6834b701e84e700fdf93b5c3c"
+    ],
+    "count": 1,
+    "create_time": 1777510311,
+    "update_time": 1777510311,
+    "_id": "Model<SEP>SeaEvo"
+  },
+  "PathMoG<SEP>Survival Prediction": {
+    "chunk_ids": [
+      "chunk-a78592bca66f2cefa305ee606ed12b84"
+    ],
+    "count": 1,
+    "create_time": 1777510397,
+    "update_time": 1777510397,
+    "_id": "PathMoG<SEP>Survival Prediction"
+  },
+  "Gene-Expression Representations<SEP>Hierarchical Omics Modulation Module": {
+    "chunk_ids": [
+      "chunk-a78592bca66f2cefa305ee606ed12b84"
+    ],
+    "count": 1,
+    "create_time": 1777510397,
+    "update_time": 1777510397,
+    "_id": "Gene-Expression Representations<SEP>Hierarchical Omics Modulation Module"
+  },
+  "Dual-Level Attention<SEP>Survival Prediction": {
+    "chunk_ids": [
+      "chunk-a78592bca66f2cefa305ee606ed12b84"
+    ],
+    "count": 1,
+    "create_time": 1777510401,
+    "update_time": 1777510401,
+    "_id": "Dual-Level Attention<SEP>Survival Prediction"
+  },
+  "Genome-Scale Inputs<SEP>PathMoG": {
+    "chunk_ids": [
+      "chunk-a78592bca66f2cefa305ee606ed12b84"
+    ],
+    "count": 1,
+    "create_time": 1777510401,
+    "update_time": 1777510401,
+    "_id": "Genome-Scale Inputs<SEP>PathMoG"
+  },
+  "DPRM<SEP>Diffusion Language Models": {
+    "chunk_ids": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "count": 1,
+    "create_time": 1777510482,
+    "update_time": 1777510482,
+    "_id": "DPRM<SEP>Diffusion Language Models"
+  },
+  "DPRM Policy<SEP>Soft-BoN Approximation": {
+    "chunk_ids": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "count": 1,
+    "create_time": 1777510482,
+    "update_time": 1777510482,
+    "_id": "DPRM Policy<SEP>Soft-BoN Approximation"
+  },
+  "Empirical-Bernstein Rates<SEP>Online Bucketized Controller": {
+    "chunk_ids": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "count": 1,
+    "create_time": 1777510482,
+    "update_time": 1777510482,
+    "_id": "Empirical-Bernstein Rates<SEP>Online Bucketized Controller"
+  },
+  "DPRM Policy<SEP>Online Bucketized Controller": {
+    "chunk_ids": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "count": 1,
+    "create_time": 1777510488,
+    "update_time": 1777510488,
+    "_id": "DPRM Policy<SEP>Online Bucketized Controller"
+  },
+  "DPRM<SEP>DPRM Policy": {
+    "chunk_ids": [
+      "chunk-8cdce5bc32612f796e2270d997774825"
+    ],
+    "count": 1,
+    "create_time": 1777510490,
+    "update_time": 1777510490,
+    "_id": "DPRM<SEP>DPRM Policy"
+  },
+  "ARETE<SEP>Autonomous Driving": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510565,
+    "update_time": 1777510565,
+    "_id": "ARETE<SEP>Autonomous Driving"
+  },
+  "Centerlines<SEP>Detection Transformer": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510565,
+    "update_time": 1777510565,
+    "_id": "Centerlines<SEP>Detection Transformer"
+  },
+  "ARETE<SEP>High-Definition Maps": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510570,
+    "update_time": 1777510570,
+    "_id": "ARETE<SEP>High-Definition Maps"
+  },
+  "Detection Transformer<SEP>Lane Dividers": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510570,
+    "update_time": 1777510570,
+    "_id": "Detection Transformer<SEP>Lane Dividers"
+  },
+  "ARETE<SEP>Detection Transformer": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510574,
+    "update_time": 1777510574,
+    "_id": "ARETE<SEP>Detection Transformer"
+  },
+  "ARETE<SEP>Internal Dataset": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510576,
+    "update_time": 1777510576,
+    "_id": "ARETE<SEP>Internal Dataset"
+  },
+  "ARETE<SEP>HSV-transformed Crowdsourced Vehicle Fleet Data": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510578,
+    "update_time": 1777510578,
+    "_id": "ARETE<SEP>HSV-transformed Crowdsourced Vehicle Fleet Data"
+  },
+  "ARETE<SEP>nuScenes": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510580,
+    "update_time": 1777510580,
+    "_id": "ARETE<SEP>nuScenes"
+  },
+  "ARETE<SEP>nuPlan": {
+    "chunk_ids": [
+      "chunk-88cefead2f3dd0243c831e2653a82609"
+    ],
+    "count": 1,
+    "create_time": 1777510582,
+    "update_time": 1777510582,
+    "_id": "ARETE<SEP>nuPlan"
+  },
+  "Controllable Diffusion Methods<SEP>Diffusion Templates": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510659,
+    "update_time": 1777510659,
+    "_id": "Controllable Diffusion Methods<SEP>Diffusion Templates"
+  },
+  "Backbone-Specific Systems<SEP>Training Pipelines": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510659,
+    "update_time": 1777510659,
+    "_id": "Backbone-Specific Systems<SEP>Training Pipelines"
+  },
+  "Diffusion Templates<SEP>Template Models": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510664,
+    "update_time": 1777510664,
+    "_id": "Diffusion Templates<SEP>Template Models"
+  },
+  "Backbone-Specific Systems<SEP>Parameter Formats": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510664,
+    "update_time": 1777510664,
+    "_id": "Backbone-Specific Systems<SEP>Parameter Formats"
+  },
+  "Diffusion Templates<SEP>Model Zoo": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510668,
+    "update_time": 1777510668,
+    "_id": "Diffusion Templates<SEP>Model Zoo"
+  },
+  "Backbone-Specific Systems<SEP>Runtime Hooks": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510668,
+    "update_time": 1777510668,
+    "_id": "Backbone-Specific Systems<SEP>Runtime Hooks"
+  },
+  "Code<SEP>Diffusion Templates": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510672,
+    "update_time": 1777510672,
+    "_id": "Code<SEP>Diffusion Templates"
+  },
+  "Datasets<SEP>Diffusion Templates": {
+    "chunk_ids": [
+      "chunk-f36584a3c17d75781a357f1a3e17848d"
+    ],
+    "count": 1,
+    "create_time": 1777510674,
+    "update_time": 1777510674,
+    "_id": "Datasets<SEP>Diffusion Templates"
+  },
+  "Catastrophic Overfitting<SEP>Fast Adversarial Training": {
+    "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "count": 1,
+    "create_time": 1777510716,
+    "update_time": 1777510716,
+    "_id": "Catastrophic Overfitting<SEP>Fast Adversarial Training"
+  },
+  "Abstract<SEP>Research Paper": {
+    "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "count": 1,
+    "create_time": 1777510716,
+    "update_time": 1777510716,
+    "_id": "Abstract<SEP>Research Paper"
+  },
+  "Vanilla Fine Tuning<SEP>Weight Outlier Suppression Constraint": {
+    "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "count": 1,
+    "create_time": 1777510716,
+    "update_time": 1777510716,
+    "_id": "Vanilla Fine Tuning<SEP>Weight Outlier Suppression Constraint"
+  },
+  "Backdoor Mechanism<SEP>Catastrophic Overfitting": {
+    "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "count": 1,
+    "create_time": 1777510722,
+    "update_time": 1777510722,
+    "_id": "Backdoor Mechanism<SEP>Catastrophic Overfitting"
+  },
+  "Methodologies<SEP>Research Paper": {
+    "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
+    ],
+    "count": 1,
+    "create_time": 1777510722,
+    "update_time": 1777510722,
+    "_id": "Methodologies<SEP>Research Paper"
+  },
+  "SycoPhantasy<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510804,
+    "update_time": 1777510804,
+    "_id": "SycoPhantasy<SEP>Vision-Language Models"
+  },
+  "LFM2-VL<SEP>LLaVA-1.6": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510804,
+    "update_time": 1777510804,
+    "_id": "LFM2-VL<SEP>LLaVA-1.6"
+  },
+  "Hallucination<SEP>Sycophancy": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510804,
+    "update_time": 1777510804,
+    "_id": "Hallucination<SEP>Sycophancy"
+  },
+  "Attribute-Rich Synthetic Image Evaluation Tasks<SEP>Small Open-Weight VLMs": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510804,
+    "update_time": 1777510804,
+    "_id": "Attribute-Rich Synthetic Image Evaluation Tasks<SEP>Small Open-Weight VLMs"
+  },
+  "Bluffing Coefficient<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510813,
+    "update_time": 1777510813,
+    "_id": "Bluffing Coefficient<SEP>Vision-Language Models"
+  },
+  "LFM2-VL<SEP>Small Open-Weight VLMs": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510813,
+    "update_time": 1777510813,
+    "_id": "LFM2-VL<SEP>Small Open-Weight VLMs"
+  },
+  "Bluffing Coefficient<SEP>Sycophancy": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510817,
+    "update_time": 1777510817,
+    "_id": "Bluffing Coefficient<SEP>Sycophancy"
+  },
+  "LLaVA-1.6<SEP>Small Open-Weight VLMs": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510817,
+    "update_time": 1777510817,
+    "_id": "LLaVA-1.6<SEP>Small Open-Weight VLMs"
+  },
+  "Bluffing Coefficient<SEP>Hallucination": {
+    "chunk_ids": [
+      "chunk-4f986b39741d6de97b65a3c203f1521e"
+    ],
+    "count": 1,
+    "create_time": 1777510821,
+    "update_time": 1777510821,
+    "_id": "Bluffing Coefficient<SEP>Hallucination"
+  },
+  "Reinforcement Learning<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510887,
+    "update_time": 1777510887,
+    "_id": "Reinforcement Learning<SEP>Vision-Language Models"
+  },
+  "Closed-Source Models<SEP>ForeSight-7B": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510887,
+    "update_time": 1777510887,
+    "_id": "Closed-Source Models<SEP>ForeSight-7B"
+  },
+  "ForeSight<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510894,
+    "update_time": 1777510894,
+    "_id": "ForeSight<SEP>Vision-Language Models"
+  },
+  "Character and Grounding SalBench<SEP>ForeSight": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510896,
+    "update_time": 1777510896,
+    "_id": "Character and Grounding SalBench<SEP>ForeSight"
+  },
+  "ForeSight<SEP>ForeSight-7B": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510898,
+    "update_time": 1777510898,
+    "_id": "ForeSight<SEP>ForeSight-7B"
+  },
+  "ForeSight<SEP>Reinforcement Learning": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510900,
+    "update_time": 1777510900,
+    "_id": "ForeSight<SEP>Reinforcement Learning"
+  },
+  "ForeSight<SEP>Low-level Visual Cues": {
+    "chunk_ids": [
+      "chunk-ee6a8292ee988e4d64c218b75e3c5f57"
+    ],
+    "count": 1,
+    "create_time": 1777510902,
+    "update_time": 1777510902,
+    "_id": "ForeSight<SEP>Low-level Visual Cues"
+  },
+  "DataBox<SEP>X-NegoBox Framework": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510980,
+    "update_time": 1777510980,
+    "_id": "DataBox<SEP>X-NegoBox Framework"
+  },
+  "Energy Market<SEP>Prosumer": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510980,
+    "update_time": 1777510980,
+    "_id": "Energy Market<SEP>Prosumer"
+  },
+  "Explainable Agreement<SEP>X-Contract": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510980,
+    "update_time": 1777510980,
+    "_id": "Explainable Agreement<SEP>X-Contract"
+  },
+  "APBNP<SEP>X-NegoBox Framework": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510986,
+    "update_time": 1777510986,
+    "_id": "APBNP<SEP>X-NegoBox Framework"
+  },
+  "DataBox<SEP>Raw Data": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510986,
+    "update_time": 1777510986,
+    "_id": "DataBox<SEP>Raw Data"
+  },
+  "APBNP<SEP>X-Contract": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510997,
+    "update_time": 1777510997,
+    "_id": "APBNP<SEP>X-Contract"
+  },
+  "APBNP<SEP>Risk-Aware Pricing": {
+    "chunk_ids": [
+      "chunk-b05f1e3b035bc2b577cfa13063b2df6b"
+    ],
+    "count": 1,
+    "create_time": 1777510999,
+    "update_time": 1777510999,
+    "_id": "APBNP<SEP>Risk-Aware Pricing"
+  },
+  "Generative Design of a Gas Turbine Combustor<SEP>Invertible Neural Networks": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539863,
+    "update_time": 1777539863,
+    "_id": "Generative Design of a Gas Turbine Combustor<SEP>Invertible Neural Networks"
+  },
+  "Gas Turbines<SEP>Low NOx Combustion": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539863,
+    "update_time": 1777539863,
+    "_id": "Gas Turbines<SEP>Low NOx Combustion"
+  },
+  "Engine Classes<SEP>Engine Frames": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539863,
+    "update_time": 1777539863,
+    "_id": "Engine Classes<SEP>Engine Frames"
+  },
+  "Database of Geometrically Parameterized Combustor Designs<SEP>Invertible Neural Networks": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539870,
+    "update_time": 1777539870,
+    "_id": "Database of Geometrically Parameterized Combustor Designs<SEP>Invertible Neural Networks"
+  },
+  "Gas Turbines<SEP>Premix Mode": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539870,
+    "update_time": 1777539870,
+    "_id": "Gas Turbines<SEP>Premix Mode"
+  },
+  "Invertible Neural Networks<SEP>Performance Labels": {
+    "chunk_ids": [
+      "chunk-6b926c4994391b08da12daef6571057a"
+    ],
+    "count": 1,
+    "create_time": 1777539874,
+    "update_time": 1777539874,
+    "_id": "Invertible Neural Networks<SEP>Performance Labels"
+  },
+  "Triangulation with Transformer Regressor (TTR)<SEP>Unconstrained Multi-view Human Pose Estimation": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539954,
+    "update_time": 1777539954,
+    "_id": "Triangulation with Transformer Regressor (TTR)<SEP>Unconstrained Multi-view Human Pose Estimation"
+  },
+  "Camera Calibration<SEP>Uncalibrated Settings": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539954,
+    "update_time": 1777539954,
+    "_id": "Camera Calibration<SEP>Uncalibrated Settings"
+  },
+  "Temporal Dynamics<SEP>Temporal Equivariant Rectifier (TER)": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539954,
+    "update_time": 1777539954,
+    "_id": "Temporal Dynamics<SEP>Temporal Equivariant Rectifier (TER)"
+  },
+  "Gröbner basis Corrector (GC)<SEP>Unconstrained Multi-view Human Pose Estimation": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539961,
+    "update_time": 1777539961,
+    "_id": "Gröbner basis Corrector (GC)<SEP>Unconstrained Multi-view Human Pose Estimation"
+  },
+  "Standard Benchmarks<SEP>Unconstrained Multi-view Human Pose Estimation": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539965,
+    "update_time": 1777539965,
+    "_id": "Standard Benchmarks<SEP>Unconstrained Multi-view Human Pose Estimation"
+  },
+  "State-of-the-art<SEP>Unconstrained Multi-view Human Pose Estimation": {
+    "chunk_ids": [
+      "chunk-1f103bf8edb0a9ccc2b0ebd0f1f5509f"
+    ],
+    "count": 1,
+    "create_time": 1777539967,
+    "update_time": 1777539967,
+    "_id": "State-of-the-art<SEP>Unconstrained Multi-view Human Pose Estimation"
+  },
+  "SolarTformer<SEP>Transformer Architecture": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540035,
+    "update_time": 1777540035,
+    "_id": "SolarTformer<SEP>Transformer Architecture"
+  },
+  "Meteorological Data<SEP>SolarTformer": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540037,
+    "update_time": 1777540037,
+    "_id": "Meteorological Data<SEP>SolarTformer"
+  },
+  "Power Station-Specific Metadata<SEP>SolarTformer": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540039,
+    "update_time": 1777540039,
+    "_id": "Power Station-Specific Metadata<SEP>SolarTformer"
+  },
+  "Short-Term Solar Power Forecasting<SEP>SolarTformer": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540041,
+    "update_time": 1777540041,
+    "_id": "Short-Term Solar Power Forecasting<SEP>SolarTformer"
+  },
+  "Renewable Energy<SEP>SolarTformer": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540043,
+    "update_time": 1777540043,
+    "_id": "Renewable Energy<SEP>SolarTformer"
+  },
+  "Abstract<SEP>SolarTformer": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540045,
+    "update_time": 1777540045,
+    "_id": "Abstract<SEP>SolarTformer"
+  },
+  "SolarTformer<SEP>Study": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540048,
+    "update_time": 1777540048,
+    "_id": "SolarTformer<SEP>Study"
+  },
+  "Abstract<SEP>Study": {
+    "chunk_ids": [
+      "chunk-58c2ed3090dd685477ad8ffbe51afc72"
+    ],
+    "count": 1,
+    "create_time": 1777540050,
+    "update_time": 1777540050,
+    "_id": "Abstract<SEP>Study"
+  },
+  "Deep Neural Networks<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540123,
+    "update_time": 1777540123,
+    "_id": "Deep Neural Networks<SEP>Self-Abstraction Learning"
+  },
+  "Gradient Vanishing<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540125,
+    "update_time": 1777540125,
+    "_id": "Gradient Vanishing<SEP>Self-Abstraction Learning"
+  },
+  "Overfitting<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540127,
+    "update_time": 1777540127,
+    "_id": "Overfitting<SEP>Self-Abstraction Learning"
+  },
+  "Self-Abstraction Learning<SEP>Unstable Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540129,
+    "update_time": 1777540129,
+    "_id": "Self-Abstraction Learning<SEP>Unstable Learning"
+  },
+  "Self-Abstraction Learning<SEP>Training Data": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540131,
+    "update_time": 1777540131,
+    "_id": "Self-Abstraction Learning<SEP>Training Data"
+  },
+  "Data-Scarce Regimes<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540134,
+    "update_time": 1777540134,
+    "_id": "Data-Scarce Regimes<SEP>Self-Abstraction Learning"
+  },
+  "Complex Network Regimes<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540136,
+    "update_time": 1777540136,
+    "_id": "Complex Network Regimes<SEP>Self-Abstraction Learning"
+  },
+  "Robust Generalization<SEP>Self-Abstraction Learning": {
+    "chunk_ids": [
+      "chunk-376c46f457bdeb21e2501c08f9d738a9"
+    ],
+    "count": 1,
+    "create_time": 1777540138,
+    "update_time": 1777540138,
+    "_id": "Robust Generalization<SEP>Self-Abstraction Learning"
+  },
+  "Graph ODEs<SEP>Latent-Hysteresis Graph ODEs": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540196,
+    "update_time": 1777540196,
+    "_id": "Graph ODEs<SEP>Latent-Hysteresis Graph ODEs"
+  },
+  "Double-Well Edge Potential<SEP>Hysteresis Graph ODE (HGODE)": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540196,
+    "update_time": 1777540196,
+    "_id": "Double-Well Edge Potential<SEP>Hysteresis Graph ODE (HGODE)"
+  },
+  "Real-World Graph Benchmarks<SEP>Theory-Driven Synthetic Diagnostics": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540196,
+    "update_time": 1777540196,
+    "_id": "Real-World Graph Benchmarks<SEP>Theory-Driven Synthetic Diagnostics"
+  },
+  "Hysteresis Graph ODE (HGODE)<SEP>Pairwise Force": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540203,
+    "update_time": 1777540203,
+    "_id": "Hysteresis Graph ODE (HGODE)<SEP>Pairwise Force"
+  },
+  "Bipolarized Gate<SEP>Double-Well Edge Potential": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540203,
+    "update_time": 1777540203,
+    "_id": "Bipolarized Gate<SEP>Double-Well Edge Potential"
+  },
+  "Graph ODEs<SEP>Hysteresis Graph ODE (HGODE)": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540207,
+    "update_time": 1777540207,
+    "_id": "Graph ODEs<SEP>Hysteresis Graph ODE (HGODE)"
+  },
+  "Graph ODEs<SEP>Monostability Trap": {
+    "chunk_ids": [
+      "chunk-22adbdae962d3d7eee22be8d522eb357"
+    ],
+    "count": 1,
+    "create_time": 1777540209,
+    "update_time": 1777540209,
+    "_id": "Graph ODEs<SEP>Monostability Trap"
+  },
+  "Automatic Speech Recognition<SEP>RAS": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540280,
+    "update_time": 1777540280,
+    "_id": "Automatic Speech Recognition<SEP>RAS"
+  },
+  "ASR Models<SEP>Abstention-Aware Transcription Framework": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540280,
+    "update_time": 1777540280,
+    "_id": "ASR Models<SEP>Abstention-Aware Transcription Framework"
+  },
+  "RAS<SEP>Supervised Bootstrapping": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540284,
+    "update_time": 1777540284,
+    "_id": "RAS<SEP>Supervised Bootstrapping"
+  },
+  "Automatic Speech Recognition<SEP>Word Error Rate": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540284,
+    "update_time": 1777540284,
+    "_id": "Automatic Speech Recognition<SEP>Word Error Rate"
+  },
+  "ASR Models<SEP>Supervised Bootstrapping": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540288,
+    "update_time": 1777540288,
+    "_id": "ASR Models<SEP>Supervised Bootstrapping"
+  },
+  "RAS<SEP>Reinforcement Learning": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540288,
+    "update_time": 1777540288,
+    "_id": "RAS<SEP>Reinforcement Learning"
+  },
+  "ASR Models<SEP>Reinforcement Learning": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540292,
+    "update_time": 1777540292,
+    "_id": "ASR Models<SEP>Reinforcement Learning"
+  },
+  "Abstention-Aware Transcription Framework<SEP>RAS": {
+    "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
+    ],
+    "count": 1,
+    "create_time": 1777540292,
+    "update_time": 1777540292,
+    "_id": "Abstention-Aware Transcription Framework<SEP>RAS"
+  },
+  "Algae-Laden Water Tank<SEP>Deep Learning-Enabled Dissolved Oxygen Sensing": {
+    "chunk_ids": [
+      "chunk-e755a3b7fb7a07c10fdd800c398a82c8"
+    ],
+    "count": 1,
+    "create_time": 1777540376,
+    "update_time": 1777540376,
+    "_id": "Algae-Laden Water Tank<SEP>Deep Learning-Enabled Dissolved Oxygen Sensing"
+  },
+  "Deep Learning-Enabled Dissolved Oxygen Sensing<SEP>Mean Average Error (MAE)": {
+    "chunk_ids": [
+      "chunk-e755a3b7fb7a07c10fdd800c398a82c8"
+    ],
+    "count": 1,
+    "create_time": 1777540378,
+    "update_time": 1777540378,
+    "_id": "Deep Learning-Enabled Dissolved Oxygen Sensing<SEP>Mean Average Error (MAE)"
+  },
+  "Deep Learning-Enabled Dissolved Oxygen Sensing<SEP>Predictive Uncertainty": {
+    "chunk_ids": [
+      "chunk-e755a3b7fb7a07c10fdd800c398a82c8"
+    ],
+    "count": 1,
+    "create_time": 1777540380,
+    "update_time": 1777540380,
+    "_id": "Deep Learning-Enabled Dissolved Oxygen Sensing<SEP>Predictive Uncertainty"
+  },
+  "Large Language Models<SEP>MEMCoder": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540441,
+    "update_time": 1777540441,
+    "_id": "Large Language Models<SEP>MEMCoder"
+  },
+  "MEMCoder<SEP>Retrieval-Augmented Generation": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540443,
+    "update_time": 1777540443,
+    "_id": "MEMCoder<SEP>Retrieval-Augmented Generation"
+  },
+  "Large Language Models<SEP>Private Libraries": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540443,
+    "update_time": 1777540443,
+    "_id": "Large Language Models<SEP>Private Libraries"
+  },
+  "MEMCoder<SEP>NdonnxEval": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540448,
+    "update_time": 1777540448,
+    "_id": "MEMCoder<SEP>NdonnxEval"
+  },
+  "Closed Loop<SEP>MEMCoder": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540450,
+    "update_time": 1777540450,
+    "_id": "Closed Loop<SEP>MEMCoder"
+  },
+  "MEMCoder<SEP>Objective Execution Feedback": {
+    "chunk_ids": [
+      "chunk-77c51309c1da2a8788990e7a8432dfd3"
+    ],
+    "count": 1,
+    "create_time": 1777540452,
+    "update_time": 1777540452,
+    "_id": "MEMCoder<SEP>Objective Execution Feedback"
+  },
+  "Adaptive ToR<SEP>Query Tree Classifier": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540524,
+    "update_time": 1777540524,
+    "_id": "Adaptive ToR<SEP>Query Tree Classifier"
+  },
+  "Adaptive ToR<SEP>Tree-Based Retrieval": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540526,
+    "update_time": 1777540526,
+    "_id": "Adaptive ToR<SEP>Tree-Based Retrieval"
+  },
+  "Adaptive Pruning Module<SEP>Adaptive ToR": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540528,
+    "update_time": 1777540528,
+    "_id": "Adaptive Pruning Module<SEP>Adaptive ToR"
+  },
+  "Adaptive ToR<SEP>Subset Accuracy": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540531,
+    "update_time": 1777540531,
+    "_id": "Adaptive ToR<SEP>Subset Accuracy"
+  },
+  "Adaptive ToR<SEP>Micro-F1": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540533,
+    "update_time": 1777540533,
+    "_id": "Adaptive ToR<SEP>Micro-F1"
+  },
+  "Adaptive ToR<SEP>Latency": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540535,
+    "update_time": 1777540535,
+    "_id": "Adaptive ToR<SEP>Latency"
+  },
+  "Adaptive ToR<SEP>LLM Rescoring": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540537,
+    "update_time": 1777540537,
+    "_id": "Adaptive ToR<SEP>LLM Rescoring"
+  },
+  "Adaptive ToR<SEP>Token Consumption": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540539,
+    "update_time": 1777540539,
+    "_id": "Adaptive ToR<SEP>Token Consumption"
+  },
+  "Adaptive ToR<SEP>Depth-Wise Analysis": {
+    "chunk_ids": [
+      "chunk-e597d51a989e3ab5874950fc7bfbd276"
+    ],
+    "count": 1,
+    "create_time": 1777540543,
+    "update_time": 1777540543,
+    "_id": "Adaptive ToR<SEP>Depth-Wise Analysis"
+  },
+  "RefEvo<SEP>System-on-Chip (SoC)": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540614,
+    "update_time": 1777540614,
+    "_id": "RefEvo<SEP>System-on-Chip (SoC)"
+  },
+  "Co-Evolutionary Verification Mechanism<SEP>RefEvo Dynamic Design Planner": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540614,
+    "update_time": 1777540614,
+    "_id": "Co-Evolutionary Verification Mechanism<SEP>RefEvo Dynamic Design Planner"
+  },
+  "Dialectical Arbiter<SEP>Spec Anchoring Strategy": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540614,
+    "update_time": 1777540614,
+    "_id": "Dialectical Arbiter<SEP>Spec Anchoring Strategy"
+  },
+  "Large Language Models (LLMs)<SEP>RefEvo": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540621,
+    "update_time": 1777540621,
+    "_id": "Large Language Models (LLMs)<SEP>RefEvo"
+  },
+  "Co-Evolutionary Verification Mechanism<SEP>Spec Anchoring Strategy": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540621,
+    "update_time": 1777540621,
+    "_id": "Co-Evolutionary Verification Mechanism<SEP>Spec Anchoring Strategy"
+  },
+  "RefEvo<SEP>Testbenches (TBs)": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540625,
+    "update_time": 1777540625,
+    "_id": "RefEvo<SEP>Testbenches (TBs)"
+  },
+  "Hardware Modeling<SEP>RefEvo": {
+    "chunk_ids": [
+      "chunk-721cf18e9625b5e00d46286185f339e9"
+    ],
+    "count": 1,
+    "create_time": 1777540627,
+    "update_time": 1777540627,
+    "_id": "Hardware Modeling<SEP>RefEvo"
+  },
+  "Agentic Witnessing<SEP>Zero-Knowledge Proofs": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540697,
+    "update_time": 1777540697,
+    "_id": "Agentic Witnessing<SEP>Zero-Knowledge Proofs"
+  },
+  "GitHub<SEP>Peer-Reviewed Computer Science Papers": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540697,
+    "update_time": 1777540697,
+    "_id": "GitHub<SEP>Peer-Reviewed Computer Science Papers"
+  },
+  "LLM-based Auditor<SEP>Model Context Protocol": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540697,
+    "update_time": 1777540697,
+    "_id": "LLM-based Auditor<SEP>Model Context Protocol"
+  },
+  "Agentic Witnessing<SEP>Trusted Execution Environment": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540703,
+    "update_time": 1777540703,
+    "_id": "Agentic Witnessing<SEP>Trusted Execution Environment"
+  },
+  "Artifact Evaluation Process<SEP>Peer-Reviewed Computer Science Papers": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540703,
+    "update_time": 1777540703,
+    "_id": "Artifact Evaluation Process<SEP>Peer-Reviewed Computer Science Papers"
+  },
+  "Agentic Witnessing<SEP>Model Context Protocol": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540708,
+    "update_time": 1777540708,
+    "_id": "Agentic Witnessing<SEP>Model Context Protocol"
+  },
+  "Agentic Witnessing<SEP>Peer-Reviewed Computer Science Papers": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540710,
+    "update_time": 1777540710,
+    "_id": "Agentic Witnessing<SEP>Peer-Reviewed Computer Science Papers"
+  },
+  "Agentic Witnessing<SEP>Hardware Root of Trust": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540712,
+    "update_time": 1777540712,
+    "_id": "Agentic Witnessing<SEP>Hardware Root of Trust"
+  },
+  "Agentic Witnessing<SEP>Artifact Evaluation Process": {
+    "chunk_ids": [
+      "chunk-92ae3699975fb22408181c1b3b3cd1ec"
+    ],
+    "count": 1,
+    "create_time": 1777540714,
+    "update_time": 1777540714,
+    "_id": "Agentic Witnessing<SEP>Artifact Evaluation Process"
+  },
+  "DriftSE<SEP>Speech Distribution": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540753,
+    "update_time": 1777540753,
+    "_id": "DriftSE<SEP>Speech Distribution"
+  },
+  "DriftSE<SEP>Noisy Observation": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540755,
+    "update_time": 1777540755,
+    "_id": "DriftSE<SEP>Noisy Observation"
+  },
+  "DriftSE<SEP>Gaussian Prior": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540757,
+    "update_time": 1777540757,
+    "_id": "DriftSE<SEP>Gaussian Prior"
+  },
+  "DriftSE<SEP>VoiceBank-DEMAND": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540759,
+    "update_time": 1777540759,
+    "_id": "DriftSE<SEP>VoiceBank-DEMAND"
+  },
+  "DriftSE<SEP>Equilibrium Problem": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540761,
+    "update_time": 1777540761,
+    "_id": "DriftSE<SEP>Equilibrium Problem"
+  },
+  "DriftSE<SEP>Generative Framework": {
+    "chunk_ids": [
+      "chunk-03219d0a39719cd1d7c96b7e9854b37a"
+    ],
+    "count": 1,
+    "create_time": 1777540763,
+    "update_time": 1777540763,
+    "_id": "DriftSE<SEP>Generative Framework"
+  },
+  "Large Language Models<SEP>Process Reward Models": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540848,
+    "update_time": 1777540848,
+    "_id": "Large Language Models<SEP>Process Reward Models"
+  },
+  "DataPRM<SEP>Process Reward Models": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540850,
+    "update_time": 1777540850,
+    "_id": "DataPRM<SEP>Process Reward Models"
+  },
+  "Agentic Data Analysis<SEP>DataPRM": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540852,
+    "update_time": 1777540852,
+    "_id": "Agentic Data Analysis<SEP>DataPRM"
+  },
+  "DataPRM<SEP>ScienceAgentBench": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540854,
+    "update_time": 1777540854,
+    "_id": "DataPRM<SEP>ScienceAgentBench"
+  },
+  "DABStep<SEP>DataPRM": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540856,
+    "update_time": 1777540856,
+    "_id": "DABStep<SEP>DataPRM"
+  },
+  "Best-of-N inference<SEP>DataPRM": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540858,
+    "update_time": 1777540858,
+    "_id": "Best-of-N inference<SEP>DataPRM"
+  },
+  "DataPRM<SEP>Test-Time Scaling strategies": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540861,
+    "update_time": 1777540861,
+    "_id": "DataPRM<SEP>Test-Time Scaling strategies"
+  },
+  "DataPRM<SEP>Outcome-reward baselines": {
+    "chunk_ids": [
+      "chunk-ca6e74b9c2346c262d89440c76e3ac05"
+    ],
+    "count": 1,
+    "create_time": 1777540863,
+    "update_time": 1777540863,
+    "_id": "DataPRM<SEP>Outcome-reward baselines"
+  },
+  "Fake Crisis Images<SEP>Synthetic Visual Risk": {
+    "chunk_ids": [
+      "chunk-c6161d66700f682888fb342ede2a5df0"
+    ],
+    "count": 1,
+    "create_time": 1777540946,
+    "update_time": 1777540946,
+    "_id": "Fake Crisis Images<SEP>Synthetic Visual Risk"
+  },
+  "Celebrity and Public-Figure Imagery<SEP>Synthetic Visual Risk": {
+    "chunk_ids": [
+      "chunk-c6161d66700f682888fb342ede2a5df0"
+    ],
+    "count": 1,
+    "create_time": 1777540948,
+    "update_time": 1777540948,
+    "_id": "Celebrity and Public-Figure Imagery<SEP>Synthetic Visual Risk"
+  },
+  "Diagnostic Prediction<SEP>MultiDx": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541031,
+    "update_time": 1777541031,
+    "_id": "Diagnostic Prediction<SEP>MultiDx"
+  },
+  "Diagnostic Reasoning<SEP>Large Language Models (LLMs)": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541031,
+    "update_time": 1777541031,
+    "_id": "Diagnostic Reasoning<SEP>Large Language Models (LLMs)"
+  },
+  "Clinical Reasoning<SEP>MultiDx": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541036,
+    "update_time": 1777541036,
+    "_id": "Clinical Reasoning<SEP>MultiDx"
+  },
+  "Diagnostic Prediction<SEP>Healthcare Applications": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541036,
+    "update_time": 1777541036,
+    "_id": "Diagnostic Prediction<SEP>Healthcare Applications"
+  },
+  "Diagnostic Reasoning<SEP>Domain Knowledge": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541036,
+    "update_time": 1777541036,
+    "_id": "Diagnostic Reasoning<SEP>Domain Knowledge"
+  },
+  "Diagnostic Reasoning<SEP>Knowledge Insufficiency": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541042,
+    "update_time": 1777541042,
+    "_id": "Diagnostic Reasoning<SEP>Knowledge Insufficiency"
+  },
+  "Adaptability<SEP>Diagnostic Reasoning": {
+    "chunk_ids": [
+      "chunk-0bcb21e87d929f93a36d3bdf947fcb93"
+    ],
+    "count": 1,
+    "create_time": 1777541044,
+    "update_time": 1777541044,
+    "_id": "Adaptability<SEP>Diagnostic Reasoning"
+  },
+  "LT-EDI 2026<SEP>MemeScouts@LT-EDI 2026": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541108,
+    "update_time": 1777541108,
+    "_id": "LT-EDI 2026<SEP>MemeScouts@LT-EDI 2026"
+  },
+  "Hate Speech Detection<SEP>Prompted Weak Supervision": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541108,
+    "update_time": 1777541108,
+    "_id": "Hate Speech Detection<SEP>Prompted Weak Supervision"
+  },
+  "Multimodal Hate Speech Detection<SEP>Prompted Weak Supervision": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541112,
+    "update_time": 1777541112,
+    "_id": "Multimodal Hate Speech Detection<SEP>Prompted Weak Supervision"
+  },
+  "Hate Speech Detection<SEP>Vision-Language Models": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541112,
+    "update_time": 1777541112,
+    "_id": "Hate Speech Detection<SEP>Vision-Language Models"
+  },
+  "Error-Driven LF Expansion<SEP>Prompted Weak Supervision": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541116,
+    "update_time": 1777541116,
+    "_id": "Error-Driven LF Expansion<SEP>Prompted Weak Supervision"
+  },
+  "Multimodal Hate Speech Detection<SEP>Qwen3-VLM": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541116,
+    "update_time": 1777541116,
+    "_id": "Multimodal Hate Speech Detection<SEP>Qwen3-VLM"
+  },
+  "Feature Pruning<SEP>Prompted Weak Supervision": {
+    "chunk_ids": [
+      "chunk-7a01dcb477b76a4cacbd754ce4561d7e"
+    ],
+    "count": 1,
+    "create_time": 1777541123,
+    "update_time": 1777541123,
+    "_id": "Feature Pruning<SEP>Prompted Weak Supervision"
+  },
+  "Meta-Aligner<SEP>Multi-Objective Alignment": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541180,
+    "update_time": 1777541180,
+    "_id": "Meta-Aligner<SEP>Multi-Objective Alignment"
+  },
+  "Meal<SEP>Preference-Weight-Net": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541180,
+    "update_time": 1777541180,
+    "_id": "Meal<SEP>Preference-Weight-Net"
+  },
+  "Bidirectional Preference-Policy Optimization<SEP>Multi-Objective Alignment": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541184,
+    "update_time": 1777541184,
+    "_id": "Bidirectional Preference-Policy Optimization<SEP>Multi-Objective Alignment"
+  },
+  "Policy Responses<SEP>Preference-Weight-Net": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541184,
+    "update_time": 1777541184,
+    "_id": "Policy Responses<SEP>Preference-Weight-Net"
+  },
+  "Bidirectional Preference-Policy Optimization<SEP>Large Language Models (LLMs)": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541188,
+    "update_time": 1777541188,
+    "_id": "Bidirectional Preference-Policy Optimization<SEP>Large Language Models (LLMs)"
+  },
+  "Policy Responses<SEP>Rejection Sampling Strategy": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541188,
+    "update_time": 1777541188,
+    "_id": "Policy Responses<SEP>Rejection Sampling Strategy"
+  },
+  "Bidirectional Preference-Policy Optimization<SEP>Preference-Weight-Net": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541193,
+    "update_time": 1777541193,
+    "_id": "Bidirectional Preference-Policy Optimization<SEP>Preference-Weight-Net"
+  },
+  "Bidirectional Preference-Policy Optimization<SEP>Extensive Empirical Results": {
+    "chunk_ids": [
+      "chunk-dce3b2b12a8df42087f6abb8d46338fb"
+    ],
+    "count": 1,
+    "create_time": 1777541195,
+    "update_time": 1777541195,
+    "_id": "Bidirectional Preference-Policy Optimization<SEP>Extensive Empirical Results"
+  },
+  "Explanation Quality Assessment<SEP>Ranking Problem": {
+    "chunk_ids": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "count": 1,
+    "create_time": 1777541282,
+    "update_time": 1777541282,
+    "_id": "Explanation Quality Assessment<SEP>Ranking Problem"
+  },
+  "Candidate Explanations<SEP>Reward Models": {
+    "chunk_ids": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "count": 1,
+    "create_time": 1777541282,
+    "update_time": 1777541282,
+    "_id": "Candidate Explanations<SEP>Reward Models"
+  },
+  "Data Characteristics<SEP>Model Scale": {
+    "chunk_ids": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "count": 1,
+    "create_time": 1777541282,
+    "update_time": 1777541282,
+    "_id": "Data Characteristics<SEP>Model Scale"
+  },
+  "Policy Optimization<SEP>Regression": {
+    "chunk_ids": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "count": 1,
+    "create_time": 1777541282,
+    "update_time": 1777541282,
+    "_id": "Policy Optimization<SEP>Regression"
+  },
+  "Code<SEP>Data": {
+    "chunk_ids": [
+      "chunk-a42210fb81e37b65a494b714686acf98"
+    ],
+    "count": 1,
+    "create_time": 1777541282,
+    "update_time": 1777541282,
+    "_id": "Code<SEP>Data"
+  },
+  "AdapTime<SEP>Temporal Reasoning": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541346,
+    "update_time": 1777541346,
+    "_id": "AdapTime<SEP>Temporal Reasoning"
+  },
+  "Temporal Questions<SEP>Temporal Reasoning": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541348,
+    "update_time": 1777541348,
+    "_id": "Temporal Questions<SEP>Temporal Reasoning"
+  },
+  "AdapTime<SEP>Large Language Models": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541348,
+    "update_time": 1777541348,
+    "_id": "AdapTime<SEP>Large Language Models"
+  },
+  "Temporal Questions<SEP>Temporal Reasoning Actions": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541353,
+    "update_time": 1777541353,
+    "_id": "Temporal Questions<SEP>Temporal Reasoning Actions"
+  },
+  "AdapTime<SEP>LLM Planner": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541353,
+    "update_time": 1777541353,
+    "_id": "AdapTime<SEP>LLM Planner"
+  },
+  "AdapTime<SEP>Temporal Reasoning Actions": {
+    "chunk_ids": [
+      "chunk-a92919218c93fbc995ef28388a45a264"
+    ],
+    "count": 1,
+    "create_time": 1777541357,
+    "update_time": 1777541357,
+    "_id": "AdapTime<SEP>Temporal Reasoning Actions"
+  },
+  "CREDENCE<SEP>Credal Concept Bottleneck Models": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541452,
+    "update_time": 1777541452,
+    "_id": "CREDENCE<SEP>Credal Concept Bottleneck Models"
+  },
+  "Input Ambiguity<SEP>Model Underspecification": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541452,
+    "update_time": 1777541452,
+    "_id": "Input Ambiguity<SEP>Model Underspecification"
+  },
+  "Aleatoric Uncertainty<SEP>Epistemic Uncertainty": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541452,
+    "update_time": 1777541452,
+    "_id": "Aleatoric Uncertainty<SEP>Epistemic Uncertainty"
+  },
+  "Credal Concept Bottleneck Models<SEP>Human-Interpretable Concepts": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541459,
+    "update_time": 1777541459,
+    "_id": "Credal Concept Bottleneck Models<SEP>Human-Interpretable Concepts"
+  },
+  "CREDENCE<SEP>Dedicated Ambiguity Output": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541459,
+    "update_time": 1777541459,
+    "_id": "CREDENCE<SEP>Dedicated Ambiguity Output"
+  },
+  "Annotation<SEP>CREDENCE": {
+    "chunk_ids": [
+      "chunk-186325b8d21aab395207850cb3577223"
+    ],
+    "count": 1,
+    "create_time": 1777541463,
+    "update_time": 1777541463,
+    "_id": "Annotation<SEP>CREDENCE"
+  },
+  "Backdoor Attacks<SEP>Defusing the Trigger": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541590,
+    "update_time": 1777541590,
+    "_id": "Backdoor Attacks<SEP>Defusing the Trigger"
+  },
+  "Large Language Models<SEP>Tail-Risk Intrinsic Geometric Smoothing": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541590,
+    "update_time": 1777541590,
+    "_id": "Large Language Models<SEP>Tail-Risk Intrinsic Geometric Smoothing"
+  },
+  "Inference-Time Defense<SEP>Plug-and-Play Defense": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541590,
+    "update_time": 1777541590,
+    "_id": "Inference-Time Defense<SEP>Plug-and-Play Defense"
+  },
+  "Attention Heads<SEP>Tail-Risk Intrinsic Geometric Smoothing": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541596,
+    "update_time": 1777541596,
+    "_id": "Attention Heads<SEP>Tail-Risk Intrinsic Geometric Smoothing"
+  },
+  "Offline Purification<SEP>Tail-Risk Intrinsic Geometric Smoothing": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541598,
+    "update_time": 1777541598,
+    "_id": "Offline Purification<SEP>Tail-Risk Intrinsic Geometric Smoothing"
+  },
+  "Complex Online Interventions<SEP>Tail-Risk Intrinsic Geometric Smoothing": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541600,
+    "update_time": 1777541600,
+    "_id": "Complex Online Interventions<SEP>Tail-Risk Intrinsic Geometric Smoothing"
+  },
+  "Backdoor Attacks<SEP>Tail-Risk Intrinsic Geometric Smoothing": {
+    "chunk_ids": [
+      "chunk-306df29aef0348d52b474a51b48f7864"
+    ],
+    "count": 1,
+    "create_time": 1777541603,
+    "update_time": 1777541603,
+    "_id": "Backdoor Attacks<SEP>Tail-Risk Intrinsic Geometric Smoothing"
+  },
+  "Residual Networks<SEP>Universal Approximation Theorem": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544272,
+    "update_time": 1777544272,
+    "_id": "Residual Networks<SEP>Universal Approximation Theorem"
+  },
+  "Deep Residual Networks<SEP>Theory": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544272,
+    "update_time": 1777544272,
+    "_id": "Deep Residual Networks<SEP>Theory"
+  },
+  "Deep Residual Networks Theory and Validation<SEP>Theory": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544276,
+    "update_time": 1777544276,
+    "_id": "Deep Residual Networks Theory and Validation<SEP>Theory"
+  },
+  "Deep Residual Networks<SEP>Validation": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544276,
+    "update_time": 1777544276,
+    "_id": "Deep Residual Networks<SEP>Validation"
+  },
+  "Layer-wise Progressive Approximation<SEP>Theory": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544280,
+    "update_time": 1777544280,
+    "_id": "Layer-wise Progressive Approximation<SEP>Theory"
+  },
+  "Deep Residual Networks Theory and Validation<SEP>Validation": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544280,
+    "update_time": 1777544280,
+    "_id": "Deep Residual Networks Theory and Validation<SEP>Validation"
+  },
+  "Progressive Trajectories<SEP>Theory": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544285,
+    "update_time": 1777544285,
+    "_id": "Progressive Trajectories<SEP>Theory"
+  },
+  "Layer-wise Progressive Approximation<SEP>Progressive Trajectories": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544287,
+    "update_time": 1777544287,
+    "_id": "Layer-wise Progressive Approximation<SEP>Progressive Trajectories"
+  },
+  "Deep Residual Networks<SEP>Layer-wise Progressive Approximation": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544289,
+    "update_time": 1777544289,
+    "_id": "Deep Residual Networks<SEP>Layer-wise Progressive Approximation"
+  },
+  "Deep Residual Networks<SEP>Progressive Trajectories": {
+    "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b"
+    ],
+    "count": 1,
+    "create_time": 1777544291,
+    "update_time": 1777544291,
+    "_id": "Deep Residual Networks<SEP>Progressive Trajectories"
+  },
+  "Human Annotations<SEP>LLMs": {
+    "chunk_ids": [
+      "chunk-ceb637d4c7b6b73e3fb46616c67758ed"
+    ],
+    "count": 1,
+    "create_time": 1777545853,
+    "update_time": 1777545853,
+    "_id": "Human Annotations<SEP>LLMs"
+  },
+  "Stakeholder-Centric Goals<SEP>Standard Metrics": {
+    "chunk_ids": [
+      "chunk-ceb637d4c7b6b73e3fb46616c67758ed"
+    ],
+    "count": 1,
+    "create_time": 1777545853,
+    "update_time": 1777545853,
+    "_id": "Stakeholder-Centric Goals<SEP>Standard Metrics"
+  },
+  "Prompts and Code<SEP>Research Study": {
+    "chunk_ids": [
+      "chunk-ceb637d4c7b6b73e3fb46616c67758ed"
+    ],
+    "count": 1,
+    "create_time": 1777545853,
+    "update_time": 1777545853,
+    "_id": "Prompts and Code<SEP>Research Study"
+  },
+  "6G Networks<SEP>Strategic Bidding in 6G Spectrum Auctions": {
+    "chunk_ids": [
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+    ],
+    "count": 1,
+    "create_time": 1777546677,
+    "update_time": 1777546677,
+    "_id": "6G Networks<SEP>Strategic Bidding in 6G Spectrum Auctions"
+  },
+  "Heuristic Strategies<SEP>LLM-guided Bidding": {
+    "chunk_ids": [
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+    ],
+    "count": 1,
+    "create_time": 1777546677,
+    "update_time": 1777546677,
+    "_id": "Heuristic Strategies<SEP>LLM-guided Bidding"
+  },
+  "LLM-guided Bidding<SEP>VCG Mechanism": {
+    "chunk_ids": [
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+    ],
+    "count": 1,
+    "create_time": 1777546681,
+    "update_time": 1777546681,
+    "_id": "LLM-guided Bidding<SEP>VCG Mechanism"
+  },
+  "Budget Constraints<SEP>LLM-guided Bidding": {
+    "chunk_ids": [
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+    ],
+    "count": 1,
+    "create_time": 1777546685,
+    "update_time": 1777546685,
+    "_id": "Budget Constraints<SEP>LLM-guided Bidding"
+  },
+  "AI Systems<SEP>Humans": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555151,
+    "update_time": 1777555151,
+    "_id": "AI Systems<SEP>Humans"
+  },
+  "Runaway Mine Train Scenario<SEP>U.S. Adults": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555151,
+    "update_time": 1777555151,
+    "_id": "Runaway Mine Train Scenario<SEP>U.S. Adults"
+  },
+  "Designers<SEP>Humans": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555156,
+    "update_time": 1777555156,
+    "_id": "Designers<SEP>Humans"
+  },
+  "Experimental Study<SEP>U.S. Adults": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555156,
+    "update_time": 1777555156,
+    "_id": "Experimental Study<SEP>U.S. Adults"
+  },
+  "Company Engineers<SEP>Repair Robot": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555156,
+    "update_time": 1777555156,
+    "_id": "Company Engineers<SEP>Repair Robot"
+  },
+  "Humans<SEP>Moral Frameworks": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555162,
+    "update_time": 1777555162,
+    "_id": "Humans<SEP>Moral Frameworks"
+  },
+  "Designers<SEP>Moral Frameworks": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555164,
+    "update_time": 1777555164,
+    "_id": "Designers<SEP>Moral Frameworks"
+  },
+  "AI Systems<SEP>Designers": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555166,
+    "update_time": 1777555166,
+    "_id": "AI Systems<SEP>Designers"
+  },
+  "AI Systems<SEP>Moral Frameworks": {
+    "chunk_ids": [
+      "chunk-bbf5cdde0215fa8979b16920619610f2"
+    ],
+    "count": 1,
+    "create_time": 1777555168,
+    "update_time": 1777555168,
+    "_id": "AI Systems<SEP>Moral Frameworks"
+  },
+  "Pre-execution Decision Layer<SEP>Right-to-Act Protocol": {
+    "chunk_ids": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa"
+    ],
+    "count": 1,
+    "create_time": 1777555203,
+    "update_time": 1777555203,
+    "_id": "Pre-execution Decision Layer<SEP>Right-to-Act Protocol"
+  },
+  "Deterministic Decision Making<SEP>Non-compensatory Decision Regime": {
+    "chunk_ids": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa"
+    ],
+    "count": 1,
+    "create_time": 1777555203,
+    "update_time": 1777555203,
+    "_id": "Deterministic Decision Making<SEP>Non-compensatory Decision Regime"
+  },
+  "Compensatory Decision Regime<SEP>Right-to-Act Protocol": {
+    "chunk_ids": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa"
+    ],
+    "count": 1,
+    "create_time": 1777555207,
+    "update_time": 1777555207,
+    "_id": "Compensatory Decision Regime<SEP>Right-to-Act Protocol"
+  },
+  "Pre-execution Legitimacy Boundary<SEP>Right-to-Act Protocol": {
+    "chunk_ids": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa"
+    ],
+    "count": 1,
+    "create_time": 1777555210,
+    "update_time": 1777555210,
+    "_id": "Pre-execution Legitimacy Boundary<SEP>Right-to-Act Protocol"
+  },
+  "Joint Training<SEP>Modular Training": {
+    "chunk_ids": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff"
+    ],
+    "count": 1,
+    "create_time": 1777555333,
+    "update_time": 1777555333,
+    "_id": "Joint Training<SEP>Modular Training"
+  },
+  "Dispatching Rules<SEP>Job Scheduling Agents": {
+    "chunk_ids": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff"
+    ],
+    "count": 1,
+    "create_time": 1777555333,
+    "update_time": 1777555333,
+    "_id": "Dispatching Rules<SEP>Job Scheduling Agents"
+  },
+  "Resource Scarcity<SEP>Temporal Dominance": {
+    "chunk_ids": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff"
+    ],
+    "count": 1,
+    "create_time": 1777555333,
+    "update_time": 1777555333,
+    "_id": "Resource Scarcity<SEP>Temporal Dominance"
+  },
+  "Automatic Guided Vehicle Scheduling Agents<SEP>Job Scheduling Agents": {
+    "chunk_ids": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff"
+    ],
+    "count": 1,
+    "create_time": 1777555340,
+    "update_time": 1777555340,
+    "_id": "Automatic Guided Vehicle Scheduling Agents<SEP>Job Scheduling Agents"
+  },
+  "ITAS<SEP>Multi-agent LLM tutoring systems": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555417,
+    "update_time": 1777555417,
+    "_id": "ITAS<SEP>Multi-agent LLM tutoring systems"
+  },
+  "Priority PayGo<SEP>Standard PayGo": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555417,
+    "update_time": 1777555417,
+    "_id": "Priority PayGo<SEP>Standard PayGo"
+  },
+  "Single Seminar<SEP>University-Wide Rollout": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555417,
+    "update_time": 1777555417,
+    "_id": "Single Seminar<SEP>University-Wide Rollout"
+  },
+  "Gemini 2.5 Flash<SEP>ITAS": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555423,
+    "update_time": 1777555423,
+    "_id": "Gemini 2.5 Flash<SEP>ITAS"
+  },
+  "Provisioned Throughput<SEP>Standard PayGo": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555423,
+    "update_time": 1777555423,
+    "_id": "Provisioned Throughput<SEP>Standard PayGo"
+  },
+  "Priority PayGo<SEP>Provisioned Throughput": {
+    "chunk_ids": [
+      "chunk-5d04c5b21f00229db74654a2f461bcf1"
+    ],
+    "count": 1,
+    "create_time": 1777555432,
+    "update_time": 1777555432,
+    "_id": "Priority PayGo<SEP>Provisioned Throughput"
+  },
+  "Leveraging Human Feedback for Semantically-Relevant Skill Discovery<SEP>Unsupervised Skill Discovery": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555461,
+    "update_time": 1777555461,
+    "_id": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery<SEP>Unsupervised Skill Discovery"
+  },
+  "Human Feedback<SEP>Semantic Labelling": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555461,
+    "update_time": 1777555461,
+    "_id": "Human Feedback<SEP>Semantic Labelling"
+  },
+  "Reward Function<SEP>Semantically Relevant Skill Discovery": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555461,
+    "update_time": 1777555461,
+    "_id": "Reward Function<SEP>Semantically Relevant Skill Discovery"
+  },
+  "Reinforcement Learning<SEP>Unsupervised Skill Discovery": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555467,
+    "update_time": 1777555467,
+    "_id": "Reinforcement Learning<SEP>Unsupervised Skill Discovery"
+  },
+  "Semantically Relevant Skill Discovery<SEP>Skill Spaces": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555467,
+    "update_time": 1777555467,
+    "_id": "Semantically Relevant Skill Discovery<SEP>Skill Spaces"
+  },
+  "Semantic Labelling<SEP>Semantically Relevant Skill Discovery": {
+    "chunk_ids": [
+      "chunk-806e6e5aef8defe7ecaeafa8c2ceb771"
+    ],
+    "count": 1,
+    "create_time": 1777555471,
+    "update_time": 1777555471,
+    "_id": "Semantic Labelling<SEP>Semantically Relevant Skill Discovery"
+  },
+  "Linear Temporal Logic (LTL)<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555543,
+    "update_time": 1777555543,
+    "_id": "Linear Temporal Logic (LTL)<SEP>SemML 2.0"
+  },
+  "Mealy Machines<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555545,
+    "update_time": 1777555545,
+    "_id": "Mealy Machines<SEP>SemML 2.0"
+  },
+  "AIGER Circuits<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555548,
+    "update_time": 1777555548,
+    "_id": "AIGER Circuits<SEP>SemML 2.0"
+  },
+  "Automata-Theoretic Approach<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555550,
+    "update_time": 1777555550,
+    "_id": "Automata-Theoretic Approach<SEP>SemML 2.0"
+  },
+  "Partial Exploration<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555552,
+    "update_time": 1777555552,
+    "_id": "Partial Exploration<SEP>SemML 2.0"
+  },
+  "Machine-Learning Guidance<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555554,
+    "update_time": 1777555554,
+    "_id": "Machine-Learning Guidance<SEP>SemML 2.0"
+  },
+  "Heuristics and Improvements<SEP>SemML 2.0": {
+    "chunk_ids": [
+      "chunk-f040ac069b42fd1e1a97678913109308"
+    ],
+    "count": 1,
+    "create_time": 1777555556,
+    "update_time": 1777555556,
+    "_id": "Heuristics and Improvements<SEP>SemML 2.0"
+  },
+  "Meta-Ensemble Learning<SEP>Respiratory Sound Classification": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555596,
+    "update_time": 1777555596,
+    "_id": "Meta-Ensemble Learning<SEP>Respiratory Sound Classification"
+  },
+  "Ivanov et al.<SEP>Meta-Ensemble Learning": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555598,
+    "update_time": 1777555598,
+    "_id": "Ivanov et al.<SEP>Meta-Ensemble Learning"
+  },
+  "Diverse Data Splits<SEP>Meta-Ensemble Learning": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555600,
+    "update_time": 1777555600,
+    "_id": "Diverse Data Splits<SEP>Meta-Ensemble Learning"
+  },
+  "Clinical Data<SEP>Meta-Ensemble Learning": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555602,
+    "update_time": 1777555602,
+    "_id": "Clinical Data<SEP>Meta-Ensemble Learning"
+  },
+  "Meta-Ensemble Learning<SEP>State-of-the-Art Performance": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555604,
+    "update_time": 1777555604,
+    "_id": "Meta-Ensemble Learning<SEP>State-of-the-Art Performance"
+  },
+  "Benchmark<SEP>Meta-Ensemble Learning": {
+    "chunk_ids": [
+      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
+    ],
+    "count": 1,
+    "create_time": 1777555606,
+    "update_time": 1777555606,
+    "_id": "Benchmark<SEP>Meta-Ensemble Learning"
+  },
+  "AsyncShield<SEP>Vision-Language-Action (VLA) Models": {
+    "chunk_ids": [
+      "chunk-047ce2bc252a55d9055c31539d3a7c47"
+    ],
+    "count": 1,
+    "create_time": 1777558609,
+    "update_time": 1777558609,
+    "_id": "AsyncShield<SEP>Vision-Language-Action (VLA) Models"
+  },
+  "Inference Latency<SEP>Network Jitter": {
+    "chunk_ids": [
+      "chunk-047ce2bc252a55d9055c31539d3a7c47"
+    ],
+    "count": 1,
+    "create_time": 1777558609,
+    "update_time": 1777558609,
+    "_id": "Inference Latency<SEP>Network Jitter"
+  }
+}
