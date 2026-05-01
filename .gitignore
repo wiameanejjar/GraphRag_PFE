@@ -6,7 +6,7 @@
 # Données volumineuses
 agentic_graphrag/data/
 agentic_graphrag/indexes/
-agentic_graphrag/neo4j_data/
+neo4j_data/
 
 # Python
 __pycache__/
