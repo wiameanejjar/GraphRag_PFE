@@ -321,7 +321,7 @@ cannot be evenly divided by expected dimension (1024)`
 
 ---
 
-## 🔹 Comparaison Naive vs Hybrid
+## Comparaison Naive vs Hybrid
 
 | Critère           | Naive          | Hybrid             |
 | ----------------- | -------------- | ------------------ |
