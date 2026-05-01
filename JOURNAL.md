@@ -345,7 +345,7 @@ cannot be evenly divided by expected dimension (1024)`
 
 ### Solutions et améliorations testées / envisagées
 
-- Optimisation de chunking (taille + overlap)et réduction de filtrage des relations faibles
+- Optimisation de chunking (taille + overlap) et réduction de filtrage des relations faibles -> c'est la solution que j'ai testé
 
 -> Pour les solutions prochaines :
 
@@ -382,4 +382,4 @@ cannot be evenly divided by expected dimension (1024)`
 ---
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 30 Avril 2026_
+_Dernière mise à jour : 01 Mai 2026_
