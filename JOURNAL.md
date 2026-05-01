@@ -227,7 +227,6 @@ cannot be evenly divided by expected dimension (1024)`
 | list vs numpy array          | np.vstack(embeddings)                           |
 | Warnings LLM format          | Accepté (impact faible) + amélioration Sprint 2 |
 
-
 ## SPRINT 1 — Semaine 4 (29 Avril – 04 Mai 2026)
 
 ### Amélioration d'indexation LightRAG + Analyse graphe Neo4j (en utilisant que le titre + abstract)
@@ -270,10 +269,98 @@ cannot be evenly divided by expected dimension (1024)`
   - Nettoyage des scripts de test.
   - Push Git : Mise à jour du dépôt distant avec la nouvelle structure de projet et le dernier notebook.
 - Documentation et Rapport :Début de la rédaction du rapport de Sprint 1 .
+
 - Pour gérer les interruptions dues aux limites de l’API Groq (rate limits), à chaque fois que le processus se bloque,
   j’arrête l’exécution puis je relance l’indexation à partir du point où elle s’était arrêtée, après le délai de réinitialisation des quotas en utilisant le mécanisme de checkpointing.
 
-**01/05/2026**
+- Une tentative d’amélioration du pipeline a été réalisée en explorant l’intégration de ChromaDB comme base
+  vectorielle afin de stocker directement les embeddings avec un LLM local (Ollama) et renforcer la structuration du graphe.
+- Problème rencontré: la version de LightRAG utilisée ne supporte pas nativement ChromaDB, ce qui a empêché
+  son intégration directe.
+- La solution adoptée: consiste donc à conserver le pipeline LightRAG existant pour la génération du graphe
+  de connaissances, tout en ajoutant une couche supplémentaire d’export des chunks vers une base vectorielle ChromaDB afin d’assurer la persistance et l’exploitation hybride des données.
+
+**01/05/2026 – Analyse du graphe et amélioration du pipeline LightRAG**
+
+### Avancement du pipeline
+
+- 100 documents indexés avec succès dans LightRAG
+- Graphe généré : 1355 nœuds, 620 relations
+- Export vers Neo4j réussi
+- Tests Naive et Hybrid fonctionnels
+
+---
+
+### Architecture & stockage
+
+- ChromaDB utilisé uniquement pour stocker les embeddings, mais Retrieval est basé uniquement sur LightRAG c'est à dire qu'ont utilise graph + vector interne pour faire la recherche
+- ChromaDB pas encore intégré dans la recherche
+
+---
+
+### LLM utilisé
+
+- Remplacement de Groq par un LLM local
+- Objectifs :
+  - éviter les rate limits
+  - améliorer la reproductibilité
+  - stabiliser le pipeline
+
+---
+
+### Problèmes identifiés
+
+- Graphe peu dense (0.0007) malgré un grand nombre de nœuds
+- Peu de relations entre entités
+- Forte dépendance du mode Hybrid aux relations du graphe
+
+### Impact
+
+- Réponses Hybrid plus courtes, mais plus précises
+- Manque de contexte riche à cause d’un graphe sous-connecté
+
+---
+
+## 🔹 Comparaison Naive vs Hybrid
+
+| Critère           | Naive          | Hybrid             |
+| ----------------- | -------------- | ------------------ |
+| Type              | Vector search  | Graph + Vector     |
+| Précision         | Bonne          | Très bonne         |
+| Contexte          | Moyen          | Faible à moyen     |
+| Longueur          | Plus détaillée | Plus courte        |
+| Multi-hop         | Faible         | Meilleur potentiel |
+| Dépendance graphe | Non            | Forte              |
+
+---
+
+### Analyse des résultats et synthése de causes du problème Hybrid
+
+- Forte dépendance au graphe de connaissances
+- Peu de relations extraites entre entités
+- Chunking et extraction limités
+- Filtrage trop strict des relations
+
+---
+
+### Solutions et améliorations testées / envisagées
+
+- Optimisation de chunking (taille + overlap)et réduction de filtrage des relations faibles
+
+-> Pour les solutions prochaines :
+
+- Améliorer le prompt LLM (relations explicites + implicites)
+- Renforcer l’architecture LightRAG pour repenser la construction du graphe avec une meilleure fusion entités / relations
+- Intégrer ChromaDB dans le retrieval (vrai hybride)
+
+---
+
+### Prochaines étapes
+
+- Améliorer extraction entités/relations
+- Enrichir la densité du graphe
+- Intégrer ChromaDB dans le système de recherche
+- Transformer le pipeline en véritable système hybride Graph + Vector(chromadb)
 
 **02/05/2026**
 

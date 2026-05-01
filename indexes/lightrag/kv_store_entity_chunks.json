@@ -701,10 +701,12 @@
       "chunk-ca6e74b9c2346c262d89440c76e3ac05",
       "chunk-a92919218c93fbc995ef28388a45a264",
       "chunk-306df29aef0348d52b474a51b48f7864",
-      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
+      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11",
+      "chunk-090dd9c7587ef7f5e03426647d58470b",
+      "chunk-ddabb643ad7982794978859b96daf403"
     ],
-    "count": 16,
-    "update_time": 1777546644,
+    "count": 18,
+    "update_time": 1777580393,
     "_id": "Large Language Models"
   },
   "Task Descriptions": {
@@ -1016,10 +1018,11 @@
   "Frontier Models": {
     "chunk_ids": [
       "chunk-7909c6cfbc42d7e40e309323a850e887",
-      "chunk-7a6ae8adcf4df680a3155bbab7deb847"
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847",
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
     ],
-    "count": 2,
-    "update_time": 1777507508,
+    "count": 3,
+    "update_time": 1777580220,
     "_id": "Frontier Models"
   },
   "Knowledge Consolidation": {
@@ -11603,5 +11606,626 @@
     "create_time": 1777558603,
     "update_time": 1777558603,
     "_id": "Perception-Level Adaptation"
+  },
+  "Kerimov-Alekberli Model": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580134,
+    "update_time": 1777580134,
+    "_id": "Kerimov-Alekberli Model"
+  },
+  "Non-Equilibrium Thermodynamics": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580134,
+    "update_time": 1777580134,
+    "_id": "Non-Equilibrium Thermodynamics"
+  },
+  "Stochastic Control": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580134,
+    "update_time": 1777580134,
+    "_id": "Stochastic Control"
+  },
+  "AI Safety": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90",
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 2,
+    "update_time": 1777580410,
+    "_id": "AI Safety"
+  },
+  "Riemannian Manifold": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580134,
+    "update_time": 1777580134,
+    "_id": "Riemannian Manifold"
+  },
+  "Kullback-Leibler Divergence": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580136,
+    "update_time": 1777580136,
+    "_id": "Kullback-Leibler Divergence"
+  },
+  "Fisher Information Metric": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580139,
+    "update_time": 1777580139,
+    "_id": "Fisher Information Metric"
+  },
+  "Landauer Principle": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580139,
+    "update_time": 1777580139,
+    "_id": "Landauer Principle"
+  },
+  "NSL-KDD Dataset": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580145,
+    "update_time": 1777580145,
+    "_id": "NSL-KDD Dataset"
+  },
+  "Autonomous Systems": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580149,
+    "update_time": 1777580149,
+    "_id": "Autonomous Systems"
+  },
+  "Adversarial Perturbations": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580152,
+    "update_time": 1777580152,
+    "_id": "Adversarial Perturbations"
+  },
+  "FPT Trigger": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580154,
+    "update_time": 1777580154,
+    "_id": "FPT Trigger"
+  },
+  "Unmanned Aerial Vehicle": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580154,
+    "update_time": 1777580154,
+    "_id": "Unmanned Aerial Vehicle"
+  },
+  "Jailbreaking Frontier Foundation Models Through Intention Deception": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580220,
+    "update_time": 1777580220,
+    "_id": "Jailbreaking Frontier Foundation Models Through Intention Deception"
+  },
+  "Large (Vision-)Language Models": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580220,
+    "update_time": 1777580220,
+    "_id": "Large (Vision-)Language Models"
+  },
+  "GPT-5": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580220,
+    "update_time": 1777580220,
+    "_id": "GPT-5"
+  },
+  "Claude-Sonnet-4.5": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580220,
+    "update_time": 1777580220,
+    "_id": "Claude-Sonnet-4.5"
+  },
+  "Para-Jailbreaking": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580223,
+    "update_time": 1777580223,
+    "_id": "Para-Jailbreaking"
+  },
+  "Jailbreaking": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580225,
+    "update_time": 1777580225,
+    "_id": "Jailbreaking"
+  },
+  "Safety Training Approaches": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580225,
+    "update_time": 1777580225,
+    "_id": "Safety Training Approaches"
+  },
+  "User Intent": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580229,
+    "update_time": 1777580229,
+    "_id": "User Intent"
+  },
+  "Attacker": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580233,
+    "update_time": 1777580233,
+    "_id": "Attacker"
+  },
+  "Researcher": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580238,
+    "update_time": 1777580238,
+    "_id": "Researcher"
+  },
+  "Meta AI": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580240,
+    "update_time": 1777580240,
+    "_id": "Meta AI"
+  },
+  "Safety Constraints": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580242,
+    "update_time": 1777580242,
+    "_id": "Safety Constraints"
+  },
+  "Benign Intentions": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580244,
+    "update_time": 1777580244,
+    "_id": "Benign Intentions"
+  },
+  "Deceptively Benign Intentions": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580244,
+    "update_time": 1777580244,
+    "_id": "Deceptively Benign Intentions"
+  },
+  "Safe Completion": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580257,
+    "update_time": 1777580257,
+    "_id": "Safe Completion"
+  },
+  "The Pragmatic Persona": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580307,
+    "update_time": 1777580307,
+    "_id": "The Pragmatic Persona"
+  },
+  "Persona": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580307,
+    "update_time": 1777580307,
+    "_id": "Persona"
+  },
+  "Bridging Inference": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580307,
+    "update_time": 1777580307,
+    "_id": "Bridging Inference"
+  },
+  "Cognitive Discourse Theory": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580307,
+    "update_time": 1777580307,
+    "_id": "Cognitive Discourse Theory"
+  },
+  "Computational Linguistics": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580309,
+    "update_time": 1777580309,
+    "_id": "Computational Linguistics"
+  },
+  "Cognitive Semantics": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580309,
+    "update_time": 1777580309,
+    "_id": "Cognitive Semantics"
+  },
+  "Persona Reasoning": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580311,
+    "update_time": 1777580311,
+    "_id": "Persona Reasoning"
+  },
+  "LLM Dialogue": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580318,
+    "update_time": 1777580318,
+    "_id": "LLM Dialogue"
+  },
+  "Structured Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580324,
+    "update_time": 1777580324,
+    "_id": "Structured Knowledge Graphs"
+  },
+  "Discourse Coherence": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580324,
+    "update_time": 1777580324,
+    "_id": "Discourse Coherence"
+  },
+  "Persona Traits": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580326,
+    "update_time": 1777580326,
+    "_id": "Persona Traits"
+  },
+  "Latent LLM Personas": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580326,
+    "update_time": 1777580326,
+    "_id": "Latent LLM Personas"
+  },
+  "Discourse-Level Structures": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580328,
+    "update_time": 1777580328,
+    "_id": "Discourse-Level Structures"
+  },
+  "Surface-Level Lexical Cues": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580333,
+    "update_time": 1777580333,
+    "_id": "Surface-Level Lexical Cues"
+  },
+  "Codes": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580346,
+    "update_time": 1777580346,
+    "_id": "Codes"
+  },
+  "Information-Geometric Framework": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580393,
+    "update_time": 1777580393,
+    "_id": "Information-Geometric Framework"
+  },
+  "Entropic Stress": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580393,
+    "update_time": 1777580393,
+    "_id": "Entropic Stress"
+  },
+  "IST-20 Benchmarking Protocol": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580393,
+    "update_time": 1777580393,
+    "_id": "IST-20 Benchmarking Protocol"
+  },
+  "LLM Outputs": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580393,
+    "update_time": 1777580393,
+    "_id": "LLM Outputs"
+  },
+  "Task Utility": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580395,
+    "update_time": 1777580395,
+    "_id": "Task Utility"
+  },
+  "Entropy": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580395,
+    "update_time": 1777580395,
+    "_id": "Entropy"
+  },
+  "Internal Integration": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580397,
+    "update_time": 1777580397,
+    "_id": "Internal Integration"
+  },
+  "Aligned Reflective Capacity": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580404,
+    "update_time": 1777580404,
+    "_id": "Aligned Reflective Capacity"
+  },
+  "Stability Score": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580410,
+    "update_time": 1777580410,
+    "_id": "Stability Score"
+  },
+  "Reliability": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580412,
+    "update_time": 1777580412,
+    "_id": "Reliability"
+  },
+  "Governance": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580412,
+    "update_time": 1777580412,
+    "_id": "Governance"
+  },
+  "Uncertainty": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580414,
+    "update_time": 1777580414,
+    "_id": "Uncertainty"
+  },
+  "Disorder": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580414,
+    "update_time": 1777580414,
+    "_id": "Disorder"
+  },
+  "Machine Ethics": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580417,
+    "update_time": 1777580417,
+    "_id": "Machine Ethics"
+  },
+  "Internal Structural Proxies": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580421,
+    "update_time": 1777580421,
+    "_id": "Internal Structural Proxies"
+  },
+  "TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "TACO"
+  },
+  "Tensor-parallel Adaptive COmmunication compression": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "Tensor-parallel Adaptive COmmunication compression"
+  },
+  "FP8": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "FP8"
+  },
+  "Adaptive Scale-Hadamard Transform": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "Adaptive Scale-Hadamard Transform"
+  },
+  "Dual-Scale Quantization": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "Dual-Scale Quantization"
+  },
+  "GPT models": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580443,
+    "update_time": 1777580443,
+    "_id": "GPT models"
+  },
+  "Qwen model": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580445,
+    "update_time": 1777580445,
+    "_id": "Qwen model"
+  },
+  "3D-parallel training framework": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580447,
+    "update_time": 1777580447,
+    "_id": "3D-parallel training framework"
+  },
+  "Tensor-parallel training": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580456,
+    "update_time": 1777580456,
+    "_id": "Tensor-parallel training"
+  },
+  "Intermediate tensors": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580460,
+    "update_time": 1777580460,
+    "_id": "Intermediate tensors"
+  },
+  "Communication overhead": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580460,
+    "update_time": 1777580460,
+    "_id": "Communication overhead"
   }
 }

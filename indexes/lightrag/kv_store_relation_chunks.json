@@ -5310,5 +5310,275 @@
     "create_time": 1777558609,
     "update_time": 1777558609,
     "_id": "Inference Latency<SEP>Network Jitter"
+  },
+  "AI Safety<SEP>Kerimov-Alekberli Model": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580162,
+    "update_time": 1777580162,
+    "_id": "AI Safety<SEP>Kerimov-Alekberli Model"
+  },
+  "Adversarial Perturbations<SEP>Kerimov-Alekberli Model": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580165,
+    "update_time": 1777580165,
+    "_id": "Adversarial Perturbations<SEP>Kerimov-Alekberli Model"
+  },
+  "FPT Trigger<SEP>Kerimov-Alekberli Model": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580167,
+    "update_time": 1777580167,
+    "_id": "FPT Trigger<SEP>Kerimov-Alekberli Model"
+  },
+  "Kerimov-Alekberli Model<SEP>Unmanned Aerial Vehicle": {
+    "chunk_ids": [
+      "chunk-d10488f697007297062eb31177c84c90"
+    ],
+    "count": 1,
+    "create_time": 1777580169,
+    "update_time": 1777580169,
+    "_id": "Kerimov-Alekberli Model<SEP>Unmanned Aerial Vehicle"
+  },
+  "Jailbreaking Frontier Foundation Models Through Intention Deception<SEP>Large (Vision-)Language Models": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580253,
+    "update_time": 1777580253,
+    "_id": "Jailbreaking Frontier Foundation Models Through Intention Deception<SEP>Large (Vision-)Language Models"
+  },
+  "Attacker<SEP>Researcher": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580253,
+    "update_time": 1777580253,
+    "_id": "Attacker<SEP>Researcher"
+  },
+  "Jailbreaking<SEP>Para-Jailbreaking": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580253,
+    "update_time": 1777580253,
+    "_id": "Jailbreaking<SEP>Para-Jailbreaking"
+  },
+  "Safety Training Approaches<SEP>User Intent": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580253,
+    "update_time": 1777580253,
+    "_id": "Safety Training Approaches<SEP>User Intent"
+  },
+  "Frontier Models<SEP>Safe Completion": {
+    "chunk_ids": [
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    ],
+    "count": 1,
+    "create_time": 1777580253,
+    "update_time": 1777580253,
+    "_id": "Frontier Models<SEP>Safe Completion"
+  },
+  "Large Language Models<SEP>The Pragmatic Persona": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580339,
+    "update_time": 1777580339,
+    "_id": "Large Language Models<SEP>The Pragmatic Persona"
+  },
+  "Bridging Inference<SEP>LLM Dialogue": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580339,
+    "update_time": 1777580339,
+    "_id": "Bridging Inference<SEP>LLM Dialogue"
+  },
+  "Latent LLM Personas<SEP>Persona Traits": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580339,
+    "update_time": 1777580339,
+    "_id": "Latent LLM Personas<SEP>Persona Traits"
+  },
+  "Codes<SEP>The Pragmatic Persona": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580346,
+    "update_time": 1777580346,
+    "_id": "Codes<SEP>The Pragmatic Persona"
+  },
+  "Bridging Inference<SEP>Discourse-Level Structures": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580346,
+    "update_time": 1777580346,
+    "_id": "Bridging Inference<SEP>Discourse-Level Structures"
+  },
+  "Persona Traits<SEP>Surface-Level Lexical Cues": {
+    "chunk_ids": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
+    "count": 1,
+    "create_time": 1777580346,
+    "update_time": 1777580346,
+    "_id": "Persona Traits<SEP>Surface-Level Lexical Cues"
+  },
+  "Entropy<SEP>Task Utility": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580430,
+    "update_time": 1777580430,
+    "_id": "Entropy<SEP>Task Utility"
+  },
+  "Aligned Reflective Capacity<SEP>Internal Integration": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580430,
+    "update_time": 1777580430,
+    "_id": "Aligned Reflective Capacity<SEP>Internal Integration"
+  },
+  "Stability Score<SEP>Task Utility": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580434,
+    "update_time": 1777580434,
+    "_id": "Stability Score<SEP>Task Utility"
+  },
+  "Entropy<SEP>Stability Score": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580436,
+    "update_time": 1777580436,
+    "_id": "Entropy<SEP>Stability Score"
+  },
+  "Internal Integration<SEP>Stability Score": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580438,
+    "update_time": 1777580438,
+    "_id": "Internal Integration<SEP>Stability Score"
+  },
+  "Aligned Reflective Capacity<SEP>Stability Score": {
+    "chunk_ids": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "count": 1,
+    "create_time": 1777580440,
+    "update_time": 1777580440,
+    "_id": "Aligned Reflective Capacity<SEP>Stability Score"
+  },
+  "FP8<SEP>TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580467,
+    "update_time": 1777580467,
+    "_id": "FP8<SEP>TACO"
+  },
+  "Communication overhead<SEP>Tensor-parallel training": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580467,
+    "update_time": 1777580467,
+    "_id": "Communication overhead<SEP>Tensor-parallel training"
+  },
+  "Adaptive Scale-Hadamard Transform<SEP>TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580471,
+    "update_time": 1777580471,
+    "_id": "Adaptive Scale-Hadamard Transform<SEP>TACO"
+  },
+  "Dual-Scale Quantization<SEP>TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580473,
+    "update_time": 1777580473,
+    "_id": "Dual-Scale Quantization<SEP>TACO"
+  },
+  "Adaptive Scale-Hadamard Transform<SEP>FP8": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580473,
+    "update_time": 1777580473,
+    "_id": "Adaptive Scale-Hadamard Transform<SEP>FP8"
+  },
+  "TACO<SEP>Tensor-parallel training": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580477,
+    "update_time": 1777580477,
+    "_id": "TACO<SEP>Tensor-parallel training"
+  },
+  "Dual-Scale Quantization<SEP>FP8": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580477,
+    "update_time": 1777580477,
+    "_id": "Dual-Scale Quantization<SEP>FP8"
+  },
+  "Intermediate tensors<SEP>TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580482,
+    "update_time": 1777580482,
+    "_id": "Intermediate tensors<SEP>TACO"
+  },
+  "3D-parallel training framework<SEP>TACO": {
+    "chunk_ids": [
+      "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    ],
+    "count": 1,
+    "create_time": 1777580484,
+    "update_time": 1777580484,
+    "_id": "3D-parallel training framework<SEP>TACO"
   }
 }

@@ -3130,5 +3130,165 @@
     "create_time": 1777558613,
     "update_time": 1777558613,
     "_id": "doc-047ce2bc252a55d9055c31539d3a7c47"
+  },
+  "doc-d10488f697007297062eb31177c84c90": {
+    "relation_pairs": [
+      [
+        "AI Safety",
+        "Kerimov-Alekberli Model"
+      ],
+      [
+        "Adversarial Perturbations",
+        "Kerimov-Alekberli Model"
+      ],
+      [
+        "Kerimov-Alekberli Model",
+        "Unmanned Aerial Vehicle"
+      ],
+      [
+        "FPT Trigger",
+        "Kerimov-Alekberli Model"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777580171,
+    "update_time": 1777580171,
+    "_id": "doc-d10488f697007297062eb31177c84c90"
+  },
+  "doc-db8ced0136efaaf767c85f4c9e185dbe": {
+    "relation_pairs": [
+      [
+        "Jailbreaking",
+        "Para-Jailbreaking"
+      ],
+      [
+        "Attacker",
+        "Researcher"
+      ],
+      [
+        "Jailbreaking Frontier Foundation Models Through Intention Deception",
+        "Large (Vision-)Language Models"
+      ],
+      [
+        "Frontier Models",
+        "Safe Completion"
+      ],
+      [
+        "Safety Training Approaches",
+        "User Intent"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777580266,
+    "update_time": 1777580266,
+    "_id": "doc-db8ced0136efaaf767c85f4c9e185dbe"
+  },
+  "doc-090dd9c7587ef7f5e03426647d58470b": {
+    "relation_pairs": [
+      [
+        "Codes",
+        "The Pragmatic Persona"
+      ],
+      [
+        "Bridging Inference",
+        "LLM Dialogue"
+      ],
+      [
+        "Large Language Models",
+        "The Pragmatic Persona"
+      ],
+      [
+        "Latent LLM Personas",
+        "Persona Traits"
+      ],
+      [
+        "Bridging Inference",
+        "Discourse-Level Structures"
+      ],
+      [
+        "Persona Traits",
+        "Surface-Level Lexical Cues"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777580354,
+    "update_time": 1777580354,
+    "_id": "doc-090dd9c7587ef7f5e03426647d58470b"
+  },
+  "doc-ddabb643ad7982794978859b96daf403": {
+    "relation_pairs": [
+      [
+        "Entropy",
+        "Stability Score"
+      ],
+      [
+        "Aligned Reflective Capacity",
+        "Internal Integration"
+      ],
+      [
+        "Entropy",
+        "Task Utility"
+      ],
+      [
+        "Stability Score",
+        "Task Utility"
+      ],
+      [
+        "Aligned Reflective Capacity",
+        "Stability Score"
+      ],
+      [
+        "Internal Integration",
+        "Stability Score"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777580442,
+    "update_time": 1777580442,
+    "_id": "doc-ddabb643ad7982794978859b96daf403"
+  },
+  "doc-8f2cb4d3facf370a4d2179937a92a2a7": {
+    "relation_pairs": [
+      [
+        "FP8",
+        "TACO"
+      ],
+      [
+        "Communication overhead",
+        "Tensor-parallel training"
+      ],
+      [
+        "3D-parallel training framework",
+        "TACO"
+      ],
+      [
+        "Adaptive Scale-Hadamard Transform",
+        "FP8"
+      ],
+      [
+        "Dual-Scale Quantization",
+        "FP8"
+      ],
+      [
+        "TACO",
+        "Tensor-parallel training"
+      ],
+      [
+        "Adaptive Scale-Hadamard Transform",
+        "TACO"
+      ],
+      [
+        "Dual-Scale Quantization",
+        "TACO"
+      ],
+      [
+        "Intermediate tensors",
+        "TACO"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777580486,
+    "update_time": 1777580486,
+    "_id": "doc-8f2cb4d3facf370a4d2179937a92a2a7"
   }
 }

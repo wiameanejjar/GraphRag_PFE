@@ -2117,5 +2117,118 @@
     "create_time": 1777558613,
     "update_time": 1777558613,
     "_id": "doc-047ce2bc252a55d9055c31539d3a7c47"
+  },
+  "doc-d10488f697007297062eb31177c84c90": {
+    "entity_names": [
+      "Kullback-Leibler Divergence",
+      "Stochastic Control",
+      "Kerimov-Alekberli Model",
+      "Adversarial Perturbations",
+      "Fisher Information Metric",
+      "NSL-KDD Dataset",
+      "Riemannian Manifold",
+      "Unmanned Aerial Vehicle",
+      "Landauer Principle",
+      "Autonomous Systems",
+      "FPT Trigger",
+      "AI Safety",
+      "Non-Equilibrium Thermodynamics"
+    ],
+    "count": 13,
+    "create_time": 1777580171,
+    "update_time": 1777580171,
+    "_id": "doc-d10488f697007297062eb31177c84c90"
+  },
+  "doc-db8ced0136efaaf767c85f4c9e185dbe": {
+    "entity_names": [
+      "Meta AI",
+      "Safety Training Approaches",
+      "GPT-5",
+      "Claude-Sonnet-4.5",
+      "Safety Constraints",
+      "Jailbreaking",
+      "Benign Intentions",
+      "Large (Vision-)Language Models",
+      "User Intent",
+      "Safe Completion",
+      "Frontier Models",
+      "Deceptively Benign Intentions",
+      "Para-Jailbreaking",
+      "Attacker",
+      "Researcher",
+      "Jailbreaking Frontier Foundation Models Through Intention Deception"
+    ],
+    "count": 16,
+    "create_time": 1777580266,
+    "update_time": 1777580266,
+    "_id": "doc-db8ced0136efaaf767c85f4c9e185dbe"
+  },
+  "doc-090dd9c7587ef7f5e03426647d58470b": {
+    "entity_names": [
+      "LLM Dialogue",
+      "Discourse Coherence",
+      "Cognitive Semantics",
+      "The Pragmatic Persona",
+      "Large Language Models",
+      "Latent LLM Personas",
+      "Cognitive Discourse Theory",
+      "Structured Knowledge Graphs",
+      "Discourse-Level Structures",
+      "Persona Traits",
+      "Surface-Level Lexical Cues",
+      "Codes",
+      "Bridging Inference",
+      "Persona Reasoning",
+      "Persona",
+      "Computational Linguistics"
+    ],
+    "count": 16,
+    "create_time": 1777580354,
+    "update_time": 1777580354,
+    "_id": "doc-090dd9c7587ef7f5e03426647d58470b"
+  },
+  "doc-ddabb643ad7982794978859b96daf403": {
+    "entity_names": [
+      "Disorder",
+      "Internal Structural Proxies",
+      "Stability Score",
+      "Large Language Models",
+      "Entropy",
+      "Governance",
+      "LLM Outputs",
+      "Entropic Stress",
+      "Task Utility",
+      "Information-Geometric Framework",
+      "Reliability",
+      "Aligned Reflective Capacity",
+      "Internal Integration",
+      "IST-20 Benchmarking Protocol",
+      "Machine Ethics",
+      "Uncertainty",
+      "AI Safety"
+    ],
+    "count": 17,
+    "create_time": 1777580442,
+    "update_time": 1777580442,
+    "_id": "doc-ddabb643ad7982794978859b96daf403"
+  },
+  "doc-8f2cb4d3facf370a4d2179937a92a2a7": {
+    "entity_names": [
+      "FP8",
+      "3D-parallel training framework",
+      "Tensor-parallel training",
+      "TACO",
+      "Qwen model",
+      "Tensor-parallel Adaptive COmmunication compression",
+      "Dual-Scale Quantization",
+      "Intermediate tensors",
+      "Communication overhead",
+      "Adaptive Scale-Hadamard Transform",
+      "GPT models"
+    ],
+    "count": 11,
+    "create_time": 1777580486,
+    "update_time": 1777580486,
+    "_id": "doc-8f2cb4d3facf370a4d2179937a92a2a7"
   }
 }

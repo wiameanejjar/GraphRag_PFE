@@ -1615,7 +1615,7 @@
     }
   },
   "doc-8f2cb4d3facf370a4d2179937a92a2a7": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
@@ -1623,11 +1623,12 @@
     "content_summary": "Title: TACO: Efficient Communication Compression of Intermediate Tensors for Scalable Tensor-Parallel LLM Training\n\nAbstract: Handling communication overhead in large-scale tensor-parallel training remains a critical challenge due to the dense, near-...",
     "content_length": 1350,
     "created_at": "2026-04-30T13:26:51.203270+00:00",
-    "updated_at": "2026-04-30T14:15:54.251867+00:00",
+    "updated_at": "2026-04-30T20:21:26.643452+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260430_142651_b6ed33b0",
     "metadata": {
-      "processing_start_time": 1777558554
+      "processing_start_time": 1777580128,
+      "processing_end_time": 1777580486
     }
   },
   "doc-047ce2bc252a55d9055c31539d3a7c47": {
@@ -1648,7 +1649,7 @@
     }
   },
   "doc-d10488f697007297062eb31177c84c90": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-d10488f697007297062eb31177c84c90"
@@ -1656,36 +1657,63 @@
     "content_summary": "Title: The Kerimov-Alekberli Model: An Information-Geometric Framework for Real-Time System Stability\n\nAbstract: This study introduces the Kerimov-Alekberli model, a novel information-geometric framework that redefines AI safety by formally linking n...",
     "content_length": 1374,
     "created_at": "2026-04-30T13:39:05.782366+00:00",
-    "updated_at": "2026-04-30T14:16:53.863660+00:00",
+    "updated_at": "2026-04-30T20:16:11.565236+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260430_143905_c2a7d71b",
     "metadata": {
-      "processing_start_time": 1777558613
+      "processing_start_time": 1777580128,
+      "processing_end_time": 1777580171
     }
   },
   "doc-db8ced0136efaaf767c85f4c9e185dbe": {
-    "status": "pending",
-    "content_summary": "Title: Jailbreaking Frontier Foundation Models Through Intention Deception\n\nAbstract: Large (vision-)language models exhibit remarkable capability but remain highly susceptible to jailbreaking. Existing safety training approaches aim to have the mode...",
-    "content_length": 1976,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-db8ced0136efaaf767c85f4c9e185dbe"
     ],
+    "content_summary": "Title: Jailbreaking Frontier Foundation Models Through Intention Deception\n\nAbstract: Large (vision-)language models exhibit remarkable capability but remain highly susceptible to jailbreaking. Existing safety training approaches aim to have the mode...",
+    "content_length": 1976,
     "created_at": "2026-04-30T13:47:13.569863+00:00",
-    "updated_at": "2026-04-30T14:15:54.240399+00:00",
+    "updated_at": "2026-04-30T20:17:46.149724+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260430_144713_922d4aa9",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777580172,
+      "processing_end_time": 1777580266
+    }
   },
   "doc-090dd9c7587ef7f5e03426647d58470b": {
-    "status": "pending",
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-090dd9c7587ef7f5e03426647d58470b"
+    ],
     "content_summary": "Title: The Pragmatic Persona: Discovering LLM Persona through Bridging Inference\n\nAbstract: Large Language Models (LLMs) reveal inherent and distinctive personas through dialogue. However, most existing persona discovery approaches rely on surface-le...",
     "content_length": 1637,
     "created_at": "2026-04-30T14:15:54.238408+00:00",
-    "updated_at": "2026-04-30T14:15:54.238408+00:00",
+    "updated_at": "2026-04-30T20:19:14.952052+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260430_151554_34178400",
-    "chunks_list": []
+    "metadata": {
+      "processing_start_time": 1777580266,
+      "processing_end_time": 1777580354
+    }
+  },
+  "doc-ddabb643ad7982794978859b96daf403": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ddabb643ad7982794978859b96daf403"
+    ],
+    "content_summary": "Title: An Information-Geometric Framework for Stability Analysis of Large Language Models under Entropic Stress\n\nAbstract: As large language models (LLMs) are increasingly deployed in high-stakes and operational settings, evaluation strategies based ...",
+    "content_length": 1806,
+    "created_at": "2026-04-30T20:15:28.913340+00:00",
+    "updated_at": "2026-04-30T20:20:42.941310+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260430_211528_e01c2c0b",
+    "metadata": {
+      "processing_start_time": 1777580355,
+      "processing_end_time": 1777580442
+    }
   }
 }

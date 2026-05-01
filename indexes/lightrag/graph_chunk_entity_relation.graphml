@@ -691,7 +691,7 @@ In summary, the Abstract is a critical component of a research paper, serving as
     </node>
     <node id="Large Language Models">
       <data key="d0">Large Language Models</data>
-      <data key="d1">method</data>
+      <data key="d1">concept</data>
       <data key="d2">Large Language Models are advanced AI systems that can process and generate human-like language. They are widely used across various sectors, necessitating robust evaluation datasets. These models are capable of long-context reasoning and have applications in various domains, including code generation, where they rely on detailed and well-formed task descriptions.
 
 Large Language Models are a type of artificial intelligence model that can process and understand human language. They are increasingly deployed AI systems whose outputs can be highly sensitive to routine input variation. This sensitivity highlights the complexity of these systems, which can misbehave in various ways, including training-time backdoors, jailbreaks, and prompt injections.
@@ -700,10 +700,10 @@ Moreover, Large Language Models are agentic problem solvers that rely on externa
 
 In addition to their general capabilities, Large Language Models have been integrated into Multi-Agent Systems to enhance collaborative problem-solving capabilities. They have also been used as a context for evaluating the Perceived Cooperativity and Teaming Perception Scales. Furthermore, Large Language Models excel at general code generation but struggle with task-level coordination patterns and API-level parameter constraints.
 
-Large Language Models can be augmented by Process Reward Models, and they have demonstrated strong reasoning capabilities in general knowledge question answering. However, they struggle with temporal information. Despite these limitations, Large Language Models are a type of artificial intelligence model that has become increasingly important in natural language processing.&lt;SEP&gt;Large Language Models are artificial intelligence models used as bidding agents in repeated 6G spectrum auctions with budget constraints.</data>
-      <data key="d3">chunk-21f3a6584dd087d86a2f6b3f1a99f0fd&lt;SEP&gt;chunk-2df46a60ce12797a8d4e5b624970ede7&lt;SEP&gt;chunk-ffb0995b3d5e71e709d829e54fcfaf1b&lt;SEP&gt;chunk-b48bf4c58531cb5d0dde75c4cc92714f&lt;SEP&gt;chunk-42e98b3a62403949c3551faca51d7a9a&lt;SEP&gt;chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc&lt;SEP&gt;chunk-a26f425dc22ccfa6db36dc0592c070a7&lt;SEP&gt;chunk-9e4c751eebce71c2e7277e97601a61b7&lt;SEP&gt;chunk-33f36369f99eb44a9ac8690e998af200&lt;SEP&gt;chunk-492adf3459368e3424d113800cf1ad98&lt;SEP&gt;chunk-274e345107d112e4d4358391f4226461&lt;SEP&gt;chunk-77c51309c1da2a8788990e7a8432dfd3&lt;SEP&gt;chunk-ca6e74b9c2346c262d89440c76e3ac05&lt;SEP&gt;chunk-a92919218c93fbc995ef28388a45a264&lt;SEP&gt;chunk-306df29aef0348d52b474a51b48f7864&lt;SEP&gt;chunk-1224676ee5f3ecf7b88cc6d4ed3fea11</data>
+Large Language Models can be augmented by Process Reward Models, and they have demonstrated strong reasoning capabilities in general knowledge question answering. However, they struggle with temporal information. Despite these limitations, Large Language Models are a type of artificial intelligence model that has become increasingly important in natural language processing.&lt;SEP&gt;Large Language Models are artificial intelligence models used as bidding agents in repeated 6G spectrum auctions with budget constraints.&lt;SEP&gt;Large Language Models are a type of AI model that reveal inherent and distinctive personas through dialogue.&lt;SEP&gt;Large Language Models are complex systems increasingly deployed in high-stakes and operational settings, requiring evaluation strategies beyond aggregate accuracy.</data>
+      <data key="d3">chunk-21f3a6584dd087d86a2f6b3f1a99f0fd&lt;SEP&gt;chunk-2df46a60ce12797a8d4e5b624970ede7&lt;SEP&gt;chunk-ffb0995b3d5e71e709d829e54fcfaf1b&lt;SEP&gt;chunk-b48bf4c58531cb5d0dde75c4cc92714f&lt;SEP&gt;chunk-42e98b3a62403949c3551faca51d7a9a&lt;SEP&gt;chunk-0a1b17e7c0ccc7bf601190f38e3fcdcc&lt;SEP&gt;chunk-a26f425dc22ccfa6db36dc0592c070a7&lt;SEP&gt;chunk-9e4c751eebce71c2e7277e97601a61b7&lt;SEP&gt;chunk-33f36369f99eb44a9ac8690e998af200&lt;SEP&gt;chunk-492adf3459368e3424d113800cf1ad98&lt;SEP&gt;chunk-274e345107d112e4d4358391f4226461&lt;SEP&gt;chunk-77c51309c1da2a8788990e7a8432dfd3&lt;SEP&gt;chunk-ca6e74b9c2346c262d89440c76e3ac05&lt;SEP&gt;chunk-a92919218c93fbc995ef28388a45a264&lt;SEP&gt;chunk-306df29aef0348d52b474a51b48f7864&lt;SEP&gt;chunk-1224676ee5f3ecf7b88cc6d4ed3fea11&lt;SEP&gt;chunk-090dd9c7587ef7f5e03426647d58470b&lt;SEP&gt;chunk-ddabb643ad7982794978859b96daf403</data>
       <data key="d4">unknown_source</data>
-      <data key="d5">1777546648</data>
+      <data key="d5">1777580393</data>
       <data key="d6" />
     </node>
     <node id="Task Descriptions">
@@ -1015,10 +1015,10 @@ Large Language Models can be augmented by Process Reward Models, and they have d
     <node id="Frontier Models">
       <data key="d0">Frontier Models</data>
       <data key="d1">concept</data>
-      <data key="d2">Frontier models are advanced AI systems evaluated under the SciCrafter benchmark.&lt;SEP&gt;Frontier Models are advanced AI models that are being evaluated for their propensity to sabotage or refuse to assist with safety research.</data>
-      <data key="d3">chunk-7909c6cfbc42d7e40e309323a850e887&lt;SEP&gt;chunk-7a6ae8adcf4df680a3155bbab7deb847</data>
+      <data key="d2">Frontier models are advanced AI systems evaluated under the SciCrafter benchmark.&lt;SEP&gt;Frontier Models are advanced AI models that are being evaluated for their propensity to sabotage or refuse to assist with safety research.&lt;SEP&gt;Frontier Models are a class of large language models that have shifted from refusal-based safeguards to safe completion.</data>
+      <data key="d3">chunk-7909c6cfbc42d7e40e309323a850e887&lt;SEP&gt;chunk-7a6ae8adcf4df680a3155bbab7deb847&lt;SEP&gt;chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
       <data key="d4">unknown_source</data>
-      <data key="d5">1777507508</data>
+      <data key="d5">1777580229</data>
       <data key="d6" />
     </node>
     <node id="Knowledge Consolidation">
@@ -11605,6 +11605,627 @@ Large Language Models can be augmented by Process Reward Models, and they have d
       <data key="d5">1777558607</data>
       <data key="d6" />
     </node>
+    <node id="Kerimov-Alekberli Model">
+      <data key="d0">Kerimov-Alekberli Model</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Kerimov-Alekberli Model is a novel information-geometric framework that redefines AI safety by linking non-equilibrium thermodynamics to stochastic control.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580134</data>
+      <data key="d6" />
+    </node>
+    <node id="Non-Equilibrium Thermodynamics">
+      <data key="d0">Non-Equilibrium Thermodynamics</data>
+      <data key="d1">concept</data>
+      <data key="d2">Non-equilibrium thermodynamics is a field that studies systems that are not in a state of thermal equilibrium, and is formally linked to stochastic control in the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580134</data>
+      <data key="d6" />
+    </node>
+    <node id="Stochastic Control">
+      <data key="d0">Stochastic Control</data>
+      <data key="d1">concept</data>
+      <data key="d2">Stochastic control is a mathematical framework that deals with systems that are subject to random disturbances, and is used in the Kerimov-Alekberli Model to achieve the ethical alignment of autonomous systems.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580136</data>
+      <data key="d6" />
+    </node>
+    <node id="AI Safety">
+      <data key="d0">AI Safety</data>
+      <data key="d1">concept</data>
+      <data key="d2">AI safety refers to the development of methods and techniques to ensure that artificial intelligence systems behave in a safe and responsible manner, and is redefined by the Kerimov-Alekberli Model.&lt;SEP&gt;AI Safety refers to the development of methods and frameworks to ensure the safe and responsible deployment of artificial intelligence systems.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90&lt;SEP&gt;chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580414</data>
+      <data key="d6" />
+    </node>
+    <node id="Riemannian Manifold">
+      <data key="d0">Riemannian Manifold</data>
+      <data key="d1">concept</data>
+      <data key="d2">A Riemannian manifold is a mathematical concept that describes a curved space, and is used in the Kerimov-Alekberli Model to define systemic anomalies.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580141</data>
+      <data key="d6" />
+    </node>
+    <node id="Kullback-Leibler Divergence">
+      <data key="d0">Kullback-Leibler Divergence</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Kullback-Leibler divergence is a measure of the difference between two probability distributions, and is used as the primary metric in the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580143</data>
+      <data key="d6" />
+    </node>
+    <node id="Fisher Information Metric">
+      <data key="d0">Fisher Information Metric</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Fisher information metric is a measure of the amount of information that a parameter carries in a probability distribution, and is used to derive a dynamic threshold in the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580145</data>
+      <data key="d6" />
+    </node>
+    <node id="Landauer Principle">
+      <data key="d0">Landauer Principle</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Landauer Principle is a physical principle that states that any logically irreversible operation must be accompanied by a corresponding entropy increase, and is used to ground the Kerimov-Alekberli Model in thermodynamics.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580147</data>
+      <data key="d6" />
+    </node>
+    <node id="NSL-KDD Dataset">
+      <data key="d0">NSL-KDD Dataset</data>
+      <data key="d1">data</data>
+      <data key="d2">The NSL-KDD dataset is a benchmark dataset used to evaluate the performance of intrusion detection systems, and is used</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580149</data>
+      <data key="d6" />
+    </node>
+    <node id="Autonomous Systems">
+      <data key="d0">Autonomous Systems</data>
+      <data key="d1">concept</data>
+      <data key="d2">Autonomous systems are AI systems that operate independently without human intervention, and are addressed by the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580154</data>
+      <data key="d6" />
+    </node>
+    <node id="Adversarial Perturbations">
+      <data key="d0">Adversarial Perturbations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Adversarial perturbations are malicious inputs or actions that can cause AI systems to behave in unintended ways, and are addressed by the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580154</data>
+      <data key="d6" />
+    </node>
+    <node id="FPT Trigger">
+      <data key="d0">FPT Trigger</data>
+      <data key="d1">concept</data>
+      <data key="d2">The FPT trigger is a mechanism used to detect anomalies in autonomous systems, and is validated in the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580158</data>
+      <data key="d6" />
+    </node>
+    <node id="Unmanned Aerial Vehicle">
+      <data key="d0">Unmanned Aerial Vehicle</data>
+      <data key="d1">concept</data>
+      <data key="d2">Unmanned aerial vehicles are aircraft that operate without a human pilot, and are used in simulations to validate the Kerimov-Alekberli Model.</data>
+      <data key="d3">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580158</data>
+      <data key="d6" />
+    </node>
+    <node id="Jailbreaking Frontier Foundation Models Through Intention Deception">
+      <data key="d0">Jailbreaking Frontier Foundation Models Through Intention Deception</data>
+      <data key="d1">concept</data>
+      <data key="d2">Jailbreaking Frontier Foundation Models Through Intention Deception is a research paper that explores methods to deceive large language models.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580220</data>
+      <data key="d6" />
+    </node>
+    <node id="Large (Vision-)Language Models">
+      <data key="d0">Large (Vision-)Language Models</data>
+      <data key="d1">concept</data>
+      <data key="d2">Large (Vision-)Language Models are AI systems that can process and generate human-like language, but are vulnerable to jailbreaking attacks.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580220</data>
+      <data key="d6" />
+    </node>
+    <node id="GPT-5">
+      <data key="d0">GPT-5</data>
+      <data key="d1">organization</data>
+      <data key="d2">GPT-5 is a large language model developed by Meta AI that has shifted from refusal-based safeguards to safe completion.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580223</data>
+      <data key="d6" />
+    </node>
+    <node id="Claude-Sonnet-4.5">
+      <data key="d0">Claude-Sonnet-4.5</data>
+      <data key="d1">organization</data>
+      <data key="d2">Claude-Sonnet-4.5 is a large language model developed by Meta AI that is vulnerable to jailbreaking attacks.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580227</data>
+      <data key="d6" />
+    </node>
+    <node id="Para-Jailbreaking">
+      <data key="d0">Para-Jailbreaking</data>
+      <data key="d1">concept</data>
+      <data key="d2">Para-Jailbreaking is a class of model vulnerability where the model reveals harmless information that is nevertheless harmful.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580229</data>
+      <data key="d6" />
+    </node>
+    <node id="Jailbreaking">
+      <data key="d0">Jailbreaking</data>
+      <data key="d1">concept</data>
+      <data key="d2">Jailbreaking is a method of deceiving large language models by simulating benign-seeming intentions.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580231</data>
+      <data key="d6" />
+    </node>
+    <node id="Safety Training Approaches">
+      <data key="d0">Safety Training Approaches</data>
+      <data key="d1">concept</data>
+      <data key="d2">Safety Training Approaches are methods used to prevent large language models from being deceived by jailbreaking attacks.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580233</data>
+      <data key="d6" />
+    </node>
+    <node id="User Intent">
+      <data key="d0">User Intent</data>
+      <data key="d1">concept</data>
+      <data key="d2">User Intent refers to the user's intended meaning or purpose when interacting with a large language model.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580235</data>
+      <data key="d6" />
+    </node>
+    <node id="Attacker">
+      <data key="d0">Attacker</data>
+      <data key="d1">person</data>
+      <data key="d2">The Attacker is an individual who attempts to deceive a large language model through jailbreaking.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580238</data>
+      <data key="d6" />
+    </node>
+    <node id="Researcher">
+      <data key="d0">Researcher</data>
+      <data key="d1">person</data>
+      <data key="d2">The Researcher is an individual who conducts research on large language models and jailbreaking attacks.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580242</data>
+      <data key="d6" />
+    </node>
+    <node id="Meta AI">
+      <data key="d0">Meta AI</data>
+      <data key="d1">organization</data>
+      <data key="d2">Meta AI is the organization that developed GPT-5 and Claude-Sonnet-4.5.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580242</data>
+      <data key="d6" />
+    </node>
+    <node id="Safety Constraints">
+      <data key="d0">Safety Constraints</data>
+      <data key="d1">concept</data>
+      <data key="d2">Safety Constraints are rules that large language models must follow to prevent jailbreaking attacks.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580244</data>
+      <data key="d6" />
+    </node>
+    <node id="Benign Intentions">
+      <data key="d0">Benign Intentions</data>
+      <data key="d1">concept</data>
+      <data key="d2">Benign Intentions are user intentions that are harmless and do not pose a threat to the large language model.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580246</data>
+      <data key="d6" />
+    </node>
+    <node id="Deceptively Benign Intentions">
+      <data key="d0">Deceptively Benign Intentions</data>
+      <data key="d1">concept</data>
+      <data key="d2">Deceptively Benign Intentions are user intentions that are actually malicious but appear harmless.</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580246</data>
+      <data key="d6" />
+    </node>
+    <node id="Safe Completion">
+      <data key="d0">Safe Completion</data>
+      <data key="d3">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d2">Frontier models have shifted from refusal-based safeguards to safe completion to prevent jailbreaking attacks.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580255</data>
+      <data key="d6" />
+    </node>
+    <node id="The Pragmatic Persona">
+      <data key="d0">The Pragmatic Persona</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Pragmatic Persona is a concept that explores discovering LLM persona through bridging inference.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580307</data>
+      <data key="d6" />
+    </node>
+    <node id="Persona">
+      <data key="d0">Persona</data>
+      <data key="d1">concept</data>
+      <data key="d2">Persona refers to the unique characteristics and traits that emerge in LLM dialogue.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580309</data>
+      <data key="d6" />
+    </node>
+    <node id="Bridging Inference">
+      <data key="d0">Bridging Inference</data>
+      <data key="d1">concept</data>
+      <data key="d2">Bridging inference is a method of interpreting LLM dialogue through implicit conceptual relations that connect utterances via shared world knowledge and discourse coherence.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580313</data>
+      <data key="d6" />
+    </node>
+    <node id="Cognitive Discourse Theory">
+      <data key="d0">Cognitive Discourse Theory</data>
+      <data key="d1">concept</data>
+      <data key="d2">Cognitive Discourse Theory is a framework that explores the relationship between language, thought, and culture.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580313</data>
+      <data key="d6" />
+    </node>
+    <node id="Computational Linguistics">
+      <data key="d0">Computational Linguistics</data>
+      <data key="d1">field</data>
+      <data key="d2">Computational linguistics is a field that studies the intersection of computer science and linguistics.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580316</data>
+      <data key="d6" />
+    </node>
+    <node id="Cognitive Semantics">
+      <data key="d0">Cognitive Semantics</data>
+      <data key="d1">field</data>
+      <data key="d2">Cognitive semantics is a field that studies the relationship between language and meaning.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580318</data>
+      <data key="d6" />
+    </node>
+    <node id="Persona Reasoning">
+      <data key="d0">Persona Reasoning</data>
+      <data key="d1">concept</data>
+      <data key="d2">Persona reasoning is a process that involves extracting and visualizing latent LLM personas.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580318</data>
+      <data key="d6" />
+    </node>
+    <node id="LLM Dialogue">
+      <data key="d0">LLM Dialogue</data>
+      <data key="d1">content</data>
+      <data key="d2">LLM dialogue refers to the conversation or exchange between a user and a large language model.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580324</data>
+      <data key="d6" />
+    </node>
+    <node id="Structured Knowledge Graphs">
+      <data key="d0">Structured Knowledge Graphs</data>
+      <data key="d1">method</data>
+      <data key="d2">Structured knowledge graphs are a method of modeling implicit conceptual relations between utterances in LLM dialogue.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580326</data>
+      <data key="d6" />
+    </node>
+    <node id="Discourse Coherence">
+      <data key="d0">Discourse Coherence</data>
+      <data key="d1">concept</data>
+      <data key="d2">Discourse coherence refers to the way in which LLMs organize meaning across turns in a conversation.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580326</data>
+      <data key="d6" />
+    </node>
+    <node id="Persona Traits">
+      <data key="d0">Persona Traits</data>
+      <data key="d1">concept</data>
+      <data key="d2">Persona traits refer to the unique characteristics and traits that emerge in LLM dialogue.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580328</data>
+      <data key="d6" />
+    </node>
+    <node id="Latent LLM Personas">
+      <data key="d0">Latent LLM Personas</data>
+      <data key="d1">concept</data>
+      <data key="d2">Latent LLM personas refer to the underlying personality characteristics and traits that are encoded in large language models.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580328</data>
+      <data key="d6" />
+    </node>
+    <node id="Discourse-Level Structures">
+      <data key="d0">Discourse-Level Structures</data>
+      <data key="d1">concept</data>
+      <data key="d2">Discourse-level structures refer to the deeper structures that sustain persona consistency in LLM dialogue.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580335</data>
+      <data key="d6" />
+    </node>
+    <node id="Surface-Level Lexical Cues">
+      <data key="d0">Surface-Level Lexical Cues</data>
+      <data key="d1">concept</data>
+      <data key="d2">Surface-level lexical cues refer to the surface-level language features that are often used to identify personas in LLM dialogue.</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580335</data>
+      <data key="d6" />
+    </node>
+    <node id="Codes">
+      <data key="d0">Codes</data>
+      <data key="d3">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d2">Codes are available for the research framework presented in The Pragmatic Persona.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580346</data>
+      <data key="d6" />
+    </node>
+    <node id="Information-Geometric Framework">
+      <data key="d0">Information-Geometric Framework</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Information-Geometric Framework is a modeling approach for analyzing the stability of large language models under conditions of uncertainty and perturbation.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580393</data>
+      <data key="d6" />
+    </node>
+    <node id="Entropic Stress">
+      <data key="d0">Entropic Stress</data>
+      <data key="d1">concept</data>
+      <data key="d2">Entropic Stress refers to the impact of disorder or uncertainty on the behavior of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580395</data>
+      <data key="d6" />
+    </node>
+    <node id="IST-20 Benchmarking Protocol">
+      <data key="d0">IST-20 Benchmarking Protocol</data>
+      <data key="d1">method</data>
+      <data key="d2">The IST-20 Benchmarking Protocol is a standardized evaluation framework for assessing the performance of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580399</data>
+      <data key="d6" />
+    </node>
+    <node id="LLM Outputs">
+      <data key="d0">LLM Outputs</data>
+      <data key="d1">content</data>
+      <data key="d2">LLM Outputs are the results generated by large language models, which can be influenced by internal structure and external uncertainty.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580399</data>
+      <data key="d6" />
+    </node>
+    <node id="Task Utility">
+      <data key="d0">Task Utility</data>
+      <data key="d1">concept</data>
+      <data key="d2">Task Utility measures the usefulness or effectiveness of large language model outputs in achieving specific tasks.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580402</data>
+      <data key="d6" />
+    </node>
+    <node id="Entropy">
+      <data key="d0">Entropy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Entropy is a measure of external uncertainty or disorder that can impact the behavior of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580404</data>
+      <data key="d6" />
+    </node>
+    <node id="Internal Integration">
+      <data key="d0">Internal Integration</data>
+      <data key="d1">concept</data>
+      <data key="d2">Internal Integration refers to the cohesion or unity of internal structure within large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580404</data>
+      <data key="d6" />
+    </node>
+    <node id="Aligned Reflective Capacity">
+      <data key="d0">Aligned Reflective Capacity</data>
+      <data key="d1">concept</data>
+      <data key="d2">Aligned Reflective Capacity measures the ability of large language models to reflect on and adapt to internal structure and external uncertainty.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580410</data>
+      <data key="d6" />
+    </node>
+    <node id="Stability Score">
+      <data key="d0">Stability Score</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Stability Score is a composite measure integrating task utility, entropy, internal integration, and aligned reflective capacity to evaluate the reliability of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580412</data>
+      <data key="d6" />
+    </node>
+    <node id="Reliability">
+      <data key="d0">Reliability</data>
+      <data key="d1">concept</data>
+      <data key="d2">Reliability measures the consistency and dependability of large language model outputs in various scenarios.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580414</data>
+      <data key="d6" />
+    </node>
+    <node id="Governance">
+      <data key="d0">Governance</data>
+      <data key="d1">concept</data>
+      <data key="d2">Governance refers to the set of rules, regulations, and standards that guide the development and deployment of artificial intelligence systems.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580414</data>
+      <data key="d6" />
+    </node>
+    <node id="Uncertainty">
+      <data key="d0">Uncertainty</data>
+      <data key="d1">concept</data>
+      <data key="d2">Uncertainty refers to the presence of unknown or unpredictable factors that can impact the behavior of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580419</data>
+      <data key="d6" />
+    </node>
+    <node id="Disorder">
+      <data key="d0">Disorder</data>
+      <data key="d1">concept</data>
+      <data key="d2">Disorder is a measure of the lack of organization or coherence within large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580421</data>
+      <data key="d6" />
+    </node>
+    <node id="Machine Ethics">
+      <data key="d0">Machine Ethics</data>
+      <data key="d1">concept</data>
+      <data key="d2">Machine Ethics refers to the development of methods and frameworks to ensure the safe and responsible deployment of artificial intelligence systems.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580421</data>
+      <data key="d6" />
+    </node>
+    <node id="Internal Structural Proxies">
+      <data key="d0">Internal Structural Proxies</data>
+      <data key="d1">concept</data>
+      <data key="d2">Internal Structural Proxies are measures of the internal structure and cohesion of large language models.</data>
+      <data key="d3">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580427</data>
+      <data key="d6" />
+    </node>
+    <node id="TACO">
+      <data key="d0">TACO</data>
+      <data key="d1">concept</data>
+      <data key="d2">TACO is a framework for compressing intermediate tensors in tensor-parallel training, enabling efficient communication and scalability.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580443</data>
+      <data key="d6" />
+    </node>
+    <node id="Tensor-parallel Adaptive COmmunication compression">
+      <data key="d0">Tensor-parallel Adaptive COmmunication compression</data>
+      <data key="d1">concept</data>
+      <data key="d2">Tensor-parallel Adaptive COmmunication compression is a robust framework for compressing TP intermediate tensors using FP8-based quantization.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580443</data>
+      <data key="d6" />
+    </node>
+    <node id="FP8">
+      <data key="d0">FP8</data>
+      <data key="d1">method</data>
+      <data key="d2">FP8 is a floating-point representation used for high-fidelity quantization in TACO.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580443</data>
+      <data key="d6" />
+    </node>
+    <node id="Adaptive Scale-Hadamard Transform">
+      <data key="d0">Adaptive Scale-Hadamard Transform</data>
+      <data key="d1">method</data>
+      <data key="d2">The Adaptive Scale-Hadamard Transform is a data-driven reshaping strategy used in TACO for high-fidelity FP8 quantization.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580449</data>
+      <data key="d6" />
+    </node>
+    <node id="Dual-Scale Quantization">
+      <data key="d0">Dual-Scale Quantization</data>
+      <data key="d1">method</data>
+      <data key="d2">Dual-Scale Quantization is a mechanism in TACO that ensures numerical stability throughout training.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580449</data>
+      <data key="d6" />
+    </node>
+    <node id="GPT models">
+      <data key="d0">GPT models</data>
+      <data key="d1">content</data>
+      <data key="d2">GPT models are a type of language model used in experiments to demonstrate the effectiveness of TACO.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580452</data>
+      <data key="d6" />
+    </node>
+    <node id="Qwen model">
+      <data key="d0">Qwen model</data>
+      <data key="d1">content</data>
+      <data key="d2">Qwen model is another type of language model used in experiments to demonstrate the effectiveness of TACO.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580454</data>
+      <data key="d6" />
+    </node>
+    <node id="3D-parallel training framework">
+      <data key="d0">3D-parallel training framework</data>
+      <data key="d1">concept</data>
+      <data key="d2">The 3D-parallel training framework is a compression-enabled framework developed by integrating TACO with existing state-of-the-art methods.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580456</data>
+      <data key="d6" />
+    </node>
+    <node id="Tensor-parallel training">
+      <data key="d0">Tensor-parallel training</data>
+      <data key="d1">concept</data>
+      <data key="d2">Tensor-parallel training is a method used in large-scale model training to improve efficiency and scalability.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580460</data>
+      <data key="d6" />
+    </node>
+    <node id="Intermediate tensors">
+      <data key="d0">Intermediate tensors</data>
+      <data key="d1">data</data>
+      <data key="d2">Intermediate tensors are the data structures used in tensor-parallel training that require efficient communication compression.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580462</data>
+      <data key="d6" />
+    </node>
+    <node id="Communication overhead">
+      <data key="d0">Communication overhead</data>
+      <data key="d1">concept</data>
+      <data key="d2">Communication overhead is the challenge faced in tensor-parallel training due to frequent communication and dense, near-zero distributions of intermediate tensors.</data>
+      <data key="d3">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1777580462</data>
+      <data key="d6" />
+    </node>
     <edge source="Personalized Worked Example Generation" target="Adaptive Programming Practice">
       <data key="d7">1.0</data>
       <data key="d8">Personalized Worked Example Generation is an approach for adaptive programming practice that generates educational content tailored to students' needs.</data>
@@ -12127,6 +12748,15 @@ Large Language Models can be augmented by Process Reward Models, and they have d
       <data key="d12">1777541590</data>
       <data key="d13" />
     </edge>
+    <edge source="Large Language Models" target="The Pragmatic Persona">
+      <data key="d7">1.0</data>
+      <data key="d8">The Pragmatic Persona explores discovering LLM persona through bridging inference.</data>
+      <data key="d9">conceptual relationship,persona discovery</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580339</data>
+      <data key="d13" />
+    </edge>
     <edge source="Defective Task Descriptions" target="LLM-Based Code Generation">
       <data key="d7">1.0</data>
       <data key="d8">Defective task descriptions can have a strong effect on code correctness in LLM-based code generation.</data>
@@ -12260,6 +12890,15 @@ Large Language Models can be augmented by Process Reward Models, and they have d
       <data key="d10">chunk-7a6ae8adcf4df680a3155bbab7deb847</data>
       <data key="d11">unknown_source</data>
       <data key="d12">1777507546</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Frontier Models" target="Safe Completion">
+      <data key="d7">1.0</data>
+      <data key="d8">Frontier models have shifted from refusal-based safeguards to safe completion to prevent jailbreaking attacks.</data>
+      <data key="d9">safeguards,shift</data>
+      <data key="d10">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580263</data>
       <data key="d13" />
     </edge>
     <edge source="Knowledge Consolidation" target="Knowledge Application">
@@ -16913,6 +17552,258 @@ Large Language Models can be augmented by Process Reward Models, and they have d
       <data key="d10">chunk-047ce2bc252a55d9055c31539d3a7c47</data>
       <data key="d11">unknown_source</data>
       <data key="d12">1777558609</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Kerimov-Alekberli Model" target="AI Safety">
+      <data key="d7">1.0</data>
+      <data key="d8">The Kerimov-Alekberli Model provides a novel information-geometric framework for AI safety by formally linking non-equilibrium thermodynamics to stochastic control.</data>
+      <data key="d9">ethical alignment,information-geometric framework</data>
+      <data key="d10">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580162</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Kerimov-Alekberli Model" target="Adversarial Perturbations">
+      <data key="d7">1.0</data>
+      <data key="d8">The Kerimov-Alekberli Model addresses adversarial perturbations by grounding them in quantifiable physical work and entropic information.</data>
+      <data key="d9">anomaly detection,physical work</data>
+      <data key="d10">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580165</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Kerimov-Alekberli Model" target="FPT Trigger">
+      <data key="d7">1.0</data>
+      <data key="d8">The Kerimov-Alekberli Model validates the FPT trigger as an effective mechanism for detecting anomalies in autonomous systems.</data>
+      <data key="d9">anomaly detection,validation</data>
+      <data key="d10">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580167</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Kerimov-Alekberli Model" target="Unmanned Aerial Vehicle">
+      <data key="d7">1.0</data>
+      <data key="d8">The Kerimov-Alekberli Model is validated using simulations of unmanned aerial vehicle trajectories.</data>
+      <data key="d9">simulation,validation</data>
+      <data key="d10">chunk-d10488f697007297062eb31177c84c90</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580169</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Jailbreaking Frontier Foundation Models Through Intention Deception" target="Large (Vision-)Language Models">
+      <data key="d7">1.0</data>
+      <data key="d8">The paper Jailbreaking Frontier Foundation Models Through Intention Deception explores methods to deceive large language models.</data>
+      <data key="d9">research,vulnerability</data>
+      <data key="d10">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Para-Jailbreaking" target="Jailbreaking">
+      <data key="d7">1.0</data>
+      <data key="d8">Para-jailbreaking is a class of model vulnerability that can be exploited by jailbreaking attacks.</data>
+      <data key="d9">exploitation,vulnerability</data>
+      <data key="d10">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Safety Training Approaches" target="User Intent">
+      <data key="d7">1.0</data>
+      <data key="d8">Safety training approaches aim to evaluate and prevent user intentions that may lead to jailbreaking attacks.</data>
+      <data key="d9">intent,training</data>
+      <data key="d10">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580255</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Attacker" target="Researcher">
+      <data key="d7">1.0</data>
+      <data key="d8">The Attacker attempts to deceive the Researcher by simulating deceptively benign intentions.</data>
+      <data key="d9">deception,intent</data>
+      <data key="d10">chunk-db8ced0136efaaf767c85f4c9e185dbe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580253</data>
+      <data key="d13" />
+    </edge>
+    <edge source="The Pragmatic Persona" target="Codes">
+      <data key="d7">1.0</data>
+      <data key="d8">Codes are available for the research framework presented in The Pragmatic Persona.</data>
+      <data key="d9">content,research framework</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580348</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Bridging Inference" target="LLM Dialogue">
+      <data key="d7">1.0</data>
+      <data key="d8">Bridging inference is a method of interpreting LLM dialogue through implicit conceptual relations.</data>
+      <data key="d9">dialogue interpretation,method</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580339</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Bridging Inference" target="Discourse-Level Structures">
+      <data key="d7">1.0</data>
+      <data key="d8">Discourse-level structures are sustained by bridging inference, which connects utterances via shared world knowledge and discourse coherence.</data>
+      <data key="d9">conceptual relationship,discourse coherence</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580348</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Persona Traits" target="Latent LLM Personas">
+      <data key="d7">1.0</data>
+      <data key="d8">Persona traits are consistently encoded in the structural organization of discourse rather than isolated lexical patterns.</data>
+      <data key="d9">conceptual relationship,persona consistency</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580339</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Persona Traits" target="Surface-Level Lexical Cues">
+      <data key="d7">1.0</data>
+      <data key="d8">Surface-level lexical cues are often used to identify personas, but they fail to capture the deeper discourse-level structures that sustain persona consistency.</data>
+      <data key="d9">conceptual relationship,persona identification</data>
+      <data key="d10">chunk-090dd9c7587ef7f5e03426647d58470b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580348</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Task Utility" target="Entropy">
+      <data key="d7">1.0</data>
+      <data key="d8">Task Utility is affected by Entropy, which measures external uncertainty or disorder.</data>
+      <data key="d9">performance,uncertainty impact</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580430</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Task Utility" target="Stability Score">
+      <data key="d7">1.0</data>
+      <data key="d8">The Stability Score integrates Task Utility as a measure of performance.</data>
+      <data key="d9">performance measure,utility</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Entropy" target="Stability Score">
+      <data key="d7">1.0</data>
+      <data key="d8">The Stability Score is affected by Entropy, which measures external uncertainty or disorder.</data>
+      <data key="d9">stability,uncertainty impact</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580436</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Internal Integration" target="Aligned Reflective Capacity">
+      <data key="d7">1.0</data>
+      <data key="d8">Internal Integration and Aligned Reflective Capacity are internal structural proxies that modulate the impact of disorder on model behavior.</data>
+      <data key="d9">internal structure,model behavior</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580430</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Internal Integration" target="Stability Score">
+      <data key="d7">1.0</data>
+      <data key="d8">The Stability Score integrates Internal Integration as a measure of internal structure.</data>
+      <data key="d9">internal structure,stability</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580438</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Aligned Reflective Capacity" target="Stability Score">
+      <data key="d7">1.0</data>
+      <data key="d8">The Stability Score integrates Aligned Reflective Capacity as a measure of internal structure.</data>
+      <data key="d9">internal structure,stability</data>
+      <data key="d10">chunk-ddabb643ad7982794978859b96daf403</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580440</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="FP8">
+      <data key="d7">1.0</data>
+      <data key="d8">TACO uses FP8-based quantization for efficient communication compression.</data>
+      <data key="d9">framework application,quantization method</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580467</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="Adaptive Scale-Hadamard Transform">
+      <data key="d7">1.0</data>
+      <data key="d8">TACO employs the Adaptive Scale-Hadamard Transform for high-fidelity FP8 quantization.</data>
+      <data key="d9">data-driven reshaping strategy,framework component</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580471</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="Dual-Scale Quantization">
+      <data key="d7">1.0</data>
+      <data key="d8">TACO uses Dual-Scale Quantization to ensure numerical stability throughout training.</data>
+      <data key="d9">framework component,numerical stability mechanism</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580473</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="Tensor-parallel training">
+      <data key="d7">1.0</data>
+      <data key="d8">TACO is applied to tensor-parallel training to improve efficiency and scalability.</data>
+      <data key="d9">framework application,training efficiency</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580477</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="Intermediate tensors">
+      <data key="d7">1.0</data>
+      <data key="d8">TACO compresses intermediate tensors to reduce communication overhead and improve training efficiency.</data>
+      <data key="d9">data compression,framework component</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580482</data>
+      <data key="d13" />
+    </edge>
+    <edge source="TACO" target="3D-parallel training framework">
+      <data key="d7">1.0</data>
+      <data key="d8">The 3D-parallel training framework is developed by integrating TACO with existing state-of-the-art methods to improve training efficiency.</data>
+      <data key="d9">framework integration,training efficiency</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580484</data>
+      <data key="d13" />
+    </edge>
+    <edge source="FP8" target="Adaptive Scale-Hadamard Transform">
+      <data key="d7">1.0</data>
+      <data key="d8">The Adaptive Scale-Hadamard Transform is used to enable high-fidelity FP8 quantization.</data>
+      <data key="d9">data-driven reshaping strategy,quantization method</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580473</data>
+      <data key="d13" />
+    </edge>
+    <edge source="FP8" target="Dual-Scale Quantization">
+      <data key="d7">1.0</data>
+      <data key="d8">FP8 is used in conjunction with Dual-Scale Quantization to ensure numerical stability throughout training.</data>
+      <data key="d9">numerical stability,quantization method</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580477</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tensor-parallel training" target="Communication overhead">
+      <data key="d7">1.0</data>
+      <data key="d8">Tensor-parallel training is affected by communication overhead, which exacerbates errors and introduces significant computational overhead.</data>
+      <data key="d9">efficiency impact,training challenge</data>
+      <data key="d10">chunk-8f2cb4d3facf370a4d2179937a92a2a7</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1777580467</data>
       <data key="d13" />
     </edge>
   </graph>

@@ -691,5 +691,12 @@
     "create_time": 1777558554,
     "update_time": 1777558554,
     "_id": "doc-090dd9c7587ef7f5e03426647d58470b"
+  },
+  "doc-ddabb643ad7982794978859b96daf403": {
+    "content": "Title: An Information-Geometric Framework for Stability Analysis of Large Language Models under Entropic Stress\n\nAbstract: As large language models (LLMs) are increasingly deployed in high-stakes and operational settings, evaluation strategies based solely on aggregate accuracy are often insucient to characterize system reliability. This study proposes a thermodynamic inspired modeling framework for analyzing the stability of LLM outputs under conditions of uncertainty and perturbation. The framework introduces a composite stability score that integrates task utility, entropy as a measure of external uncertainty, and two internal structural proxies: internal integration and aligned reective capacity. Rather than interpreting these quantities as physical variables, the formulation is intended as an interpretable abstraction that captures how internal structure may modulate the impact of disorder on model behavior. Using the IST-20 benchmarking protocol and associated metadata, we analyze 80 modelscenario observations across four contemporary LLMs. The proposed formulation consistently yields higher stability scores than a reduced utilityentropy baseline, with a mean improvement of 0.0299 (95% CI: 0.02470.0351). The observed gain is more pronounced under higher entropy conditions, suggesting that the framework captures a form of nonlinear attenuation of uncertainty. We do not claim a fundamental physical law or a complete theory of machine ethics. Instead, the contribution of this work is a compact and interpretable modeling perspective that connects uncertainty, performance, and internal structure within a unied evaluation lens. The framework is intended to complement existing benchmarking approaches and to support ongoing discussions in AI safety, reliability, and governance.",
+    "file_path": "unknown_source",
+    "create_time": 1777580128,
+    "update_time": 1777580128,
+    "_id": "doc-ddabb643ad7982794978859b96daf403"
   }
 }

@@ -1321,9 +1321,13 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-8f2cb4d3facf370a4d2179937a92a2a7",
     "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "update_time": 1777558554,
-    "_id": "chunk-8f2cb4d3facf370a4d2179937a92a2a7"
+    "llm_cache_list": [
+      "default:extract:abafd5b62400113f8f98861fc89c1b42",
+      "default:extract:4d49f87368d11312cd12628a947a90f2"
+    ],
+    "update_time": 1777580442,
+    "_id": "chunk-8f2cb4d3facf370a4d2179937a92a2a7",
+    "create_time": 0
   },
   "chunk-047ce2bc252a55d9055c31539d3a7c47": {
     "tokens": 319,
@@ -1345,9 +1349,13 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-d10488f697007297062eb31177c84c90",
     "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "update_time": 1777557198,
-    "_id": "chunk-d10488f697007297062eb31177c84c90"
+    "llm_cache_list": [
+      "default:extract:e73e2f3fa423359c16a65c36d4218421",
+      "default:extract:c94e56e0402f9745d65f0e574e68f682"
+    ],
+    "update_time": 1777580134,
+    "_id": "chunk-d10488f697007297062eb31177c84c90",
+    "create_time": 0
   },
   "chunk-db8ced0136efaaf767c85f4c9e185dbe": {
     "tokens": 356,
@@ -1355,9 +1363,40 @@
     "chunk_order_index": 0,
     "full_doc_id": "doc-db8ced0136efaaf767c85f4c9e185dbe",
     "file_path": "unknown_source",
-    "llm_cache_list": [],
-    "create_time": 1777557198,
-    "update_time": 1777557198,
-    "_id": "chunk-db8ced0136efaaf767c85f4c9e185dbe"
+    "llm_cache_list": [
+      "default:extract:c905915cccaa2a0e788f847a7cd8f509",
+      "default:extract:4286da97a8791595dacfcee4ae7183c3"
+    ],
+    "update_time": 1777580220,
+    "_id": "chunk-db8ced0136efaaf767c85f4c9e185dbe",
+    "create_time": 0
+  },
+  "chunk-090dd9c7587ef7f5e03426647d58470b": {
+    "tokens": 269,
+    "content": "Title: The Pragmatic Persona: Discovering LLM Persona through Bridging Inference\n\nAbstract: Large Language Models (LLMs) reveal inherent and distinctive personas through dialogue. However, most existing persona discovery approaches rely on surface-level lexical or stylistic cues, treating dialogue as a flat sequence of tokens and failing to capture the deeper discourse-level structures that sustain persona consistency. To address this limitation, we propose a novel analytical framework that interprets LLM dialogue through bridging inference -- implicit conceptual relations that connect utterances via shared world knowledge and discourse coherence. By modeling these relations as structured knowledge graphs, our approach captures latent semantic links that govern how LLMs organize meaning across turns, enabling persona discovery at the level of discourse coherence rather than surface realizations. Experimental results across multiple reasoning backbones and target LLMs, ranging from small-scale models to 80B-parameter systems, demonstrate that bridging-inference graphs yield significantly stronger semantic coherence and more stable persona identification than frequency or style-based baselines. These results show that persona traits are consistently encoded in the structural organization of discourse rather than isolated lexical patterns. This work presents a systematic framework for probing, extracting, and visualizing latent LLM personas through the lens of Cognitive Discourse Theory, bridging computational linguistics, cognitive semantics, and persona reasoning in large language models. Codes are available at",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-090dd9c7587ef7f5e03426647d58470b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c68bba8723a9e8b044e7291a09327ec1",
+      "default:extract:01a53d2c0f2d1769b9e392978f3943bc"
+    ],
+    "create_time": 1777580266,
+    "update_time": 1777580307,
+    "_id": "chunk-090dd9c7587ef7f5e03426647d58470b"
+  },
+  "chunk-ddabb643ad7982794978859b96daf403": {
+    "tokens": 308,
+    "content": "Title: An Information-Geometric Framework for Stability Analysis of Large Language Models under Entropic Stress\n\nAbstract: As large language models (LLMs) are increasingly deployed in high-stakes and operational settings, evaluation strategies based solely on aggregate accuracy are often insucient to characterize system reliability. This study proposes a thermodynamic inspired modeling framework for analyzing the stability of LLM outputs under conditions of uncertainty and perturbation. The framework introduces a composite stability score that integrates task utility, entropy as a measure of external uncertainty, and two internal structural proxies: internal integration and aligned reective capacity. Rather than interpreting these quantities as physical variables, the formulation is intended as an interpretable abstraction that captures how internal structure may modulate the impact of disorder on model behavior. Using the IST-20 benchmarking protocol and associated metadata, we analyze 80 modelscenario observations across four contemporary LLMs. The proposed formulation consistently yields higher stability scores than a reduced utilityentropy baseline, with a mean improvement of 0.0299 (95% CI: 0.02470.0351). The observed gain is more pronounced under higher entropy conditions, suggesting that the framework captures a form of nonlinear attenuation of uncertainty. We do not claim a fundamental physical law or a complete theory of machine ethics. Instead, the contribution of this work is a compact and interpretable modeling perspective that connects uncertainty, performance, and internal structure within a unied evaluation lens. The framework is intended to complement existing benchmarking approaches and to support ongoing discussions in AI safety, reliability, and governance.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ddabb643ad7982794978859b96daf403",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:cd6fc51dd3672c48994991e507f7b3d2",
+      "default:extract:e6747194056da185bef5aac43d36fd8b"
+    ],
+    "create_time": 1777580355,
+    "update_time": 1777580393,
+    "_id": "chunk-ddabb643ad7982794978859b96daf403"
   }
 }
