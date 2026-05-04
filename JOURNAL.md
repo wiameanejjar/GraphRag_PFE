@@ -289,7 +289,6 @@ cannot be evenly divided by expected dimension (1024)`
 - Export vers Neo4j réussi
 - Tests Naive et Hybrid fonctionnels
 
-
 ### Architecture & stockage
 
 - ChromaDB utilisé uniquement pour stocker les embeddings, mais Retrieval est basé uniquement sur LightRAG c'est à dire qu'ont utilise graph + vector interne pour faire la recherche
@@ -303,7 +302,6 @@ cannot be evenly divided by expected dimension (1024)`
   - améliorer la reproductibilité
   - stabiliser le pipeline
 
-
 ### Problèmes identifiés
 
 - Graphe peu dense (0.0007) malgré un grand nombre de nœuds
@@ -315,6 +313,7 @@ cannot be evenly divided by expected dimension (1024)`
 - Réponses Hybrid plus courtes, mais plus précises
 - Manque de contexte riche à cause d’un graphe sous-connecté
 
+---
 
 ## Comparaison Naive vs Hybrid
 
@@ -327,14 +326,12 @@ cannot be evenly divided by expected dimension (1024)`
 | Multi-hop         | Faible         | Meilleur potentiel |
 | Dépendance graphe | Non            | Forte              |
 
-
 ### Analyse des résultats et synthése de causes du problème Hybrid
 
 - Forte dépendance au graphe de connaissances
 - Peu de relations extraites entre entités
 - Chunking et extraction limités
 - Filtrage trop strict des relations
-
 
 ### Solutions et améliorations testées / envisagées
 
