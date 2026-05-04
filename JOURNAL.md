@@ -321,7 +321,7 @@ cannot be evenly divided by expected dimension (1024)`
 
 ---
 
-## 🔹 Comparaison Naive vs Hybrid
+## Comparaison Naive vs Hybrid
 
 | Critère           | Naive          | Hybrid             |
 | ----------------- | -------------- | ------------------ |
@@ -349,13 +349,13 @@ cannot be evenly divided by expected dimension (1024)`
 
 -> Pour les solutions prochaines :
 
-- Améliorer le prompt LLM (relations explicites + implicites)
+- Améliorer le prompt LLM (relations explicites + implicites) même si j'ai déjà essayé avec un prompt mais j'ai pas eu d'amélioration
 - Renforcer l’architecture LightRAG pour repenser la construction du graphe avec une meilleure fusion entités / relations
 - Intégrer ChromaDB dans le retrieval (vrai hybride)
 
 ---
 
-### Prochaines étapes
+### Résumé de prochaines étapes
 
 - Améliorer extraction entités/relations
 - Enrichir la densité du graphe
@@ -364,7 +364,17 @@ cannot be evenly divided by expected dimension (1024)`
 
 **02/05/2026**
 
+- Résout d'un problème sur mon PC
+- Términer le rapport de sprint 1
+
 **03/05/2026**
+
+- Préparation de la présentation et vérification de tous les livrables demandés
+
+**04/05/2026**
+
+- Faire le dérnier push des modifications
+- Envoyer le rapport et les livrables demandés pour le Sprint 1
 
 ---
 
@@ -382,4 +392,4 @@ cannot be evenly divided by expected dimension (1024)`
 ---
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 01 Mai 2026_
+_Dernière mise à jour : 04 Mai 2026_
