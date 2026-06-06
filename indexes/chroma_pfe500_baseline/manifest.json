@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-06-03T22:33:11.787152+00:00",
+  "corpus_path": "/app/data/processed/arxiv_cleaned.json",
+  "persist_dir": "/app/indexes/chroma_pfe500_baseline",
+  "collection": "pfe_500_baseline",
+  "ollama_url": "http://host.docker.internal:11434",
+  "embed_model": "nomic-embed-text",
+  "chunk_size": 900,
+  "chunk_overlap": 120,
+  "limit": 0,
+  "documents_indexed": 500,
+  "chunks_created": 1587,
+  "vectors_stored": 1587
+}

@@ -1,0 +1,16 @@
+services:
+  rag-baseline-indexer:
+    build:
+      context: .
+      dockerfile: Dockerfile.rag-baseline
+    environment:
+      OLLAMA_URL: "http://host.docker.internal:11434"
+      EMBED_MODEL: "nomic-embed-text"
+      PFE_CORPUS_PATH: "data/processed/arxiv_cleaned.json"
+      CHROMA_PERSIST_DIR: "indexes/chroma_pfe500_baseline"
+      CHROMA_COLLECTION: "pfe_500_baseline"
+      CHUNK_SIZE: "900"
+      CHUNK_OVERLAP: "120"
+      NB_DOCS: "0"
+    volumes:
+      - ./indexes:/app/indexes

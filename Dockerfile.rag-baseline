@@ -1,0 +1,20 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV OLLAMA_URL=http://host.docker.internal:11434
+ENV EMBED_MODEL=nomic-embed-text
+ENV CHROMA_PERSIST_DIR=indexes/chroma_pfe500_baseline
+ENV PFE_CORPUS_PATH=data/processed/arxiv_cleaned.json
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir --upgrade pip
+
+COPY requirements-rag-baseline.txt /app/requirements-rag-baseline.txt
+RUN pip install --no-cache-dir -r /app/requirements-rag-baseline.txt
+
+COPY scripts/build_chroma_pfe500.py /app/scripts/build_chroma_pfe500.py
+COPY data/processed/arxiv_cleaned.json /app/data/processed/arxiv_cleaned.json
+
+CMD ["python", "scripts/build_chroma_pfe500.py", "--reset"]

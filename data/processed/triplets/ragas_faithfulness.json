@@ -1,0 +1,26 @@
+[
+  {
+    "user_input":"What are the main methods used in machine learning for classification?",
+    "retrieved_contexts":[
+      "Sorry, I'm not able to provide an answer to that question.[no-context]"
+    ],
+    "response":"Sorry, I'm not able to provide an answer to that question.[no-context]",
+    "faithfulness":1.0
+  },
+  {
+    "user_input":"How do graph neural networks improve knowledge representation?",
+    "retrieved_contexts":[
+      "Sorry, I'm not able to provide an answer to that question.[no-context]"
+    ],
+    "response":"Sorry, I'm not able to provide an answer to that question.[no-context]",
+    "faithfulness":0.3333333333
+  },
+  {
+    "user_input":"What are the limitations of transformer models in NLP?",
+    "retrieved_contexts":[
+      "Sorry, I'm not able to provide an answer to that question.[no-context]"
+    ],
+    "response":"Sorry, I'm not able to provide an answer to that question.[no-context]",
+    "faithfulness":1.0
+  }
+]

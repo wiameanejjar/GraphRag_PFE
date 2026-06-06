@@ -1,0 +1,599 @@
+{
+  "summary": {
+    "lightrag_unique_triplets": 5066,
+    "rebel_unique_triplets": 2788,
+    "exact_overlap": 0,
+    "entity_pair_overlap": 31,
+    "lightrag_only": 5066,
+    "rebel_only": 2788,
+    "lightrag_top_relations": [
+      [
+        "model application task",
+        25
+      ],
+      [
+        "dataset evaluation model performance",
+        23
+      ],
+      [
+        "application method",
+        22
+      ],
+      [
+        "dataset usage method application",
+        19
+      ],
+      [
+        "evaluation performance",
+        19
+      ],
+      [
+        "comparison evaluation",
+        19
+      ],
+      [
+        "dataset model evaluation",
+        18
+      ],
+      [
+        "method application model usage",
+        17
+      ],
+      [
+        "framework component knowledge repository",
+        17
+      ],
+      [
+        "method application task relevance",
+        17
+      ],
+      [
+        "model comparison performance improvement",
+        16
+      ],
+      [
+        "dataset usage model application",
+        16
+      ],
+      [
+        "benchmarking evaluation",
+        15
+      ],
+      [
+        "model application performance improvement",
+        15
+      ],
+      [
+        "cultural insensitivity model bias",
+        14
+      ],
+      [
+        "model improvement statistically significant gains",
+        13
+      ],
+      [
+        "model comparison performance",
+        12
+      ],
+      [
+        "application task",
+        12
+      ],
+      [
+        "hyperparameter selection model component",
+        12
+      ],
+      [
+        "concept application model evaluation",
+        12
+      ]
+    ],
+    "rebel_top_relations": [
+      [
+        "instance of",
+        546
+      ],
+      [
+        "subclass of",
+        533
+      ],
+      [
+        "use",
+        342
+      ],
+      [
+        "facet of",
+        243
+      ],
+      [
+        "part of",
+        205
+      ],
+      [
+        "has part",
+        155
+      ],
+      [
+        "opposite of",
+        152
+      ],
+      [
+        "different from",
+        121
+      ],
+      [
+        "uses",
+        98
+      ],
+      [
+        "main subject",
+        65
+      ],
+      [
+        "used by",
+        56
+      ],
+      [
+        "studied by",
+        47
+      ],
+      [
+        "studies",
+        37
+      ],
+      [
+        "based on",
+        35
+      ],
+      [
+        "has effect",
+        13
+      ],
+      [
+        "followed by",
+        13
+      ],
+      [
+        "programming language",
+        12
+      ],
+      [
+        "product or material produced",
+        10
+      ],
+      [
+        "follows",
+        10
+      ],
+      [
+        "derivative work",
+        9
+      ]
+    ]
+  },
+  "examples_lightrag_only": [
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Ast-Based Analysis",
+      "relation": "code analysis,method application",
+      "tail": "Student Code Submissions"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Pattern-Based Knowledge Components",
+      "relation": "dataset analysis,knowledge extraction",
+      "tail": "Student Code Submissions"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Generative Model",
+      "relation": "content generation,model conditioning",
+      "tail": "Pattern-Based Knowledge Components"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Adaptive Programming Practice",
+      "relation": "concept application,educational method",
+      "tail": "Personalized Worked Example Generation From Student Code Submissions Using Pattern-Based Knowledge Components"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Expert Evaluation",
+      "relation": "metric evaluation,model assessment",
+      "tail": "Generative Model"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24758v1",
+      "head": "Expert Evaluation",
+      "relation": "concept application,educational method",
+      "tail": "Personalized Worked Example Generation From Student Code Submissions Using Pattern-Based Knowledge Components"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Active Learning Algorithm",
+      "relation": "concept application,method usage",
+      "tail": "Learning To Think From Multiple Thinkers"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Active Learning Algorithm",
+      "relation": "concept relationship,method parameter",
+      "tail": "Target Accuracy Ε"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Chain-Of-Thought (Cot)",
+      "relation": "concept application,method usage",
+      "tail": "Learning To Think From Multiple Thinkers"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "End-Result Supervision",
+      "relation": "concept comparison,method contrast",
+      "tail": "Learning To Think From Multiple Thinkers"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Joshi Et Al. (2025)",
+      "relation": "concept study,research paper reference",
+      "tail": "Learning To Think From Multiple Thinkers"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Cryptographic Assumptions",
+      "relation": "concept application,method limitation",
+      "tail": "Learning To Think From Multiple Thinkers"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Chain-Of-Thought (Cot)",
+      "relation": "method application,task solution",
+      "tail": "Math Problems"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24737v1",
+      "head": "Chain-Of-Thought (Cot)",
+      "relation": "method application,task solution",
+      "tail": "Program Execution Traces"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Learning To Rotate: Temporal And Semantic Rotary Encoding For Sequential Modeling",
+      "relation": "method,model",
+      "tail": "Sinusoidal Representation Network (Siren)"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "News Feed Dataset",
+      "relation": "dataset,method application",
+      "tail": "Sinusoidal Representation Network (Siren)"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Generative Recommender",
+      "relation": "application,model evaluation",
+      "tail": "Learning To Rotate: Temporal And Semantic Rotary Encoding For Sequential Modeling"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Learning To Rotate: Temporal And Semantic Rotary Encoding For Sequential Modeling",
+      "relation": "dataset,model evaluation",
+      "tail": "News Feed Dataset"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Imaginary Axis",
+      "relation": "analogy,concept",
+      "tail": "Temporal And Semantic Rotary Encoding For Sequential Modeling"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Imaginary Axis",
+      "relation": "analogy,method",
+      "tail": "Rotary Positional Embeddings (Rope)"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Generative Recommender",
+      "relation": "application,model application",
+      "tail": "Siren-Rope"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Rotary Positional Embeddings (Rope)",
+      "relation": "method,model",
+      "tail": "Siren-Rope"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Sinusoidal Representation Network (Siren)",
+      "relation": "method,model",
+      "tail": "Siren-Rope"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24717v1",
+      "head": "Learning To Rotate: Temporal And Semantic Rotary Encoding For Sequential Modeling",
+      "relation": "method,model",
+      "tail": "Rotary Positional Embeddings (Rope)"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Ceiling Compression",
+      "relation": "agreement,challenge",
+      "tail": "Clinician-LLM Ranking Agreement"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Case-Specific Rubrics",
+      "relation": "evaluation,task application",
+      "tail": "Oncology"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Case-Specific Rubrics",
+      "relation": "automation,evaluation methodology",
+      "tail": "Clinical AI Documentation Systems"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Case-Specific Rubrics",
+      "relation": "evaluation,task application",
+      "tail": "Primary Care"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Clinician-Authorized Rubrics",
+      "relation": "expert judgment,model validation",
+      "tail": "Large Language Model (LLM)"
+    },
+    {
+      "source_system": "LightRAG",
+      "doc_id": "2604.24710v1",
+      "head": "Clinician-Authored Rubrics",
+      "relation": "evaluation,tool application",
+      "tail": "Electronic Health Record (EHR)-Embedded AI Agent"
+    }
+  ],
+  "examples_rebel_only": [
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24758v1",
+      "head": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
+      "relation": "use",
+      "tail": "Adaptive programming"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24758v1",
+      "head": "AST",
+      "relation": "use",
+      "tail": "AST-based analysis"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24758v1",
+      "head": "AST-based analysis",
+      "relation": "uses",
+      "tail": "AST"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24758v1",
+      "head": "example generation",
+      "relation": "subclass of",
+      "tail": "learning"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24758v1",
+      "head": "personalized learning",
+      "relation": "subclass of",
+      "tail": "learning"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24737v1",
+      "head": "Chain-of-Thought",
+      "relation": "subclass of",
+      "tail": "learning"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24737v1",
+      "head": "active learning",
+      "relation": "subclass of",
+      "tail": "learning"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24737v1",
+      "head": "active learning",
+      "relation": "subclass of",
+      "tail": "algorithm"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "Learning to Rotate",
+      "relation": "main subject",
+      "tail": "Rotary Positional Embeddings"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "semantic",
+      "relation": "part of",
+      "tail": "representation"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "real",
+      "relation": "part of",
+      "tail": "representation"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "representation",
+      "relation": "has part",
+      "tail": "semantic"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "representation",
+      "relation": "has part",
+      "tail": "real"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "representation",
+      "relation": "has part",
+      "tail": "imaginary"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "imaginary",
+      "relation": "part of",
+      "tail": "representation"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "signal-conditioned space",
+      "relation": "subclass of",
+      "tail": "learnable"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "news feed",
+      "relation": "subclass of",
+      "tail": "social network"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24717v1",
+      "head": "news feed",
+      "relation": "part of",
+      "tail": "social network"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "Case-Specific Rubrics for Clinical AI Evaluation",
+      "relation": "use",
+      "tail": "Clinical AI documentation"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "LLM",
+      "relation": "instance of",
+      "tail": "rubric"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "primary care",
+      "relation": "practiced by",
+      "tail": "clinician"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician",
+      "relation": "field of this occupation",
+      "tail": "primary care"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician",
+      "relation": "field of this occupation",
+      "tail": "clinician-preferred"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician-preferred",
+      "relation": "practiced by",
+      "tail": "clinician"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician-clinician agreement",
+      "relation": "facet of",
+      "tail": "clinician-authored rubrics"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician-clinician agreement",
+      "relation": "opposite of",
+      "tail": "clinician-authored ones"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "clinician-authored ones",
+      "relation": "opposite of",
+      "tail": "clinician-clinician agreement"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "Case-specific rubrics",
+      "relation": "subclass of",
+      "tail": "LLM rubrics"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24710v1",
+      "head": "Clinician-authored rubrics",
+      "relation": "subclass of",
+      "tail": "LLM rubrics"
+    },
+    {
+      "source_system": "spaCy_REBEL",
+      "doc_id": "2604.24708v1",
+      "head": "Hyperparameter-Divergent Ensemble Training",
+      "relation": "uses",
+      "tail": "stochastic gradient descent"
+    }
+  ],
+  "examples_common": []
+}

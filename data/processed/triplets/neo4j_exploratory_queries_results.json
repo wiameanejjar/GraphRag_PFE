@@ -1,0 +1,1514 @@
+{
+  "01_top_connected_entities": [
+    {
+      "entity": "Large Language Models",
+      "type": "model",
+      "degree": 215
+    },
+    {
+      "entity": "Vision-Language Models",
+      "type": "model",
+      "degree": 41
+    },
+    {
+      "entity": "Agentic AI Architecture",
+      "type": "architecture",
+      "degree": 28
+    },
+    {
+      "entity": "Solartformer",
+      "type": "model",
+      "degree": 27
+    },
+    {
+      "entity": "Stellar-E",
+      "type": "application",
+      "degree": 27
+    },
+    {
+      "entity": "Gsar",
+      "type": "model",
+      "degree": 23
+    },
+    {
+      "entity": "Physnote",
+      "type": "model",
+      "degree": 22
+    },
+    {
+      "entity": "Cuda Tile",
+      "type": "model",
+      "degree": 22
+    },
+    {
+      "entity": "Memanto",
+      "type": "model",
+      "degree": 22
+    },
+    {
+      "entity": "Trust-Ssl",
+      "type": "model",
+      "degree": 21
+    },
+    {
+      "entity": "Code Broker",
+      "type": "model",
+      "degree": 21
+    },
+    {
+      "entity": "GPT-5.4",
+      "type": "model",
+      "degree": 20
+    },
+    {
+      "entity": "Mimic",
+      "type": "model",
+      "degree": 20
+    },
+    {
+      "entity": "Reageo",
+      "type": "model",
+      "degree": 20
+    },
+    {
+      "entity": "Reusable Cross-Domain Pipeline",
+      "type": "method",
+      "degree": 19
+    },
+    {
+      "entity": "Layerwise Convergence Fingerprinting (Lcf)",
+      "type": "method",
+      "degree": 19
+    },
+    {
+      "entity": "Large Language Model (LLM)",
+      "type": "model",
+      "degree": 19
+    },
+    {
+      "entity": "Tandem Framework",
+      "type": "model",
+      "degree": 18
+    },
+    {
+      "entity": "Dprm",
+      "type": "model",
+      "degree": 17
+    },
+    {
+      "entity": "Adaptive Tor",
+      "type": "model",
+      "degree": 17
+    }
+  ],
+  "02_relation_type_counts": [
+    {
+      "relation_type": "model application,task",
+      "count": 25
+    },
+    {
+      "relation_type": "dataset evaluation,model performance",
+      "count": 23
+    },
+    {
+      "relation_type": "application,method",
+      "count": 22
+    },
+    {
+      "relation_type": "evaluation,performance",
+      "count": 19
+    },
+    {
+      "relation_type": "comparison,evaluation",
+      "count": 19
+    },
+    {
+      "relation_type": "dataset usage,method application",
+      "count": 19
+    },
+    {
+      "relation_type": "dataset,model evaluation",
+      "count": 18
+    },
+    {
+      "relation_type": "method application,task relevance",
+      "count": 17
+    },
+    {
+      "relation_type": "framework component,knowledge repository",
+      "count": 17
+    },
+    {
+      "relation_type": "method application,model usage",
+      "count": 17
+    },
+    {
+      "relation_type": "dataset usage,model application",
+      "count": 16
+    },
+    {
+      "relation_type": "model comparison,performance improvement",
+      "count": 16
+    },
+    {
+      "relation_type": "benchmarking,evaluation",
+      "count": 15
+    },
+    {
+      "relation_type": "model application,performance improvement",
+      "count": 15
+    },
+    {
+      "relation_type": "cultural insensitivity,model bias",
+      "count": 14
+    },
+    {
+      "relation_type": "model improvement,statistically significant gains",
+      "count": 13
+    },
+    {
+      "relation_type": "application,task",
+      "count": 12
+    },
+    {
+      "relation_type": "model comparison,performance",
+      "count": 12
+    },
+    {
+      "relation_type": "hyperparameter selection,model component",
+      "count": 12
+    },
+    {
+      "relation_type": "concept application,model evaluation",
+      "count": 12
+    },
+    {
+      "relation_type": "model application,task performance",
+      "count": 11
+    },
+    {
+      "relation_type": "model application,relevant factor",
+      "count": 11
+    },
+    {
+      "relation_type": "concept,method application",
+      "count": 11
+    },
+    {
+      "relation_type": "model comparison,performance evaluation",
+      "count": 10
+    },
+    {
+      "relation_type": "data collection,signal source",
+      "count": 10
+    },
+    {
+      "relation_type": "application,concept",
+      "count": 10
+    },
+    {
+      "relation_type": "challenge,concept",
+      "count": 9
+    },
+    {
+      "relation_type": "model application,task relevance",
+      "count": 9
+    },
+    {
+      "relation_type": "architecture,model comparison",
+      "count": 9
+    },
+    {
+      "relation_type": "algorithm integration,memory architecture",
+      "count": 9
+    }
+  ],
+  "03_isolated_entities": [
+    {
+      "entity": "Online Feedback-To-Evaluation Path Path Benchmarking",
+      "type": "concept"
+    },
+    {
+      "entity": "Statistical Testing Method",
+      "type": "concept"
+    },
+    {
+      "entity": "Organization",
+      "type": "concept"
+    },
+    {
+      "entity": "Deep Ensemble",
+      "type": "concept"
+    },
+    {
+      "entity": "Predictive Uncertainty Quantification",
+      "type": "concept"
+    },
+    {
+      "entity": "Attack Query",
+      "type": "concept"
+    },
+    {
+      "entity": "Concept",
+      "type": "concept"
+    },
+    {
+      "entity": "Human-Written Reference Summaries",
+      "type": "concept"
+    },
+    {
+      "entity": "Large Language Model (LLM)-Based Approaches",
+      "type": "concept"
+    },
+    {
+      "entity": "Preserve Rules Regressions",
+      "type": "concept"
+    },
+    {
+      "entity": "Prune Rules Transfer",
+      "type": "concept"
+    },
+    {
+      "entity": "Architecture",
+      "type": "concept"
+    },
+    {
+      "entity": "Faithfulness And Completeness Trade-Off",
+      "type": "concept"
+    },
+    {
+      "entity": "Sparse Mixture-Of-Experts Architectures",
+      "type": "concept"
+    },
+    {
+      "entity": "Domain-Specific Expert Activation",
+      "type": "concept"
+    },
+    {
+      "entity": "Inter-Node All-To-All Communication Overhead",
+      "type": "concept"
+    },
+    {
+      "entity": "Strong Correlation Between Prefill And Decode Expert Activations",
+      "type": "concept"
+    },
+    {
+      "entity": "Variable Expert Load Imbalance",
+      "type": "concept"
+    },
+    {
+      "entity": "Hanabi Dataset",
+      "type": "concept"
+    },
+    {
+      "entity": "Inter-Agent Conventions",
+      "type": "concept"
+    },
+    {
+      "entity": "Test Case Coverage",
+      "type": "concept"
+    },
+    {
+      "entity": "Chain Cqs",
+      "type": "querytype"
+    },
+    {
+      "entity": "Dl-Lite_R Ontology",
+      "type": "ontology"
+    },
+    {
+      "entity": "Logcfl",
+      "type": "complexityclass"
+    },
+    {
+      "entity": "Query Evaluation",
+      "type": "task"
+    },
+    {
+      "entity": "Relevance Complexity",
+      "type": "concept"
+    },
+    {
+      "entity": "Self-Joins",
+      "type": "concept"
+    },
+    {
+      "entity": "Confidence Score Metric",
+      "type": "metric"
+    }
+  ],
+  "04_top_entity_pairs": [
+    {
+      "source": "Clinical Field Recovery",
+      "target": "Conversational Clinical Systems",
+      "relation": "system contribution,task relevance",
+      "count": 1
+    },
+    {
+      "source": "Clinical Psychiatric Intake Form Baseline",
+      "target": "Question Selection Benchmark",
+      "relation": "method evaluation,performance comparison",
+      "count": 1
+    },
+    {
+      "source": "Conversational Psychiatric Intake",
+      "target": "Question Selection Benchmark",
+      "relation": "application relevance,task evaluation",
+      "count": 1
+    },
+    {
+      "source": "LLM-guided Adaptive Policy",
+      "target": "Question Selection Benchmark",
+      "relation": "method evaluation,performance comparison",
+      "count": 1
+    },
+    {
+      "source": "Question Selection Benchmark",
+      "target": "Large Question Bank",
+      "relation": "benchmark evaluation,dataset contribution",
+      "count": 1
+    },
+    {
+      "source": "Question Selection Benchmark",
+      "target": "Interactive Clinical Machine Learning",
+      "relation": "application relevance,task evaluation",
+      "count": 1
+    },
+    {
+      "source": "Question Selection Benchmark",
+      "target": "Random Questioning",
+      "relation": "method evaluation,performance comparison",
+      "count": 1
+    },
+    {
+      "source": "Clinically Insignificant Features",
+      "target": "Synthetic Patient Profiles",
+      "relation": "dataset characteristic,model input",
+      "count": 1
+    },
+    {
+      "source": "Clinically Insignificant Features",
+      "target": "Predicted Hospitalization Risk Scores",
+      "relation": "dataset characteristic,model input,model output",
+      "count": 1
+    },
+    {
+      "source": "GPT-4o mini",
+      "target": "Prompt Reframings",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "GPT-4o mini",
+      "target": "Synthetic Patient Profiles",
+      "relation": "dataset usage,model application",
+      "count": 1
+    },
+    {
+      "source": "GPT-4o mini",
+      "target": "Prompt Variations",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Llama 3.3 70B",
+      "target": "Prompt Variations",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Llama 3.3 70B",
+      "target": "Prompt Reframings",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Llama 3.3 70B",
+      "target": "Synthetic Patient Profiles",
+      "relation": "dataset usage,model application",
+      "count": 1
+    },
+    {
+      "source": "Prompt Reframings",
+      "target": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Prompt Variations",
+      "target": "Predicted Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "target": "Predicted Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "target": "Synthetic Patient Profiles",
+      "relation": "dataset application,model evaluation",
+      "count": 1
+    },
+    {
+      "source": "Synthetic Patient Profiles",
+      "target": "Predicted Hospitalization Risk Scores",
+      "relation": "dataset application,model output",
+      "count": 1
+    },
+    {
+      "source": "Dimensionality Reduction",
+      "target": "Lightweight Predictors",
+      "relation": "downstream classification,modeling",
+      "count": 1
+    },
+    {
+      "source": "End-to-End LLM Approaches",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,performance comparison",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset",
+      "relation": "benchmarking,evaluation",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "Patient-Trial Matching",
+      "relation": "computational cost,scalability",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset, Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "End-to-End Llm Approaches",
+      "relation": "computational cost,performance comparison",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "Unstructured Clinical Narratives",
+      "relation": "modeling,unstructured data",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "Computational Efficiency",
+      "relation": "computational cost,scalability",
+      "count": 1
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "target": "Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "count": 1
+    },
+    {
+      "source": "Clinical Field Recovery",
+      "target": "LLM-guided Adaptive Policy",
+      "relation": "information recovery,task contribution",
+      "count": 1
+    }
+  ],
+  "05_shortest_path_llm_gnn": [
+    {
+      "path": [
+        "Large Language Models",
+        "Abstract Causal Structures",
+        "Vision-Language Models",
+        "Attention Mechanism",
+        "Drug Synergy Prediction Via Residual Graph Isomorphism Networks And Attention Mechanisms",
+        "Graph Neural Networks (Gnns)"
+      ],
+      "hops": 5
+    },
+    {
+      "path": [
+        "Vision-Language Models",
+        "Attention Mechanism",
+        "Drug Synergy Prediction Via Residual Graph Isomorphism Networks And Attention Mechanisms",
+        "Graph Neural Networks (Gnns)"
+      ],
+      "hops": 3
+    },
+    {
+      "path": [
+        "From Pixels to Explanations: Interpretable Diabetic Retinopathy Grading with CNN-Transformer Ensembles, Visual Explainability and Vision-Language Models",
+        "Vision-Language Models",
+        "Attention Mechanism",
+        "Drug Synergy Prediction Via Residual Graph Isomorphism Networks And Attention Mechanisms",
+        "Graph Neural Networks (Gnns)"
+      ],
+      "hops": 4
+    }
+  ],
+  "06_llm_thematic_subgraph": [
+    {
+      "source": "Clinical Field Recovery",
+      "relation": "information recovery,task contribution",
+      "target": "LLM-guided Adaptive Policy"
+    },
+    {
+      "source": "LLM-guided Adaptive Policy",
+      "relation": "information recovery,task contribution",
+      "target": "Clinical Field Recovery"
+    },
+    {
+      "source": "LLM-guided Adaptive Policy",
+      "relation": "method evaluation,performance comparison",
+      "target": "Question Selection Benchmark"
+    },
+    {
+      "source": "Question Selection Benchmark",
+      "relation": "method evaluation,performance comparison",
+      "target": "LLM-guided Adaptive Policy"
+    },
+    {
+      "source": "Prompt Reframings",
+      "relation": "concept application,model evaluation",
+      "target": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores"
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "target": "Predicted Hospitalization Risk Scores"
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "target": "Prompt Reframings"
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "relation": "dataset application,model evaluation",
+      "target": "Synthetic Patient Profiles"
+    },
+    {
+      "source": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Synthetic Patient Profiles",
+      "relation": "dataset application,model evaluation",
+      "target": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores"
+    },
+    {
+      "source": "Predicted Hospitalization Risk Scores",
+      "relation": "concept application,model evaluation",
+      "target": "Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores"
+    },
+    {
+      "source": "Predicted Hospitalization Risk Scores",
+      "relation": "model application,model output",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "End-to-End LLM Approaches",
+      "relation": "computational cost,performance comparison",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,performance comparison",
+      "target": "End-to-End LLM Approaches"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,scalability",
+      "target": "Patient-Trial Matching"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset, Mayo Clinic Multimodal Dataset (Mcpmd)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,performance comparison",
+      "target": "End-to-End Llm Approaches"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "modeling,unstructured data",
+      "target": "Unstructured Clinical Narratives"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,scalability",
+      "target": "Computational Efficiency"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "Mayo Clinic Multimodal Dataset (Mcpmd)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "Public Benchmarks"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "representation learning,structured data",
+      "target": "Structured Clinical Data"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational burden,information selection",
+      "target": "Electronic Health Records (Ehrs)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "downstream classification,modeling",
+      "target": "Fine-Tuning"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "dimensionality reduction,representation refinement",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset, Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Structured Clinical Data",
+      "relation": "representation learning,structured data",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Structured Clinical Data",
+      "relation": "representation learning,structured data",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Unstructured Clinical Narratives",
+      "relation": "modeling,unstructured data",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Unstructured Clinical Narratives",
+      "relation": "representation learning,unstructured data",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Computational Efficiency",
+      "relation": "computational cost,scalability",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "End-to-End Llm Approaches",
+      "relation": "computational cost,performance comparison",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Patient-Trial Matching",
+      "relation": "computational cost,scalability",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Public Benchmarks",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Call-Chain-Aware LLM-Based Test Generation for Java Projects",
+      "relation": "approach,dependency handling",
+      "target": "Third-Party Dependencies"
+    },
+    {
+      "source": "Call-Chain-Aware LLM-Based Test Generation for Java Projects",
+      "relation": "analysis method,approach",
+      "target": "Static Analysis"
+    },
+    {
+      "source": "Call-Chain-Aware LLM-Based Test Generation for Java Projects",
+      "relation": "evaluation,real-world application",
+      "target": "Github Projects"
+    },
+    {
+      "source": "Call-Chain-Aware LLM-Based Test Generation for Java Projects",
+      "relation": "comparison,evaluation",
+      "target": "Panta"
+    },
+    {
+      "source": "Call-Chain-Aware LLM-Based Test Generation for Java Projects",
+      "relation": "approach,model application",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Github Projects",
+      "relation": "evaluation,real-world application",
+      "target": "Call-Chain-Aware LLM-Based Test Generation for Java Projects"
+    },
+    {
+      "source": "Panta",
+      "relation": "comparison,evaluation",
+      "target": "Call-Chain-Aware LLM-Based Test Generation for Java Projects"
+    },
+    {
+      "source": "Static Analysis",
+      "relation": "analysis method,approach",
+      "target": "Call-Chain-Aware LLM-Based Test Generation for Java Projects"
+    },
+    {
+      "source": "Third-Party Dependencies",
+      "relation": "approach,dependency handling",
+      "target": "Call-Chain-Aware LLM-Based Test Generation for Java Projects"
+    },
+    {
+      "source": "Example-Based Prompts",
+      "relation": "model method interaction,prompt sensitivity",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Instruction-Based Prompts",
+      "relation": "model method interaction,prompt sensitivity",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Lexical Task Heads",
+      "relation": "concept relationship,task description",
+      "target": "Shared Lexical Task Representations Explain Behavioral Variability In Llms"
+    },
+    {
+      "source": "Shared Lexical Task Representations Explain Behavioral Variability In Llms",
+      "relation": "concept relationship,task description",
+      "target": "Lexical Task Heads"
+    },
+    {
+      "source": "Shared Lexical Task Representations Explain Behavioral Variability In Llms",
+      "relation": "concept relationship,task description",
+      "target": "Task-Specific Attention Heads"
+    },
+    {
+      "source": "Shared Lexical Task Representations Explain Behavioral Variability In Llms",
+      "relation": "concept model relationship,prompt sensitivity",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Task-Specific Attention Heads",
+      "relation": "concept relationship,task description",
+      "target": "Shared Lexical Task Representations Explain Behavioral Variability In Llms"
+    },
+    {
+      "source": "Task-Specific Attention Heads",
+      "relation": "model concept interaction,prompt sensitivity",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Autorise",
+      "relation": "application,target",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Autorise Method",
+      "relation": "application,target",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Agent Scaffolds",
+      "relation": "model performance,tool usage",
+      "target": "Llms (Large Language Models)"
+    },
+    {
+      "source": "Papers",
+      "relation": "model evaluation,reproducibility",
+      "target": "Llms (Large Language Models)"
+    },
+    {
+      "source": "HalluVL-DPO",
+      "relation": "model improvement,performance enhancement",
+      "target": "Large Vision-Language Models"
+    },
+    {
+      "source": "Hallucinations",
+      "relation": "concept impact,model vulnerability",
+      "target": "Large Vision-Language Models"
+    },
+    {
+      "source": "Halluscope",
+      "relation": "benchmark,benchmark application,model evaluation",
+      "target": "Large Vision-Language Models"
+    },
+    {
+      "source": "Large Vision-Language Models",
+      "relation": "benchmark,benchmark application,model evaluation",
+      "target": "Halluscope"
+    },
+    {
+      "source": "Large Vision-Language Models",
+      "relation": "concept impact,model vulnerability",
+      "target": "Hallucinations"
+    },
+    {
+      "source": "Large Vision-Language Models",
+      "relation": "model improvement,performance enhancement",
+      "target": "HalluVL-DPO"
+    },
+    {
+      "source": "Agentic AI Architecture",
+      "relation": "evaluation metric,performance analysis",
+      "target": "LLM Overhead"
+    },
+    {
+      "source": "Agentic AI Architecture",
+      "relation": "architecture component,intent extraction",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Skills",
+      "relation": "concept application,intent accuracy improvement",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "LLM Overhead",
+      "relation": "evaluation metric,performance analysis",
+      "target": "Agentic AI Architecture"
+    },
+    {
+      "source": "Dictionary-Based Games",
+      "relation": "model,task",
+      "target": "LLM-based Chatbot"
+    },
+    {
+      "source": "Heuristic-Based Games",
+      "relation": "model,task",
+      "target": "LLM-based Chatbot"
+    },
+    {
+      "source": "LLM-based Chatbot",
+      "relation": "application,model",
+      "target": "Nemobot Games"
+    },
+    {
+      "source": "LLM-based Chatbot",
+      "relation": "model,task",
+      "target": "Learning-Based Games"
+    },
+    {
+      "source": "LLM-based Chatbot",
+      "relation": "model,task",
+      "target": "Dictionary-Based Games"
+    },
+    {
+      "source": "LLM-based Chatbot",
+      "relation": "model,task",
+      "target": "Heuristic-Based Games"
+    },
+    {
+      "source": "LLM-based Chatbot",
+      "relation": "model,task",
+      "target": "Rigorously Solvable Games"
+    },
+    {
+      "source": "Learning-Based Games",
+      "relation": "model,task",
+      "target": "LLM-based Chatbot"
+    },
+    {
+      "source": "Nemobot Games",
+      "relation": "application,model",
+      "target": "LLM-based Chatbot"
+    },
+    {
+      "source": "Nemobot Games",
+      "relation": "application,model",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Rigorously Solvable Games",
+      "relation": "model,task",
+      "target": "LLM-based Chatbot"
+    },
+    {
+      "source": "Event Linking Engine",
+      "relation": "decision-making,event merging",
+      "target": "Large Language Models"
+    }
+  ],
+  "07_rag_thematic_subgraph": [
+    {
+      "source": "Complex Eligibility Criteria",
+      "relation": "clinically meaningful signals,information selection",
+      "target": "Retrieval-Augmented Generation"
+    },
+    {
+      "source": "End-to-End LLM Approaches",
+      "relation": "computational cost,performance comparison",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,performance comparison",
+      "target": "End-to-End LLM Approaches"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,scalability",
+      "target": "Patient-Trial Matching"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset, Mayo Clinic Multimodal Dataset (Mcpmd)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,performance comparison",
+      "target": "End-to-End Llm Approaches"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "modeling,unstructured data",
+      "target": "Unstructured Clinical Narratives"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational cost,scalability",
+      "target": "Computational Efficiency"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "Mayo Clinic Multimodal Dataset (Mcpmd)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "benchmarking,evaluation",
+      "target": "Public Benchmarks"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "representation learning,structured data",
+      "target": "Structured Clinical Data"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "computational burden,information selection",
+      "target": "Electronic Health Records (Ehrs)"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "downstream classification,modeling",
+      "target": "Fine-Tuning"
+    },
+    {
+      "source": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling",
+      "relation": "dimensionality reduction,representation refinement",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset, Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Structured Clinical Data",
+      "relation": "representation learning,structured data",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Unstructured Clinical Narratives",
+      "relation": "modeling,unstructured data",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Computational Efficiency",
+      "relation": "computational cost,scalability",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "End-to-End Llm Approaches",
+      "relation": "computational cost,performance comparison",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Long Ehrs",
+      "relation": "clinically relevant segments,information selection",
+      "target": "Retrieval-Augmented Generation"
+    },
+    {
+      "source": "Mayo Clinic Multimodal Dataset (Mcpmd)",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "N2C2 Dataset, Sigir Dataset, Trec 2021/2022 Dataset",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Patient-Trial Matching",
+      "relation": "computational cost,scalability",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Public Benchmarks",
+      "relation": "benchmarking,evaluation",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Long Duration Storage",
+      "relation": "concept integration,technology advancement",
+      "target": "Variable Renewable Sources"
+    },
+    {
+      "source": "Variable Renewable Sources",
+      "relation": "concept integration,technology advancement",
+      "target": "Long Duration Storage"
+    },
+    {
+      "source": "Pgd Adversarial Training",
+      "relation": "consequence,relationship",
+      "target": "Corruption Fragility"
+    },
+    {
+      "source": "Corruption Fragility",
+      "relation": "consequence,relationship",
+      "target": "Pgd Adversarial Training"
+    },
+    {
+      "source": "Reageo",
+      "relation": "method application,model limitation",
+      "target": "Vector Similarity Retrieval"
+    },
+    {
+      "source": "Traditional Multi-Stage Approaches",
+      "relation": "geocoding tasks,method application",
+      "target": "Vector Similarity Retrieval"
+    },
+    {
+      "source": "Vector Similarity Retrieval",
+      "relation": "geocoding tasks,method application",
+      "target": "Traditional Multi-Stage Approaches"
+    },
+    {
+      "source": "Vector Similarity Retrieval",
+      "relation": "method application,model limitation",
+      "target": "Reageo"
+    },
+    {
+      "source": "Universal Multimodal Retrieval (Umr)",
+      "relation": "model application,task",
+      "target": "Mimic"
+    },
+    {
+      "source": "Large Language Models",
+      "relation": "benchmark evaluation,model capabilities",
+      "target": "Skill Retrieval Augmentation-Bench (Sra-Bench)"
+    },
+    {
+      "source": "Large Language Models",
+      "relation": "dimensionality reduction,representation refinement",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Large Language Models",
+      "relation": "concept application,model association",
+      "target": "The Pragmatic Persona"
+    },
+    {
+      "source": "Bmw",
+      "relation": "case study,industrial application",
+      "target": "Leveraging Llms For Multi-File Dsl Code Generation"
+    },
+    {
+      "source": "Fine-Tuning",
+      "relation": "downstream classification,modeling",
+      "target": "Lightweight Retrieval-Augmented Generation And Large Language Model-Based Modeling"
+    },
+    {
+      "source": "Leveraging Llms For Multi-File Dsl Code Generation",
+      "relation": "concept application,task representation",
+      "target": "Model Adaptation"
+    },
+    {
+      "source": "Leveraging Llms For Multi-File Dsl Code Generation",
+      "relation": "case study,industrial application",
+      "target": "Bmw"
+    },
+    {
+      "source": "Model Adaptation",
+      "relation": "concept application,task representation",
+      "target": "Leveraging Llms For Multi-File Dsl Code Generation"
+    },
+    {
+      "source": "Graph Centrality Measures",
+      "relation": "correlation,validation",
+      "target": "Xgrag Explanations"
+    },
+    {
+      "source": "Graphrag",
+      "relation": "baseline,comparison",
+      "target": "RAG-Ex"
+    },
+    {
+      "source": "Graphrag",
+      "relation": "framework,method",
+      "target": "Xgrag"
+    },
+    {
+      "source": "Graphrag",
+      "relation": "dataset,method",
+      "target": "Knowledge Graphs (Kgs)"
+    },
+    {
+      "source": "Knowledge Graphs (Kgs)",
+      "relation": "dataset,method",
+      "target": "Graphrag"
+    },
+    {
+      "source": "Narrativeqa, Fairytaleqa, Triviaqa",
+      "relation": "evaluation,performance",
+      "target": "Xgrag"
+    },
+    {
+      "source": "Original Answers",
+      "relation": "alignment,evaluation",
+      "target": "Xgrag Explanations"
+    },
+    {
+      "source": "RAG-Ex",
+      "relation": "baseline,comparison",
+      "target": "Graphrag"
+    },
+    {
+      "source": "RAG-Ex",
+      "relation": "baseline,comparison",
+      "target": "Xgrag"
+    },
+    {
+      "source": "Xgrag",
+      "relation": "framework,method",
+      "target": "Graphrag"
+    },
+    {
+      "source": "Xgrag",
+      "relation": "evaluation,performance",
+      "target": "Narrativeqa, Fairytaleqa, Triviaqa"
+    },
+    {
+      "source": "Xgrag",
+      "relation": "baseline,comparison",
+      "target": "RAG-Ex"
+    },
+    {
+      "source": "Xgrag Explanations",
+      "relation": "correlation,validation",
+      "target": "Graph Centrality Measures"
+    },
+    {
+      "source": "Xgrag Explanations",
+      "relation": "alignment,evaluation",
+      "target": "Original Answers"
+    },
+    {
+      "source": "Capability-Intensive Test Instances",
+      "relation": "agent performance,benchmark evaluation",
+      "target": "Skill Retrieval Augmentation-Bench (Sra-Bench)"
+    },
+    {
+      "source": "Gold Skills",
+      "relation": "paradigm development,skill incorporation",
+      "target": "Skill Retrieval Augmentation (Sra)"
+    },
+    {
+      "source": "Skill Retrieval Augmentation (Sra)",
+      "relation": "paradigm development,skill loading",
+      "target": "Skill Incorporation"
+    },
+    {
+      "source": "Skill Retrieval Augmentation (Sra)",
+      "relation": "benchmark development,paradigm evaluation",
+      "target": "Sra-Bench"
+    },
+    {
+      "source": "Skill Retrieval Augmentation (Sra)",
+      "relation": "paradigm development,skill incorporation",
+      "target": "Gold Skills"
+    },
+    {
+      "source": "Skill Retrieval Augmentation-Bench (Sra-Bench)",
+      "relation": "agent performance,benchmark evaluation",
+      "target": "Capability-Intensive Test Instances"
+    },
+    {
+      "source": "Skill Retrieval Augmentation-Bench (Sra-Bench)",
+      "relation": "benchmark evaluation,model capabilities",
+      "target": "Large Language Models"
+    },
+    {
+      "source": "Sra-Bench",
+      "relation": "benchmark development,paradigm evaluation",
+      "target": "Skill Retrieval Augmentation (Sra)"
+    },
+    {
+      "source": "Skill Incorporation",
+      "relation": "paradigm development,skill loading",
+      "target": "Skill Retrieval Augmentation (Sra)"
+    },
+    {
+      "source": "Ssrp",
+      "relation": "model improvement,statistically significant gains",
+      "target": "Retrieval-Reasoning Contamination"
+    },
+    {
+      "source": "Retrieval-Reasoning Contamination",
+      "relation": "model improvement,statistically significant gains",
+      "target": "Ssrp"
+    },
+    {
+      "source": "Mimic",
+      "relation": "model application,task",
+      "target": "Universal Multimodal Retrieval (Umr)"
+    },
+    {
+      "source": "Agentic Clinical Reasoning System",
+      "relation": "method comparison,model performance",
+      "target": "Iterative RAG and Full-Context Input"
+    },
+    {
+      "source": "Full-Context Input",
+      "relation": "method comparison,model performance",
+      "target": "RAG and Iterative RAG"
+    },
+    {
+      "source": "Iterative RAG and Full-Context Input",
+      "relation": "method comparison,model performance",
+      "target": "Agentic Clinical Reasoning System"
+    },
+    {
+      "source": "RAG and Iterative RAG",
+      "relation": "method comparison,model performance",
+      "target": "Full-Context Input"
+    },
+    {
+      "source": "Strategy Articulation",
+      "relation": "method combination,strategy description",
+      "target": "Stratified Experience Retrieval"
+    },
+    {
+      "source": "Stratified Experience Retrieval",
+      "relation": "method combination,strategy description",
+      "target": "Strategy Articulation"
+    },
+    {
+      "source": "Memcoder",
+      "relation": "framework comparison,performance gain",
+      "target": "Retrieval-Augmented Generation"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "relation": "method application,verification research",
+      "target": "Finground Pipeline"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "relation": "improvement,method application",
+      "target": "Utility-Aligned Embeddings (Uae)"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "relation": "clinically relevant segments,information selection",
+      "target": "Long Ehrs"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "relation": "improvement,method comparison",
+      "target": "Physe"
+    },
+    {
+      "source": "Retrieval-Augmented Generation",
+      "relation": "method application,multi-agent architecture",
+      "target": "Soccerref-Agents"
+    }
+  ],
+  "08_gnn_thematic_subgraph": [
+    {
+      "source": "Acr-Gnns",
+      "relation": "expressive power,expressiveness,model formalism",
+      "target": "Graph Neural Networks"
+    },
+    {
+      "source": "Graded Modal Logic With Global Counting Modalities",
+      "relation": "comparison,expressive power",
+      "target": "Graph Neural Networks"
+    },
+    {
+      "source": "Hauke And Wał{K E}Ga (2026)",
+      "relation": "expressive power,research contribution",
+      "target": "Graph Neural Networks"
+    },
+    {
+      "source": "Drug Synergy Prediction Via Residual Graph Isomorphism Networks And Attention Mechanisms",
+      "relation": "comparison,existing approach",
+      "target": "Graph Neural Networks (Gnns)"
+    },
+    {
+      "source": "Graph Neural Networks (Gnns)",
+      "relation": "comparison,existing approach",
+      "target": "Drug Synergy Prediction Via Residual Graph Isomorphism Networks And Attention Mechanisms"
+    },
+    {
+      "source": "Graph Neural Networks (Gnns)",
+      "relation": "model comparison,performance evaluation",
+      "target": "Residual Graph Isomorphism Network Integrated With An Attention Mechanism (Resgin-Att)"
+    },
+    {
+      "source": "Residual Graph Isomorphism Network Integrated With An Attention Mechanism (Resgin-Att)",
+      "relation": "model comparison,performance evaluation",
+      "target": "Graph Neural Networks (Gnns)"
+    },
+    {
+      "source": "Graph Neural Ordinary Differential Equations",
+      "relation": "continuous-time representation flows,model extension",
+      "target": "Latent-Hysteresis Graph Odes"
+    },
+    {
+      "source": "Latent-Hysteresis Graph Odes",
+      "relation": "continuous-time representation flows,model extension",
+      "target": "Graph Neural Ordinary Differential Equations"
+    },
+    {
+      "source": "Crystal Structure Prediction (Csp)",
+      "relation": "computational approach,task-method relationship",
+      "target": "Graph Neural Combinatorial Optimization"
+    },
+    {
+      "source": "Expander Graphs",
+      "relation": "concept-model relationship,theoretical foundation",
+      "target": "Gnns (Graph Neural Networks)"
+    },
+    {
+      "source": "Expander Graphs",
+      "relation": "method-concept relationship,theoretical foundation",
+      "target": "Graph Neural Combinatorial Optimization"
+    },
+    {
+      "source": "Gnns (Graph Neural Networks)",
+      "relation": "concept-model relationship,theoretical foundation",
+      "target": "Expander Graphs"
+    },
+    {
+      "source": "Gnns (Graph Neural Networks)",
+      "relation": "implementation detail,method-model relationship",
+      "target": "Graph Neural Combinatorial Optimization"
+    },
+    {
+      "source": "Graph Neural Combinatorial Optimization",
+      "relation": "computational approach,task-method relationship",
+      "target": "Crystal Structure Prediction (Csp)"
+    },
+    {
+      "source": "Graph Neural Combinatorial Optimization",
+      "relation": "implementation detail,method-method relationship",
+      "target": "Gumbel-Sinkhorn Approach"
+    },
+    {
+      "source": "Graph Neural Combinatorial Optimization",
+      "relation": "implementation detail,method-model relationship",
+      "target": "Gnns (Graph Neural Networks)"
+    },
+    {
+      "source": "Graph Neural Combinatorial Optimization",
+      "relation": "method-concept relationship,theoretical foundation",
+      "target": "Expander Graphs"
+    },
+    {
+      "source": "Gumbel-Sinkhorn Approach",
+      "relation": "implementation detail,method-method relationship",
+      "target": "Graph Neural Combinatorial Optimization"
+    },
+    {
+      "source": "Citation Benchmark",
+      "relation": "benchmark,performance evaluation",
+      "target": "Layer Embedding Deep Fusion Graph Neural Network"
+    },
+    {
+      "source": "Graph Neural Networks",
+      "relation": "improvement,novel framework",
+      "target": "Layer Embedding Deep Fusion Graph Neural Network"
+    },
+    {
+      "source": "Graph Neural Networks",
+      "relation": "comparison,expressive power",
+      "target": "Graded Modal Logic With Global Counting Modalities"
+    },
+    {
+      "source": "Graph Neural Networks",
+      "relation": "expressive power,research contribution",
+      "target": "Hauke And Wał{K E}Ga (2026)"
+    },
+    {
+      "source": "Graph Neural Networks",
+      "relation": "expressive power,expressiveness,model formalism",
+      "target": "Acr-Gnns"
+    },
+    {
+      "source": "Image Benchmark",
+      "relation": "benchmark,performance evaluation",
+      "target": "Layer Embedding Deep Fusion Graph Neural Network"
+    },
+    {
+      "source": "Layer Embedding Deep Fusion Graph Neural Network",
+      "relation": "improvement,novel framework",
+      "target": "Graph Neural Networks"
+    },
+    {
+      "source": "Layer Embedding Deep Fusion Graph Neural Network",
+      "relation": "benchmark,performance evaluation",
+      "target": "Citation Benchmark"
+    },
+    {
+      "source": "Layer Embedding Deep Fusion Graph Neural Network",
+      "relation": "benchmark,performance evaluation",
+      "target": "Image Benchmark"
+    }
+  ],
+  "09_graph_degree_summary": [
+    {
+      "nodes": 5065,
+      "avg_degree": 2.0011846001974356,
+      "max_degree": 215,
+      "min_degree": 0
+    }
+  ],
+  "10_community_detection_gds": {
+    "error": "{neo4j_code: Neo.ClientError.Procedure.ProcedureNotFound} {message: There is no procedure with the name `gds.graph.project` registered for this database instance. Please ensure you've spelled the procedure name correctly and that the procedure is properly deployed.} {gql_status: 42001} {gql_status_description: error: syntax error or access rule violation - invalid syntax}"
+  },
+  "10b_louvain_communities": {
+    "error": "{neo4j_code: Neo.ClientError.Procedure.ProcedureNotFound} {message: There is no procedure with the name `gds.louvain.stream` registered for this database instance. Please ensure you've spelled the procedure name correctly and that the procedure is properly deployed.} {gql_status: 42001} {gql_status_description: error: syntax error or access rule violation - invalid syntax}"
+  }
+}
