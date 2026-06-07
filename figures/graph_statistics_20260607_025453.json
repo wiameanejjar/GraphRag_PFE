@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-06-07 02:54:53",
+  "global": {
+    "nodes": 5065,
+    "edges": 5068,
+    "density": 0.00039517863353029885,
+    "avg_degree": 2.0011846001974334,
+    "median_degree": 1.0,
+    "min_degree": 0,
+    "max_degree": 215,
+    "largest_component_size": 2195,
+    "largest_component_pct": 43.33662388943731
+  },
+  "diameter": "N/A (graphe non connexe)",
+  "clustering": 0.08010150118346447,
+  "top_nodes": [
+    {
+      "rank": 1,
+      "name": "Large Language Models",
+      "degree": 215
+    },
+    {
+      "rank": 2,
+      "name": "Vision-Language Models",
+      "degree": 41
+    },
+    {
+      "rank": 3,
+      "name": "Agentic AI Architecture",
+      "degree": 28
+    },
+    {
+      "rank": 4,
+      "name": "Stellar-E",
+      "degree": 27
+    },
+    {
+      "rank": 5,
+      "name": "Solartformer",
+      "degree": 27
+    },
+    {
+      "rank": 6,
+      "name": "Gsar",
+      "degree": 23
+    },
+    {
+      "rank": 7,
+      "name": "Physnote",
+      "degree": 22
+    },
+    {
+      "rank": 8,
+      "name": "Cuda Tile",
+      "degree": 22
+    },
+    {
+      "rank": 9,
+      "name": "Memanto",
+      "degree": 22
+    },
+    {
+      "rank": 10,
+      "name": "Code Broker",
+      "degree": 21
+    },
+    {
+      "rank": 11,
+      "name": "Trust-Ssl",
+      "degree": 21
+    },
+    {
+      "rank": 12,
+      "name": "GPT-5.4",
+      "degree": 20
+    },
+    {
+      "rank": 13,
+      "name": "Mimic",
+      "degree": 20
+    },
+    {
+      "rank": 14,
+      "name": "Reageo",
+      "degree": 20
+    },
+    {
+      "rank": 15,
+      "name": "Large Language Model (LLM)",
+      "degree": 19
+    }
+  ],
+  "degree_distribution": {
+    "mean": 2.0011846001974334,
+    "median": 1.0,
+    "std": 3.7193762517859397,
+    "min": 0,
+    "max": 215,
+    "q25": 1.0,
+    "q75": 2.0
+  }
+}
