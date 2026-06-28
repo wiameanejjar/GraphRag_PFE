@@ -1193,5 +1193,476 @@ print(" Modèle local changé pour meilleure qualité d'extraction")
   **J'ai laissé ces codes dans le journal à fin de les tester, je voulais d'abord votre aide et remarques pour surmonter ce bloquage et aussi de ne pas être trés en retard dans les livrables\***
   **Prochaine étape** : Exécuter ces Solutions et avancer dans le projet pour récupérer le temps pérdus
 
+# SPRINT 3 — Semaine 1 (08–14 Juin 2026)
+
+## Résolution des problèmes du Sprint 2
+
+L'objectif principal de cette semaine était de corriger les principaux problèmes identifiés lors de l'évaluation de LightRAG afin de pouvoir poursuivre le développement de l'Agentic GraphRAG sur une base plus stable.
+
+---
+
+## 08/06/2026 — Correction des problèmes LightRAG
+
+### Problème 1 — Réponses tronquées du LLM
+
+#### Problème
+
+Les réponses générées par Ollama étaient parfois limitées à quelques mots tels que :
+
+- "Based"
+- "The"
+
+#### Diagnostic
+
+- Vérification du prompt envoyé au LLM.
+- Vérification des paramètres `num_predict`.
+- Analyse des logs Ollama.
+
+#### Cause
+
+Le nombre maximal de tokens générés était insuffisant.
+
+#### Solution
+
+- augmentation de `num_predict`
+- ajustement des paramètres de génération
+
+#### Résultat
+
+Les réponses sont désormais complètes mais pas assez suffisant et pas assez correct.
+
+---
+
+### Problème 2 — Cache LightRAG
+
+#### Problème
+
+Après modification du code, LightRAG continuait à retourner les anciennes réponses.
+
+#### Diagnostic
+
+- analyse du cache LightRAG
+- suppression puis reconstruction du cache
+- vérification des clés utilisées
+
+#### Solution
+
+- nettoyage du cache
+- reconstruction complète des index
+
+-  Résultat : les mêmes réponses de cache sont encores là même si tous est supprimés et redémarés  .
+
+---
+
+### Problème 3 — Canonicalisation des entités
+
+#### Problème
+
+Une même entité apparaissait sous plusieurs formes.
+
+Exemples :
+
+- LLM
+- LLMs
+- Large Language Model
+- Large Language Models
+
+#### Diagnostic
+
+Analyse des entités présentes dans le graphe Neo4j.
+
+#### Solution
+
+- amélioration de la table des alias canoniques
+- normalisation des entités avant insertion dans le graphe
+
+#### Résultat
+
+Réduction des doublons et amélioration de la cohérence du graphe.
+
+---
+
+## 10/06/2026 — Étude de LangGraph
+
+Afin de préparer le développement de l'Agentic GraphRAG, une étude du framework LangGraph a été réalisée.
+
+### Travaux effectués
+
+- étude de LangChain Academy (pas tout le cours car j'ai pas arrivé à comprendre dans ce  cours mais j'ai utilisé des vidéos youtube et ainsi des llms pour comprendre)
+- compréhension du fonctionnement des agents
+- étude du StateGraph
+- compréhension des nœuds
+- étude du routage conditionnel
+- compréhension du partage d'état entre les nœuds
+
+Cette étude a permis de préparer l'architecture de l'agent développée dans la suite du sprint.
+
+---
+
+## 11/06/2026 — Génération du benchmark d'évaluation
+
+### Première version
+
+Un premier générateur de benchmark a été développé à partir du corpus.
+
+#### Résultat
+
+Le benchmark obtenu contenait uniquement des questions pseudo multi-hop.
+
+#### Limite
+
+Les questions ne nécessitaient pas réellement plusieurs documents pour répondre.
+
+---
+
+### Deuxième version
+
+Le générateur a été entièrement revu afin de produire de véritables questions multi-hop.
+
+#### Résultat obtenu
+
+Benchmark final :
+
+- 150 questions
+- 10 vraies questions multi-hop
+- 140 questions pseudo multi-hop
+
+Ce benchmark sera utilisé pour les évaluations quantitatives du projet, mais je vais l'améliorer ensuite.
+
+---
+
+## 12–14/06/2026 — Évaluation du RAG Baseline
+
+Le benchmark généré a ensuite été utilisé pour évaluer le RAG vectoriel construit avec ChromaDB.
+
+#### Diagnostic
+
+- Analyse des documents récupérés par le retriever.
+- Le système retrouve généralement un seul document support au lieu des deux documents nécessaires.
+- Le RAG vectoriel classique ne réalise pas de raisonnement multi-hop.
+
+---
+
+#### Diagnostic pour savoir pourquoi Context Precision nul
+
+- Analyse des chunks transmis à RAGAS.
+
+#### Résultat
+
+- Les chunks récupérés par ChromaDB ne correspondent pas aux chunks de référence utilisés dans le benchmark.
+- Le problème provient d'une incompatibilité entre les index utilisés pour l'évaluation.
+
+---
+
+### Problème 3 — Difficulté à évaluer LightRAG
+
+Une première tentative d'évaluation de LightRAG a été réalisée sur le benchmark.
+
+#### Problèmes observés
+
+- réponses incorrectes
+- réponses incomplètes
+- comportement incohérent selon les requêtes
+
+#### Diagnostics réalisés
+
+- vérification du retrieval
+- vérification du contexte construit
+- vérification de la transmission du contexte au LLM
+- analyse des paramètres de requête
+- analyse du fonctionnement du cache
+
+#### Résultats
+
+Les diagnostics montrent que :
+
+- les entités sont correctement retrouvées ;
+- les relations sont correctement retrouvées ;
+- les chunks sont correctement récupérés ;
+- le contexte final est correctement construit ;
+- le contexte est correctement transmis au LLM.
+
+#### Conclusion
+
+Les problèmes observés ne proviennent pas principalement du module de retrieval mais plutôt de la génération des réponses ainsi que de certains comportements liés au cache et aux anciennes versions de `local_llm_func`.
+
+---
+
+## Bilan de la semaine
+
+### Travaux réalisés
+
+- Essaies de correction des problèmes identifiés au Sprint 2 ;
+- amélioration de la canonicalisation des entités ;
+- étude de LangChain Academy et de LangGraph ;
+- génération d'un benchmark multi-hop adapté au corpus ;
+- évaluation quantitative du RAG Baseline ;
+- premiers diagnostics approfondis sur le comportement de LightRAG.
+
+# SPRINT 3 — Semaine 2 (15–21 Juin 2026)
+
+## Compréhension approfondie de LightRAG, développement de la première version de l'Agentic GraphRAG et poursuite des diagnostics
+
+### 15/06/2026 — Poursuite des diagnostics sur LightRAG
+
+Après les premiers diagnostics réalisés la semaine précédente, les résultats de LightRAG restaient insuffisants malgré un retrieval fonctionnel.
+
+#### Travaux réalisés
+
+- Analyse approfondie du pipeline de génération de LightRAG.
+- Vérification du fonctionnement de `local_llm_func` et ajout de quelque print pour comprendre le processus.
+- Comparaison entre les réponses produites par le RAG baseline et celles générées par LightRAG.
+- Étude du code source afin d'identifier l'origine des mauvaises réponses.
+
+#### Constat
+
+- Le retrieval récupère correctement les entités, les relations et les chunks.
+- Les réponses générées restent néanmoins incomplètes ou incorrectes.
+
+
+---
+
+### 17/06/2026 — Première version de l'Agentic GraphRAG
+
+#### Travaux réalisés
+
+Développement de la première architecture fonctionnelle de l'agent.
+
+Architecture implémentée :
+
+```text
+QUERY
+   │
+GRAPH SEARCH
+   │
+RESPONSE
+```
+
+Trois premiers nœuds ont été développés :
+
+- Query
+- Graph Search
+- Response
+
+#### Résultat
+
+- exécution complète du graphe fonctionnelle ;
+- transitions entre les nœuds correctement réalisées ;
+- premier workflow LangGraph opérationnel.
+
+Cette première version constitue la base de l'architecture finale de l'Agentic GraphRAG.
+
+---
+
+### 18/06/2026 — Intégration de Phoenix pour le tracing
+
+#### Travaux réalisés
+
+Afin d'analyser le comportement de l'agent, Phoenix a été intégré au projet.
+
+Actions réalisées :
+
+- installation et configuration de Phoenix ;
+- activation du tracing des appels LLM ;
+- génération des premières traces d'exécution.
+
+#### Étude réalisée
+
+Une phase d'analyse a ensuite été consacrée à la compréhension des informations affichées dans Phoenix :
+
+- déroulement des appels LLM ;
+- visualisation des différentes étapes du workflow ;
+- compréhension des traces générées par LangGraph.
+
+Cette étape avait principalement pour objectif de se familiariser avec l'outil avant son utilisation pour le diagnostic des performances de l'agent.
+
+---
+
+### 19–20/06/2026 — Reprise de l'évaluation du RAG et de LightRAG
+
+Malgré les corrections précédentes, les résultats obtenus restaient insuffisants.
+
+#### Travaux réalisés
+
+- nouvelle évaluation du RAG baseline sur le benchmark construit à partir du corpus et avec les nouveaux paramètres ;
+- nouvelles expérimentations sur LightRAG ;
+- comparaison détaillée entre les réponses attendues et les réponses générées ;
+- analyse des métriques RAGAS.
+
+Les résultats obtenus montrent que les performances restent encore insuffisantes et faibles pour une évaluation fiable.
+
+---
+
+## Problèmes rencontrés
+
+### Problème 1 — Les réponses générées par LightRAG restent incorrectes malgré un retrieval valide
+
+#### Diagnostic réalisé
+
+- vérification des étapes de retrieval ;
+- inspection du contexte transmis au LLM et tester avec un autre llm ;
+- un diagnostic a été fait pour savoir est ce que llm qui se bloque lors de la génération de la réponse
+- comparaison avec les réponses du RAG baseline.
+
+#### Résultat
+
+- retrieval correct ;
+- contexte correctement construit ;
+- problème localisé au niveau de la génération.
+
+#### Solution
+
+- poursuite de l'analyse du pipeline de génération ;
+- étude approfondie de `local_llm_func` et de pipeline lightrag;
+- préparation de nouveaux tests de génération.
+
+---
+
+### Problème 2 — Difficulté à comprendre les informations affichées dans Phoenix
+
+#### Diagnostic réalisé
+
+Après l'intégration de Phoenix, plusieurs informations (traces, spans, appels LLM, timings) étaient disponibles mais leur interprétation n'était pas encore maîtrisée.
+
+#### Solution
+
+- étude de la documentation Phoenix ;
+- analyse progressive des différentes traces ;
+
+---
+
+### Problème 3 — Les métriques RAGAS restent faibles
+
+#### Diagnostic réalisé
+
+- réévaluation du benchmark et essayé de l'améliorer pour avoir un bon benchmark  ;
+- analyse des réponses générées ;
+- comparaison avec les réponses de référence.
+
+---
+
+# SPRINT 3 — Semaine 3 (22–28 Juin 2026)
+
+## Développement de la version complète de l'Agentic GraphRAG et première évaluation
+
+### 22/06/2026
+
+- Reprise du développement de l'architecture de l'Agentic GraphRAG.
+- Ajout des nœuds restants afin d'obtenir un workflow plus complet.
+- Définition des transitions entre les différents nœuds.
+- Mise en place des conditions permettant à l'agent de décider de poursuivre ou d'arrêter le raisonnement.
+- Validation du bon fonctionnement de l'ensemble du graphe.
+
+L'architecture obtenue est composée de cinq nœuds principaux :
+
+- Query
+- Graph Search + VECTOR_SEARCH
+- Response
+- Critique
+- Finalize
+
+---
+
+### 23/06/2026
+
+- Finalisation de l'implémentation de l'agent.
+- Tests de plusieurs questions sur le benchmark.
+- Vérification de l'exécution complète du workflow.
+- Validation des transitions entre les nœuds.
+- Vérification de la production des réponses finales.
+
+L'agent est désormais capable de :
+
+- Extraire les mots-clés de la question et interroger Neo4j via des requêtes Cypher multi-hop (0-hop entités seed, 1-hop relations directes, 2-hop multi-sauts)
+- Effectuer une recherche sémantique dans ChromaDB pour récupérer les passages textuels pertinents
+- Fusionner les deux sources (graphe + vecteurs) dans un contexte structuré via le nœud FUSE
+- Générer une réponse synthétique via Ollama llama3.1:8b (ou Groq en option) dans le nœud RESPONSE
+- Évaluer automatiquement la qualité de la réponse (complétude, fidélité, clarté) via le nœud CRITIQUE qui retourne un score entre 0 et 1
+- Reformuler la question et relancer le cycle si le score est inférieur à 0.7, jusqu'à 3 itérations maximum (SELF_CORRECT)
+- Finaliser et retourner la réponse validée via le nœud FINALIZE
+
+---
+
+### 24/06/2026
+
+- Préparation du benchmark pour l'évaluation de l'Agentic GraphRAG.
+- Adaptation du pipeline d'évaluation afin de pouvoir mesurer les performances de l'agent.
+- Intégration des métriques RAGAS dans le processus d'évaluation.
+- Lancement des premières expérimentations.
+
+---
+
+### 25/06/2026
+
+- Évaluation complète de l'Agentic GraphRAG sur le benchmark construit à partir du corpus.
+- Calcul des métriques RAGAS :
+  - Faithfulness
+  - Answer Relevancy
+  - Context Precision
+  - Context Recall
+- Analyse des réponses générées par l'agent.
+- Comparaison qualitative avec les résultats obtenus précédemment sur le RAG baseline et LightRAG, même si les réponses de ces dérniers ne sont pas assez corrects.
+
+---
+
+### 26/06/2026
+
+- Analyse détaillée des résultats obtenus.
+- Étude des réponses générées pour chaque question du benchmark.
+- Analyse de l'impact du nœud Critique sur le comportement global de l'agent.
+
+---
+
+## Problèmes rencontrés
+
+### Problème 1 — Les performances de l'Agentic GraphRAG restent limitées
+
+#### Diagnostic réalisé
+
+- Analyse des métriques RAGAS obtenues.
+- Étude des réponses générées pour chaque question.
+
+#### Résultat
+
+- certaines réponses sont pertinentes ;
+- plusieurs réponses restent incomplètes ;
+- les scores RAGAS demeurent insuffisants pour valider définitivement l'approche, même si l'evaluation de la qualité avant le critique donne un bon score.
+
+#### Solution
+
+- améliorer le benchmark d'évaluation ;
+- poursuivre l'amélioration de LightRAG afin de fournir un meilleur contexte à l'agent puis l'utiliser au lieu de requête Neo4j;
+- enrichir progressivement la stratégie de raisonnement de l'agent.
+
+---
+
+### Problème 2 — Les performances de l'agent dépendent fortement de la qualité du contexte récupéré
+
+#### Diagnostic réalisé
+
+Les analyses montrent que lorsque le contexte retourné est incomplet ou peu pertinent, la qualité des réponses de l'agent diminue également.
+
+#### Résultat
+
+Le raisonnement de l'agent reste limité par les informations fournies lors de la phase de retrieval.
+
+#### Solution
+
+- poursuivre les diagnostics de LightRAG ;
+- améliorer la qualité du retrieval avant de réaliser une nouvelle campagne d'évaluation de l'agent.
+
+---
+
+## Bilan de la semaine
+
+Au cours de cette semaine :
+
+- développement de la version 1 complète de l'Agentic avec cinq nœuds ;
+- validation du fonctionnement global du workflow LangGraph ;
+- première évaluation quantitative de l'Agentic GraphRAG à l'aide des métriques RAGAS ;
+- analyse détaillée des résultats obtenus ;
+- identification des limites actuelles du système et des axes d'amélioration pour la suite du projet.
+
+
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 05 Juin 2026_
+_Dernière mise à jour : 28 Juin 2026_
