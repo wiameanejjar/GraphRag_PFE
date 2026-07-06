@@ -2,161 +2,105 @@
   {
     "question": "What is included in an Agentic AI Architecture for efficient workflow execution?",
     "ground_truth": "Scheduling",
-    "answer": "Based on the provided context, I can synthesize the information related to Agentic AI Architecture.\n\nAccording to the 2-hop relations in the GraphRAG section:\n\n* The Agentic AI Architecture is evaluat",
-    "agent_score": 0.8,
+    "answer": "According to [Graph 1] and [Doc 1], an Agentic AI Architecture includes:\n\n* An LLM (Large Language Model) that interprets natural language into structured intents (semantic layer)\n* Validated generators that produce reproducible workflow DAGs (determ",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_2hop"
   },
   {
     "question": "What benefit does DeepSignature provide against tampering attempts?",
     "ground_truth": "Robustness",
-    "answer": "According to [Doc 1] and [Doc 2], DeepSignature provides a novel latent-space verification approach that detects and localizes tampering attempts. This is in addition to client-side verification, whic",
-    "agent_score": 0.85,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "answer": "According to [Doc 1], DeepSignature uses a novel latent-space verification approach to detect and localize tampering attempts. The specific mechanism of this approach is not explicitly described, but it is mentioned as a key feature of the system.\n\n[",
+    "agent_score": 0.75,
+    "iterations": 1,
+    "hop_type": "true_2hop"
   },
   {
     "question": "What task is critical to processing partially-observed time series data with PyPOTS and also evaluated through fine-tuning and one-shot in-context learning?",
     "ground_truth": "Model Training",
-    "answer": "Based on the provided context, I found relevant information in [Doc 1] that mentions PyPOTS as an open-source Python ecosystem for end-to-end data mining and machine learning on partially-observed tim",
-    "agent_score": 0.8,
+    "answer": "The corpus does not contain information to answer this question.",
+    "agent_score": 1.0,
     "iterations": 0,
     "hop_type": "true_2hop"
   },
   {
     "question": "What is the ultimate goal of using PEFT as a technique in EPM-RL?",
     "ground_truth": "Price Monitoring And Channel Visibility",
-    "answer": "Unfortunately, there is no direct mention of PEFT (Post-Episode Fine-Tuning) or EPM-RL (Episodic Memory-based Reinforcement Learning) in the provided context. However, I can try to provide an answer b",
-    "agent_score": 0.8,
+    "answer": "The corpus does not contain information to answer this question.\n\nNote: There is no mention of PEFT or its goals in the provided context.",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_2hop"
   },
   {
     "question": "What type of problems does QED's system design address as a specific failure mode?",
     "ground_truth": "Applied Analysis And Pdes",
-    "answer": "Unfortunately, I couldn't find any direct information about QED's system design addressing specific failure modes in the provided context. However, I can provide some related information that might be",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "answer": "The corpus does not contain information to answer this question.",
+    "agent_score": 1.0,
+    "iterations": 3,
+    "hop_type": "true_2hop"
   },
   {
     "question": "What type of environments are overlooked by Federated Learning due to its assumption of unconditional collaboration?",
     "ground_truth": "Multi-Stakeholder Environments",
-    "answer": "According to [Doc 1], Federated Learning (FL) typically assumes unconditional collaboration, which overlooks the complexities of real-world, multi-stakeholder environments. Specifically, it mentions t",
-    "agent_score": 0.8,
+    "answer": "According to [Doc 1], Federated Learning (FL) typically assumes unconditional collaboration, which overlooks the complexities of real-world, multi-stakeholder environments. Specifically, it mentions that clients may need to exclude one another for st",
+    "agent_score": 1.0,
     "iterations": 0,
     "hop_type": "true_2hop"
   },
   {
     "question": "What mechanism ensures balanced GPU utilization and addresses the critical deployment challenge of GPU load balancing in MOHGE?",
     "ground_truth": "Intra-Group Experts Auxiliary Loss",
-    "answer": "According to [Doc 2], the mechanism that ensures balanced GPU utilization and addresses the critical deployment challenge of GPU load balancing in MoHGE is an \"All-size Group-decoupling Allocation str",
-    "agent_score": 0.85,
+    "answer": "According to [Doc 2], an All-size Group-decoupling Allocation strategy coupled with an Intra-Group Experts Auxiliary Loss ensures uniform computation distribution across GPUs, thereby addressing the critical deployment challenge of GPU load balancing",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_2hop"
   },
   {
     "question": "What type of models does UpstreamQA improve upon with its explicit reasoning?",
     "ground_truth": "Large Multimodal Models (LMMS)",
-    "answer": "Unfortunately, there is no direct mention of \"UpstreamQA\" in the provided context. However, I can infer some information about the types of models that are improved upon by explicit reasoning.\n\nFrom [",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "answer": "The corpus does not contain information to answer this question.\n\nHowever, [Doc 1] mentions \"instruction-tuned\" and \"reasoning-augmented variants\", which implies that these types of models are improved by the explicit reasoning mechanism. \n\nSpecifica",
+    "agent_score": 0.75,
+    "iterations": 1,
+    "hop_type": "true_2hop"
   },
   {
     "question": "What technique does K-Score propose as an alternative to standard normalization techniques used in policy gradient reinforcement learning?",
     "ground_truth": "Reward Normalization",
-    "answer": "According to [Doc 1], K-Score proposes using a 1D Kalman filter for online reward estimation as a principled alternative to reward normalization in policy gradient reinforcement learning. This method ",
-    "agent_score": 0.85,
+    "answer": "K-Score proposes using a 1D Kalman filter for online reward estimation as an alternative to standard normalization techniques. [Doc 1]",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_2hop"
   },
   {
     "question": "What is used to evaluate the quality of synthetic datasets generated by Stellar-E?",
     "ground_truth": "LLM-as-a-judge Scores",
-    "answer": "Based on the provided context, specifically [Doc 1], it appears that the evaluation pipeline for assessing the applicability of synthetic datasets for LLM-based application evaluations includes:\n\n* St",
-    "agent_score": 0.8,
+    "answer": "According to [Doc 2], STELLAR-E uses statistical and LLM-based metrics in its evaluation pipeline to assess the applicability of the synthetic dataset for LLM-based application evaluations. \n\nMissing information: [not in corpus]",
+    "agent_score": 0.75,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_2hop"
   },
   {
-    "question": "What is an essential part of the Agentic AI Architecture's knowledge layer that provides vocabulary mappings, parameter constraints, and optimization strategies?",
-    "ground_truth": "Skills",
-    "answer": "Based on the provided context, specifically [Doc 3] Abstract, I found relevant information about the Agentic AI Architecture. According to this document:\n\n\"...an LLM interprets natural language into s",
-    "agent_score": 0.8,
+    "question": "What is the capital of France?",
+    "ground_truth": "not in corpus",
+    "answer": "The corpus does not contain information to answer this question.",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "challenge"
   },
   {
-    "question": "What type of fuel can be used in gas turbine combustors designed using the Generative Design approach with Invertible Neural Networks trained on simulated performance labels?",
-    "ground_truth": "100% H2",
-    "answer": "Unfortunately, I couldn't find any direct information about the type of fuel that can be used in gas turbine combustors designed using the Generative Design approach with Invertible Neural Networks. H",
-    "agent_score": 0.8,
+    "question": "What is the purpose of the moon in biology?",
+    "ground_truth": "not in corpus",
+    "answer": "The corpus does not contain information to answer this question.",
+    "agent_score": 1.0,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "challenge"
   },
   {
-    "question": "What type of system is exposed to architectural vulnerabilities when distinct pipeline stages are associated with Agentic Adversarial Rewriting Exposes Architectural Vulnerabilities in Black-Box NLP Pipelines?",
-    "ground_truth": "Legacy System Relying On Static Lexical Retrieval",
-    "answer": "Based on the provided context, I will attempt to provide an answer.\n\nFrom [Doc 3], we can see that the system exposed to architectural vulnerabilities is a Multi-component natural language processing ",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What economic system is enabled by the utility-aware data pricing framework?",
-    "ground_truth": "Data-As-A-Service Economy",
-    "answer": "Based on the provided context, specifically [Doc 1] and [Doc 5], I can provide an answer.\n\nThe utility-aware data pricing framework enables a fair \"Data-as-a-Service economy\" where high-reasoning data",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What is trained using the ICBHI dataset with meta-ensemble learning methodology?",
-    "ground_truth": "Meta-Model",
-    "answer": "Unfortunately, there's no direct information in the provided context about what is specifically trained using the ICBHI dataset with meta-ensemble learning methodology.\n\nHowever, we can infer some rel",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What issues are overlooked by Federated Learning due to its assumption of unconditional collaboration in real-world environments?",
-    "ground_truth": "Policy Compliance And Strategic Control",
-    "answer": "According to [Doc 1], Federated Learning (FL) typically assumes unconditional collaboration, which overlooks the complexities of real-world, multi-stakeholder environments. The paper identifies this g",
-    "agent_score": 0.85,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What is achieved by an Agentic AI Architecture?",
-    "ground_truth": "Full-Match Intent Accuracy",
-    "answer": "Based on the provided context, I can synthesize the following information about what is achieved by an Agentic AI Architecture:\n\nAccording to the Relations 1-hop (GraphRAG) section, specifically the r",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What is applied to held-out queries but results in worse performance after procedural expansion?",
-    "ground_truth": "Verdict-With-Hint Variant",
-    "answer": "Based on the provided context, I found relevant information in the \"Relations 1-hop (GraphRAG)\" section:\n\n• Question Selection Benchmark → Random Questioning\n  Relation: Random questioning performs po",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What are applied to Strategic Bidding in 6G Spectrum Auctions for tasks such as natural language processing and text generation?",
-    "ground_truth": "Large Language Models",
-    "answer": "Based on the provided context, I can identify that Large Language Models (LLMs) are applied to strategic bidding in 6G spectrum auctions. Specifically:\n\n* [Doc 1] mentions that LLMs are used as \"biddi",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "After being applied to physiological monitoring for long-term time series forecasting, DecompKAN is then used for which other task?",
-    "ground_truth": "Energy Systems",
-    "answer": "Unfortunately, I couldn't find any direct information in the provided context about DecompKAN's application after physiological monitoring. However, I can provide some relevant information from [Doc 1",
-    "agent_score": 0.8,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "question": "What is the role of a transformer in a software project?",
+    "ground_truth": "not in corpus",
+    "answer": "Based on the provided context, specifically [Doc 1], it is known that:\n\n* Transformer models can perform abstract symbolic reasoning, such as solving propositional logic reasoning problems given in-context. \n* However, there is no specific informatio",
+    "agent_score": 0.5,
+    "iterations": 3,
+    "hop_type": "challenge"
   }
 ]

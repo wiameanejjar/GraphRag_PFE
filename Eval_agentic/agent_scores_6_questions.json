@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What technique improves Chain-of-Thought reasoning accuracy and stability of a single deployed solver by building upon it?",
+    "ground_truth": "Cycle Adversarial Prompt",
+    "answer": "Based on the provided context, I found relevant information in [Doc 1] and [Doc 3].\n\n[Doc 1] proposes CAP-CoT (Cycle Adversarial Prompting for Chain-of-Thought), which aims to improve Chain-of-Thought",
+    "agent_score": 0.7,
+    "iterations": 0,
+    "hop_type": "true_2hop"
+  },
+  {
+    "question": "What task is critical to processing partially-observed time series data with PyPOTS and also evaluated through fine-tuning and one-shot in-context learning?",
+    "ground_truth": "Model Training",
+    "answer": "Based on the provided context, I found relevant information in [Doc 1] that mentions PyPOTS as an open-source Python ecosystem for end-to-end data mining and machine learning on partially-observed tim",
+    "agent_score": 0.8,
+    "iterations": 0,
+    "hop_type": "true_2hop"
+  },
+  {
+    "question": "What type of system is MLLMs integrated into for complex navigation tasks?",
+    "ground_truth": "Gui Agents",
+    "answer": "Unfortunately, I couldn't find any direct information about MLLMs (Multi-Layer Language Models) being integrated into a specific system for complex navigation tasks in the provided context. However, I",
+    "agent_score": 0.8,
+    "iterations": 0,
+    "hop_type": "true_2hop"
+  },
+  {
+    "question": "What type of variations does the Solartformer methodology aim to generalize across?",
+    "ground_truth": "Seasonal Variations",
+    "answer": "Based on [Doc 1], the SolarTformer methodology aims to generalize across different weather conditions, specifically:\n\n* Clear days\n* Cloudy days\n\nThis is mentioned in the passage as \"the model exhibit",
+    "agent_score": 0.7,
+    "iterations": 0,
+    "hop_type": "pseudo_2hop"
+  },
+  {
+    "question": "What method is combined with Quantization-Aware Training to prevent quality degradation during deployment?",
+    "ground_truth": "Gated Encoding And Multi-Scale Refinement",
+    "answer": "Based on the provided context, I found relevant information in [Doc 1] and [Doc 3].\n\n[Doc 1] mentions that Quantization-Aware Training (QAT) allows the network to adapt and prevents the typical drop i",
+    "agent_score": 0.8,
+    "iterations": 1,
+    "hop_type": "pseudo_2hop"
+  },
+  {
+    "question": "What is the capital of France?",
+    "ground_truth": "Paris",
+    "answer": "I don't have any information about the capital of France in the provided context. The context appears to be related to academic papers and research in AI/CS, but it does not mention anything about geo",
+    "agent_score": 0.8,
+    "iterations": 0,
+    "hop_type": "outside_benchmark"
+  }
+]
