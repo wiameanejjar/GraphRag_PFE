@@ -1,1 +1,234 @@
-{}
+{
+  "hybrid:keywords:d645b165cfacf5624d0ca44ec3b4660d": {
+    "return": "{\"high_level_keywords\": [\"GS-Quant\", \"Knowledge Graph Completion\", \"Artificial Intelligence\"], \"low_level_keywords\": [\"Graph-based algorithms\", \"Entity disambiguation\", \"Relationship extraction\", \"Node classification\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is GS-Quant? What task does Knowledge Graph Completion address?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354594,
+    "update_time": 1783354594,
+    "_id": "hybrid:keywords:d645b165cfacf5624d0ca44ec3b4660d"
+  },
+  "hybrid:query:9a241a7e2a8837e69c7431827d7ce850": {
+    "return": "Not in context.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "What is GS-Quant? What task does Knowledge Graph Completion address?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "GS-Quant, Knowledge Graph Completion, Artificial Intelligence",
+      "ll_keywords": "Graph-based algorithms, Entity disambiguation, Relationship extraction, Node classification",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354611,
+    "update_time": 1783354611,
+    "_id": "hybrid:query:9a241a7e2a8837e69c7431827d7ce850"
+  },
+  "hybrid:keywords:d63b2108ef71fcff81c8b4a59bd1d1d3": {
+    "return": "{\"high_level_keywords\": [\"Vision language action policy\", \"Model architecture\", \"Artificial intelligence\"], \"low_level_keywords\": [\"CF-VLA model\", \"Deep learning\", \"Natural language processing\", \"Computer vision\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "How does CF-VLA vision language action policy model work?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354612,
+    "update_time": 1783354612,
+    "_id": "hybrid:keywords:d63b2108ef71fcff81c8b4a59bd1d1d3"
+  },
+  "hybrid:query:9425e1733d804608543868bf854f1c9f": {
+    "return": "Not in context.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "How does CF-VLA vision language action policy model work?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Vision language action policy, Model architecture, Artificial intelligence",
+      "ll_keywords": "CF-VLA model, Deep learning, Natural language processing, Computer vision",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354625,
+    "update_time": 1783354625,
+    "_id": "hybrid:query:9425e1733d804608543868bf854f1c9f"
+  },
+  "hybrid:keywords:44161baf44a952f52d818838696470c6": {
+    "return": "{\"high_level_keywords\": [\"Federated learning\", \"Resolution strategy\", \"Multi-Track approach\"], \"low_level_keywords\": [\"Machine learning\", \"Data privacy\", \"Distributed systems\", \"Model aggregation\", \"Federated optimization\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the Multi-Track Resolution Strategy used for in federated learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354626,
+    "update_time": 1783354626,
+    "_id": "hybrid:keywords:44161baf44a952f52d818838696470c6"
+  },
+  "hybrid:query:5856e72676645b98bd84dff1c77bf765": {
+    "return": "The Multi-Track Resolution Strategy is used in federated learning to manage client-level disagreements. It is a robust strategy that guarantees strict client exclusion by creating and managing isolated model update paths, thereby preventing cross-contamination and unfairness issues. This approach is designed to handle permanent, temporal, and overlapping disagreement patterns among clients, making it a scalable and architecturally sound method for managing client-level disagreements in federated learning.\n\nThe strategy is particularly useful in settings where policy compliance and strategic control are non-negotiable, such as in real-world, multi-stakeholder environments. By allowing clients to exclude one another for strategic, regulatory, or competitive reasons, the Multi-Track Resolution Strategy enhances the practical applicability of federated learning in such environments. The strategy has been validated through an empirical evaluation using custom simulation systems and datasets, demonstrating its effectiveness in handling client-level disagreements. \n\nOverall, the Multi-Track Resolution Strategy is an important contribution to the field of federated learning, as it addresses a significant gap in the existing literature and provides a practical solution for managing client-level disagreements in real-world environments.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "What is the Multi-Track Resolution Strategy used for in federated learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Federated learning, Resolution strategy, Multi-Track approach",
+      "ll_keywords": "Machine learning, Data privacy, Distributed systems, Model aggregation, Federated optimization",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354640,
+    "update_time": 1783354640,
+    "_id": "hybrid:query:5856e72676645b98bd84dff1c77bf765"
+  },
+  "hybrid:keywords:92294f0bce105eb8d23f848bd090895a": {
+    "return": "{\"high_level_keywords\": [\"Spatial grouping\", \"H-Sets\", \"Deep learning models\"], \"low_level_keywords\": [\"Segment Anything SAM\", \"Prior models\", \"H-Sets architecture\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Which model uses Segment Anything SAM as a spatial grouping prior for H-Sets?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354641,
+    "update_time": 1783354641,
+    "_id": "hybrid:keywords:92294f0bce105eb8d23f848bd090895a"
+  },
+  "hybrid:query:936f8e919c609ebc36e5b269f30b26b7": {
+    "return": "Not in context.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "Which model uses Segment Anything SAM as a spatial grouping prior for H-Sets?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Spatial grouping, H-Sets, Deep learning models",
+      "ll_keywords": "Segment Anything SAM, Prior models, H-Sets architecture",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354654,
+    "update_time": 1783354654,
+    "_id": "hybrid:query:936f8e919c609ebc36e5b269f30b26b7"
+  },
+  "hybrid:keywords:8b9548fe5c5613e21e7f2851657ec7c1": {
+    "return": "{\"high_level_keywords\": [\"Capital city\", \"Geography\"], \"low_level_keywords\": [\"France\", \"Paris\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the capital of France?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354655,
+    "update_time": 1783354655,
+    "_id": "hybrid:keywords:8b9548fe5c5613e21e7f2851657ec7c1"
+  },
+  "hybrid:query:558b039da039c7648cd4b2cb41fe6145": {
+    "return": "Not in context.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "What is the capital of France?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 3,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Capital city, Geography",
+      "ll_keywords": "France, Paris",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354668,
+    "update_time": 1783354668,
+    "_id": "hybrid:query:558b039da039c7648cd4b2cb41fe6145"
+  },
+  "hybrid:query:b9b5e1c79f51cefb21313b4ba55d99cf": {
+    "return": "Not in context.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "Which model uses Segment Anything SAM as a spatial grouping prior for H-Sets?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 3,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Spatial grouping, H-Sets, Deep learning models",
+      "ll_keywords": "Segment Anything SAM, Prior models, H-Sets architecture",
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1783354874,
+    "update_time": 1783354874,
+    "_id": "hybrid:query:b9b5e1c79f51cefb21313b4ba55d99cf"
+  }
+}

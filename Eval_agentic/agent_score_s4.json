@@ -2,15 +2,15 @@
   {
     "question": "What is included in an Agentic AI Architecture for efficient workflow execution?",
     "ground_truth": "Scheduling",
-    "answer": "According to the provided context, the primary components and design principles of an Agentic AI Architecture that facilitate autonomous agent coordination and artificial intelligence integration for optimized workflow execution are as follows:\n\n1. *",
-    "agent_score": 0.4,
-    "iterations": 3,
+    "answer": "The corpus does not contain information to answer this question. \n\nAlthough the context mentions Agentic AI Architecture and its related components, such as Large Language Models [Doc 1], and agent-teams [Doc 3], it does not provide a comprehensive o",
+    "agent_score": 0.8,
+    "iterations": 1,
     "hop_type": "true_2hop"
   },
   {
     "question": "What benefit does DeepSignature provide against tampering attempts?",
     "ground_truth": "Robustness",
-    "answer": "According to [Doc 1], DeepSignature provides a novel latent-space verification approach to detect and localize tampering attempts. This approach allows for the detection of forgery and provides resilience against various attack scenarios. Therefore, ",
+    "answer": "According to [Doc 1], DeepSignature provides a novel latent-space verification approach to detect and localize tampering attempts. This suggests that DeepSignature offers a benefit of robustness against tampering attempts, allowing for the detection ",
     "agent_score": 0.9,
     "iterations": 0,
     "hop_type": "true_2hop"
@@ -18,7 +18,7 @@
   {
     "question": "What task is critical to processing partially-observed time series data with PyPOTS and also evaluated through fine-tuning and one-shot in-context learning?",
     "ground_truth": "Model Training",
-    "answer": "The corpus does not contain information to answer this question. \n\nAlthough [Doc 1] mentions PyPOTS, an open-source Python ecosystem for end-to-end data mining and machine learning on partially-observed time series (POTS), it does not specify the tas",
+    "answer": "The corpus does not contain information to answer this question. \n\nAlthough [Doc 1] mentions PyPOTS, an open-source Python ecosystem for end-to-end data mining and machine learning on partially-observed time series (POTS), it does not specify a task ",
     "agent_score": 1.0,
     "iterations": 0,
     "hop_type": "true_2hop"
@@ -35,22 +35,22 @@
     "question": "What type of problems does QED's system design address as a specific failure mode?",
     "ground_truth": "Applied Analysis And Pdes",
     "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.7,
+    "agent_score": 1.0,
     "iterations": 0,
     "hop_type": "true_2hop"
   },
   {
     "question": "What type of environments are overlooked by Federated Learning due to its assumption of unconditional collaboration?",
     "ground_truth": "Multi-Stakeholder Environments",
-    "answer": "According to [Doc 1], Federated Learning (FL) typically assumes unconditional collaboration, which overlooks the complexities of real-world, multi-stakeholder environments. Specifically, it is mentioned that clients may need to exclude one another fo",
-    "agent_score": 0.9,
+    "answer": "According to [Doc 1], Federated Learning (FL) typically assumes unconditional collaboration, which overlooks the complexities of real-world, multi-stakeholder environments. Specifically, it overlooks environments where clients may need to exclude one",
+    "agent_score": 0.8,
     "iterations": 0,
     "hop_type": "true_2hop"
   },
   {
     "question": "What mechanism ensures balanced GPU utilization and addresses the critical deployment challenge of GPU load balancing in MOHGE?",
     "ground_truth": "Intra-Group Experts Auxiliary Loss",
-    "answer": "The corpus does not contain information to answer this question. \n\nAlthough [Doc 1] mentions the MOHGE framework and discusses mechanisms for ensuring uniform computation distribution across GPUs, such as an \"All-size Group-decoupling Allocation stra",
+    "answer": "According to [Doc 3], MOHGE employs two specific techniques to distribute workload efficiently across GPUs and prevent overload: \n\n1. **Group-Wise Auxiliary Loss**: This mechanism dynamically steers tokens to the most parameter-efficient expert group",
     "agent_score": 0.9,
     "iterations": 1,
     "hop_type": "true_2hop"
@@ -58,9 +58,9 @@
   {
     "question": "What type of models does UpstreamQA improve upon with its explicit reasoning?",
     "ground_truth": "Large Multimodal Models (LMMS)",
-    "answer": "The corpus does not contain information to answer this question. \n\nAlthough the context mentions various concepts, models, and benchmarks related to natural language processing and question answering, such as Lexical Task Heads [concept: Lexical Task",
-    "agent_score": 0.9,
-    "iterations": 1,
+    "answer": "The corpus does not contain information to answer this question. \n\nThere is no mention of \"UpstreamQA\" in the provided context, and therefore, it is not possible to determine what type of models it improves upon with its explicit reasoning. [Graph: N",
+    "agent_score": 1.0,
+    "iterations": 0,
     "hop_type": "true_2hop"
   },
   {
