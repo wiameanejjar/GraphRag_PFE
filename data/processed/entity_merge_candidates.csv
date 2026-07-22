@@ -1,0 +1,327 @@
+cluster_id,keep_this_cluster(1/0),canonical_suggested,members,n_members,match_reasons,avg_cosine_info_only,sample_descriptions
+3011,1,Large Language Models,Large Language Model (LLM); Large Language Models; Large Language Model(S); Large (Vision-)Language Model; Large Language Model (LLM) Agents; Large Language Model Agents; Large Language Models (LLM),7,"high_lexical_overlap,normalized_equal",0.7117,"Large Language Model (LLM)
+**Large Language Model (LLM)**
+
+The Large Language Mo | Large Language Models
+**Large Language Models**
+
+Large Language Models (LLMs) ar | Large Language Model(S)
+Large Language Models are a type of artificial intellige"
+4345,1,Machine Learning,Machine Learning Models; Machine Learning Model; Machine Learning,3,"high_lexical_overlap,normalized_equal",0.6413,"Machine Learning Models
+Machine Learning Models refers to the algorithms used fo | Machine Learning Model
+A Machine Learning Model is induced using the labeled dat | Machine Learning
+Machine learning is a field that can be used in conjunction wit"
+757,1,Nlu++ Benchmark,Nlu++ Benchmark; Nlu++ Benchmark (Banking Domain); Nlu++ Benchmark (Hotel Domain),3,normalized_equal,0.9935,"Nlu++ Benchmark
+The NLU++ benchmark consists of 2,693 multi-intent queries acros | Nlu++ Benchmark (Banking Domain)
+The NLU++ benchmark includes 2,693 multi-intent | Nlu++ Benchmark (Hotel Domain)
+The NLU++ benchmark also includes 2,693 multi-int"
+868,1,Carefully Cured And Well-Structured Data,Carefully Cured And Well-Structured Data; Carefully Cured And Well-Structured Data Influence; Carefully Cured And Well-Structured Data Influence On Model Scale,3,high_lexical_overlap,0.997,"Carefully Cured And Well-Structured Data
+Carefully Cured And Well-Structured Dat | Carefully Cured And Well-Structured Data Influence
+Carefully Cured And Well-Stru | Carefully Cured And Well-Structured Data Influence On Model Scale
+Carefully Cure"
+879,1,Regression-Based Rewards Failure,Regression-Based Rewards Failure; Regression-Based Rewards Failure Entirely; Regression-Based Rewards Failure Entirely Influence,3,high_lexical_overlap,0.9983,"Regression-Based Rewards Failure
+Regression-Based Rewards Failure is mentioned i | Regression-Based Rewards Failure Entirely
+Regression-Based Rewards Failure Entir | Regression-Based Rewards Failure Entirely Influence
+Regression-Based Rewards Fai"
+912,1,Intrinsic Geometric Smoothing,Intrinsic Geometric Smoothing; Tail-Risk Intrinsic Geometric Smoothing (TIGS); Intrinsic Geometric Smoothing (TIGS),3,"high_lexical_overlap,normalized_equal",0.5845,"Intrinsic Geometric Smoothing
+Intrinsic geometric smoothing is a technique used  | Tail-Risk Intrinsic Geometric Smoothing (TIGS)
+Tail-Risk Intrinsic Geometric Smo | Intrinsic Geometric Smoothing (TIGS)
+Intrinsic Geometric Smoothing (TIGS) is men"
+4046,1,Offline Reinforcement Learning,Multi-Agent Reinforcement Learning; Offline Multi-Agent Reinforcement Learning (MARL); Offline Reinforcement Learning,3,high_lexical_overlap,0.7389,"Multi-Agent Reinforcement Learning
+Multi-agent reinforcement learning is a promi | Offline Multi-Agent Reinforcement Learning (MARL)
+Offline MARL is a challenge in | Offline Reinforcement Learning
+Offline RL is a method for training effective pol"
+4754,1,Large Language Model (LLM)-Based Baselines,Large Language Model (LLM)-Based Approaches; Large Language Model (LLM)-Based Baselines; Large Language Model (LLM)-based Approaches,3,"high_lexical_overlap,normalized_equal",0.7165,"Large Language Model (LLM)-Based Approaches
+Large Language Model (LLM)-Based App | Large Language Model (LLM)-Based Baselines
+LLM-based baselines are existing meth | Large Language Model (LLM)-based Approaches
+Large Language Model (LLM)-based App"
+1352,1,Blind Omnidirectional Image Quality Assessment (BOIQA),Blind Omnidirectional Image Quality Assessment (BOIQA); Viewport-Unaware Blind Omnidirectional Image Quality Assessment; Viewport-Unaware Blind Omnidirectional Image Assessment,3,high_lexical_overlap,0.602,"Blind Omnidirectional Image Quality Assessment (BOIQA)
+Blind Omnidirectional Ima | Viewport-Unaware Blind Omnidirectional Image Quality Assessment
+Viewport-Unaware | Viewport-Unaware Blind Omnidirectional Image Assessment
+Viewport-Unaware Blind O"
+3647,1,3D Convolutional Neural Networks,Convolutional Neural Network (CNN); Convolutional Neural Networks (CNNS); 3D Convolutional Neural Networks,3,"high_lexical_overlap,normalized_equal",0.6958,"Convolutional Neural Network (CNN)
+A Convolutional Neural Network is a type of d | Convolutional Neural Networks (CNNS)
+CNNs are effective at capturing both local  | 3D Convolutional Neural Networks
+3D convolutional neural networks are deep learn"
+3592,1,Multimodal Large Language Model,Multimodal Large Language Models (MLLMS); Multimodal Large Language Model; Multimodal Large Language Models,3,normalized_equal,0.7193,"Multimodal Large Language Models (MLLMS)
+MLLMs are large language models that ha | Multimodal Large Language Model
+Multimodal Large Language Models are advanced mo | Multimodal Large Language Models
+Multimodal Large Language Models are capable of"
+4408,1,Code Generation,Code Generation Dataset; Code Generation Module; Code Generation,3,high_lexical_overlap,0.5986,"Code Generation Dataset
+This dataset is used for evaluating the performance of S | Code Generation Module
+The code generation module is a part of the multi-agent w | Code Generation
+Code Generation is mentioned in a relation extracted from the ch"
+3861,1,Generative Recommendation,Generative Recommendation (GR); Generative Recommendation Models; Generative Recommendation,3,"high_lexical_overlap,normalized_equal",0.7492,"Generative Recommendation (GR)
+Generative Recommendation offers superior modelin | Generative Recommendation Models
+Generative recommendation models suffer from hi | Generative Recommendation
+Generative Recommendation is a task where models are t"
+2322,1,Generative Model,Generative Model; Generative Models,2,normalized_equal,0.7857,"Generative Model
+A generative model is used in the pipeline to condition on patt | Generative Models
+Generative models are a type of artificial intelligence model "
+2601,1,Active Learning Algorithm,Active Learning Algorithm; Active Learning Algorithms,2,normalized_equal,0.625,"Active Learning Algorithm
+An active learning algorithm is a method of efficientl | Active Learning Algorithms
+Active Learning Algorithms automatically identify the"
+112,1,Measuring LLM Sycophancy in Agentic Financial Applications,The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applications; Measuring LLM Sycophancy in Agentic Financial Applications,2,high_lexical_overlap,0.6162,"The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applicatio | Measuring LLM Sycophancy in Agentic Financial Applications
+This paper explores t"
+2844,1,Mixture-Of-Experts,Mixture-Of-Experts; Mixture-Of-Experts (MOE),2,normalized_equal,0.7453,"Mixture-Of-Experts
+Mixture-of-Experts is a method that uses a high dimensional,  | Mixture-Of-Experts (MOE)
+Mixture-of-Experts is a scalable model architecture tha"
+2679,1,Small Language Model,Small Language Models (SLMS); Small Language Model,2,normalized_equal,0.6888,"Small Language Models (SLMS)
+Small Language Models are AI models designed for fu | Small Language Model
+The Small Language Model is a type of model used for prompt"
+1293,1,Knowledge Graph,Knowledge Graphs (KGS); Knowledge Graph,2,normalized_equal,0.5731,"Knowledge Graphs (KGS)
+Knowledge Graphs are used in GraphRAG to provide a struct | Knowledge Graph
+A knowledge graph is a concept used to support large language mo"
+2370,1,Frontier Model,Frontier Models; Frontier Model,2,normalized_equal,0.6618,"Frontier Models
+Frontier models are advanced AI models used in this evaluation,  | Frontier Model
+The best frontier model achieves an exact accuracy of 42.1% on th"
+1754,1,Attention Mechanism,Attention Mechanism; Attention Mechanisms,2,normalized_equal,0.6489,"Attention Mechanism
+Attention Mechanism is mentioned in a relation extracted fro | Attention Mechanisms
+Attention Mechanisms are employed in the proposed model to "
+2758,1,R,R; $R^*$,2,normalized_equal,0.5933,"R
+R is another language in which aligned scripts are provided for Chart2NCode da | $R^*$
+$R^*$ is the hidden performance function that EPO-Safe aims to discover th"
+307,1,Automated Quality Assurance Cycles,Automated Quality Assurance Cycles; High-Efficiency Automated Quality Assurance Cycles,2,high_lexical_overlap,0.9607,"Automated Quality Assurance Cycles
+STE LLAR-E enables automated quality assuranc | High-Efficiency Automated Quality Assurance Cycles
+STE LLAR-E enables high-effic"
+1202,1,Prompt Injection,Prompt Injections; Prompt Injection,2,normalized_equal,0.5182,"Prompt Injections
+Prompt injections refer to the manipulation of model inputs to | Prompt Injection
+Prompt Injection is mentioned in a relation extracted from the "
+1083,1,Artificial Intelligence,Artificial Intelligence; Artificial Intelligence (AI),2,normalized_equal,0.9177,"Artificial Intelligence
+Artificial Intelligence refers to the application of mac | Artificial Intelligence (AI)
+Artificial Intelligence refers to the broader field"
+5016,1,GPT-4.1-mini,GPT-4.1-mini; gpt-4.1-mini,2,normalized_equal,0.7322,"GPT-4.1-mini
+GPT-4.1-mini is a model used in evaluating ACR bot comments.<SEP>GP | gpt-4.1-mini
+gpt-4.1-mini is a model used for evaluation in the pipeline."
+4605,1,GPT-5.4,GPT-5.4; GPT-5.4 (HIGH),2,normalized_equal,0.8569,"GPT-5.4
+A large language model used as a baseline for evaluating SSRP.<SEP>GPT-5 | GPT-5.4 (HIGH)
+GPT-5.4 (HIGH) is a large language model that achieves 94.9% accu"
+2179,1,LLM-based Systems,LLM-based Systems; LLM-Based Systems,2,normalized_equal,0.7783,"LLM-based Systems
+LLM-based systems are artificial intelligence models that can  | LLM-Based Systems
+LLM-Based Systems is mentioned in a relation extracted from th"
+1023,1,Vision-Language-Action (VLA),Vision-Language-Action Models; Vision-Language-Action (VLA),2,high_lexical_overlap,0.8599,"Vision-Language-Action Models
+Vision-Language-Action (VLA) models are promising  | Vision-Language-Action (VLA)
+VLA models possess strong zero-shot generalization "
+558,1,Neural Network,Neural Network; Neural Networks,2,normalized_equal,0.8095,"Neural Network
+A neural network is a type of machine learning model used for var | Neural Networks
+Neural networks are a type of machine learning model used in ima"
+4188,1,Large Vision-Language Models,Large Vision-Language Models (LVLMS); Large Vision-Language Models,2,normalized_equal,0.7945,"Large Vision-Language Models (LVLMS)
+LVLMs are a type of model that frequently s | Large Vision-Language Models
+Large Vision-Language Models are systems that combi"
+728,1,Reinforcement Learning,Reinforcement Learning (RL); Reinforcement Learning,2,normalized_equal,0.8321,"Reinforcement Learning (RL)
+Reinforcement Learning is a method used to enhance t | Reinforcement Learning
+**Reinforcement Learning**
+
+Reinforcement learning is a t"
+2377,1,CNN,CNN; Cnns,2,normalized_equal,0.539,"CNN
+CNN is mentioned in a relation extracted from the chunk. | Cnns
+CNNs are a type of deep learning model used for image classification tasks,"
+1412,1,Mlp,Mlp; Mlps (Multi-Layer Perceptrons),2,normalized_equal,0.5694,"Mlp
+Mlp is mentioned in a relation extracted from the chunk. | Mlps (Multi-Layer Perceptrons)
+MLPs are a type of classical neural network archi"
+2616,1,Automatic Speech Recognition,Automatic Speech Recognition Systems; Automatic Speech Recognition,2,high_lexical_overlap,0.6784,"Automatic Speech Recognition Systems
+Automatic speech recognition systems often  | Automatic Speech Recognition
+Automatic Speech Recognition (ASR) is the task of c"
+3430,1,Trusted Execution Environments,Trusted Execution Environment (TEE); Trusted Execution Environments,2,normalized_equal,0.6064,"Trusted Execution Environment (TEE)
+A Trusted Execution Environment is a secure  | Trusted Execution Environments
+Trusted Execution Environments are governance mec"
+870,1,Carefully Cured Data,Carefully Cured Data; Carefully Cured Data Influence,2,high_lexical_overlap,0.9989,"Carefully Cured Data
+Carefully Cured Data is mentioned in a relation extracted f | Carefully Cured Data Influence
+Carefully Cured Data Influence is mentioned in a "
+882,1,Well-Separated Quality Tiers,Well-Separated Quality Tiers; Well-Separated Quality Tiers Influence,2,high_lexical_overlap,0.9989,"Well-Separated Quality Tiers
+Well-Separated Quality Tiers is mentioned in a rela | Well-Separated Quality Tiers Influence
+Well-Separated Quality Tiers Influence is"
+886,1,Well-Structured Data Influence,Well-Structured Data Influence; Well-Structured Data Influence On Model Scale,2,high_lexical_overlap,0.9943,"Well-Structured Data Influence
+Well-Structured Data Influence is mentioned in a  | Well-Structured Data Influence On Model Scale
+Well-Structured Data Influence On "
+930,1,Strategic Biding In 6G Spectrum Auctions With Large Language Models,Strategic Bidding In 6G Spectrum Auctions With Large Language Models; Strategic Biding In 6G Spectrum Auctions With Large Language Models,2,high_lexical_overlap,0.5515,"Strategic Bidding In 6G Spectrum Auctions With Large Language Models
+Strategic B | Strategic Biding In 6G Spectrum Auctions With Large Language Models
+Strategic Bi"
+2185,1,Transformer,Transformers; Transformer,2,normalized_equal,0.6812,"Transformers
+Transformers demonstrate progressive behavior across various tasks. | Transformer
+The Transformer is another deep learning model used for long-range d"
+2133,1,Architecture,Model Architecture; Architecture,2,high_lexical_overlap,0.9941,"Model Architecture
+Model Architecture is mentioned in a relation extracted from  | Architecture
+Architecture is mentioned in a relation extracted from the chunk."
+2859,1,Gemini 2.5 Flash,Gemini 2.5 Flash; Gemini 2.5 Flash Lmm,2,high_lexical_overlap,0.6877,"Gemini 2.5 Flash
+Gemini 2.5 Flash is the underlying platform for ITAS.<SEP>Gemin | Gemini 2.5 Flash Lmm
+Gemini 2.5 Flash is the second large multimodal model used "
+1006,1,Respiratory Sound Classification,Respiratory Sound Classification; Respiratory Sound Classification Task,2,high_lexical_overlap,0.9388,"Respiratory Sound Classification
+Respiratory Sound Classification is the task of | Respiratory Sound Classification Task
+Respiratory sound classification task invo"
+4930,1,State-Of-The-Art Models,State-Of-The-Art Models; State-Of-The-Art Methods,2,high_lexical_overlap,0.7606,"State-Of-The-Art Models
+State-of-the-art models refer to the current best-perfor | State-Of-The-Art Methods
+State-of-the-art methods refer to the current best prac"
+1419,1,AI Agent,AI Agents; AI Agent,2,normalized_equal,0.6325,"AI Agents
+AI Agents are the entities being evaluated by AgentPulse. | AI Agent
+An AI agent is a software program that can perform tasks autonomously, "
+2947,1,Domain Expert,Domain Experts; Domain Expert,2,normalized_equal,0.6749,"Domain Experts
+Domain experts are researchers who contributed open problems in a | Domain Expert
+The Domain Expert role is responsible for providing domain-specifi"
+2428,1,Parameter-Efficient Fine-Tuning,Parameter-Efficient Fine-Tuning (PEFT); Parameter-Efficient Fine-Tuning,2,normalized_equal,0.894,"Parameter-Efficient Fine-Tuning (PEFT)
+Parameter-efficient fine-tuning (PEFT) is | Parameter-Efficient Fine-Tuning
+Parameter-efficient fine-tuning is a method used"
+1259,1,International Financial Institution,International Financial Institution; International Financial Institution Lobby,2,high_lexical_overlap,0.8987,"International Financial Institution
+The international financial institution is t | International Financial Institution Lobby
+The international financial institutio"
+1257,1,Cross-Language Policy Drift,Cross-Language Policy Drift; Cross-Language Policy Drift Phenomenon,2,high_lexical_overlap,0.9998,"Cross-Language Policy Drift
+Cross-language policy drift refers to the phenomenon | Cross-Language Policy Drift Phenomenon
+Cross-language policy drift refers to the"
+1963,1,Code Generation Benchmark,Code Generation Benchmarks; Code Generation Benchmark,2,normalized_equal,0.8389,"Code Generation Benchmarks
+Code generation benchmarks are used to evaluate the p | Code Generation Benchmark
+The code generation benchmark is used to assess Tandem"
+2369,1,4B Model,4B Model; 4B Models,2,normalized_equal,0.6998,"4B Model
+The 4B model is a type of language model that outperforms its teacher o | 4B Models
+Open-source 4B models score approximately 6% on the PushupBench task, "
+1288,1,Contextual Curvature Modulates Behavioral Uncertainty In Large Language Models,Representational Curvature Modulates Behavioral Uncertainty In Large Language Models; Contextual Curvature Modulates Behavioral Uncertainty In Large Language Models,2,high_lexical_overlap,1.0,"Representational Curvature Modulates Behavioral Uncertainty In Large Language Mo | Contextual Curvature Modulates Behavioral Uncertainty In Large Language Models
+C"
+3614,1,Time Series Forecasting,Time Series Forecasting; Energy Time Series Forecasting,2,high_lexical_overlap,0.662,"Time Series Forecasting
+Time series forecasting is a task in scientific domains  | Energy Time Series Forecasting
+Energy Time Series Forecasting is a critical task"
+3689,1,Intelligent Transportation Systems,Intelligent Transportation Systems; Intelligent Transportation Systems (ITS),2,normalized_equal,0.7546,"Intelligent Transportation Systems
+Intelligent transportation systems aim to imp | Intelligent Transportation Systems (ITS)
+Intelligent transportation systems are "
+4786,1,Variational Autoencoder,Variational Autoencoder (VAE) Models; Variational Autoencoder,2,high_lexical_overlap,0.7018,"Variational Autoencoder (VAE) Models
+Variational Autoencoder (VAE) Models are us | Variational Autoencoder
+A Variational Autoencoder is used by MISTY to structure "
+1554,1,Graph Memory Transformer V7,Graph Memory Transformer (GMT); Graph Memory Transformer V7,2,high_lexical_overlap,0.6718,"Graph Memory Transformer (GMT)
+The Graph Memory Transformer is a decoder-only tr | Graph Memory Transformer V7
+The base GMT v7 instantiation studied here has 16 tr"
+1623,1,Neologisms Support Tool,Neologisms Support Tool; Neologisms Support Tool Evaluation,2,high_lexical_overlap,0.8414,"Neologisms Support Tool
+The neologisms support tool is an AI-based system that h | Neologisms Support Tool Evaluation
+The neologisms support tool evaluation task i"
+4157,1,Population-Based Model,Population-Based Model; Population-Based Methods,2,high_lexical_overlap,0.575,"Population-Based Model
+A population-based model includes all age groups and has  | Population-Based Methods
+Population-based methods are a type of multi-task optim"
+4186,1,Hallucination,Hallucination; Hallucinations,2,normalized_equal,0.6027,"Hallucination
+Hallucination is mentioned in a relation extracted from the chunk. | Hallucinations
+Hallucinations refer to outputs that are not grounded in the visu"
+2114,1,Recurrent Neural Network (RNN),Recurrent Neural Network (RNN); Recurrent Neural Networks (RNNS),2,normalized_equal,0.4306,"Recurrent Neural Network (RNN)
+The proposed scheme uses a recurrent neural netwo | Recurrent Neural Networks (RNNS)
+Recurrent Neural Networks (RNNS) is mentioned i"
+5045,1,Mathematical Reasoning Benchmark,Mathematical Reasoning Benchmark; Mathematical Reasoning Benchmarks,2,normalized_equal,0.9184,"Mathematical Reasoning Benchmark
+The mathematical reasoning benchmark is used to | Mathematical Reasoning Benchmarks
+These benchmarks evaluate the performance of m"
+1978,1,Slm (Small Language Model),Slm (Small Language Model); Slms (Small Language Models),2,normalized_equal,0.9869,"Slm (Small Language Model)
+The SLM is guided by the LLM's generated insights to  | Slms (Small Language Models)
+SLMs are guided by the LLM's generated insights to "
+2142,1,Human Evaluation,Human Evaluations; Human Evaluation,2,normalized_equal,0.5897,"Human Evaluations
+Human evaluations are used as a baseline for evaluating the pe | Human Evaluation
+Human Evaluation is mentioned in a relation extracted from the "
+3419,1,Electronic Health Records,Electronic Health Records (EHRS); Electronic Health Records,2,normalized_equal,0.765,"Electronic Health Records (EHRS)
+Electronic Health Records are a type of dataset | Electronic Health Records
+Electronic Health Records are clinical data with irreg"
+2170,1,Kolmogorov-Arnold Networks (KAN),Kolmogorov-Arnold Networks (KAN); Kolmogorov-Arnold Networks (KANS),2,normalized_equal,0.8285,"Kolmogorov-Arnold Networks (KAN)
+Kolmogorov-Arnold Networks is a type of neural  | Kolmogorov-Arnold Networks (KANS)
+Kolmogorov-Arnold Networks are a type of neura"
+2004,1,Shepard-Type Normalized Gaussian Kan,Shepard-Type Normalized Gaussian Kan; Shepard-Type Normalized Gaussian Kan (Pu-Gkan),2,normalized_equal,0.6508,"Shepard-Type Normalized Gaussian Kan
+Shepard-Type Normalized Gaussian Kan is men | Shepard-Type Normalized Gaussian Kan (Pu-Gkan)
+Shepard-Type Normalized Gaussian "
+4393,1,Github Repository,Github Repositories; Github Repository,2,normalized_equal,0.7555,"Github Repositories
+Github repositories are used as a source for constructing th | Github Repository
+The Github repository provides reproducible results from this "
+2156,1,Emotion-Driven Motion Sequences,Emotion-Driven Motion Sequences; Natural Emotion-Driven Motion Sequences,2,high_lexical_overlap,0.6306,"Emotion-Driven Motion Sequences
+This dataset consists of natural emotion-driven  | Natural Emotion-Driven Motion Sequences
+Natural Emotion-Driven Motion Sequences "
+2157,1,Short-Term Pose Prediction,Short-Term Human Pose Prediction; Short-Term Pose Prediction,2,high_lexical_overlap,0.5901,"Short-Term Human Pose Prediction
+Short-term human pose prediction is crucial in  | Short-Term Pose Prediction
+Short-Term Pose Prediction is mentioned in a relation"
+3416,1,Supervised Contrastive Learning,Supervised Contrastive Learning Objective; Supervised Contrastive Learning,2,high_lexical_overlap,0.6066,"Supervised Contrastive Learning Objective
+Supervised contrastive learning object | Supervised Contrastive Learning
+Supervised Contrastive Learning uses labels as s"
+4041,1,Public Benchmark,Public Benchmark; Public Benchmarks,2,normalized_equal,0.7971,"Public Benchmark
+Sphere-Depth is a public benchmark introduced in the paper. | Public Benchmarks
+Public benchmarks refer to established standards or datasets u"
+3393,1,Real-World Environment,Real-World Environments; Real-World Environment,2,normalized_equal,0.5544,"Real-World Environments
+Real-world environments refer to the actual settings whe | Real-World Environment
+Real-World Environment is mentioned in a relation extract"
+3731,1,Explainable AI,Explainable AI (XAI); Explainable AI,2,normalized_equal,0.5613,"Explainable AI (XAI)
+Explainable AI refers to the field of study that focuses on | Explainable AI
+Explainable AI is mentioned in a relation extracted from the chun"
+4107,1,Attack Success Rate,Attack Success Rate (ASR); Attack Success Rate,2,normalized_equal,0.7722,"Attack Success Rate (ASR)
+Attack Success Rate is a metric used in the experiment | Attack Success Rate
+Attack success rate is a metric used to evaluate the effecti"
+4797,1,Graph Neural Networks,Graph Neural Networks; Graph Neural Networks (GNNS),2,normalized_equal,0.8016,"Graph Neural Networks
+Graph Neural Networks are a type of neural network that le | Graph Neural Networks (GNNS)
+Graph neural networks are existing approaches used "
+2809,1,Medical Image Segmentation,Medical Image Segmentation; Progress In Medical Image Segmentation,2,high_lexical_overlap,0.8879,"Medical Image Segmentation
+Medical image segmentation is a task that involves se | Progress In Medical Image Segmentation
+Progress in medical image segmentation is"
+2878,1,Sear,Sear; Sear (Social Engineering Attack Using Augmented Reality),2,normalized_equal,0.5982,"Sear
+Sear is mentioned in a relation extracted from the chunk. | Sear (Social Engineering Attack Using Augmented Reality)
+SEAR is an example of a"
+3497,1,Magnetic Resonance Imaging,Magnetic Resonance Imaging (MRI) Images; Magnetic Resonance Imaging,2,high_lexical_overlap,0.9914,"Magnetic Resonance Imaging (MRI) Images
+Magnetic Resonance Imaging (MRI) Images  | Magnetic Resonance Imaging
+Magnetic Resonance Imaging is mentioned in a relation"
+2963,1,Heterogeneous LLM Judges,Panel of heterogeneous LLM judges; Heterogeneous LLM Judges,2,high_lexical_overlap,0.6773,"Panel of heterogeneous LLM judges
+Panel of heterogeneous LLM judges is mentioned | Heterogeneous LLM Judges
+Heterogeneous LLM judges are used to evaluate the archi"
+4752,1,Channel State Information (CSI),Wi-Fi Channel State Information (CSI); Channel State Information (CSI),2,high_lexical_overlap,0.7272,"Wi-Fi Channel State Information (CSI)
+Wi-Fi CSI refers to the information obtain | Channel State Information (CSI)
+Channel state information refers to the data col"
+3176,1,Peer Identity Bias,Peer Identity Bias; Peer Identity Bias Analysis,2,high_lexical_overlap,0.8922,"Peer Identity Bias
+Peer identity bias refers to the phenomenon where LLMs exhibi | Peer Identity Bias Analysis
+Peer identity bias analysis refers to the evaluation"
+5063,1,State-Of-The-Art Performance,State-Of-The-Art (SOTA) Performance; State-Of-The-Art Performance,2,normalized_equal,0.5654,"State-Of-The-Art (SOTA) Performance
+State-Of-The-Art (SOTA) Performance is menti | State-Of-The-Art Performance
+State-of-the-Art Performance is the metric used to "
+3990,1,LLM-based Agent,LLM-based Agent; LLM-based Agents,2,normalized_equal,0.7109,"LLM-based Agent
+LLM-based agents are commonly used for text-to-SQL tasks but str | LLM-based Agents
+LLM-based Agents are rapidly being adopted for automating tasks"
+3498,1,Positron Emission Tomography,Whole-Body Positron Emission Tomography (PET); Positron Emission Tomography,2,high_lexical_overlap,0.5421,"Whole-Body Positron Emission Tomography (PET)
+Whole-Body Positron Emission Tomog | Positron Emission Tomography
+Positron Emission Tomography is mentioned in a rela"
+3287,1,Conditional Expected Distance,Conditional Expected Distance; Conditional Expected Distance Metric,2,high_lexical_overlap,0.7936,"Conditional Expected Distance
+Conditional Expected Distance is a metric derived  | Conditional Expected Distance Metric
+The conditional expected distance metric is"
+3695,1,Visual Question Answering (VQA),Graph Visual Question Answering (GVQA); Visual Question Answering (VQA),2,high_lexical_overlap,0.7396,"Graph Visual Question Answering (GVQA)
+GVQA is a method that organizes reasoning | Visual Question Answering (VQA)
+Visual question answering is an open-ended safet"
+4410,1,Mathematical Reasoning Tasks,Mathematical Reasoning Dataset; Mathematical Reasoning Tasks,2,high_lexical_overlap,0.8243,"Mathematical Reasoning Dataset
+This dataset is used for evaluating the performan | Mathematical Reasoning Tasks
+Mathematical Reasoning Tasks is mentioned in a rela"
+3556,1,Decoupled Moment Routing,Adaptive Decoupled Moment Routing; Decoupled Moment Routing,2,high_lexical_overlap,0.8249,"Adaptive Decoupled Moment Routing
+Adaptive decoupled moment routing is an extens | Decoupled Moment Routing
+Decoupled moment routing is a technique that separates "
+4618,1,Answer Set Programming,Answer Set Programming; Answer Set Programming (ASP),2,normalized_equal,0.6832,"Answer Set Programming
+Answer Set Programming is a declarative paradigm used for | Answer Set Programming (ASP)
+Answer set programming is a method used in ASP(Q) f"
+3677,1,Confidence Score,Confidence Score; Confidence Score Metric,2,high_lexical_overlap,0.9772,"Confidence Score
+Confidence score is a metric used in the SHARQ Mechanism to ena | Confidence Score Metric
+Confidence score metric is used in the SHARQ Mechanism t"
+3688,1,Weighted Hamming Distance,Weighted Hamming Distance; Weighted Hamming Distance Metric,2,high_lexical_overlap,0.9787,"Weighted Hamming Distance
+Weighted Hamming distance is a metric used in the Sema | Weighted Hamming Distance Metric
+Weighted Hamming distance metric is used in the"
+4335,1,Language Model,Language Model; Language Models,2,normalized_equal,0.7284,"Language Model
+Language models are increasingly capable and being rapidly deploy | Language Models
+Language models are a type of model that were paired with vision"
+4440,1,Supervised Fine-Tuning,Supervised Fine-Tuning (SFT); Supervised Fine-Tuning,2,normalized_equal,0.5826,"Supervised Fine-Tuning (SFT)
+SFT breaks the sandbagging behavior in models when  | Supervised Fine-Tuning
+Supervised Fine-Tuning is mentioned in a relation extract"
+4036,1,End-to-End LLM Approaches,End-to-End LLM Approaches; End-to-End Llm Approaches,2,normalized_equal,1.0,"End-to-End LLM Approaches
+End-to-End LLM Approaches is mentioned in a relation e | End-to-End Llm Approaches
+End-to-End Llm Approaches is mentioned in a relation e"
+4084,1,Mochi,Mochi; Mochi++,2,normalized_equal,0.675,"Mochi
+Mochi is a Graph Foundation Model that addresses task unification and trai | Mochi++
+Mochi++ is a more powerful variant of Mochi, achieving competitive or su"
+4445,1,Temporal Reasoning,Temporal Reasoning Models; Temporal Reasoning,2,high_lexical_overlap,0.7039,"Temporal Reasoning Models
+Temporal reasoning models are developed for detecting  | Temporal Reasoning
+Temporal reasoning involves understanding the relationships b"
+4531,1,Video Copy Detection,Video Copy Detection; Video Copy Detection Framework,2,high_lexical_overlap,0.7707,"Video Copy Detection
+Video copy detection is a task requiring robust similarity  | Video Copy Detection Framework
+The proposed framework combines aggressive frame "
+4597,1,Propositional Logic Reasoning Problems,Propositional Logic Reasoning Problems; Propositional Logic Reasoning Problems Dataset,2,high_lexical_overlap,0.9998,"Propositional Logic Reasoning Problems
+Propositional logic reasoning problems ar | Propositional Logic Reasoning Problems Dataset
+Propositional logic reasoning pro"
+4973,1,Geographic Knowledge Bases,Geographic Knowledge Bases; Structured Geographic Knowledge Bases,2,high_lexical_overlap,0.9853,"Geographic Knowledge Bases
+Geographic knowledge bases are minimized by ReaGeo th | Structured Geographic Knowledge Bases
+Structured geographic knowledge bases are "
+5019,1,gpt-5.1,gpt-5.1; GPT-5.1,2,normalized_equal,0.5676,"gpt-5.1
+gpt-5.1 is a model that achieves high completeness and coverage in the e | GPT-5.1
+GPT-5.1 is mentioned in a relation extracted from the chunk."
+5028,1,Statistical Testing,Statistical Testing; Statistical Testing Method,2,high_lexical_overlap,0.5537,"Statistical Testing
+Statistical testing is used to evaluate the performance of m | Statistical Testing Method
+Statistical Testing Method is mentioned in a relation"
+5062,1,Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge,Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge; Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge Dataset,2,high_lexical_overlap,0.7878,"Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge
+The NTIRE 20 | Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge Dataset
+The "

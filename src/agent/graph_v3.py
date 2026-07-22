@@ -1,4 +1,4 @@
-# src/agent/graph_v2.py
+# src/agent/graph_v3.py
 import os, json, re, asyncio
 from typing import TypedDict
 from dotenv import load_dotenv
@@ -8,8 +8,7 @@ nest_asyncio.apply()
 
 from langgraph.graph import StateGraph, END
 from langchain_core.messages import HumanMessage, SystemMessage
-from langchain_chroma import Chroma
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_ollama import ChatOllama
 from lightrag import LightRAG, QueryParam
 from lightrag.utils import EmbeddingFunc
 from groq import AsyncGroq, Groq
@@ -19,26 +18,31 @@ from pathlib import Path
 # CONFIG
 # ══════════════════════════════════════════════════════════════
 OLLAMA_URL      = os.getenv("OLLAMA_URL",     "http://localhost:11434")
-MODEL_NAME      = os.getenv("MODEL_NAME",     "llama3.1:8b")
+MODEL_NAME      = os.getenv("MODEL_NAME",     "llama3.1:8b")          # générateur
+JUDGE_MODEL_NAME = os.getenv("JUDGE_MODEL_NAME", "mistral:7b")        # juge local — DOIT être != MODEL_NAME
 EMBED_MODEL     = os.getenv("EMBED_MODEL",    "nomic-embed-text")
 EMBED_DIM       = int(os.getenv("EMBED_DIM",  "768"))
 OLLAMA_NUM_CTX  = int(os.getenv("OLLAMA_NUM_CTX", "8192"))
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY",   "")
 INDEX_DIR       = Path(os.getenv("INDEX_DIR", "indexes/lightrag_500_connected_v2"))
-CHROMA_DIR      = os.getenv("CHROMA_DIR",     "indexes/chroma_pfe500_baseline")
-COLLECTION_NAME = "pfe_500_baseline"
 
 USE_GROQ        = os.getenv("USE_GROQ",       "false").lower() == "true"
 USE_GROQ_JUDGE  = os.getenv("USE_GROQ_JUDGE", "true").lower()  == "true"
 
-TOP_K_LIGHTRAG  = 5
-CHUNK_TOP_K     = 3
-TOP_K_CHROMA    = 5   # uniquement pour RAGAS
-CRITIQUE_SEUIL  = 0.75
+TOP_K_LIGHTRAG  = int(os.getenv("TOP_K_LIGHTRAG", "40"))
+CHUNK_TOP_K     = int(os.getenv("CHUNK_TOP_K", "20"))
+CRITIQUE_SEUIL  = float(os.getenv("CRITIQUE_SEUIL", "0.75"))
 MAX_ITERATIONS  = 3
 
+if JUDGE_MODEL_NAME == MODEL_NAME:
+    raise ValueError(
+        f"JUDGE_MODEL_NAME ('{JUDGE_MODEL_NAME}') ne peut PAS être égal à "
+        f"MODEL_NAME ('{MODEL_NAME}') — le juge doit toujours être un modèle "
+        f"différent du générateur."
+    )
+
 # ══════════════════════════════════════════════════════════════
-# INIT LLM
+# INIT LLM — Générateur
 # ══════════════════════════════════════════════════════════════
 def _build_groq_sync(model="llama-3.3-70b-versatile", max_tokens=800):
     client = Groq(api_key=GROQ_API_KEY)
@@ -55,31 +59,59 @@ def _build_groq_sync(model="llama-3.3-70b-versatile", max_tokens=800):
 
 def _get_llm():
     if USE_GROQ and GROQ_API_KEY:
-        print("[LLM RESPONSE] Groq llama-3.3-70b")
+        print("[LLM GENERATOR] Groq llama-3.3-70b")
         return _build_groq_sync("llama-3.3-70b-versatile", 800)
-    print(f"[LLM RESPONSE] Ollama {MODEL_NAME}")
+    print(f"[LLM GENERATOR] Ollama {MODEL_NAME}")
     return ChatOllama(model=MODEL_NAME, base_url=OLLAMA_URL,
                       temperature=0, num_ctx=OLLAMA_NUM_CTX)
 
+# ══════════════════════════════════════════════════════════════
+# INIT LLM — Judge (DOIT être différent du générateur)
+# ══════════════════════════════════════════════════════════════
 def _get_judge_llm():
-    if USE_GROQ_JUDGE and GROQ_API_KEY:
-        print("[LLM CRITIQUE] Groq llama-3.3-70b (juge séparé)")
-        return _build_groq_sync("llama-3.3-70b-versatile", 300)
-    print(f"[LLM CRITIQUE] Ollama fallback")
-    return None
+    """
+    Ordre de préférence, chacun vérifié différent du générateur :
+      1) Groq llama-3.3-70b-versatile — différent par provider ET par famille
+         de modèle de n'importe quel générateur local.
+      2) Un second modèle Ollama local (JUDGE_MODEL_NAME) — vérifié vivant
+         par un ping avant d'être adopté. Nécessite 'ollama pull mistral:7b'
+         (ou un autre modèle) une seule fois si absent.
+      3) Si ni l'un ni l'autre n'est disponible : PAS de repli silencieux sur
+         le générateur. On le dit explicitement (judge_independent=False,
+         propagé dans le trace et le CSV RAGAS) plutôt que de prétendre à
+         une indépendance qui n'existe pas.
 
-llm       = _get_llm()
-judge_llm = _get_judge_llm()
-print(f"======= JUDGE LLM ==========")
-print(f"Type : {type(judge_llm)}")
+    Retourne (judge_object_or_None, is_independent: bool)
+    """
+    if USE_GROQ_JUDGE and GROQ_API_KEY:
+        print("[LLM JUDGE] Groq llama-3.3-70b (indépendant du générateur)")
+        return _build_groq_sync("llama-3.3-70b-versatile", 300), True
+
+    try:
+        candidate = ChatOllama(model=JUDGE_MODEL_NAME, base_url=OLLAMA_URL,
+                                temperature=0, num_ctx=OLLAMA_NUM_CTX)
+        candidate.invoke([HumanMessage(content="ping")])  # vérifie que le modèle est bien pullé
+        print(f"[LLM JUDGE] Ollama {JUDGE_MODEL_NAME} (indépendant du générateur {MODEL_NAME})")
+        return candidate, True
+    except Exception as e:
+        print(f"[LLM JUDGE] '{JUDGE_MODEL_NAME}' indisponible ({e})")
+        print(f"            -> lancez 'ollama pull {JUDGE_MODEL_NAME}' pour un juge local indépendant,")
+        print(f"               ou configurez GROQ_API_KEY.")
+
+    print("[LLM JUDGE] AUCUN juge indépendant disponible -> repli sur le générateur. "
+          "Chaque score sera marqué judge_independent=False.")
+    return None, False
+
+llm = _get_llm()
+judge_llm, JUDGE_IS_INDEPENDENT_AT_STARTUP = _get_judge_llm()
+print(f"======= JUDGE STATUS ========== independent={JUDGE_IS_INDEPENDENT_AT_STARTUP}")
 
 # ══════════════════════════════════════════════════════════════
 # INIT LIGHTRAG
 # ══════════════════════════════════════════════════════════════
-groq_async_client = AsyncGroq(api_key=GROQ_API_KEY)
+groq_async_client = AsyncGroq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
 
-async def groq_llm_func(prompt, system_prompt=None,
-                         history_messages=None, **kwargs):
+async def groq_llm_func(prompt, system_prompt=None, history_messages=None, **kwargs):
     history_messages = history_messages or []
     messages = []
     if system_prompt:
@@ -93,8 +125,34 @@ async def groq_llm_func(prompt, system_prompt=None,
         messages=messages, temperature=0.0, max_tokens=800)
     return (r.choices[0].message.content or "").strip()
 
+
+async def local_ollama_llm_func(prompt, system_prompt=None, history_messages=None, **kwargs):
+    """LLM utilisé par LightRAG en interne (extraction de mots-clés
+    hybrid/local/global — appelé systématiquement, même en only_need_context)."""
+    import httpx
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    for m in (history_messages or []):
+        if isinstance(m, dict):
+            messages.append(m)
+    messages.append({"role": "user", "content": prompt})
+    async with httpx.AsyncClient(timeout=120) as client:
+        r = await client.post(
+            f"{OLLAMA_URL}/api/chat",
+            json={"model": MODEL_NAME, "messages": messages, "stream": False,
+                  "options": {"num_ctx": OLLAMA_NUM_CTX, "temperature": 0}},
+        )
+        r.raise_for_status()
+        return (r.json().get("message", {}).get("content") or "").strip()
+
+
+lightrag_llm_func = groq_llm_func if (USE_GROQ and GROQ_API_KEY) else local_ollama_llm_func
+
+
 async def embedding_func(texts):
     import httpx
+    import numpy as np
     results = []
     async with httpx.AsyncClient(timeout=60) as client:
         for text in texts:
@@ -102,12 +160,12 @@ async def embedding_func(texts):
                 f"{OLLAMA_URL}/api/embeddings",
                 json={"model": EMBED_MODEL, "prompt": text})
             results.append(r.json()["embedding"])
-    return results
+    return np.vstack(results)
 
 async def _build_lightrag():
     rag = LightRAG(
         working_dir=str(INDEX_DIR),
-        llm_model_func=groq_llm_func,
+        llm_model_func=lightrag_llm_func,
         embedding_func=EmbeddingFunc(
             embedding_dim=EMBED_DIM,
             max_token_size=8192,
@@ -122,29 +180,25 @@ async def _build_lightrag():
 
 rag_instance = asyncio.get_event_loop().run_until_complete(_build_lightrag())
 print(f"[LIGHTRAG] Initialisé → {INDEX_DIR}")
-
-# Chroma — uniquement pour fournir vector_results à RAGAS
-emb_fn = OllamaEmbeddings(model=EMBED_MODEL, base_url=OLLAMA_URL)
-vectorstore = Chroma(persist_directory=CHROMA_DIR,
-                     embedding_function=emb_fn,
-                     collection_name=COLLECTION_NAME)
-chroma_retriever = vectorstore.as_retriever(search_kwargs={"k": TOP_K_CHROMA})
-print(f"[CHROMA] Chargé")
+# NOTE : Chroma a été entièrement retiré. Il ne servait qu'à alimenter RAGAS
+# (jamais à la génération) et RAGAS reçoit maintenant les contextes réels de
+# LightRAG (cf. node_hybrid_search / aquery_data).
 
 # ══════════════════════════════════════════════════════════════
 # STATE
 # ══════════════════════════════════════════════════════════════
 class AgentState(TypedDict):
-    question         : str
-    reformulated_q   : str
-    lightrag_context : str   # contexte LightRAG (graphe + chunks natifs)
-    vector_results   : list  # chunks Chroma pour RAGAS uniquement
-    response         : str
-    critique_score   : float
-    critique_reason  : str
-    iteration        : int
-    final_response   : str
-    trace            : list
+    question                    : str
+    reformulated_q              : str
+    lightrag_context             : str    # string fusionnée -> prompt du générateur
+    lightrag_retrieved_contexts  : list   # passages itemisés -> RAGAS (remplace vector_results/Chroma)
+    response                    : str
+    critique_score               : float
+    critique_reason              : str
+    critique_judge_independent   : bool   # False = ce score est une auto-évaluation
+    iteration                   : int
+    final_response               : str
+    trace                       : list
 
 # ══════════════════════════════════════════════════════════════
 # HELPERS
@@ -157,19 +211,66 @@ def _llm_call(system, user):
         return f"[LLM ERROR] {e}"
 
 def _judge_call(system, user):
+    """Retourne (contenu, was_independent_for_this_call)."""
     if judge_llm is not None:
         try:
-            r = judge_llm.invoke([SystemMessage(content=system),
-                                   HumanMessage(content=user)])
-            return r.content
+            r = judge_llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
+            return r.content, True
         except Exception as e:
-            print(f"[JUDGE] Erreur Groq : {e} — fallback Ollama")
-    return _llm_call(system, user)
+            print(f"[JUDGE] Erreur juge indépendant : {e} — repli sur le générateur POUR CET APPEL")
+    return _llm_call(system, user), False
+
+
+def _format_context_from_raw(data: dict) -> str:
+    """String fusionnée envoyée au générateur — construite depuis la même
+    donnée structurée que celle envoyée à RAGAS (garantit l'alignement)."""
+    entities = data.get("entities", []) or []
+    relationships = data.get("relationships", []) or []
+    chunks = data.get("chunks", []) or []
+    parts = []
+    if entities:
+        parts.append("=== Entités du graphe ===")
+        for e in entities:
+            parts.append(f"• [{e.get('entity_type', 'entity')}: {e.get('entity_name', '')}]\n"
+                         f"  {e.get('description', '')}")
+    if relationships:
+        parts.append("\n=== Relations (GraphRAG) ===")
+        for r in relationships:
+            parts.append(f"• {r.get('src_id', '')} → {r.get('tgt_id', '')}\n"
+                         f"  {r.get('description', '')}")
+    if chunks:
+        parts.append("\n=== Passages pertinents ===")
+        for i, c in enumerate(chunks, 1):
+            parts.append(f"[Doc {i}] {(c.get('content') or '')[:800]}")
+    return "\n".join(parts) if parts else "Aucun contexte disponible."
+
+
+def _contexts_list_from_raw(data: dict) -> list:
+    """Passages ITEMISÉS pour RAGAS (context_precision/context_recall comparent
+    chaque élément individuellement au ground_truth — un unique blob dégraderait
+    ces métriques). Une entrée par entité, par relation, par chunk."""
+    entities = data.get("entities", []) or []
+    relationships = data.get("relationships", []) or []
+    chunks = data.get("chunks", []) or []
+    items = []
+    for e in entities:
+        desc = e.get("description", "")
+        if desc:
+            items.append(f"[{e.get('entity_type', 'entity')}] {e.get('entity_name', '')}: {desc}")
+    for r in relationships:
+        desc = r.get("description", "")
+        if desc:
+            items.append(f"{r.get('src_id', '')} -> {r.get('tgt_id', '')}: {desc}")
+    for c in chunks:
+        content = c.get("content", "")
+        if content:
+            items.append(content[:1500])
+    return items if items else ["No context retrieved."]
+
 
 # ══════════════════════════════════════════════════════════════
 # NOEUDS
 # ══════════════════════════════════════════════════════════════
-
 def node_query(state: AgentState) -> AgentState:
     q         = state.get("reformulated_q") or state["question"]
     iteration = state.get("iteration", 0)
@@ -181,62 +282,46 @@ def node_query(state: AgentState) -> AgentState:
 
 def node_hybrid_search(state: AgentState) -> AgentState:
     """
-    LightRAG mode=hybrid : interroge le graphe ET les chunks vectoriels
-    en une seule requête. Remplace GRAPH_SEARCH + VECTOR_SEARCH + FUSE du Sprint 3.
-    Retourne le contexte brut (entités + relations + chunks) prêt pour RESPONSE.
+    Un seul appel LightRAG (aquery_data, retrieval seul, sans génération)
+    qui retourne entités/relations/chunks STRUCTURÉS. On en dérive :
+      - lightrag_context             : string pour le prompt du générateur
+      - lightrag_retrieved_contexts  : liste de passages pour RAGAS
+    Les deux proviennent de LA MÊME requête -> RAGAS évalue exactement ce qui
+    a été donné au LLM, jamais une approximation Chroma.
     """
     q     = state["reformulated_q"]
     trace = state.get("trace", [])
 
     async def _query():
-        ctx = await rag_instance.aquery(
+        return await rag_instance.aquery_data(
             q,
             param=QueryParam(
                 mode="hybrid",
-                only_need_context=True,
                 top_k=TOP_K_LIGHTRAG,
                 chunk_top_k=CHUNK_TOP_K,
                 enable_rerank=False,
+                max_total_tokens=int(os.getenv("MAX_TOTAL_TOKENS", "12000")),
             ),
         )
-        return ctx or ""
 
     try:
-        ctx = asyncio.get_event_loop().run_until_complete(_query())
+        result = asyncio.get_event_loop().run_until_complete(_query())
     except Exception as e:
-        ctx = ""
+        result = {}
         trace.append(f"[HYBRID_SEARCH] Erreur : {e}")
+        print(f"[HYBRID_SEARCH] Erreur : {e}")
 
-    trace.append(f"[HYBRID_SEARCH] context={len(ctx)} chars")
-    print(f"[HYBRID_SEARCH] context={len(ctx)} chars")
-    return {**state, "lightrag_context": ctx, "trace": trace}
+    data = (result or {}).get("data", {}) if isinstance(result, dict) else {}
+    ctx_string = _format_context_from_raw(data)
+    ctx_list   = _contexts_list_from_raw(data)
 
-
-def node_chroma_for_ragas(state: AgentState) -> AgentState:
-    """
-    Récupère les chunks Chroma UNIQUEMENT pour alimenter RAGAS
-    (context_precision / context_recall).
-    N'est PAS utilisé pour générer la réponse — LightRAG s'en charge.
-    """
-    q     = state["reformulated_q"]
-    trace = state.get("trace", [])
-    try:
-        docs  = chroma_retriever.invoke(q)
-        texts = [d.page_content for d in docs]
-    except Exception as e:
-        texts = []
-        trace.append(f"[CHROMA_RAGAS] Erreur : {e}")
-
-    trace.append(f"[CHROMA_RAGAS] {len(texts)} chunks pour RAGAS")
-    print(f"[CHROMA_RAGAS] {len(texts)} chunks (RAGAS only)")
-    return {**state, "vector_results": texts, "trace": trace}
+    trace.append(f"[HYBRID_SEARCH] context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
+    print(f"[HYBRID_SEARCH] context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
+    return {**state, "lightrag_context": ctx_string,
+            "lightrag_retrieved_contexts": ctx_list, "trace": trace}
 
 
 def node_response(state: AgentState) -> AgentState:
-    """
-    Génère la réponse à partir du contexte LightRAG.
-    Prompt strict anti-hallucination (Fix Sprint 4).
-    """
     q         = state["reformulated_q"]
     context   = state.get("lightrag_context", "")
     iteration = state.get("iteration", 0)
@@ -269,10 +354,6 @@ Answer (use ONLY the context above, cite sources):"""
 
 
 def node_critique(state: AgentState) -> AgentState:
-    """
-    Juge séparé Groq 70B (Fix Sprint 4).
-    Casse le biais auto-évaluation.
-    """
     q         = state["question"]
     response  = state.get("response", "")
     context   = state.get("lightrag_context", "")[:800]
@@ -307,7 +388,7 @@ Answer to evaluate:
 
 JSON:"""
 
-    raw = _judge_call(system, user)
+    raw, was_independent = _judge_call(system, user)
     try:
         m    = re.search(r"\{.*?\}", raw, re.DOTALL)
         data = json.loads(m.group()) if m else {}
@@ -316,13 +397,13 @@ JSON:"""
     except Exception:
         score, reason = 0.5, raw[:150]
 
-    trace.append(f"[CRITIQUE iter={iteration}] score={score:.2f} | {reason[:80]}")
-    print(f"[CRITIQUE iter={iteration}] score={score:.2f} | {'Groq 70B' if judge_llm else 'Ollama'}")
-    return {**state, "critique_score": score, "critique_reason": reason, "trace": trace}
+    trace.append(f"[CRITIQUE iter={iteration}] score={score:.2f} independent={was_independent} | {reason[:80]}")
+    print(f"[CRITIQUE iter={iteration}] score={score:.2f} | judge_independent={was_independent}")
+    return {**state, "critique_score": score, "critique_reason": reason,
+            "critique_judge_independent": was_independent, "trace": trace}
 
 
 def node_self_correct(state: AgentState) -> AgentState:
-    """Reformule si score < seuil ET iter < MAX_ITERATIONS."""
     q         = state["question"]
     response  = state.get("response", "")[:300]
     reason    = state.get("critique_reason", "")
@@ -372,61 +453,63 @@ def route_after_critique(state: AgentState) -> str:
 
 
 # ══════════════════════════════════════════════════════════════
-# BUILD + API
+# BUILD + API — architecture inchangée : Query → Hybrid Search → LLM
+# Response → Critique → (Finalize | Self Correct → Query)
 # ══════════════════════════════════════════════════════════════
 def build_agent():
     g = StateGraph(AgentState)
 
-    g.add_node("query",             node_query)
-    g.add_node("hybrid_search",     node_hybrid_search)     # LightRAG
-    g.add_node("chroma_for_ragas",  node_chroma_for_ragas)  # RAGAS only
-    g.add_node("response",          node_response)
-    g.add_node("critique",          node_critique)
-    g.add_node("self_correct",      node_self_correct)
-    g.add_node("finalize",          node_finalize)
+    g.add_node("query",         node_query)
+    g.add_node("hybrid_search", node_hybrid_search)
+    g.add_node("response",      node_response)
+    g.add_node("critique",      node_critique)
+    g.add_node("self_correct",  node_self_correct)
+    g.add_node("finalize",      node_finalize)
 
     g.set_entry_point("query")
-    g.add_edge("query",            "hybrid_search")
-    g.add_edge("hybrid_search",    "chroma_for_ragas")
-    g.add_edge("chroma_for_ragas", "response")
-    g.add_edge("response",         "critique")
+    g.add_edge("query",         "hybrid_search")
+    g.add_edge("hybrid_search", "response")
+    g.add_edge("response",      "critique")
     g.add_conditional_edges("critique", route_after_critique,
                             {"finalize": "finalize",
                              "self_correct": "self_correct"})
-    g.add_edge("self_correct",     "query")
-    g.add_edge("finalize",         END)
+    g.add_edge("self_correct",  "query")
+    g.add_edge("finalize",      END)
 
     return g.compile()
 
 
 def run_agent(question: str, use_phoenix: bool = False) -> dict:
     """
-    Agent Agentic GraphRAG avec LightRAG hybrid search.
-    Architecture : QUERY → HYBRID_SEARCH (LightRAG mode=hybrid)
-                 → CHROMA_FOR_RAGAS → RESPONSE → CRITIQUE (Groq juge)
+    Architecture : QUERY → HYBRID_SEARCH (LightRAG.aquery_data)
+                 → LLM RESPONSE → CRITIQUE (Judge indépendant si possible)
                  → SELF_CORRECT (max 3) → FINALIZE
+    RAGAS N'EST PAS APPELÉ ICI — voir eval_lightrag_ragas.py, exécuté
+    uniquement après que run_agent() a terminé.
     """
     if use_phoenix:
         _setup_phoenix()
 
     agent = build_agent()
     init: AgentState = {
-        "question":          question,
-        "reformulated_q":    question,
-        "lightrag_context":  "",
-        "vector_results":    [],
-        "response":          "",
-        "critique_score":    0.0,
-        "critique_reason":   "",
-        "iteration":         0,
-        "final_response":    "",
-        "trace":             [],
+        "question":                    question,
+        "reformulated_q":              question,
+        "lightrag_context":            "",
+        "lightrag_retrieved_contexts": [],
+        "response":                    "",
+        "critique_score":              0.0,
+        "critique_reason":             "",
+        "critique_judge_independent":  False,
+        "iteration":                   0,
+        "final_response":              "",
+        "trace":                       [],
     }
 
     print(f"\n{'='*60}\nQUESTION : {question}\n{'='*60}")
     result = agent.invoke(init)
     print(f"\n--- RÉPONSE FINALE ---\n{result['final_response']}")
-    print(f"Score : {result['critique_score']:.2f} | Iterations : {result['iteration']}")
+    print(f"Score : {result['critique_score']:.2f} | judge_independent={result['critique_judge_independent']} "
+          f"| Iterations : {result['iteration']}")
     return result
 
 

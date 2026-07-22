@@ -1,4 +1,4 @@
-# eval_ragas_v2.py
+# eval_ragas_3.py
 import json, random
 from pathlib import Path
 from scipy import stats
@@ -9,13 +9,13 @@ from langchain_ollama import ChatOllama, OllamaEmbeddings
 from ragas import evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from ragas.llms import LangchainLLMWrapper
-from ragas.metrics.collections import (
+from ragas.metrics import (
     Faithfulness, AnswerRelevancy,
     ContextPrecision, ContextRecall,
 )
 from ragas.run_config import RunConfig
 
-from src.agent.graph_v2 import run_agent
+from src.agent.graph_v3 import run_agent
 
 # ── Config ────────────────────────────────────────────────────
 BENCHMARK_PATH = Path("data/processed/arxiv_multihop_v1.json")
@@ -23,8 +23,8 @@ OUTPUT_DIR     = Path("Eval_agentic")
 OUTPUT_CSV     = OUTPUT_DIR / "eval_agent_s4_lightrag.csv"
 OUTPUT_JSON    = OUTPUT_DIR / "agent_scores_s4_lightrag.json"
 
-N_TRUE_2HOP  = 10    # toutes les vraies (il n'y en a que 3 dans le benchmark)
-N_PSEUDO     = 4   # pseudo 2-hop
+N_TRUE_2HOP  = 10    # toutes les vraies (il n'y en a que 10 dans le benchmark)
+N_PSEUDO     = 4     # pseudo 2-hop
 RANDOM_SEED  = 42
 
 # ── Chargement benchmark ──────────────────────────────────────
@@ -60,15 +60,13 @@ def build_eval_items(all_items, seed: int):
     return selected
 
 def build_ragas_context(result: dict) -> list:
-    """Chunks individuels pour RAGAS — pas de fused_context monolithique."""
-    vector_chunks = result.get("vector_results", []) or []
-    lightrag_ctx  = result.get("lightrag_context", "") or ""
-    contexts = []
-    if vector_chunks:
-        contexts.extend(vector_chunks[:4])
-    if lightrag_ctx and len(contexts) < 5:
-        contexts.append(lightrag_ctx[:800])
-    return contexts[:5] if contexts else ["No context retrieved."]
+    """CORRIGÉ : contexte RAGAS = exclusivement ce que LightRAG a récupéré
+    (result['lightrag_retrieved_contexts'], liste itemisée entités+relations+
+    chunks — cf. graph_v3.node_hybrid_search). Avant, ce code lisait
+    'vector_results' (Chroma) et 'lightrag_context' (string tronquée à 800
+    caractères) — deux champs qui n'existent plus dans l'état de l'agent."""
+    contexts = result.get("lightrag_retrieved_contexts") or []
+    return contexts if contexts else ["No context retrieved."]
 
 # ── Évaluation principale ──────────────────────────────────────
 def run_evaluation():
@@ -99,16 +97,21 @@ def run_evaluation():
         ragas_data["ground_truth"].append(ex.get("ground_truth", ""))
 
         agent_scores.append({
-            "question":     ex["question"],
-            "ground_truth": ex.get("ground_truth", ""),
-            "answer":       result.get("final_response", "")[:250],
-            "agent_score":  result.get("critique_score", 0.0),
-            "iterations":   result.get("iteration", 0),
-            "hop_type":     hop_type,
+            "question":          ex["question"],
+            "ground_truth":      ex.get("ground_truth", ""),
+            "answer":            result.get("final_response", "")[:250],
+            "agent_score":       result.get("critique_score", 0.0),
+            "judge_independent": result.get("critique_judge_independent", False),
+            "iterations":        result.get("iteration", 0),
+            "hop_type":          hop_type,
         })
-        print(f"  → agent_score={result.get('critique_score', 0):.2f} | iter={result.get('iteration', 0)}\n")
+        print(f"  → agent_score={result.get('critique_score', 0):.2f} "
+              f"| judge_independent={result.get('critique_judge_independent')} "
+              f"| iter={result.get('iteration', 0)}\n")
 
     # ── RAGAS ─────────────────────────────────────────────────
+    # CORRIGÉ : ce bloc avait disparu (git diff confirmé la fois précédente),
+    # laissant "ragas_result" non défini plus bas -> NameError garanti.
     print("Lancement RAGAS...")
     llm_eval  = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
@@ -132,9 +135,10 @@ def run_evaluation():
 
     # ── Post-processing ────────────────────────────────────────
     df = ragas_result.to_pandas()
-    df["hop_type"]    = [s["hop_type"]    for s in agent_scores]
-    df["agent_score"] = [s["agent_score"] for s in agent_scores]
-    df["iterations"]  = [s["iterations"]  for s in agent_scores]
+    df["hop_type"]          = [s["hop_type"]          for s in agent_scores]
+    df["agent_score"]       = [s["agent_score"]       for s in agent_scores]
+    df["judge_independent"] = [s["judge_independent"] for s in agent_scores]
+    df["iterations"]        = [s["iterations"]        for s in agent_scores]
 
     pearson_r, p_val = stats.pearsonr(
         df["agent_score"],
@@ -159,6 +163,11 @@ def run_evaluation():
     print(f"  Iterations moyennes            : {df['iterations'].mean():.2f}")
     print(f"  SELF_CORRECT déclenché         : {sc}/{len(df)} ({sc/len(df)*100:.0f}%)")
     print(f"  Pearson (agent / faithfulness) : {pearson_r:.3f}  (p={p_val:.3f})")
+
+    n_self_eval = (~df["judge_independent"]).sum()
+    if n_self_eval:
+        print(f"  ⚠ {n_self_eval}/{len(df)} scores sont des auto-évaluations "
+              f"(judge_independent=False) — interpréter la corrélation ci-dessus avec prudence")
 
     print("\n=== Comparaison Sprint 3 → Sprint 4 ===")
     s3 = {"faithfulness":       0.300,
