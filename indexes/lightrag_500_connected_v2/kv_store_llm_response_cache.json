@@ -250,5 +250,705 @@
     "create_time": 1784686611,
     "update_time": 1784686611,
     "_id": "hybrid:keywords:72cf89346c639abebe4de82484e036e5"
+  },
+  "hybrid:keywords:b5b7ee802258d7b5d448f56dc103ff60": {
+    "return": "{\"high_level_keywords\": [\"Evaluation metrics\", \"Techniques\", \"PyPOTS\"], \"low_level_keywords\": [\"Accuracy score\", \"Precision rate\", \"Recall value\", \"F1-score\", \"Machine learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is evaluated using various metrics and techniques in PyPOTS?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723520,
+    "update_time": 1784723520,
+    "_id": "hybrid:keywords:b5b7ee802258d7b5d448f56dc103ff60"
+  },
+  "hybrid:keywords:9e9c22b4a5787bd1d7a081a4c9b9dbec": {
+    "return": "{\"high_level_keywords\": [\"Performance metrics\", \"Quality metrics\", \"Evaluation techniques\"], \"low_level_keywords\": [\"PyPOTS\", \"Benchmarking\", \"Metrics analysis\", \"Evaluation methods\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What performance or quality metrics and evaluation techniques are used in PyPOTS?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723547,
+    "update_time": 1784723547,
+    "_id": "hybrid:keywords:9e9c22b4a5787bd1d7a081a4c9b9dbec"
+  },
+  "hybrid:keywords:21b34129e804098387ee5adedc41bf84": {
+    "return": "{\"high_level_keywords\": [\"Study evaluation\", \"Knee-xRAI performance\", \"Key components identification\"], \"low_level_keywords\": [\"Clinical trial\", \"Medical device evaluation\", \"Orthopedic research\", \"Knee replacement surgery\", \"Device functionality\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What study was conducted to evaluate the performance of Knee-xRAI and identify its key components?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723582,
+    "update_time": 1784723582,
+    "_id": "hybrid:keywords:21b34129e804098387ee5adedc41bf84"
+  },
+  "hybrid:keywords:cb700a45563b58f18d800a4f70ec68cf": {
+    "return": "{\"high_level_keywords\": [\"Study design\", \"Knee-xRAI evaluation\", \"Performance assessment\"], \"low_level_keywords\": [\"Randomized controlled trial\", \"Clinical trial design\", \"Outcome measures\", \"Knee replacement surgery\", \"X-ray imaging\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What study design was used to evaluate the performance of Knee-xRAI and identify its key components?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723648,
+    "update_time": 1784723648,
+    "_id": "hybrid:keywords:cb700a45563b58f18d800a4f70ec68cf"
+  },
+  "hybrid:keywords:7883e01abffed0b8c50b1e3031b26313": {
+    "return": "{\"high_level_keywords\": [\"Knee-xRAI assessment\", \"Performance evaluation\"], \"low_level_keywords\": [\"Research methods\", \"Evaluation metrics\", \"Key components analysis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific research or evaluation method was used to assess the performance and key components of Knee-xRAI?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723679,
+    "update_time": 1784723679,
+    "_id": "hybrid:keywords:7883e01abffed0b8c50b1e3031b26313"
+  },
+  "hybrid:keywords:a22269bf696d884629de8f79443e35db": {
+    "return": "{\"high_level_keywords\": [\"Knee-xRAI\", \"Effectiveness assessment\"], \"low_level_keywords\": [\"Studies\", \"Experiments\", \"Key features\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What studies or experiments were conducted to assess the effectiveness and key features of Knee-xRAI?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723706,
+    "update_time": 1784723706,
+    "_id": "hybrid:keywords:a22269bf696d884629de8f79443e35db"
+  },
+  "hybrid:keywords:78855520e8196a81734b0833e682aa12": {
+    "return": "{\"high_level_keywords\": [\"MLLMs\", \"Complex navigation\"], \"low_level_keywords\": [\"Navigation systems\", \"Artificial intelligence\", \"Machine learning models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of system is MLLMs integrated into for complex navigation tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723758,
+    "update_time": 1784723758,
+    "_id": "hybrid:keywords:78855520e8196a81734b0833e682aa12"
+  },
+  "hybrid:keywords:e34661cdae315b247bd31cc2188cf010": {
+    "return": "{\"high_level_keywords\": [\"Chain-Of-Thought\", \"Image editing performance\"], \"low_level_keywords\": [\"Problem solving\", \"AI performance enhancement\", \"Deep learning techniques\", \"Computer vision applications\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of problems can be solved using a process that incorporates Chain-Of-Thought into its image editing performance?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723811,
+    "update_time": 1784723811,
+    "_id": "hybrid:keywords:e34661cdae315b247bd31cc2188cf010"
+  },
+  "hybrid:keywords:d35de3fb1ba201bd1a4267673618f325": {
+    "return": "{\"high_level_keywords\": [\"Image editing\", \"Chain-Of-Thought\", \"Performance improvement\"], \"low_level_keywords\": [\"Task automation\", \"Problem-solving\", \"Computer vision\", \"Deep learning models\", \"Image processing\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing tasks or problems have been demonstrated to be improved by incorporating Chain-Of-Thought into their performance?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723888,
+    "update_time": 1784723888,
+    "_id": "hybrid:keywords:d35de3fb1ba201bd1a4267673618f325"
+  },
+  "hybrid:keywords:97f7c6e6b4cd9f42ea093b4a2502146a": {
+    "return": "{\"high_level_keywords\": [\"Image editing\", \"Chain-Of-Thought\", \"RAG system\"], \"low_level_keywords\": [\"Object detection\", \"Segmentation\", \"Masking\", \"Color correction\", \"Texture synthesis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing tasks or problems have been specifically addressed by incorporating Chain-Of-Thought into a RAG system's performance?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784723959,
+    "update_time": 1784723959,
+    "_id": "hybrid:keywords:97f7c6e6b4cd9f42ea093b4a2502146a"
+  },
+  "hybrid:keywords:ceedbcd7b89e4cebcf2c1b0b4d68044f": {
+    "return": "{\"high_level_keywords\": [\"Image editing\", \"Chain-Of-Thought\", \"Understanding granularity\"], \"low_level_keywords\": [\"Object detection\", \"Segmentation\", \"Masking\", \"Color correction\", \"Texture analysis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing problems can be addressed by incorporating Chain-Of-Thought into a process that enhances understanding granularity?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724000,
+    "update_time": 1784724000,
+    "_id": "hybrid:keywords:ceedbcd7b89e4cebcf2c1b0b4d68044f"
+  },
+  "hybrid:keywords:f4face39a30a3b86a974d4f8d93549c8": {
+    "return": "{\"high_level_keywords\": [\"Agentic AI Architecture\", \"Artificial Intelligence\"], \"low_level_keywords\": [\"Machine learning\", \"Deep learning\", \"Neural networks\", \"Autonomous systems\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is achieved by an Agentic AI Architecture?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724090,
+    "update_time": 1784724090,
+    "_id": "hybrid:keywords:f4face39a30a3b86a974d4f8d93549c8"
+  },
+  "hybrid:keywords:8b96c37458a2250fed13a8478da92902": {
+    "return": "{\"high_level_keywords\": [\"Agentic AI Architecture\", \"Complex ontologies\", \"Artificial intelligence development\"], \"low_level_keywords\": [\"Ontology design\", \"Knowledge representation\", \"Reasoning mechanisms\", \"Agent-based systems\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What benefits or outcomes does an Agentic AI Architecture provide for developing complex ontologies?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724135,
+    "update_time": 1784724135,
+    "_id": "hybrid:keywords:8b96c37458a2250fed13a8478da92902"
+  },
+  "hybrid:keywords:5f5ceb918b189eb9c5b9da002941a078": {
+    "return": "{\"high_level_keywords\": [\"Agentic AI Architecture\", \"Core functionality\", \"Design principles\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Machine learning\", \"Deep learning\", \"Neural networks\", \"Agent-based modeling\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are the primary benefits and outcomes achieved by implementing an Agentic AI Architecture in terms of its core functionality and design principles?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724215,
+    "update_time": 1784724215,
+    "_id": "hybrid:keywords:5f5ceb918b189eb9c5b9da002941a078"
+  },
+  "hybrid:keywords:b9d8b9a0b5e457c1219da5164de25401": {
+    "return": "{\"high_level_keywords\": [\"Agentic AI Architecture\", \"Primary benefits\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Machine learning\", \"Deep learning\", \"Neural networks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are the primary benefits of implementing an Agentic AI Architecture?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724337,
+    "update_time": 1784724337,
+    "_id": "hybrid:keywords:b9d8b9a0b5e457c1219da5164de25401"
+  },
+  "hybrid:keywords:2ee41c8cd183afecd89a8b8e5826a932": {
+    "return": "{\"high_level_keywords\": [\"Time series data\", \"PyPOTS\", \"Fine-tuning\", \"One-shot learning\"], \"low_level_keywords\": [\"Partially-observed data\", \"In-context learning\", \"Task criticality\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is critical to processing partially-observed time series data with PyPOTS and also evaluated through fine-tuning and one-shot in-context learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724417,
+    "update_time": 1784724417,
+    "_id": "hybrid:keywords:2ee41c8cd183afecd89a8b8e5826a932"
+  },
+  "hybrid:keywords:ed8b7134965f45d9186e2b3728718671": {
+    "return": "{\"high_level_keywords\": [\"Time series data\", \"PyPOTS\", \"Data processing\"], \"low_level_keywords\": [\"Partially observed data\", \"PyPOTS library\", \"Time series analysis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is critical to processing partially-observed time series data with PyPOTS?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724453,
+    "update_time": 1784724453,
+    "_id": "hybrid:keywords:ed8b7134965f45d9186e2b3728718671"
+  },
+  "hybrid:keywords:1937a14241e4f5e6278636d74d4b220b": {
+    "return": "{\"high_level_keywords\": [\"Time series data\", \"PyPOTS\", \"Fine-tuning\", \"One-shot learning\"], \"low_level_keywords\": [\"Partially-observed data\", \"In-context learning\", \"Task criticality\", \"PyTorch library\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is critical to processing partially-observed time series data with PyPOTS that involves fine-tuning and one-shot in-context learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724505,
+    "update_time": 1784724505,
+    "_id": "hybrid:keywords:1937a14241e4f5e6278636d74d4b220b"
+  },
+  "hybrid:keywords:4fc3e013ab7c08610ab8ab45fa82714c": {
+    "return": "{\"high_level_keywords\": [\"Time series data\", \"PyPOTS\", \"Fine-tuning\", \"One-shot learning\"], \"low_level_keywords\": [\"Partially-observed data\", \"In-context learning\", \"Task evaluation\", \"Model fine-tuning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is critical to processing partially-observed time series data with PyPOTS that can be evaluated through fine-tuning and one-shot in-context learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724550,
+    "update_time": 1784724550,
+    "_id": "hybrid:keywords:4fc3e013ab7c08610ab8ab45fa82714c"
+  },
+  "hybrid:keywords:c940f6dad7a5d7791b982a9d4ea3ac89": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Multiple thinkers\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Machine learning\", \"Natural language processing\", \"Human-computer interaction\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What can be solved using the Chain-of-Thought method from multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724582,
+    "update_time": 1784724582,
+    "_id": "hybrid:keywords:c940f6dad7a5d7791b982a9d4ea3ac89"
+  },
+  "hybrid:keywords:78565deae39ce9b27da65eeeef0f3579": {
+    "return": "{\"high_level_keywords\": [\"Complex problem solving\", \"Chain-of-Thought method\", \"Collaborative thinking\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Machine learning\", \"Cognitive architectures\", \"Human-computer interaction\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What complex problems can be solved using the Chain-of-Thought method from multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724674,
+    "update_time": 1784724674,
+    "_id": "hybrid:keywords:78565deae39ce9b27da65eeeef0f3579"
+  },
+  "hybrid:keywords:1d5230b88572b97c4dc235fb8c39737c": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Collaboration\", \"Multiple thinkers\"], \"low_level_keywords\": [\"Decision-making\", \"Problem-solving\", \"Teamwork\", \"Expertise sharing\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific applications or examples of the Chain-of-Thought method involve collaboration among multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724742,
+    "update_time": 1784724742,
+    "_id": "hybrid:keywords:1d5230b88572b97c4dc235fb8c39737c"
+  },
+  "hybrid:keywords:d6d6fa25af72fd26c7a472a2591bb83a": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Collaborative thinking\"], \"low_level_keywords\": [\"Problem-solving\", \"Task management\", \"Decision-making\", \"Critical thinking\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What problems or tasks can be addressed using the Chain-of-Thought method when multiple thinkers collaborate?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724798,
+    "update_time": 1784724798,
+    "_id": "hybrid:keywords:d6d6fa25af72fd26c7a472a2591bb83a"
+  },
+  "hybrid:keywords:90d16dadbda27fc5de0273790f71ccd4": {
+    "return": "{\"high_level_keywords\": [\"GPU performance\", \"Computational efficiency\"], \"low_level_keywords\": [\"FreeScale\", \"Computational bubbles\", \"90.3% reduction\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "On what type of GPUs does FreeScale demonstrate its effectiveness in reducing computational bubbles by up to 90.3%?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724850,
+    "update_time": 1784724850,
+    "_id": "hybrid:keywords:90d16dadbda27fc5de0273790f71ccd4"
+  },
+  "hybrid:keywords:be7494dd6f6fcdfdce1f82249c59b578": {
+    "return": "{\"high_level_keywords\": [\"Task elimination\", \"Memory categories\"], \"low_level_keywords\": [\"Memanto\", \"Predefined memory categories\", \"Thirteen\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is eliminated by Memanto's use of thirteen predefined memory categories?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724881,
+    "update_time": 1784724881,
+    "_id": "hybrid:keywords:be7494dd6f6fcdfdce1f82249c59b578"
+  },
+  "hybrid:keywords:53c3d7d103f0e5c6b16fc8bf236d443d": {
+    "return": "{\"high_level_keywords\": [\"Memanto\", \"Memory categories\"], \"low_level_keywords\": [\"Predefined categories\", \"Thirteen categories\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific task or tasks are eliminated by Memanto's use of thirteen predefined memory categories?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724907,
+    "update_time": 1784724907,
+    "_id": "hybrid:keywords:53c3d7d103f0e5c6b16fc8bf236d443d"
+  },
+  "hybrid:keywords:d08baa0eccfdabf6b0514ed44cf77925": {
+    "return": "{\"high_level_keywords\": [\"Task elimination\", \"Memory categories\", \"Predefined knowledge\"], \"low_level_keywords\": [\"Memanto\", \"Thirteen categories\", \"Actual text\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task is eliminated by Memanto's use of thirteen predefined memory categories, according to the actual text?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724951,
+    "update_time": 1784724951,
+    "_id": "hybrid:keywords:d08baa0eccfdabf6b0514ed44cf77925"
+  },
+  "hybrid:keywords:32de6946faa4097980fe631b76db2fba": {
+    "return": "{\"high_level_keywords\": [\"Task elimination\", \"Memory management\"], \"low_level_keywords\": [\"Memanto\", \"Predefined memory categories\", \"Thirteen\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What task or process does Memanto eliminate by using thirteen predefined memory categories?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784724978,
+    "update_time": 1784724978,
+    "_id": "hybrid:keywords:32de6946faa4097980fe631b76db2fba"
+  },
+  "hybrid:keywords:e2f8fae44962e4b281aa0d6a06cb6612": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought reasoning\", \"Solver improvement\"], \"low_level_keywords\": [\"Technique\", \"Accuracy\", \"Stability\", \"Deployed solver\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What technique improves Chain-of-Thought reasoning accuracy and stability of a single deployed solver by building upon it?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725001,
+    "update_time": 1784725001,
+    "_id": "hybrid:keywords:e2f8fae44962e4b281aa0d6a06cb6612"
+  },
+  "hybrid:keywords:3d7a6617c943de9e30f25b0f8d1f2bb2": {
+    "return": "{\"high_level_keywords\": [\"Multimodal Large Language Models\", \"GUI navigation\"], \"low_level_keywords\": [\"System design\", \"Navigation systems\", \"User interface\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What system is designed to work with Multimodal Large Language Models for GUI navigation tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725025,
+    "update_time": 1784725025,
+    "_id": "hybrid:keywords:3d7a6617c943de9e30f25b0f8d1f2bb2"
+  },
+  "hybrid:keywords:96e0792b6c6e55c0fd751bdc36f53c0a": {
+    "return": "{\"high_level_keywords\": [\"Multimodal Large Language Models\", \"GUI navigation\"], \"low_level_keywords\": [\"Systems integration\", \"Adaptation\", \"Navigation interfaces\", \"User experience design\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What systems have been specifically designed or adapted to integrate with Multimodal Large Language Models for facilitating GUI navigation tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725051,
+    "update_time": 1784725051,
+    "_id": "hybrid:keywords:96e0792b6c6e55c0fd751bdc36f53c0a"
+  },
+  "hybrid:keywords:7da76e76bd5b5f6eef199846502eadf6": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Learning with multiple thinkers\"], \"low_level_keywords\": [\"Study\", \"Methodology\", \"Cognitive science\", \"Artificial intelligence\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What study applies the Chain-of-Thought method for learning with multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725166,
+    "update_time": 1784725166,
+    "_id": "hybrid:keywords:7da76e76bd5b5f6eef199846502eadf6"
+  },
+  "hybrid:keywords:2771de6f494231217c1e5271f086a598": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Learning with multiple thinkers\"], \"low_level_keywords\": [\"Research papers\", \"Studies\", \"Machine learning\", \"Artificial intelligence\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific studies or research papers apply the Chain-of-Thought method for learning with multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725226,
+    "update_time": 1784725226,
+    "_id": "hybrid:keywords:2771de6f494231217c1e5271f086a598"
+  },
+  "hybrid:keywords:82e24b0f78542dbc136ace2f92c166a9": {
+    "return": "{\"high_level_keywords\": [\"Chain-of-Thought method\", \"Learning with multiple thinkers\"], \"low_level_keywords\": [\"Research papers\", \"Studies\", \"Artificial intelligence\", \"Machine learning\", \"Cognitive architectures\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What studies or research papers apply the Chain-of-Thought method for learning with multiple thinkers?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725365,
+    "update_time": 1784725365,
+    "_id": "hybrid:keywords:82e24b0f78542dbc136ace2f92c166a9"
+  },
+  "hybrid:keywords:2b0e1266243e369a63ccf8f09193b685": {
+    "return": "{\"high_level_keywords\": [\"Emotion dynamics understanding\", \"Multimodal Large Language Models\"], \"low_level_keywords\": [\"Evaluation system\", \"Assessment metrics\", \"Emotion recognition\", \"Language models\", \"Multimodality\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the name of the evaluation system used to assess the emotion dynamics understanding capabilities of Multimodal Large Language Models?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784725431,
+    "update_time": 1784725431,
+    "_id": "hybrid:keywords:2b0e1266243e369a63ccf8f09193b685"
   }
 }
