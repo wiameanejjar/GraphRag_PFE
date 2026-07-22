@@ -44,7 +44,7 @@ def build_eval_items(all_items, seed: int):
     return selected
 
 def build_ragas_context(result: dict) -> list:
-    """CORRIGÉ : contexte RAGAS = exclusivement ce que LightRAG a récupéré
+    """ contexte RAGAS = exclusivement ce que LightRAG a récupéré
     (result['lightrag_retrieved_contexts'], liste itemisée entités+relations+
     chunks — cf. graph_v3.node_hybrid_search). Avant, ce code lisait
     'vector_results' (Chroma) et 'lightrag_context' (string tronquée à 800
@@ -90,8 +90,6 @@ def run_evaluation():
               f"| iter={result.get('iteration', 0)}\n")
 
     # ── RAGAS ─────────────────────────────────────────────────
-    # CORRIGÉ : ce bloc avait disparu (git diff confirmé la fois précédente),
-    # laissant "ragas_result" non défini plus bas -> NameError garanti.
     print("Lancement RAGAS...")
     use_groq   = os.getenv("USE_GROQ", "false").lower() == "true"
     groq_key   = os.getenv("GROQ_API_KEY", "")
@@ -116,6 +114,7 @@ def run_evaluation():
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
     ragas_llm = LangchainLLMWrapper(llm_eval)
     ragas_emb = LangchainEmbeddingsWrapper(emb_eval)
+    ragas_batch_size = 4 if (use_groq and groq_key) else 1
 
     dataset = Dataset.from_dict(ragas_data)
 
@@ -127,8 +126,8 @@ def run_evaluation():
             ContextPrecision(llm=ragas_llm),
             ContextRecall(llm=ragas_llm),
         ],
-        run_config=RunConfig(timeout=900),
-        batch_size=1,
+        run_config=RunConfig(timeout=180, max_retries=3, max_wait=30),
+        batch_size=ragas_batch_size,
         raise_exceptions=False,
     )
 

@@ -385,10 +385,15 @@ STRICT RULES:
 5. If only partial information is available, state what is known AND
    mark what is missing as "[not in corpus]"."""
 
+# Certains backends (ex: Groq llama-3.1-8b-instant) rejettent les requêtes
+# trop volumineuses (HTTP 413) bien avant la fenêtre de contexte nominale du
+# modèle -> troncature défensive du contexte envoyé au générateur.
+MAX_GENERATOR_CONTEXT_CHARS = int(os.getenv("MAX_GENERATOR_CONTEXT_CHARS", "6000"))
+
 
 def node_response(state: AgentState) -> AgentState:
     q         = state["reformulated_q"]
-    context   = state.get("lightrag_context", "")
+    context   = state.get("lightrag_context", "")[:MAX_GENERATOR_CONTEXT_CHARS]
     iteration = state.get("iteration", 0)
     trace     = state.get("trace", [])
 
