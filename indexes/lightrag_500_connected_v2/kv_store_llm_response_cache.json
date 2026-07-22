@@ -950,5 +950,1245 @@
     "create_time": 1784725431,
     "update_time": 1784725431,
     "_id": "hybrid:keywords:2b0e1266243e369a63ccf8f09193b685"
+  },
+  "hybrid:keywords:6b6a87d700e1de8cd98f388f311e8a0d": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplet validity\", \"Collaborative construction\"], \"low_level_keywords\": [\"MindTrellis\", \"AI-assisted knowledge graph creation\", \"Triplet validation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of knowledge graph model is used to represent context-dependent triplet validity, which is developed from the knowledge graph created through collaborative construction with AI in MindTrellis?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743406,
+    "update_time": 1784743406,
+    "_id": "hybrid:keywords:6b6a87d700e1de8cd98f388f311e8a0d"
+  },
+  "hybrid:keywords:82a4f92acffe8a6646f98f693d283123": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplet validity\", \"Collaborative construction\"], \"low_level_keywords\": [\"MindTrellis\", \"AI\", \"Knowledge graph\", \"Triplet validity\", \"Contextual reasoning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model or technique is used to represent context-dependent triplet validity in MindTrellis's collaborative construction of a knowledge graph with AI?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743459,
+    "update_time": 1784743459,
+    "_id": "hybrid:keywords:82a4f92acffe8a6646f98f693d283123"
+  },
+  "hybrid:keywords:65a77b12ce55f963b4a95d9b9f29d95e": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph models\", \"Context-dependent triplet validity\", \"Collaborative construction process\"], \"low_level_keywords\": [\"MindTrellis\", \"AI\", \"Triplet validity\", \"Construction process\", \"Contextual reasoning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph models or techniques are employed by MindTrellis to represent context-dependent triplet validity in a collaborative construction process with AI?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743510,
+    "update_time": 1784743510,
+    "_id": "hybrid:keywords:65a77b12ce55f963b4a95d9b9f29d95e"
+  },
+  "hybrid:keywords:7233ed200ee482a051680cdacf776c0a": {
+    "return": "{\"high_level_keywords\": [\"Model defense\", \"External tool connections\"], \"low_level_keywords\": [\"Model Context Protocol\", \"Defensive methods\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What method is designed to improve defenses against the type of models that often rely on the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743567,
+    "update_time": 1784743567,
+    "_id": "hybrid:keywords:7233ed200ee482a051680cdacf776c0a"
+  },
+  "hybrid:keywords:c066536acb016bb2d4984e8d59b4046c": {
+    "return": "{\"high_level_keywords\": [\"Defense methods\", \"Model Context Protocol\", \"External tool connections\"], \"low_level_keywords\": [\"Countermeasures\", \"Security protocols\", \"Threat modeling\", \"Vulnerability assessment\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense methods have been specifically designed to counter models relying on the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743668,
+    "update_time": 1784743668,
+    "_id": "hybrid:keywords:c066536acb016bb2d4984e8d59b4046c"
+  },
+  "hybrid:keywords:d3826a685733014e6dea560b49d97be1": {
+    "return": "{\"high_level_keywords\": [\"Defense method\", \"Model Context Protocol\", \"External tool connections\"], \"low_level_keywords\": [\"Countermeasures\", \"Adversarial attacks\", \"Secure protocols\", \"Model security\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense method has been specifically designed to counter models that rely on the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743730,
+    "update_time": 1784743730,
+    "_id": "hybrid:keywords:d3826a685733014e6dea560b49d97be1"
+  },
+  "hybrid:keywords:d9e6bfff6fa25bdb6b5aaaa06bab0fb8": {
+    "return": "{\"high_level_keywords\": [\"Defense methods\", \"Model Context Protocol\", \"External tool connections\"], \"low_level_keywords\": [\"Cybersecurity threats\", \"Attack vectors\", \"Protocol vulnerabilities\", \"Model security\", \"Contextual attacks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense methods specifically target models relying on the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743801,
+    "update_time": 1784743801,
+    "_id": "hybrid:keywords:d9e6bfff6fa25bdb6b5aaaa06bab0fb8"
+  },
+  "hybrid:keywords:d588f73d40523be2cc0f6a6842105c0a": {
+    "return": "{\"high_level_keywords\": [\"Gemini\", \"Individualism-collectivism bias\"], \"low_level_keywords\": [\"Western-Style Individualism\", \"Gemini 2.5 Flash\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What system is built on Gemini 2.5 Flash, which exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743874,
+    "update_time": 1784743874,
+    "_id": "hybrid:keywords:d588f73d40523be2cc0f6a6842105c0a"
+  },
+  "hybrid:keywords:35552df351e85c5690687ce3d6368342": {
+    "return": "{\"high_level_keywords\": [\"Cultural bias\", \"LLM reliability auditing\"], \"low_level_keywords\": [\"Synthetic patient profiles\", \"Reliability auditing\", \"Language model bias\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of cultural bias is exhibited by the LLM applied to synthetic patient profiles in reliability auditing?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743900,
+    "update_time": 1784743900,
+    "_id": "hybrid:keywords:35552df351e85c5690687ce3d6368342"
+  },
+  "hybrid:keywords:d76a3a5b42131a2b793bf5eaca7b733a": {
+    "return": "{\"high_level_keywords\": [\"Cultural bias\", \"LLM performance\", \"Reliability auditing\", \"Diverse demographic groups\"], \"low_level_keywords\": [\"Synthetic patient profiles\", \"Auditing metrics\", \"Bias detection algorithms\", \"Demographic representation\", \"Language model evaluation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of cultural bias is exhibited by the LLM when generating responses to synthetic patient profiles in reliability auditing, specifically considering its performance on diverse demographic groups?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784743974,
+    "update_time": 1784743974,
+    "_id": "hybrid:keywords:d76a3a5b42131a2b793bf5eaca7b733a"
+  },
+  "hybrid:keywords:5a5ec499d4bc84750696efdad79030e4": {
+    "return": "{\"high_level_keywords\": [\"Cultural biases\", \"Large language models\", \"Reliability auditing\"], \"low_level_keywords\": [\"Synthetic patient profiles\", \"Auditing methods\", \"Bias detection tools\", \"LLM training data\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What cultural biases, if any, have been specifically identified or documented in relation to large language models (LLMs) applied to synthetic patient profiles in reliability auditing?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744041,
+    "update_time": 1784744041,
+    "_id": "hybrid:keywords:5a5ec499d4bc84750696efdad79030e4"
+  },
+  "hybrid:keywords:a6611c3575cd8b9a4076588553c574e6": {
+    "return": "{\"high_level_keywords\": [\"Cultural biases\", \"Large language models\", \"Reliability auditing\"], \"low_level_keywords\": [\"Synthetic patient profiles\", \"Language model bias\", \"Auditing techniques\", \"Patient data privacy\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific cultural biases have been identified in large language models (LLMs) when applied to synthetic patient profiles during reliability auditing?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744071,
+    "update_time": 1784744071,
+    "_id": "hybrid:keywords:a6611c3575cd8b9a4076588553c574e6"
+  },
+  "hybrid:keywords:1f3b7138fd23b29db15f53825f9fd731": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4\", \"Performance improvement\", \"Model response\"], \"low_level_keywords\": [\"Generic retry\", \"Model architecture\", \"Training data\", \"Neural network\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspect of GPT-5.4 is affected when generic retry is applied to improve its performance, and this model only responds to it?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744127,
+    "update_time": 1784744127,
+    "_id": "hybrid:keywords:1f3b7138fd23b29db15f53825f9fd731"
+  },
+  "hybrid:keywords:24bfaedf2d7b363ddad4b488585d41c7": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4\", \"Performance improvement\", \"Generic retry\"], \"low_level_keywords\": [\"Model response\", \"Retry mechanism\", \"Performance metrics\", \"GPT model architecture\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspects of GPT-5.4's performance are affected when generic retry is applied to improve its performance, specifically for models that only respond to it?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744172,
+    "update_time": 1784744172,
+    "_id": "hybrid:keywords:24bfaedf2d7b363ddad4b488585d41c7"
+  },
+  "hybrid:keywords:bd3770a264308fb3ce495f2f36a9c32f": {
+    "return": "{\"high_level_keywords\": [\"Hindsight Preference Optimization\", \"Learning method\"], \"low_level_keywords\": [\"Training signals\", \"Preference optimization\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What approach is based on the core idea of a learning method that Hindsight Preference Optimization draws from to generate training signals?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744240,
+    "update_time": 1784744240,
+    "_id": "hybrid:keywords:bd3770a264308fb3ce495f2f36a9c32f"
+  },
+  "hybrid:keywords:ff2692764b54ffb2e4a9eb39e01fd02a": {
+    "return": "{\"high_level_keywords\": [\"Hindsight Preference Optimization\", \"Training signals\"], \"low_level_keywords\": [\"Learning methods\", \"Preference optimization algorithms\", \"Training signal generation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What learning method does Hindsight Preference Optimization draw its core idea from to generate training signals?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744267,
+    "update_time": 1784744267,
+    "_id": "hybrid:keywords:ff2692764b54ffb2e4a9eb39e01fd02a"
+  },
+  "hybrid:keywords:c5ec3f80439b9dc4e986ebf13be3ef94": {
+    "return": "{\"high_level_keywords\": [\"Hindsight Preference Optimization\", \"Training signals\"], \"low_level_keywords\": [\"Learning methods\", \"Preference optimization algorithms\", \"Training signal generation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What learning method does Hindsight Preference Optimization draw upon to generate training signals?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744292,
+    "update_time": 1784744292,
+    "_id": "hybrid:keywords:c5ec3f80439b9dc4e986ebf13be3ef94"
+  },
+  "hybrid:keywords:ddf835f08813e04444dd901c4da12439": {
+    "return": "{\"high_level_keywords\": [\"Learning method\", \"Training signals\", \"Hindsight Preference Optimization\"], \"low_level_keywords\": [\"HPO algorithm\", \"Preference optimization\", \"Generative models\", \"Training data\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What learning method does Hindsight Preference Optimization (HPO) draw upon to generate training signals?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744325,
+    "update_time": 1784744325,
+    "_id": "hybrid:keywords:ddf835f08813e04444dd901c4da12439"
+  },
+  "hybrid:keywords:6d90ece1a4c89dec606104558307d51c": {
+    "return": "{\"high_level_keywords\": [\"Image editing\", \"Math problem solving\"], \"low_level_keywords\": [\"Deep learning models\", \"Neural networks\", \"Convolutional neural networks\", \"Generative adversarial networks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of models have shown improved image editing performance by incorporating the method used to solve math problems?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744366,
+    "update_time": 1784744366,
+    "_id": "hybrid:keywords:6d90ece1a4c89dec606104558307d51c"
+  },
+  "hybrid:keywords:1c6637d1969a4b65d5e75591423524b7": {
+    "return": "{\"high_level_keywords\": [\"Application\", \"UniVL-DR\", \"WebQA+\", \"EVQA+\"], \"low_level_keywords\": [\"Method outperformance\", \"Shape consideration\", \"Surface chemistry\", \"Certain sites\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the application of the method that outperforms UniVL-DR on the WebQA+ and EVQA+ datasets when considering shape and surface chemistry of certain sites?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744463,
+    "update_time": 1784744463,
+    "_id": "hybrid:keywords:1c6637d1969a4b65d5e75591423524b7"
+  },
+  "hybrid:keywords:ef370558c619a170e9e795b77a14c3ee": {
+    "return": "{\"high_level_keywords\": [\"Label noise\", \"Medical image classification\", \"Risk-aware robust learning\"], \"low_level_keywords\": [\"TTRL\", \"Phenomenon\", \"Challenges\", \"Robust learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What phenomenon occurs in TTRL as a result of the challenges posed by label noise in medical image classification addressed by risk-aware robust learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744536,
+    "update_time": 1784744536,
+    "_id": "hybrid:keywords:ef370558c619a170e9e795b77a14c3ee"
+  },
+  "hybrid:keywords:3a210c086acda9c51ea54e00c0b167da": {
+    "return": "{\"high_level_keywords\": [\"Label noise\", \"Medical image classification\", \"Risk-aware robust learning\"], \"low_level_keywords\": [\"TTRL\", \"Image segmentation\", \"Deep learning\", \"Robustness\", \"Adversarial attacks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific challenges or phenomena arise from label noise in medical image classification when using risk-aware robust learning approaches, particularly those related to TTRL?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744568,
+    "update_time": 1784744568,
+    "_id": "hybrid:keywords:3a210c086acda9c51ea54e00c0b167da"
+  },
+  "hybrid:keywords:50c8ffb7c0cd2010f5168be254c3a8bb": {
+    "return": "{\"high_level_keywords\": [\"Test-Time Reinforcement Learning\", \"Label Noise\", \"Medical Image Classification\", \"Risk-Aware Robust Learning\"], \"low_level_keywords\": [\"TTRL\", \"Phenomenon\", \"Reinforcement Learning\", \"Robustness\", \"Adversarial Attacks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What phenomenon occurs in Test-Time Reinforcement Learning (TTRL) due to label noise in medical image classification that is addressed by risk-aware robust learning?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744616,
+    "update_time": 1784744616,
+    "_id": "hybrid:keywords:50c8ffb7c0cd2010f5168be254c3a8bb"
+  },
+  "hybrid:keywords:308c7d0689deae2e4346dbb6506e146c": {
+    "return": "{\"high_level_keywords\": [\"Risk-aware robust learning\", \"Suboptimal model adaptations\", \"Label noise\", \"Medical image classification\"], \"low_level_keywords\": [\"Vulnerabilities\", \"RTRL\", \"Adaptations\", \"Noise in medical images\", \"Image classification algorithms\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are the potential vulnerabilities of risk-aware robust learning (RTRL) to suboptimal model adaptations due to label noise in medical image classification?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744655,
+    "update_time": 1784744655,
+    "_id": "hybrid:keywords:308c7d0689deae2e4346dbb6506e146c"
+  },
+  "hybrid:keywords:72f529f871fc8e50b758d56fbd549b5e": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\"], \"low_level_keywords\": [\"Performance metrics\", \"Dynamic environments\", \"Real-world scenarios\", \"Anomaly detection\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspect of performance do Vision-Language Models, which utilize Bayesian Inference Module for anomaly localization, often struggle with in dynamic real-world scenarios?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744699,
+    "update_time": 1784744699,
+    "_id": "hybrid:keywords:72f529f871fc8e50b758d56fbd549b5e"
+  },
+  "hybrid:keywords:99a5b5223179d70a7009729cd8e75c08": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\"], \"low_level_keywords\": [\"Performance metrics\", \"Dynamic environments\", \"Real-world scenarios\", \"Anomaly detection\", \"Machine learning models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspects of performance do Vision-Language Models that incorporate a Bayesian Inference Module for anomaly localization typically struggle with in dynamic real-world environments?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744742,
+    "update_time": 1784744742,
+    "_id": "hybrid:keywords:99a5b5223179d70a7009729cd8e75c08"
+  },
+  "hybrid:keywords:9fefc62c8864a2f53a2d181b1ef33b10": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world environments\"], \"low_level_keywords\": [\"Challenges\", \"Limitations\", \"Deployment issues\", \"Real-time processing\", \"Adversarial attacks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific challenges or limitations do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization typically face when deployed in dynamic real-world environments?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744792,
+    "update_time": 1784744792,
+    "_id": "hybrid:keywords:9fefc62c8864a2f53a2d181b1ef33b10"
+  },
+  "hybrid:keywords:9ad954050f3c66bcffac9c379a9c9550": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\"], \"low_level_keywords\": [\"Performance metrics\", \"Dynamic environments\", \"Real-world scenarios\", \"Anomaly detection\", \"Machine learning models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspects of performance do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization often struggle with in dynamic real-world scenarios?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744855,
+    "update_time": 1784744855,
+    "_id": "hybrid:keywords:9ad954050f3c66bcffac9c379a9c9550"
+  },
+  "hybrid:keywords:575594bb3a0da60dfb6e1ab91e0a4142": {
+    "return": "{\"high_level_keywords\": [\"Model adaptation\", \"Performance estimation\", \"Failure identification\"], \"low_level_keywords\": [\"ProEval\", \"Learning approach\", \"Adaptation techniques\", \"Estimation methods\", \"Failure analysis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of models can be adapted through the same learning approach used by ProEval for estimating performance and identifying failure cases?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744888,
+    "update_time": 1784744888,
+    "_id": "hybrid:keywords:575594bb3a0da60dfb6e1ab91e0a4142"
+  },
+  "hybrid:keywords:e0b44b161457e65ed14196ccaa77e590": {
+    "return": "{\"high_level_keywords\": [\"Model adaptation\", \"Learning approach\", \"Performance estimation\", \"Failure identification\"], \"low_level_keywords\": [\"ProEval\", \"Machine learning models\", \"Deep learning architectures\", \"Transfer learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of models can be adapted to use a similar learning approach for estimating performance and identifying failure cases as ProEval?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784744941,
+    "update_time": 1784744941,
+    "_id": "hybrid:keywords:e0b44b161457e65ed14196ccaa77e590"
+  },
+  "hybrid:keywords:54c15e36cf7e75a5d12f4c8094fed429": {
+    "return": "{\"high_level_keywords\": [\"ProEval\", \"proactive evaluation framework\", \"performance estimation\", \"failure case identification\"], \"low_level_keywords\": [\"machine learning models\", \"deep learning architectures\", \"transfer learning\", \"model adaptation techniques\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of models can be adapted through a similar learning approach to ProEval's proactive evaluation framework for estimating performance and identifying failure cases?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745016,
+    "update_time": 1784745016,
+    "_id": "hybrid:keywords:54c15e36cf7e75a5d12f4c8094fed429"
+  },
+  "hybrid:keywords:2fd2b8c5e6c1473a6b70d3568a4baed8": {
+    "return": "{\"high_level_keywords\": [\"Machine learning\", \"AI models\", \"ProEval framework\"], \"low_level_keywords\": [\"Performance estimation\", \"Failure case identification\", \"Reinforcement learning\", \"Deep learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of machine learning or AI models have been mentioned in the same context as ProEval's proactive evaluation framework for estimating performance and identifying failure cases?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745089,
+    "update_time": 1784745089,
+    "_id": "hybrid:keywords:2fd2b8c5e6c1473a6b70d3568a4baed8"
+  },
+  "hybrid:keywords:0a85db572b18cd3d33fe753e1e71fc09": {
+    "return": "{\"high_level_keywords\": [\"Energy Time Series Forecasting\", \"Machine Learning\"], \"low_level_keywords\": [\"Building Blocks\", \"Dataset-Specific Optimized Approaches\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What field utilizes the building blocks that have consistently outperformed dataset-specific optimized machine learning approaches in Energy Time Series Forecasting?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745154,
+    "update_time": 1784745154,
+    "_id": "hybrid:keywords:0a85db572b18cd3d33fe753e1e71fc09"
+  },
+  "hybrid:keywords:3a26cbbe3719c88e6267e2c5cdb3a38d": {
+    "return": "{\"high_level_keywords\": [\"Energy Time Series Forecasting\", \"Machine Learning Methods\"], \"low_level_keywords\": [\"Dataset-Specific Optimization\", \"Outperforming Approaches\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What field or approach has consistently outperformed dataset-specific optimized machine learning methods in Energy Time Series Forecasting tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745199,
+    "update_time": 1784745199,
+    "_id": "hybrid:keywords:3a26cbbe3719c88e6267e2c5cdb3a38d"
+  },
+  "hybrid:keywords:b7b9387a1106df94e07e03471e4bd7e7": {
+    "return": "{\"high_level_keywords\": [\"Energy Time Series Forecasting\", \"Foundation Models\", \"Machine Learning\"], \"low_level_keywords\": [\"Dataset-specific optimization\", \"Model performance comparison\", \"Time series prediction\", \"Energy forecasting\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What field utilizes foundation models that have been shown to outperform dataset-specific optimized machine learning approaches in Energy Time Series Forecasting tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745281,
+    "update_time": 1784745281,
+    "_id": "hybrid:keywords:b7b9387a1106df94e07e03471e4bd7e7"
+  },
+  "hybrid:keywords:9d3e9c8c949e6ae50df8f40d463ec70a": {
+    "return": "{\"high_level_keywords\": [\"Energy Time Series Forecasting\", \"Foundation Models\", \"Machine Learning\"], \"low_level_keywords\": [\"Dataset-specific optimization\", \"Time series forecasting\", \"Energy sector\", \"Deep learning models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What field has shown foundation models to outperform dataset-specific optimized machine learning approaches in Energy Time Series Forecasting tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745322,
+    "update_time": 1784745322,
+    "_id": "hybrid:keywords:9d3e9c8c949e6ae50df8f40d463ec70a"
+  },
+  "hybrid:keywords:b42d0d85d78f7a0643cb7a8b01d48464": {
+    "return": "{\"high_level_keywords\": [\"Validation method\", \"LLM-generated outputs\", \"Human-preferred outputs\", \"Uncertainty propagation\"], \"low_level_keywords\": [\"Agreement metrics\", \"Output similarity\", \"Model evaluation\", \"Propagated uncertainty\", \"LLMs and human preferences\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What validation method is used to ensure agreement between LLM-generated outputs and human-preferred outputs in systems that apply uncertainty propagation?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745372,
+    "update_time": 1784745372,
+    "_id": "hybrid:keywords:b42d0d85d78f7a0643cb7a8b01d48464"
+  },
+  "hybrid:keywords:164659b1b380b7c6e32a38a3d3de5d8d": {
+    "return": "{\"high_level_keywords\": [\"Convolutional Neural Network\", \"Network Depth\"], \"low_level_keywords\": [\"Proposed Framework\", \"Model Combination\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What model is combined with a Convolutional Neural Network, which itself is affected by network depth, in the proposed framework?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745442,
+    "update_time": 1784745442,
+    "_id": "hybrid:keywords:164659b1b380b7c6e32a38a3d3de5d8d"
+  },
+  "hybrid:keywords:16f22f56018d7c47ba89f3da7aae1e04": {
+    "return": "{\"high_level_keywords\": [\"Neural network\", \"Convolutional Neural Network\", \"Network depth\"], \"low_level_keywords\": [\"Proposed framework\", \"Model combination\", \"CNN architecture\", \"Network design\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of neural network model is combined with a Convolutional Neural Network (CNN) in the proposed framework, considering the impact of network depth on the CNN?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745528,
+    "update_time": 1784745528,
+    "_id": "hybrid:keywords:16f22f56018d7c47ba89f3da7aae1e04"
+  },
+  "hybrid:keywords:8e2153c45187f47b822d2fa2fcf3be8d": {
+    "return": "{\"high_level_keywords\": [\"Neural network architecture\", \"Convolutional Neural Network\", \"Framework\"], \"low_level_keywords\": [\"Network depth\", \"CNN performance\", \"Proposed framework\", \"Neural network combination\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What other type of neural network architecture is combined with a Convolutional Neural Network in the proposed framework, and how does it interact with the CNN's performance affected by network depth?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745588,
+    "update_time": 1784745588,
+    "_id": "hybrid:keywords:8e2153c45187f47b822d2fa2fcf3be8d"
+  },
+  "hybrid:keywords:7ad3c1eeddbf9450f63ba8ff3078f1ea": {
+    "return": "{\"high_level_keywords\": [\"Convolutional Neural Network\", \"Proposed framework\"], \"low_level_keywords\": [\"Model combination\", \"Network depth\", \"Interaction influence\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What model is combined with a Convolutional Neural Network in the proposed framework, considering its interaction is influenced by network depth?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745633,
+    "update_time": 1784745633,
+    "_id": "hybrid:keywords:7ad3c1eeddbf9450f63ba8ff3078f1ea"
+  },
+  "hybrid:keywords:62b5f61efb1e4abf6467ac21f0e4eb9b": {
+    "return": "{\"high_level_keywords\": [\"Bias mitigation\", \"LLM evaluation\", \"Calibration framework\"], \"low_level_keywords\": [\"Three-phase calibration\", \"Bias detection\", \"Evaluation metrics\", \"Fairness in AI\", \"Natural language processing\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are used to address biases that may arise from using the three-phase calibration framework to improve LLM evaluations?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745683,
+    "update_time": 1784745683,
+    "_id": "hybrid:keywords:62b5f61efb1e4abf6467ac21f0e4eb9b"
+  },
+  "hybrid:keywords:a443948f0305a8ffcf30a9ae2f1882c9": {
+    "return": "{\"high_level_keywords\": [\"Bias mitigation\", \"Large language models\", \"Calibration frameworks\"], \"low_level_keywords\": [\"Three-phase calibration\", \"Evaluation metrics\", \"Fairness techniques\", \"Debiasing methods\", \"Language model evaluation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods or techniques have been proposed or used to mitigate potential biases arising from the application of a three-phase calibration framework in large language model evaluations?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745796,
+    "update_time": 1784745796,
+    "_id": "hybrid:keywords:a443948f0305a8ffcf30a9ae2f1882c9"
+  },
+  "hybrid:keywords:6c210b30866274d96b0746232831d9bb": {
+    "return": "{\"high_level_keywords\": [\"Bias mitigation\", \"Large language models\", \"Human evaluation\"], \"low_level_keywords\": [\"Three-phase calibration framework\", \"Language model evaluations\", \"Human evaluators\", \"Bias in AI\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are used to address biases that may arise from using the three-phase calibration framework to improve large language model (LLM) evaluations, specifically within the context of human evaluators?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745854,
+    "update_time": 1784745854,
+    "_id": "hybrid:keywords:6c210b30866274d96b0746232831d9bb"
+  },
+  "hybrid:keywords:5894746990b445a931ddec0a16ffc6b4": {
+    "return": "{\"high_level_keywords\": [\"Bias mitigation\", \"LLM evaluation\", \"Calibration framework\"], \"low_level_keywords\": [\"Three-phase calibration\", \"Bias detection\", \"Evaluation metrics\", \"Fairness algorithms\", \"Model interpretability\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are used to mitigate biases that may arise from using the three-phase calibration framework in LLM evaluations?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745955,
+    "update_time": 1784745955,
+    "_id": "hybrid:keywords:5894746990b445a931ddec0a16ffc6b4"
+  },
+  "hybrid:keywords:57b81be433e9d85b9380e453e75bf957": {
+    "return": "{\"high_level_keywords\": [\"Benchmark\", \"Evaluation protocol\"], \"low_level_keywords\": [\"Trust-SSL code\", \"Publicly released\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What benchmark has its evaluation protocol and code publicly released, following from the public availability of the Trust-SSL code?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784745991,
+    "update_time": 1784745991,
+    "_id": "hybrid:keywords:57b81be433e9d85b9380e453e75bf957"
+  },
+  "hybrid:keywords:821e0f9aa40fce00184e23989ff2695e": {
+    "return": "{\"high_level_keywords\": [\"Benchmark\", \"Evaluation protocol\", \"Code release\"], \"low_level_keywords\": [\"Trust-SSL\", \"Public availability\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What benchmark, following the public availability of the Trust-SSL code's evaluation protocol and code, has its own publicly released evaluation protocol and code?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746019,
+    "update_time": 1784746019,
+    "_id": "hybrid:keywords:821e0f9aa40fce00184e23989ff2695e"
+  },
+  "hybrid:keywords:90ff96b2a28170e67167c2ad6cfc6342": {
+    "return": "{\"high_level_keywords\": [\"Benchmark evaluation protocols\", \"Publicly released codes\", \"Trust-SSL code\"], \"low_level_keywords\": [\"Evaluation metrics\", \"Code repositories\", \"Open-source projects\", \"Security standards\", \"Trust-SSL\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What benchmarks have their evaluation protocols and codes publicly released as a direct result of the public availability of the Trust-SSL code?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746061,
+    "update_time": 1784746061,
+    "_id": "hybrid:keywords:90ff96b2a28170e67167c2ad6cfc6342"
+  },
+  "hybrid:keywords:68db7a79298e29e10b8edb25a6748f92": {
+    "return": "{\"high_level_keywords\": [\"Machine unlearning\", \"Clinical risk mitigation\", \"Separable Expert Architecture\"], \"low_level_keywords\": [\"Entropy-based forgetting\", \"Random relabeling\", \"Variant replacement\", \"Clinical risk\", \"SEPARATE\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What variant of machine unlearning replaces random relabeling with entropy-based forgetting to mitigate clinical risk, which is related to the limitations addressed by the Separable Expert Architecture?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746196,
+    "update_time": 1784746196,
+    "_id": "hybrid:keywords:68db7a79298e29e10b8edb25a6748f92"
+  },
+  "hybrid:keywords:a945527cb256da6abaa5e2bc92dfc8b2": {
+    "return": "{\"high_level_keywords\": [\"EU AI Act\", \"Multi-axis evaluation\", \"Last Mile Challenge\"], \"low_level_keywords\": [\"Artificial intelligence systems\", \"Regulatory compliance\", \"Deployment requirements\", \"Evaluation frameworks\", \"Challenges in AI adoption\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What type of systems must adhere to EU AI Act requirements and undergo multi-axis evaluation across five dimensions before deployment, addressing challenges like the Last Mile Challenge?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746271,
+    "update_time": 1784746271,
+    "_id": "hybrid:keywords:a945527cb256da6abaa5e2bc92dfc8b2"
+  },
+  "hybrid:keywords:51e5908c2862aa7741695fd40e3bc39e": {
+    "return": "{\"high_level_keywords\": [\"High-risk AI systems\", \"Multi-axis evaluation\", \"EU AI Act\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Risk assessment\", \"Regulatory compliance\", \"Deployment requirements\", \"European Union\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of high-risk AI systems must undergo multi-axis evaluation across five dimensions before deployment under the EU AI Act?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746358,
+    "update_time": 1784746358,
+    "_id": "hybrid:keywords:51e5908c2862aa7741695fd40e3bc39e"
+  },
+  "hybrid:keywords:07023c7631f081edfeadf1aa681c8250": {
+    "return": "{\"high_level_keywords\": [\"AI systems\", \"Multi-axis evaluation\", \"EU AI Act\"], \"low_level_keywords\": [\"Artificial intelligence\", \"Machine learning models\", \"Deep learning algorithms\", \"Model interpretability\", \"Explainability\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of AI systems must undergo multi-axis evaluation across five dimensions before deployment under EU AI Act requirements?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746532,
+    "update_time": 1784746532,
+    "_id": "hybrid:keywords:07023c7631f081edfeadf1aa681c8250"
+  },
+  "hybrid:keywords:85fe67c387cf81147baf019168a86806": {
+    "return": "{\"high_level_keywords\": [\"Retrieval-Augmented Generation\", \"PhySE\"], \"low_level_keywords\": [\"Method integration\", \"Accuracy enhancement\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What method will be integrated with Retrieval-Augmented Generation, which itself is improved upon by PhySE, to enhance accuracy?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746697,
+    "update_time": 1784746697,
+    "_id": "hybrid:keywords:85fe67c387cf81147baf019168a86806"
+  },
+  "hybrid:keywords:140c59d63b3a66521af9206d013128b1": {
+    "return": "{\"high_level_keywords\": [\"Retrieval-Augmented Generation\", \"Accuracy enhancement\"], \"low_level_keywords\": [\"PhySE\", \"Method integration\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What method will be integrated with Retrieval-Augmented Generation to enhance its accuracy, according to information related to PhySE?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746793,
+    "update_time": 1784746793,
+    "_id": "hybrid:keywords:140c59d63b3a66521af9206d013128b1"
+  },
+  "hybrid:keywords:33e6d15d616dfc042b359800bde16ab0": {
+    "return": "{\"high_level_keywords\": [\"Image question answering\", \"Agentic coding\"], \"low_level_keywords\": [\"Text response model\", \"Kimi-K2\", \"Token consumption\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What model responds with text when answering questions about images and is related to a model that consumes fewer tokens than Kimi-K2 for agentic coding tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746866,
+    "update_time": 1784746866,
+    "_id": "hybrid:keywords:33e6d15d616dfc042b359800bde16ab0"
+  },
+  "hybrid:keywords:2adbf6dfb8df17cc57769d95cf220b0a": {
+    "return": "{\"high_level_keywords\": [\"Text response\", \"Image question answering\", \"Agentic coding\"], \"low_level_keywords\": [\"Transformer models\", \"Token consumption\", \"Kimi-K2 model\", \"Few-shot learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What model responds with text when answering questions about images, and what is its relationship to a model that consumes fewer tokens than Kimi-K2 for agentic coding tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784746935,
+    "update_time": 1784746935,
+    "_id": "hybrid:keywords:2adbf6dfb8df17cc57769d95cf220b0a"
+  },
+  "hybrid:keywords:ef5d90b832acaab62ab5cd337ebd512d": {
+    "return": "{\"high_level_keywords\": [\"Image question answering\", \"Text response models\", \"Token consumption comparison\"], \"low_level_keywords\": [\"Kimi-K2\", \"Agentic coding tasks\", \"Token usage\", \"Model performance comparison\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What models respond with text when answering questions about images and how do their token consumption compare to Kimi-K2's performance on agentic coding tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784747010,
+    "update_time": 1784747010,
+    "_id": "hybrid:keywords:ef5d90b832acaab62ab5cd337ebd512d"
+  },
+  "hybrid:keywords:67df58ff201ade68a2d737a77daec9cb": {
+    "return": "{\"high_level_keywords\": [\"Image question answering\", \"Token consumption\", \"Agentic coding\"], \"low_level_keywords\": [\"Text response model\", \"Kimi-K2\", \"Token limit\", \"Agentic AI\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What model responds with text when answering questions about images and has a token consumption lower than Kimi-K2 for agentic coding tasks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784747075,
+    "update_time": 1784747075,
+    "_id": "hybrid:keywords:67df58ff201ade68a2d737a77daec9cb"
+  },
+  "hybrid:keywords:85bddd14920a760f89eb450ce704d076": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplet validity\", \"Collaborative construction\"], \"low_level_keywords\": [\"MindTrellis\", \"AI development\", \"Triplet representation\", \"Contextual reasoning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model or approach is used in MindTrellis to represent context-dependent triplet validity, and how is it developed through collaborative construction with AI?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784748339,
+    "update_time": 1784748339,
+    "_id": "hybrid:keywords:85bddd14920a760f89eb450ce704d076"
+  },
+  "hybrid:keywords:e6b8a5a6a77d39c94e2dcb19ee4025e9": {
+    "return": "{\"high_level_keywords\": [\"Defense methods\", \"Security improvement\", \"Model vulnerability\"], \"low_level_keywords\": [\"External tool connections\", \"Functionality reliance\", \"Model security threats\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense methods are designed to improve security against models that rely on external tool connections for functionality?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784749108,
+    "update_time": 1784749108,
+    "_id": "hybrid:keywords:e6b8a5a6a77d39c94e2dcb19ee4025e9"
+  },
+  "hybrid:keywords:017771c258e9407d5e02d1f5016c9701": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplets\", \"Collaborative AI-driven construction\"], \"low_level_keywords\": [\"MindTrellis\", \"Knowledge graph architecture\", \"Context validation\", \"Triplets validation\", \"Collaborative AI\", \"Knowledge graph construction\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model architecture is specifically utilized in MindTrellis for validating context-dependent triplets, and how does it leverage collaborative AI-driven construction of the underlying knowledge graph?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784750767,
+    "update_time": 1784750767,
+    "_id": "hybrid:keywords:017771c258e9407d5e02d1f5016c9701"
+  },
+  "hybrid:keywords:31d294c00faff69b3fe8de5b79756156": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model architecture\", \"Context-dependent triplet validation\", \"Collaborative AI-driven knowledge graph construction\"], \"low_level_keywords\": [\"MindTrellis\", \"Knowledge graph\", \"Triplet validation\", \"Collaborative AI\", \"Context-dependent\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model architecture is specifically utilized in MindTrellis for context-dependent triplet validation, and how does it leverage collaborative AI-driven knowledge graph construction?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784750777,
+    "update_time": 1784750777,
+    "_id": "hybrid:keywords:31d294c00faff69b3fe8de5b79756156"
   }
 }

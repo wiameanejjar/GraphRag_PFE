@@ -28,11 +28,11 @@
   },
   "Generative Model": {
     "chunk_ids": [
+      "chunk-d87003a98af1edecaa18d3c5cf8f05d2",
       "chunk-421873c316a2a72fa1ccf5068ebdfe92"
     ],
-    "count": 1,
-    "create_time": 1780255971,
-    "update_time": 1780255971,
+    "count": 2,
+    "update_time": 1784734277,
     "_id": "Generative Model"
   },
   "Pattern-Based Knowledge Components": {
@@ -111,11 +111,11 @@
   },
   "Active Learning Algorithm": {
     "chunk_ids": [
+      "chunk-2169de40453700f85564e4af25b67ed6",
       "chunk-ad3ff5a016386baadd7feb243f306901"
     ],
-    "count": 1,
-    "create_time": 1780256249,
-    "update_time": 1780256249,
+    "count": 2,
+    "update_time": 1784734285,
     "_id": "Active Learning Algorithm"
   },
   "Cryptographic Assumptions": {
@@ -288,25 +288,6 @@
     "create_time": 1780256880,
     "update_time": 1780256880,
     "_id": "Electronic Health Record (EHR)-Embedded AI Agent"
-  },
-  "Large Language Model (LLM)": {
-    "chunk_ids": [
-      "chunk-a0d551161566faf30fdc24dbde48ebfa",
-      "chunk-381164f8e5eeb1538b53d25d3cf781b5",
-      "chunk-ddabb643ad7982794978859b96daf403",
-      "chunk-626cc6bade27470185f730dbb83ee93f",
-      "chunk-2d0cda25c660336dba17f393f96c07ce",
-      "chunk-4675567f8736cc58a7d6d63b7a67f3c0",
-      "chunk-0e559bc1a568b70c4f4f5ba308022bb1",
-      "chunk-6e362b1abd07592b478809f67c6a95bd",
-      "chunk-c1194bf14d2da400395521fd4c013e06",
-      "chunk-45150d1184b48644574f184fced8240b",
-      "chunk-35d6e4ada5453c7cde973c876f445327",
-      "chunk-2d92623b24805aae743314ad5136c703"
-    ],
-    "count": 12,
-    "update_time": 1780448005,
-    "_id": "Large Language Model (LLM)"
   },
   "Oncology": {
     "chunk_ids": [
@@ -517,6 +498,23 @@
   },
   "Large Language Models": {
     "chunk_ids": [
+      "chunk-a0d551161566faf30fdc24dbde48ebfa",
+      "chunk-381164f8e5eeb1538b53d25d3cf781b5",
+      "chunk-ddabb643ad7982794978859b96daf403",
+      "chunk-626cc6bade27470185f730dbb83ee93f",
+      "chunk-2d0cda25c660336dba17f393f96c07ce",
+      "chunk-4675567f8736cc58a7d6d63b7a67f3c0",
+      "chunk-0e559bc1a568b70c4f4f5ba308022bb1",
+      "chunk-6e362b1abd07592b478809f67c6a95bd",
+      "chunk-c1194bf14d2da400395521fd4c013e06",
+      "chunk-45150d1184b48644574f184fced8240b",
+      "chunk-35d6e4ada5453c7cde973c876f445327",
+      "chunk-2d92623b24805aae743314ad5136c703",
+      "chunk-cd622ac8154940cde02b38a335a93d0b",
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe",
+      "chunk-924c431a180b4860363df5f7f37c9533",
+      "chunk-121ca295f22e17da9a2b408d052d49b7",
+      "chunk-a2f0b107ac5607c2f522733e662e18e6",
       "chunk-21f3a6584dd087d86a2f6b3f1a99f0fd",
       "chunk-2df46a60ce12797a8d4e5b624970ede7",
       "chunk-ee26c6456033dbc512177b2b3161670e",
@@ -624,8 +622,8 @@
       "chunk-a83603d60645957cf376cc8d4c3dc750",
       "chunk-3ad0b77a42149394d78abd3785c28b27"
     ],
-    "count": 106,
-    "update_time": 1780458036,
+    "count": 123,
+    "update_time": 1784734151,
     "_id": "Large Language Models"
   },
   "Lexical Vagueness Defects": {
@@ -1090,15 +1088,6 @@
     "update_time": 1780259509,
     "_id": "LLM Sycophancy"
   },
-  "Large Language Model(S)": {
-    "chunk_ids": [
-      "chunk-cd622ac8154940cde02b38a335a93d0b"
-    ],
-    "count": 1,
-    "create_time": 1780259509,
-    "update_time": 1780259509,
-    "_id": "Large Language Model(S)"
-  },
   "Sycophancy": {
     "chunk_ids": [
       "chunk-cd622ac8154940cde02b38a335a93d0b",
@@ -1107,15 +1096,6 @@
     "count": 2,
     "update_time": 1780369327,
     "_id": "Sycophancy"
-  },
-  "The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applications": {
-    "chunk_ids": [
-      "chunk-cd622ac8154940cde02b38a335a93d0b"
-    ],
-    "count": 1,
-    "create_time": 1780259514,
-    "update_time": 1780259514,
-    "_id": "The Price of Agreement: Measuring LLM Sycophancy in Agentic Financial Applications"
   },
   "Input Filtering with a Pretrained LLM": {
     "chunk_ids": [
@@ -1131,8 +1111,7 @@
       "chunk-cd622ac8154940cde02b38a335a93d0b"
     ],
     "count": 1,
-    "create_time": 1780259518,
-    "update_time": 1780259518,
+    "update_time": 1784734292,
     "_id": "Measuring LLM Sycophancy in Agentic Financial Applications"
   },
   "Evidential Trust Manipulation": {
@@ -1411,8 +1390,7 @@
       "chunk-899149a6310f6cac289e14d7be815549"
     ],
     "count": 1,
-    "create_time": 1780261061,
-    "update_time": 1780261061,
+    "update_time": 1784734304,
     "_id": "Mixture-Of-Experts"
   },
   "Mnist": {
@@ -1881,16 +1859,6 @@
     "update_time": 1780264062,
     "_id": "Evaluating whether AI models would sabotage AI safety research"
   },
-  "Frontier Models": {
-    "chunk_ids": [
-      "chunk-7a6ae8adcf4df680a3155bbab7deb847",
-      "chunk-db8ced0136efaaf767c85f4c9e185dbe",
-      "chunk-f0a260fdd44522539c1799dc8fb6c8a3"
-    ],
-    "count": 3,
-    "update_time": 1780354043,
-    "_id": "Frontier Models"
-  },
   "Mythos Preview": {
     "chunk_ids": [
       "chunk-7a6ae8adcf4df680a3155bbab7deb847"
@@ -2290,11 +2258,14 @@
   },
   "Attention Mechanism": {
     "chunk_ids": [
+      "chunk-910c57075f353f24182e5f8e12e3d2a1",
+      "chunk-675ee51b7d127031558c39cb6850d420",
+      "chunk-9f0b83c72a7bf3c37b426d80173d6c00",
       "chunk-9ac408a983efd5ccb658b88f8bdc1379",
       "chunk-748350cd8ed9936c3c31cb5839ea1e93"
     ],
-    "count": 2,
-    "update_time": 1780449724,
+    "count": 5,
+    "update_time": 1784734336,
     "_id": "Attention Mechanism"
   },
   "Domain-Specialized Methods": {
@@ -2608,11 +2579,11 @@
   },
   "R": {
     "chunk_ids": [
+      "chunk-686d8a138b031e7ea18550cf04496266",
       "chunk-1066123ae6aaefc73a8ddbd5c757d08a"
     ],
-    "count": 1,
-    "create_time": 1780266477,
-    "update_time": 1780266477,
+    "count": 2,
+    "update_time": 1784734342,
     "_id": "R"
   },
   "Codes And Data Availability": {
@@ -2827,8 +2798,7 @@
       "chunk-a26f425dc22ccfa6db36dc0592c070a7"
     ],
     "count": 1,
-    "create_time": 1780267573,
-    "update_time": 1780267573,
+    "update_time": 1784734346,
     "_id": "Automated Quality Assurance Cycles"
   },
   "Big And Small Llms": {
@@ -2902,15 +2872,6 @@
     "create_time": 1780267590,
     "update_time": 1780267590,
     "_id": "Fair Evaluation of LLM-Based Applications"
-  },
-  "High-Efficiency Automated Quality Assurance Cycles": {
-    "chunk_ids": [
-      "chunk-a26f425dc22ccfa6db36dc0592c070a7"
-    ],
-    "count": 1,
-    "create_time": 1780267590,
-    "update_time": 1780267590,
-    "_id": "High-Efficiency Automated Quality Assurance Cycles"
   },
   "High-Quality Synthetic Datasets": {
     "chunk_ids": [
@@ -3064,15 +3025,6 @@
     "create_time": 1780268215,
     "update_time": 1780268215,
     "_id": "Llama-3-8B"
-  },
-  "Prompt Injections": {
-    "chunk_ids": [
-      "chunk-9e4c751eebce71c2e7277e97601a61b7"
-    ],
-    "count": 1,
-    "create_time": 1780268219,
-    "update_time": 1780268219,
-    "_id": "Prompt Injections"
   },
   "Qwen2.5-14B": {
     "chunk_ids": [
@@ -3238,12 +3190,15 @@
   },
   "Artificial Intelligence": {
     "chunk_ids": [
+      "chunk-9c498a8ef8a91dd7345a0bc0c56faeed",
+      "chunk-5051fefc63fba8bbe15b427a9ce68480",
+      "chunk-f41be395492fbaac3392c09ecad51d45",
       "chunk-c67eb797e4e17e9297558aa4982bd6bd",
       "chunk-7283e187a29957165bf39353160ea1b0",
       "chunk-4c4e4ff34b77961bd5100814d2c42735"
     ],
-    "count": 3,
-    "update_time": 1780432453,
+    "count": 6,
+    "update_time": 1784734362,
     "_id": "Artificial Intelligence"
   },
   "Embodied AI": {
@@ -3377,11 +3332,11 @@
   },
   "GPT-4.1-mini": {
     "chunk_ids": [
-      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7",
-      "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
+      "chunk-1f0bf00b7067d2eb7d65aa0644a5c208",
+      "chunk-82cfdd7cca0cfa67c324b78f4bc4d5f7"
     ],
     "count": 2,
-    "update_time": 1780456742,
+    "update_time": 1784734367,
     "_id": "GPT-4.1-mini"
   },
   "Gemini-2.5-Pro": {
@@ -3547,7 +3502,7 @@
       "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
     ],
     "count": 5,
-    "update_time": 1780456730,
+    "update_time": 1784734390,
     "_id": "GPT-5.4"
   },
   "Gemini 3.1 Pro": {
@@ -4110,11 +4065,13 @@
   },
   "LLM-based Systems": {
     "chunk_ids": [
+      "chunk-4675567f8736cc58a7d6d63b7a67f3c0",
+      "chunk-e36c5852c878d5afc4278cd090a735ac",
       "chunk-1267412c51a81ee8b84c56f1fab3a816",
       "chunk-2c9658bbb9b6d1aab68420f0461bffed"
     ],
-    "count": 2,
-    "update_time": 1780360129,
+    "count": 4,
+    "update_time": 1784734397,
     "_id": "LLM-based Systems"
   },
   "Longitudinal Clinical Records": {
@@ -4449,15 +4406,6 @@
     "create_time": 1780272904,
     "update_time": 1780272904,
     "_id": "V-Aefusion"
-  },
-  "Vision-Language-Action Models": {
-    "chunk_ids": [
-      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
-    ],
-    "count": 1,
-    "create_time": 1780272908,
-    "update_time": 1780272908,
-    "_id": "Vision-Language-Action Models"
   },
   "Xpus": {
     "chunk_ids": [
@@ -4849,12 +4797,16 @@
   },
   "Neural Network": {
     "chunk_ids": [
+      "chunk-c00a185631f5831f02808b92381af986",
+      "chunk-ee5c0df881cd5e01e420307a4a987536",
+      "chunk-3e4bebf7715af2c9d1047938049edd28",
+      "chunk-47fa4dc17610cc2664e562c4d35e3a45",
       "chunk-52b17af2fefc317fc473ae09097c0b2f",
       "chunk-1275d6a1c7d7e5d54c4d93057e8775c3",
       "chunk-17e3402c333a7100fbe7f64435a9853c"
     ],
-    "count": 3,
-    "update_time": 1780445361,
+    "count": 7,
+    "update_time": 1784734420,
     "_id": "Neural Network"
   },
   "Resource-Constrained Applications": {
@@ -5174,17 +5126,6 @@
     "create_time": 1780276090,
     "update_time": 1780276090,
     "_id": "Lipschitz Optimization"
-  },
-  "Neural Networks": {
-    "chunk_ids": [
-      "chunk-c00a185631f5831f02808b92381af986",
-      "chunk-ee5c0df881cd5e01e420307a4a987536",
-      "chunk-3e4bebf7715af2c9d1047938049edd28",
-      "chunk-47fa4dc17610cc2664e562c4d35e3a45"
-    ],
-    "count": 4,
-    "update_time": 1780433084,
-    "_id": "Neural Networks"
   },
   "Super-Deepg": {
     "chunk_ids": [
@@ -5844,15 +5785,6 @@
     "update_time": 1780278509,
     "_id": "Extensive Experiments"
   },
-  "Machine Learning Models": {
-    "chunk_ids": [
-      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3",
-      "chunk-6c3d5e79f73521b9b3842125a8db8d6f"
-    ],
-    "count": 2,
-    "update_time": 1780353542,
-    "_id": "Machine Learning Models"
-  },
   "Model Parameters": {
     "chunk_ids": [
       "chunk-1275d6a1c7d7e5d54c4d93057e8775c3"
@@ -6218,11 +6150,11 @@
   },
   "CNN": {
     "chunk_ids": [
+      "chunk-e271b74806dc276d5174bade6921f998",
       "chunk-376c46f457bdeb21e2501c08f9d738a9"
     ],
-    "count": 1,
-    "create_time": 1780279910,
-    "update_time": 1780279910,
+    "count": 2,
+    "update_time": 1784734454,
     "_id": "CNN"
   },
   "Deep Neural Networks": {
@@ -6248,11 +6180,11 @@
   },
   "Mlp": {
     "chunk_ids": [
+      "chunk-32757befd1af559a1becfcb6024b586c",
       "chunk-376c46f457bdeb21e2501c08f9d738a9"
     ],
-    "count": 1,
-    "create_time": 1780279917,
-    "update_time": 1780279917,
+    "count": 2,
+    "update_time": 1784734459,
     "_id": "Mlp"
   },
   "Overfitting": {
@@ -6696,15 +6628,6 @@
     "update_time": 1780281779,
     "_id": "Asr Models"
   },
-  "Automatic Speech Recognition Systems": {
-    "chunk_ids": [
-      "chunk-245522d5b100e4d1a221b34fd4f3a20d"
-    ],
-    "count": 1,
-    "create_time": 1780281786,
-    "update_time": 1780281786,
-    "_id": "Automatic Speech Recognition Systems"
-  },
   "Ras": {
     "chunk_ids": [
       "chunk-245522d5b100e4d1a221b34fd4f3a20d"
@@ -6727,7 +6650,7 @@
       "chunk-10fcd2e0abe854632297bf050cd591ed"
     ],
     "count": 9,
-    "update_time": 1780455000,
+    "update_time": 1784734449,
     "_id": "Reinforcement Learning"
   },
   "Supervised Bootstrapping": {
@@ -6976,27 +6899,8 @@
       "chunk-e597d51a989e3ab5874950fc7bfbd276"
     ],
     "count": 1,
-    "create_time": 1780282934,
-    "update_time": 1780282934,
+    "update_time": 1784734163,
     "_id": "Nlu++ Benchmark"
-  },
-  "Nlu++ Benchmark (Banking Domain)": {
-    "chunk_ids": [
-      "chunk-e597d51a989e3ab5874950fc7bfbd276"
-    ],
-    "count": 1,
-    "create_time": 1780282938,
-    "update_time": 1780282938,
-    "_id": "Nlu++ Benchmark (Banking Domain)"
-  },
-  "Nlu++ Benchmark (Hotel Domain)": {
-    "chunk_ids": [
-      "chunk-e597d51a989e3ab5874950fc7bfbd276"
-    ],
-    "count": 1,
-    "create_time": 1780282938,
-    "update_time": 1780282938,
-    "_id": "Nlu++ Benchmark (Hotel Domain)"
   },
   "Query Tree Classifier": {
     "chunk_ids": [
@@ -7978,45 +7882,16 @@
       "chunk-a42210fb81e37b65a494b714686acf98"
     ],
     "count": 1,
-    "create_time": 1780286528,
-    "update_time": 1780286528,
+    "update_time": 1784734167,
     "_id": "Carefully Cured And Well-Structured Data"
-  },
-  "Carefully Cured And Well-Structured Data Influence": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286532,
-    "update_time": 1780286532,
-    "_id": "Carefully Cured And Well-Structured Data Influence"
-  },
-  "Carefully Cured And Well-Structured Data Influence On Model Scale": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286532,
-    "update_time": 1780286532,
-    "_id": "Carefully Cured And Well-Structured Data Influence On Model Scale"
   },
   "Carefully Cured Data": {
     "chunk_ids": [
       "chunk-a42210fb81e37b65a494b714686acf98"
     ],
     "count": 1,
-    "create_time": 1780286537,
-    "update_time": 1780286537,
+    "update_time": 1784734478,
     "_id": "Carefully Cured Data"
-  },
-  "Carefully Cured Data Influence": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286537,
-    "update_time": 1780286537,
-    "_id": "Carefully Cured Data Influence"
   },
   "Code And Data": {
     "chunk_ids": [
@@ -8077,27 +7952,8 @@
       "chunk-a42210fb81e37b65a494b714686acf98"
     ],
     "count": 1,
-    "create_time": 1780286554,
-    "update_time": 1780286554,
+    "update_time": 1784734171,
     "_id": "Regression-Based Rewards Failure"
-  },
-  "Regression-Based Rewards Failure Entirely": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286554,
-    "update_time": 1780286554,
-    "_id": "Regression-Based Rewards Failure Entirely"
-  },
-  "Regression-Based Rewards Failure Entirely Influence": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286558,
-    "update_time": 1780286558,
-    "_id": "Regression-Based Rewards Failure Entirely Influence"
   },
   "Regression-Based Rewards Failure Entirely Influence On Ranking-Based Scores": {
     "chunk_ids": [
@@ -8113,18 +7969,8 @@
       "chunk-a42210fb81e37b65a494b714686acf98"
     ],
     "count": 1,
-    "create_time": 1780286562,
-    "update_time": 1780286562,
+    "update_time": 1784734480,
     "_id": "Well-Separated Quality Tiers"
-  },
-  "Well-Separated Quality Tiers Influence": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286562,
-    "update_time": 1780286562,
-    "_id": "Well-Separated Quality Tiers Influence"
   },
   "Well-Separated Quality Tiers Influence On Optimal Ranking Loss": {
     "chunk_ids": [
@@ -8149,18 +7995,8 @@
       "chunk-a42210fb81e37b65a494b714686acf98"
     ],
     "count": 1,
-    "create_time": 1780286571,
-    "update_time": 1780286571,
+    "update_time": 1784734482,
     "_id": "Well-Structured Data Influence"
-  },
-  "Well-Structured Data Influence On Model Scale": {
-    "chunk_ids": [
-      "chunk-a42210fb81e37b65a494b714686acf98"
-    ],
-    "count": 1,
-    "create_time": 1780286571,
-    "update_time": 1780286571,
-    "_id": "Well-Structured Data Influence On Model Scale"
   },
   "Adaptime Method": {
     "chunk_ids": [
@@ -8320,8 +8156,7 @@
       "chunk-306df29aef0348d52b474a51b48f7864"
     ],
     "count": 1,
-    "create_time": 1780287531,
-    "update_time": 1780287531,
+    "update_time": 1784734183,
     "_id": "Intrinsic Geometric Smoothing"
   },
   "Plug-And-Play Defense": {
@@ -8488,15 +8323,6 @@
     "update_time": 1780288185,
     "_id": "6G Networks"
   },
-  "Strategic Bidding In 6G Spectrum Auctions With Large Language Models": {
-    "chunk_ids": [
-      "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
-    ],
-    "count": 1,
-    "create_time": 1780288192,
-    "update_time": 1780288192,
-    "_id": "Strategic Bidding In 6G Spectrum Auctions With Large Language Models"
-  },
   "Ue (User Equipment)": {
     "chunk_ids": [
       "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
@@ -8556,8 +8382,7 @@
       "chunk-1224676ee5f3ecf7b88cc6d4ed3fea11"
     ],
     "count": 1,
-    "create_time": 1780288205,
-    "update_time": 1780288205,
+    "update_time": 1784734488,
     "_id": "Strategic Biding In 6G Spectrum Auctions With Large Language Models"
   },
   "1,002 U.S. Adults": {
@@ -8728,15 +8553,6 @@
     "update_time": 1780288840,
     "_id": "Residual Networks"
   },
-  "Transformers": {
-    "chunk_ids": [
-      "chunk-e7a39d8618e94f78e32100877c33915b",
-      "chunk-92a2643a6171ef0fb4676af3416e2e73"
-    ],
-    "count": 2,
-    "update_time": 1780442046,
-    "_id": "Transformers"
-  },
   "Universal Approximation Theorem": {
     "chunk_ids": [
       "chunk-e7a39d8618e94f78e32100877c33915b"
@@ -8844,15 +8660,6 @@
     "create_time": 1780289150,
     "update_time": 1780289150,
     "_id": "AI Control"
-  },
-  "Model Architecture": {
-    "chunk_ids": [
-      "chunk-0344f2843fd85e4347a797b4d49c58fa"
-    ],
-    "count": 1,
-    "create_time": 1780289150,
-    "update_time": 1780289150,
-    "_id": "Model Architecture"
   },
   "Reversibility": {
     "chunk_ids": [
@@ -8971,15 +8778,6 @@
     "update_time": 1780289673,
     "_id": "Modular Training"
   },
-  "Multi-Agent Reinforcement Learning": {
-    "chunk_ids": [
-      "chunk-36047dc281fd05d8be1315e99b53ecff",
-      "chunk-e3c7bf6aa95dbbb47a5109f81b1a609e"
-    ],
-    "count": 2,
-    "update_time": 1780356868,
-    "_id": "Multi-Agent Reinforcement Learning"
-  },
   "Resource Scarcity": {
     "chunk_ids": [
       "chunk-36047dc281fd05d8be1315e99b53ecff"
@@ -9036,12 +8834,13 @@
   },
   "Gemini 2.5 Flash": {
     "chunk_ids": [
+      "chunk-6b568d5411e28f68d9c3dec659627695",
       "chunk-5d04c5b21f00229db74654a2f461bcf1",
       "chunk-1193454ef5e185f55a15cdec283a078b",
       "chunk-c50a6e627903ebc78871c9e3a38bd911"
     ],
-    "count": 3,
-    "update_time": 1780401824,
+    "count": 4,
+    "update_time": 1784734504,
     "_id": "Gemini 2.5 Flash"
   },
   "Itas": {
@@ -9220,8 +9019,7 @@
       "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
     ],
     "count": 1,
-    "create_time": 1780290512,
-    "update_time": 1780290512,
+    "update_time": 1784734507,
     "_id": "Respiratory Sound Classification"
   },
   "Sample-Level Data Granularity": {
@@ -9241,15 +9039,6 @@
     "create_time": 1780290516,
     "update_time": 1780290516,
     "_id": "Meta-Model"
-  },
-  "Respiratory Sound Classification Task": {
-    "chunk_ids": [
-      "chunk-c3a64e8f23903aab3f6bb572e5e0e8dc"
-    ],
-    "count": 1,
-    "create_time": 1780290520,
-    "update_time": 1780290520,
-    "_id": "Respiratory Sound Classification Task"
   },
   "3D-Parallel Training Framework": {
     "chunk_ids": [
@@ -9507,15 +9296,6 @@
     "update_time": 1780291895,
     "_id": "Jailbreaking Frontier Foundation Models Through Intention Deception"
   },
-  "Large (Vision-)Language Model": {
-    "chunk_ids": [
-      "chunk-db8ced0136efaaf767c85f4c9e185dbe"
-    ],
-    "count": 1,
-    "create_time": 1780291895,
-    "update_time": 1780291895,
-    "_id": "Large (Vision-)Language Model"
-  },
   "Multi-Turn Jailbreaking Method": {
     "chunk_ids": [
       "chunk-db8ced0136efaaf767c85f4c9e185dbe"
@@ -9608,11 +9388,12 @@
   },
   "State-Of-The-Art Models": {
     "chunk_ids": [
+      "chunk-c26e2bb529e25ea9bdd3133cbb1c1695",
       "chunk-db8ced0136efaaf767c85f4c9e185dbe",
       "chunk-7adeb1e1f1c6d2ff66e59ddaee0daaa2"
     ],
-    "count": 2,
-    "update_time": 1780432162,
+    "count": 3,
+    "update_time": 1784734510,
     "_id": "State-Of-The-Art Models"
   },
   "User Intent Evaluation": {
@@ -9939,16 +9720,6 @@
     "update_time": 1780293152,
     "_id": "Target-Dependent Interpretation"
   },
-  "Artificial Intelligence (AI)": {
-    "chunk_ids": [
-      "chunk-9c498a8ef8a91dd7345a0bc0c56faeed",
-      "chunk-5051fefc63fba8bbe15b427a9ce68480",
-      "chunk-f41be395492fbaac3392c09ecad51d45"
-    ],
-    "count": 3,
-    "update_time": 1780437545,
-    "_id": "Artificial Intelligence (AI)"
-  },
   "Common Cause (Cc)": {
     "chunk_ids": [
       "chunk-9c498a8ef8a91dd7345a0bc0c56faeed"
@@ -10070,15 +9841,6 @@
     "update_time": 1780293834,
     "_id": "Human-Written Reference Summaries"
   },
-  "Large Language Model (LLM)-Based Approaches": {
-    "chunk_ids": [
-      "chunk-552bb61c73a50be34b0ce1f0e3babf25"
-    ],
-    "count": 1,
-    "create_time": 1780293834,
-    "update_time": 1780293834,
-    "_id": "Large Language Model (LLM)-Based Approaches"
-  },
   "Traditional N-Gram Overlap-Based Metrics": {
     "chunk_ids": [
       "chunk-552bb61c73a50be34b0ce1f0e3babf25"
@@ -10172,11 +9934,12 @@
   },
   "Large Language Model (LLM)-Based Baselines": {
     "chunk_ids": [
+      "chunk-552bb61c73a50be34b0ce1f0e3babf25",
+      "chunk-2d92623b24805aae743314ad5136c703",
       "chunk-626cc6bade27470185f730dbb83ee93f"
     ],
-    "count": 1,
-    "create_time": 1780294160,
-    "update_time": 1780294160,
+    "count": 3,
+    "update_time": 1784734205,
     "_id": "Large Language Model (LLM)-Based Baselines"
   },
   "Optimality Gap": {
@@ -10575,15 +10338,6 @@
     "update_time": 1780295478,
     "_id": "Embodied Tasks"
   },
-  "AI Agents": {
-    "chunk_ids": [
-      "chunk-7efd567603ef494fe9d88fd8c3bbf7ca"
-    ],
-    "count": 1,
-    "create_time": 1780295851,
-    "update_time": 1780295851,
-    "_id": "AI Agents"
-  },
   "Adoption Signals": {
     "chunk_ids": [
       "chunk-7efd567603ef494fe9d88fd8c3bbf7ca"
@@ -10772,15 +10526,6 @@
     "create_time": 1780296677,
     "update_time": 1780296677,
     "_id": "Applied Analysis"
-  },
-  "Domain Experts": {
-    "chunk_ids": [
-      "chunk-534eeaf4b91a65225ef7c1e0da500b8b",
-      "chunk-f2b2afb905e3ac712e2c9231fdfc39c3"
-    ],
-    "count": 2,
-    "update_time": 1780436922,
-    "_id": "Domain Experts"
   },
   "Open Problems": {
     "chunk_ids": [
@@ -11018,11 +10763,11 @@
   },
   "Prompt Injection": {
     "chunk_ids": [
+      "chunk-9e4c751eebce71c2e7277e97601a61b7",
       "chunk-6a28f457d7129242bbaed593d2487b9d"
     ],
-    "count": 1,
-    "create_time": 1780297017,
-    "update_time": 1780297017,
+    "count": 2,
+    "update_time": 1784734352,
     "_id": "Prompt Injection"
   },
   "Alfworld": {
@@ -11390,8 +11135,7 @@
       "chunk-93c44edb2172624ffe6b0ae31f5548ec"
     ],
     "count": 1,
-    "create_time": 1780299126,
-    "update_time": 1780299126,
+    "update_time": 1784734522,
     "_id": "International Financial Institution"
   },
   "Psa-Eval": {
@@ -11507,18 +11251,8 @@
       "chunk-93c44edb2172624ffe6b0ae31f5548ec"
     ],
     "count": 1,
-    "create_time": 1780299151,
-    "update_time": 1780299151,
+    "update_time": 1784734524,
     "_id": "Cross-Language Policy Drift"
-  },
-  "Cross-Language Policy Drift Phenomenon": {
-    "chunk_ids": [
-      "chunk-93c44edb2172624ffe6b0ae31f5548ec"
-    ],
-    "count": 1,
-    "create_time": 1780299156,
-    "update_time": 1780299156,
-    "_id": "Cross-Language Policy Drift Phenomenon"
   },
   "Initial Evidence Of Failure-Centered Runtime Evaluation": {
     "chunk_ids": [
@@ -11528,15 +11262,6 @@
     "create_time": 1780299156,
     "update_time": 1780299156,
     "_id": "Initial Evidence Of Failure-Centered Runtime Evaluation"
-  },
-  "International Financial Institution Lobby": {
-    "chunk_ids": [
-      "chunk-93c44edb2172624ffe6b0ae31f5548ec"
-    ],
-    "count": 1,
-    "create_time": 1780299160,
-    "update_time": 1780299160,
-    "_id": "International Financial Institution Lobby"
   },
   "Lobby": {
     "chunk_ids": [
@@ -11591,15 +11316,6 @@
     "create_time": 1780299173,
     "update_time": 1780299173,
     "_id": "Structured Deployment Signals"
-  },
-  "Code Generation Benchmarks": {
-    "chunk_ids": [
-      "chunk-d3e8ebc753c159c0f0419db4a24a0787"
-    ],
-    "count": 1,
-    "create_time": 1780299395,
-    "update_time": 1780299395,
-    "_id": "Code Generation Benchmarks"
   },
   "Iterative Refinement Of Textual Directions": {
     "chunk_ids": [
@@ -11657,11 +11373,11 @@
   },
   "4B Model": {
     "chunk_ids": [
+      "chunk-201c68b063975a5b0441ceab4c211673",
       "chunk-0a47d5248e3997970eb290095468c98a"
     ],
-    "count": 1,
-    "create_time": 1780299710,
-    "update_time": 1780299710,
+    "count": 2,
+    "update_time": 1784734530,
     "_id": "4B Model"
   },
   "Hindsight Preference Optimization (Hpo)": {
@@ -11772,15 +11488,6 @@
     "update_time": 1780300024,
     "_id": "Regularizing Representations"
   },
-  "Representational Curvature Modulates Behavioral Uncertainty In Large Language Models": {
-    "chunk_ids": [
-      "chunk-a11f7e79a0dd50c50e9078920d733650"
-    ],
-    "count": 1,
-    "create_time": 1780300028,
-    "update_time": 1780300028,
-    "_id": "Representational Curvature Modulates Behavioral Uncertainty In Large Language Models"
-  },
   "Temporal Straightening": {
     "chunk_ids": [
       "chunk-a11f7e79a0dd50c50e9078920d733650"
@@ -11795,8 +11502,7 @@
       "chunk-a11f7e79a0dd50c50e9078920d733650"
     ],
     "count": 1,
-    "create_time": 1780300032,
-    "update_time": 1780300032,
+    "update_time": 1784734533,
     "_id": "Contextual Curvature Modulates Behavioral Uncertainty In Large Language Models"
   },
   "GPT-2 XL": {
@@ -11841,7 +11547,7 @@
       "chunk-2c9658bbb9b6d1aab68420f0461bffed"
     ],
     "count": 2,
-    "update_time": 1780360129,
+    "update_time": 1784734319,
     "_id": "Knowledge Graph"
   },
   "Medreason": {
@@ -12035,11 +11741,12 @@
   },
   "Time Series Forecasting": {
     "chunk_ids": [
+      "chunk-ce1c37c5b36081e4b5e6571b03199e12",
       "chunk-c531d74d1acb78d7619423c10d40abcd",
       "chunk-c4d3f5bf88d1c43459b79a491fd32f08"
     ],
-    "count": 2,
-    "update_time": 1780353787,
+    "count": 3,
+    "update_time": 1784734537,
     "_id": "Time Series Forecasting"
   },
   "Trend-Residual Decomposition": {
@@ -12348,15 +12055,6 @@
     "update_time": 1780302219,
     "_id": "Viewport Generation"
   },
-  "Viewport-Unaware Blind Omnidirectional Image Quality Assessment": {
-    "chunk_ids": [
-      "chunk-472f28845fadc58f0220b9bd97948210"
-    ],
-    "count": 1,
-    "create_time": 1780302223,
-    "update_time": 1780302223,
-    "_id": "Viewport-Unaware Blind Omnidirectional Image Quality Assessment"
-  },
   "Unified And Generalized Approach": {
     "chunk_ids": [
       "chunk-472f28845fadc58f0220b9bd97948210"
@@ -12365,15 +12063,6 @@
     "create_time": 1780302223,
     "update_time": 1780302223,
     "_id": "Unified And Generalized Approach"
-  },
-  "Viewport-Unaware Blind Omnidirectional Image Assessment": {
-    "chunk_ids": [
-      "chunk-472f28845fadc58f0220b9bd97948210"
-    ],
-    "count": 1,
-    "create_time": 1780302227,
-    "update_time": 1780302227,
-    "_id": "Viewport-Unaware Blind Omnidirectional Image Assessment"
   },
   "Context-Aware Hospitalization Forecasting Evaluations For Decision Support Using Llms": {
     "chunk_ids": [
@@ -12906,15 +12595,6 @@
     "update_time": 1780304744,
     "_id": "Inter-Block Connectivity"
   },
-  "Mlps (Multi-Layer Perceptrons)": {
-    "chunk_ids": [
-      "chunk-32757befd1af559a1becfcb6024b586c"
-    ],
-    "count": 1,
-    "create_time": 1780304744,
-    "update_time": 1780304744,
-    "_id": "Mlps (Multi-Layer Perceptrons)"
-  },
   "Near-Term Devices": {
     "chunk_ids": [
       "chunk-32757befd1af559a1becfcb6024b586c"
@@ -12971,11 +12651,12 @@
   },
   "AI Agent": {
     "chunk_ids": [
+      "chunk-7efd567603ef494fe9d88fd8c3bbf7ca",
       "chunk-c436371e09dbe396b6014e4ade2450b1",
       "chunk-6a8f8dd7fba472944ed40dc14c2bbd5c"
     ],
-    "count": 2,
-    "update_time": 1780349753,
+    "count": 3,
+    "update_time": 1784734514,
     "_id": "AI Agent"
   },
   "Agentic AI Platforms": {
@@ -13424,8 +13105,7 @@
       "chunk-5afcc78472e920445d94dd9f10ec59ab"
     ],
     "count": 1,
-    "create_time": 1780307262,
-    "update_time": 1780307262,
+    "update_time": 1784734539,
     "_id": "Intelligent Transportation Systems"
   },
   "LSTM-Based Predictive Baseline": {
@@ -14189,8 +13869,7 @@
       "chunk-8875de2b1b15a3817b39259e58dd46b1"
     ],
     "count": 1,
-    "create_time": 1780310191,
-    "update_time": 1780310191,
+    "update_time": 1784734548,
     "_id": "Graph Memory Transformer V7"
   },
   "Transformer Blocks": {
@@ -14255,15 +13934,6 @@
     "create_time": 1780310546,
     "update_time": 1780310546,
     "_id": "Cifar-10 Benchmark"
-  },
-  "Convolutional Neural Network (CNN)": {
-    "chunk_ids": [
-      "chunk-88e79ecba6e5814d1641c2e8577c381c",
-      "chunk-41eb9f8066bcaa26bcf014dae9fefde1"
-    ],
-    "count": 2,
-    "update_time": 1780334215,
-    "_id": "Convolutional Neural Network (CNN)"
   },
   "Dense-Layer Design": {
     "chunk_ids": [
@@ -14787,8 +14457,7 @@
       "chunk-5051fefc63fba8bbe15b427a9ce68480"
     ],
     "count": 1,
-    "create_time": 1780312202,
-    "update_time": 1780312202,
+    "update_time": 1784734551,
     "_id": "Neologisms Support Tool"
   },
   "Non-AI Dictionary Support": {
@@ -14808,15 +14477,6 @@
     "create_time": 1780312206,
     "update_time": 1780312206,
     "_id": "Non-Native Speakers (Nns)"
-  },
-  "Neologisms Support Tool Evaluation": {
-    "chunk_ids": [
-      "chunk-5051fefc63fba8bbe15b427a9ce68480"
-    ],
-    "count": 1,
-    "create_time": 1780312206,
-    "update_time": 1780312206,
-    "_id": "Neologisms Support Tool Evaluation"
   },
   "Neologisms Support Tool Limitations": {
     "chunk_ids": [
@@ -15989,16 +15649,6 @@
     "update_time": 1780316055,
     "_id": "Sustainability Commitments"
   },
-  "Attention Mechanisms": {
-    "chunk_ids": [
-      "chunk-910c57075f353f24182e5f8e12e3d2a1",
-      "chunk-675ee51b7d127031558c39cb6850d420",
-      "chunk-9f0b83c72a7bf3c37b426d80173d6c00"
-    ],
-    "count": 3,
-    "update_time": 1780450231,
-    "_id": "Attention Mechanisms"
-  },
   "Cognitive Appraisal Theory": {
     "chunk_ids": [
       "chunk-910c57075f353f24182e5f8e12e3d2a1"
@@ -16388,11 +16038,11 @@
   },
   "Population-Based Model": {
     "chunk_ids": [
+      "chunk-b50eb193d4b7beed74fdee062999a545",
       "chunk-f192dda64c5cc46c62ae9feadc822c82"
     ],
-    "count": 1,
-    "create_time": 1780317484,
-    "update_time": 1780317484,
+    "count": 2,
+    "update_time": 1784734555,
     "_id": "Population-Based Model"
   },
   "Transfer Learning": {
@@ -17270,11 +16920,11 @@
   },
   "Hallucination": {
     "chunk_ids": [
+      "chunk-d3ba0f324a606c4227526581aeedb047",
       "chunk-05877db4970d1baba025bbf14edc0989"
     ],
-    "count": 1,
-    "create_time": 1780323952,
-    "update_time": 1780323952,
+    "count": 2,
+    "update_time": 1784734558,
     "_id": "Hallucination"
   },
   "Human-AI Collaboration": {
@@ -17363,8 +17013,7 @@
       "chunk-764120ed432e664023feb791fa299941"
     ],
     "count": 1,
-    "create_time": 1780324164,
-    "update_time": 1780324164,
+    "update_time": 1784734560,
     "_id": "Recurrent Neural Network (RNN)"
   },
   "Internal Faults": {
@@ -17874,20 +17523,21 @@
   },
   "Code Generation Benchmark": {
     "chunk_ids": [
+      "chunk-d3e8ebc753c159c0f0419db4a24a0787",
       "chunk-8e25ff1edb5ddc4b28badb0143ccde17"
     ],
-    "count": 1,
-    "create_time": 1780327027,
-    "update_time": 1780327027,
+    "count": 2,
+    "update_time": 1784734527,
     "_id": "Code Generation Benchmark"
   },
   "Mathematical Reasoning Benchmark": {
     "chunk_ids": [
+      "chunk-3ad0b77a42149394d78abd3785c28b27",
       "chunk-8e25ff1edb5ddc4b28badb0143ccde17",
       "chunk-108a39ada6b2138916bee7b65260c6d3"
     ],
-    "count": 2,
-    "update_time": 1780375114,
+    "count": 3,
+    "update_time": 1784734565,
     "_id": "Mathematical Reasoning Benchmark"
   },
   "Sufficiency Classifier": {
@@ -18003,18 +17653,8 @@
       "chunk-8e25ff1edb5ddc4b28badb0143ccde17"
     ],
     "count": 1,
-    "create_time": 1780327145,
-    "update_time": 1780327145,
+    "update_time": 1784734567,
     "_id": "Slm (Small Language Model)"
-  },
-  "Slms (Small Language Models)": {
-    "chunk_ids": [
-      "chunk-8e25ff1edb5ddc4b28badb0143ccde17"
-    ],
-    "count": 1,
-    "create_time": 1780327147,
-    "update_time": 1780327147,
-    "_id": "Slms (Small Language Models)"
   },
   "Tandem Framework": {
     "chunk_ids": [
@@ -18051,15 +17691,6 @@
     "create_time": 1780327394,
     "update_time": 1780327394,
     "_id": "Explainable Transformer"
-  },
-  "Human Evaluations": {
-    "chunk_ids": [
-      "chunk-4d0bf9053d8749c1f24e024bddad0c41"
-    ],
-    "count": 1,
-    "create_time": 1780327394,
-    "update_time": 1780327394,
-    "_id": "Human Evaluations"
   },
   "Multi-Head Attention Heatmap Visualization": {
     "chunk_ids": [
@@ -18237,18 +17868,8 @@
       "chunk-bc6675ce5ca149f5f3e733b1bd5b18e0"
     ],
     "count": 1,
-    "create_time": 1780328468,
-    "update_time": 1780328468,
+    "update_time": 1784734585,
     "_id": "Shepard-Type Normalized Gaussian Kan"
-  },
-  "Shepard-Type Normalized Gaussian Kan (Pu-Gkan)": {
-    "chunk_ids": [
-      "chunk-bc6675ce5ca149f5f3e733b1bd5b18e0"
-    ],
-    "count": 1,
-    "create_time": 1780328473,
-    "update_time": 1780328473,
-    "_id": "Shepard-Type Normalized Gaussian Kan (Pu-Gkan)"
   },
   "Standard Gaussian Kan (Gkan)": {
     "chunk_ids": [
@@ -19406,11 +19027,11 @@
   },
   "Architecture": {
     "chunk_ids": [
+      "chunk-0344f2843fd85e4347a797b4d49c58fa",
       "chunk-5c1f856ba69b32fe77827c3c2e2ddf65"
     ],
-    "count": 1,
-    "create_time": 1780332489,
-    "update_time": 1780332489,
+    "count": 2,
+    "update_time": 1784734495,
     "_id": "Architecture"
   },
   "Editor Agent": {
@@ -19439,15 +19060,6 @@
     "create_time": 1780332500,
     "update_time": 1780332500,
     "_id": "Generator Agent"
-  },
-  "Github Repositories": {
-    "chunk_ids": [
-      "chunk-5c1f856ba69b32fe77827c3c2e2ddf65"
-    ],
-    "count": 1,
-    "create_time": 1780332504,
-    "update_time": 1780332504,
-    "_id": "Github Repositories"
   },
   "Hugging Face Artifacts": {
     "chunk_ids": [
@@ -19487,11 +19099,11 @@
   },
   "Human Evaluation": {
     "chunk_ids": [
+      "chunk-4d0bf9053d8749c1f24e024bddad0c41",
       "chunk-5c1f856ba69b32fe77827c3c2e2ddf65"
     ],
-    "count": 1,
-    "create_time": 1780332513,
-    "update_time": 1780332513,
+    "count": 2,
+    "update_time": 1784734570,
     "_id": "Human Evaluation"
   },
   "Controlled Motion Sequences": {
@@ -19526,8 +19138,7 @@
       "chunk-2be16b3c77b5daa796988c15c645729c"
     ],
     "count": 1,
-    "create_time": 1780332928,
-    "update_time": 1780332928,
+    "update_time": 1784734590,
     "_id": "Emotion-Driven Motion Sequences"
   },
   "Facial Expression-Derived Emotion Embeddings": {
@@ -19566,15 +19177,6 @@
     "update_time": 1780332937,
     "_id": "Recurrent Sequence Model Based on Two-Layer LSTM Architecture"
   },
-  "Short-Term Human Pose Prediction": {
-    "chunk_ids": [
-      "chunk-2be16b3c77b5daa796988c15c645729c"
-    ],
-    "count": 1,
-    "create_time": 1780332941,
-    "update_time": 1780332941,
-    "_id": "Short-Term Human Pose Prediction"
-  },
   "Assistive Robots": {
     "chunk_ids": [
       "chunk-2be16b3c77b5daa796988c15c645729c"
@@ -19611,22 +19213,12 @@
     "update_time": 1780332950,
     "_id": "Multimodal Conditionation"
   },
-  "Natural Emotion-Driven Motion Sequences": {
-    "chunk_ids": [
-      "chunk-2be16b3c77b5daa796988c15c645729c"
-    ],
-    "count": 1,
-    "create_time": 1780332950,
-    "update_time": 1780332950,
-    "_id": "Natural Emotion-Driven Motion Sequences"
-  },
   "Short-Term Pose Prediction": {
     "chunk_ids": [
       "chunk-2be16b3c77b5daa796988c15c645729c"
     ],
     "count": 1,
-    "create_time": 1780332954,
-    "update_time": 1780332954,
+    "update_time": 1784734592,
     "_id": "Short-Term Pose Prediction"
   },
   "Humanity'S Last Exam (Hle)": {
@@ -19818,15 +19410,6 @@
     "update_time": 1780333847,
     "_id": "Uncertainty Signal"
   },
-  "LLM-Based Systems": {
-    "chunk_ids": [
-      "chunk-4675567f8736cc58a7d6d63b7a67f3c0",
-      "chunk-e36c5852c878d5afc4278cd090a735ac"
-    ],
-    "count": 2,
-    "update_time": 1780365703,
-    "_id": "LLM-Based Systems"
-  },
   "Automated Surface Observing System (Asos)": {
     "chunk_ids": [
       "chunk-41eb9f8066bcaa26bcf014dae9fefde1"
@@ -19874,11 +19457,12 @@
   },
   "Transformer": {
     "chunk_ids": [
+      "chunk-e7a39d8618e94f78e32100877c33915b",
+      "chunk-92a2643a6171ef0fb4676af3416e2e73",
       "chunk-41eb9f8066bcaa26bcf014dae9fefde1"
     ],
-    "count": 1,
-    "create_time": 1780334230,
-    "update_time": 1780334230,
+    "count": 3,
+    "update_time": 1784734492,
     "_id": "Transformer"
   },
   "U.S. Grid Resilience": {
@@ -20168,15 +19752,6 @@
     "create_time": 1780335108,
     "update_time": 1780335108,
     "_id": "Semantic Anchor Construction"
-  },
-  "Supervised Contrastive Learning Objective": {
-    "chunk_ids": [
-      "chunk-2b43e5a6aca73f2b9d0f6d31a1ed9a91"
-    ],
-    "count": 1,
-    "create_time": 1780335113,
-    "update_time": 1780335113,
-    "_id": "Supervised Contrastive Learning Objective"
   },
   "Agentic Adversarial Rewriting Exposes Architectural Vulnerabilities in Black-Box NLP Pipelines": {
     "chunk_ids": [
@@ -21105,15 +20680,6 @@
     "update_time": 1780338820,
     "_id": "Fda Samd Requirements"
   },
-  "Generative Models": {
-    "chunk_ids": [
-      "chunk-d87003a98af1edecaa18d3c5cf8f05d2"
-    ],
-    "count": 1,
-    "create_time": 1780338825,
-    "update_time": 1780338825,
-    "_id": "Generative Models"
-  },
   "LLM-based Chatbot Interventions": {
     "chunk_ids": [
       "chunk-d87003a98af1edecaa18d3c5cf8f05d2"
@@ -21440,11 +21006,11 @@
   },
   "Public Benchmark": {
     "chunk_ids": [
+      "chunk-3fe390e407e3b2d170fd3dab3d492fe0",
       "chunk-e18a5a3f1ec0e6051c5e7facb3219cc6"
     ],
-    "count": 1,
-    "create_time": 1780340066,
-    "update_time": 1780340066,
+    "count": 2,
+    "update_time": 1784734598,
     "_id": "Public Benchmark"
   },
   "Robotic Navigation": {
@@ -21528,22 +21094,15 @@
     "update_time": 1780340390,
     "_id": "Topic (3Rd Level) Prediction"
   },
-  "4B Models": {
-    "chunk_ids": [
-      "chunk-201c68b063975a5b0441ceab4c211673"
-    ],
-    "count": 1,
-    "create_time": 1780340633,
-    "update_time": 1780340633,
-    "_id": "4B Models"
-  },
   "Frontier Model": {
     "chunk_ids": [
+      "chunk-7a6ae8adcf4df680a3155bbab7deb847",
+      "chunk-db8ced0136efaaf767c85f4c9e185dbe",
+      "chunk-f0a260fdd44522539c1799dc8fb6c8a3",
       "chunk-201c68b063975a5b0441ceab4c211673"
     ],
-    "count": 1,
-    "create_time": 1780340633,
-    "update_time": 1780340633,
+    "count": 4,
+    "update_time": 1784734327,
     "_id": "Frontier Model"
   },
   "Lmms-Eval": {
@@ -21599,15 +21158,6 @@
     "create_time": 1780340841,
     "update_time": 1780340841,
     "_id": "Cifar-10"
-  },
-  "Cnns": {
-    "chunk_ids": [
-      "chunk-e271b74806dc276d5174bade6921f998"
-    ],
-    "count": 1,
-    "create_time": 1780340841,
-    "update_time": 1780340841,
-    "_id": "Cnns"
   },
   "Imagenette": {
     "chunk_ids": [
@@ -22064,8 +21614,7 @@
       "chunk-2437b7e8219be59201ce384133e150d2"
     ],
     "count": 1,
-    "create_time": 1780342915,
-    "update_time": 1780342915,
+    "update_time": 1784734520,
     "_id": "Parameter-Efficient Fine-Tuning"
   },
   "Product-Key Memory": {
@@ -22266,15 +21815,6 @@
     "create_time": 1780343614,
     "update_time": 1780343614,
     "_id": "Practical Applicability"
-  },
-  "Real-World Environments": {
-    "chunk_ids": [
-      "chunk-7b76b69fbc52715fc463c5d181400ff4",
-      "chunk-1c44b91ca456f553f869f4b5c8aac3c7"
-    ],
-    "count": 2,
-    "update_time": 1780400169,
-    "_id": "Real-World Environments"
   },
   "Scalability Analysis": {
     "chunk_ids": [
@@ -23363,7 +22903,7 @@
       "chunk-5f211d084144e208abef562d85a76f43"
     ],
     "count": 2,
-    "update_time": 1780425632,
+    "update_time": 1784734615,
     "_id": "Graph Neural Networks"
   },
   "Image Benchmark": {
@@ -23618,15 +23158,6 @@
     "update_time": 1780348641,
     "_id": "Turn-Taking And Overlap Patterns"
   },
-  "Active Learning Algorithms": {
-    "chunk_ids": [
-      "chunk-2169de40453700f85564e4af25b67ed6"
-    ],
-    "count": 1,
-    "create_time": 1780348876,
-    "update_time": 1780348876,
-    "_id": "Active Learning Algorithms"
-  },
   "Benchmark Text Classification Datasets": {
     "chunk_ids": [
       "chunk-2169de40453700f85564e4af25b67ed6"
@@ -23644,15 +23175,6 @@
     "create_time": 1780348883,
     "update_time": 1780348883,
     "_id": "Crowd-Sourced Workers"
-  },
-  "Machine Learning Model": {
-    "chunk_ids": [
-      "chunk-2169de40453700f85564e4af25b67ed6"
-    ],
-    "count": 1,
-    "create_time": 1780348888,
-    "update_time": 1780348888,
-    "_id": "Machine Learning Model"
   },
   "Real-World Crowd-Sourced Text Annotations": {
     "chunk_ids": [
@@ -23755,11 +23277,11 @@
   },
   "Automatic Speech Recognition": {
     "chunk_ids": [
+      "chunk-245522d5b100e4d1a221b34fd4f3a20d",
       "chunk-74237a0783131ea6175975f753244a1b"
     ],
-    "count": 1,
-    "create_time": 1780349368,
-    "update_time": 1780349368,
+    "count": 2,
+    "update_time": 1784734465,
     "_id": "Automatic Speech Recognition"
   },
   "Adaptation Layer": {
@@ -24325,8 +23847,7 @@
       "chunk-b0733197acf40fb64366f709d6d6f836"
     ],
     "count": 1,
-    "create_time": 1780351564,
-    "update_time": 1780351564,
+    "update_time": 1784734311,
     "_id": "Small Language Model"
   },
   "Efficient Computation": {
@@ -25031,15 +24552,6 @@
     "update_time": 1780354351,
     "_id": "Transmission Fidelity"
   },
-  "$R^*$": {
-    "chunk_ids": [
-      "chunk-686d8a138b031e7ea18550cf04496266"
-    ],
-    "count": 1,
-    "create_time": 1780354564,
-    "update_time": 1780354564,
-    "_id": "$R^*$"
-  },
   "AI Safety Gridworlds": {
     "chunk_ids": [
       "chunk-686d8a138b031e7ea18550cf04496266"
@@ -25486,18 +24998,8 @@
       "chunk-939591faf029ffb75f2b84f8ba7aa53b"
     ],
     "count": 1,
-    "create_time": 1780356160,
-    "update_time": 1780356160,
+    "update_time": 1784734617,
     "_id": "Medical Image Segmentation"
-  },
-  "Progress In Medical Image Segmentation": {
-    "chunk_ids": [
-      "chunk-939591faf029ffb75f2b84f8ba7aa53b"
-    ],
-    "count": 1,
-    "create_time": 1780356160,
-    "update_time": 1780356160,
-    "_id": "Progress In Medical Image Segmentation"
   },
   "Escalation Criteria Framework": {
     "chunk_ids": [
@@ -25940,15 +25442,6 @@
     "update_time": 1780358194,
     "_id": "GPT-4o LMM"
   },
-  "Gemini 2.5 Flash Lmm": {
-    "chunk_ids": [
-      "chunk-6b568d5411e28f68d9c3dec659627695"
-    ],
-    "count": 1,
-    "create_time": 1780358194,
-    "update_time": 1780358194,
-    "_id": "Gemini 2.5 Flash Lmm"
-  },
   "Gemini 2.5 Pro Lrm": {
     "chunk_ids": [
       "chunk-6b568d5411e28f68d9c3dec659627695"
@@ -26107,18 +25600,8 @@
       "chunk-48a4a658e93da7ba77d376aa7954dd6c"
     ],
     "count": 1,
-    "create_time": 1780358649,
-    "update_time": 1780358649,
+    "update_time": 1784734620,
     "_id": "Sear"
-  },
-  "Sear (Social Engineering Attack Using Augmented Reality)": {
-    "chunk_ids": [
-      "chunk-48a4a658e93da7ba77d376aa7954dd6c"
-    ],
-    "count": 1,
-    "create_time": 1780358649,
-    "update_time": 1780358649,
-    "_id": "Sear (Social Engineering Attack Using Augmented Reality)"
   },
   "Unseen": {
     "chunk_ids": [
@@ -26734,11 +26217,12 @@
   },
   "Domain Expert": {
     "chunk_ids": [
+      "chunk-534eeaf4b91a65225ef7c1e0da500b8b",
+      "chunk-f2b2afb905e3ac712e2c9231fdfc39c3",
       "chunk-45940225f08f66cf5ac2a193c0009a9d"
     ],
-    "count": 1,
-    "create_time": 1780361882,
-    "update_time": 1780361882,
+    "count": 3,
+    "update_time": 1784734517,
     "_id": "Domain Expert"
   },
   "Iterative Repair": {
@@ -26776,15 +26260,6 @@
     "create_time": 1780361890,
     "update_time": 1780361890,
     "_id": "Ontology Design Pattern Compliance"
-  },
-  "Panel of heterogeneous LLM judges": {
-    "chunk_ids": [
-      "chunk-45940225f08f66cf5ac2a193c0009a9d"
-    ],
-    "count": 1,
-    "create_time": 1780361895,
-    "update_time": 1780361895,
-    "_id": "Panel of heterogeneous LLM judges"
   },
   "Planning-First, Artifact-Driven Generation": {
     "chunk_ids": [
@@ -26881,8 +26356,7 @@
       "chunk-45940225f08f66cf5ac2a193c0009a9d"
     ],
     "count": 1,
-    "create_time": 1780361916,
-    "update_time": 1780361916,
+    "update_time": 1784734626,
     "_id": "Heterogeneous LLM Judges"
   },
   "Knowledge Engineering": {
@@ -27307,15 +26781,6 @@
     "create_time": 1780363823,
     "update_time": 1780363823,
     "_id": "Jupyter Notebook Agent"
-  },
-  "Large Language Model (LLM) Agents": {
-    "chunk_ids": [
-      "chunk-924c431a180b4860363df5f7f37c9533"
-    ],
-    "count": 1,
-    "create_time": 1780363827,
-    "update_time": 1780363827,
-    "_id": "Large Language Model (LLM) Agents"
   },
   "Soft Propositional Reasoning (Spr)": {
     "chunk_ids": [
@@ -28637,8 +28102,7 @@
       "chunk-6e362b1abd07592b478809f67c6a95bd"
     ],
     "count": 1,
-    "create_time": 1780369279,
-    "update_time": 1780369279,
+    "update_time": 1784734634,
     "_id": "Peer Identity Bias"
   },
   "Trust Democratic Discourse Analysis Pipeline": {
@@ -28793,15 +28257,6 @@
     "create_time": 1780369320,
     "update_time": 1780369320,
     "_id": "Omega Energy"
-  },
-  "Peer Identity Bias Analysis": {
-    "chunk_ids": [
-      "chunk-6e362b1abd07592b478809f67c6a95bd"
-    ],
-    "count": 1,
-    "create_time": 1780369322,
-    "update_time": 1780369322,
-    "_id": "Peer Identity Bias Analysis"
   },
   "Quality-Critical Applications": {
     "chunk_ids": [
@@ -29255,11 +28710,11 @@
   },
   "LLM-based Agent": {
     "chunk_ids": [
+      "chunk-857766f52242eba047dec5cf4df6c0fe",
       "chunk-66d8f5d10365e0f826f639d1d79d8321"
     ],
-    "count": 1,
-    "create_time": 1780370894,
-    "update_time": 1780370894,
+    "count": 2,
+    "update_time": 1784734641,
     "_id": "LLM-based Agent"
   },
   "Pexa": {
@@ -29735,8 +29190,7 @@
       "chunk-aee453060c98f8d9fbc026991f2bd5e0"
     ],
     "count": 1,
-    "create_time": 1780373064,
-    "update_time": 1780373064,
+    "update_time": 1784734645,
     "_id": "Conditional Expected Distance"
   },
   "Craft": {
@@ -29792,15 +29246,6 @@
     "create_time": 1780373079,
     "update_time": 1780373079,
     "_id": "Tsds"
-  },
-  "Conditional Expected Distance Metric": {
-    "chunk_ids": [
-      "chunk-aee453060c98f8d9fbc026991f2bd5e0"
-    ],
-    "count": 1,
-    "create_time": 1780373084,
-    "update_time": 1780373084,
-    "_id": "Conditional Expected Distance Metric"
   },
   "Continuous Kl Divergence": {
     "chunk_ids": [
@@ -30749,11 +30194,12 @@
   },
   "Real-World Environment": {
     "chunk_ids": [
+      "chunk-7b76b69fbc52715fc463c5d181400ff4",
+      "chunk-1c44b91ca456f553f869f4b5c8aac3c7",
       "chunk-744e8ff4c4d494eeeb5991bf31aecc45"
     ],
-    "count": 1,
-    "create_time": 1780377184,
-    "update_time": 1780377184,
+    "count": 3,
+    "update_time": 1784734601,
     "_id": "Real-World Environment"
   },
   "Simulation Environment": {
@@ -30956,11 +30402,11 @@
   },
   "Supervised Contrastive Learning": {
     "chunk_ids": [
+      "chunk-2b43e5a6aca73f2b9d0f6d31a1ed9a91",
       "chunk-3e4bebf7715af2c9d1047938049edd28"
     ],
-    "count": 1,
-    "create_time": 1780378045,
-    "update_time": 1780378045,
+    "count": 2,
+    "update_time": 1784734596,
     "_id": "Supervised Contrastive Learning"
   },
   "Clinical Prediction Tasks": {
@@ -30986,8 +30432,7 @@
       "chunk-4fab3e7e7679978c148a365b9ea6284a"
     ],
     "count": 1,
-    "create_time": 1780378716,
-    "update_time": 1780378716,
+    "update_time": 1784734574,
     "_id": "Electronic Health Records"
   },
   "FeatEHR-LLM": {
@@ -31085,8 +30530,7 @@
       "chunk-c76cc454c5e1f693609cbf2d13755e39"
     ],
     "count": 1,
-    "create_time": 1780379275,
-    "update_time": 1780379275,
+    "update_time": 1784734474,
     "_id": "Trusted Execution Environments"
   },
   "Runtime Execution Validity Under Partial Observability": {
@@ -31163,11 +30607,11 @@
   },
   "Multimodal Large Language Model": {
     "chunk_ids": [
+      "chunk-c6a5122181d2ed5febf1d02419a59713",
       "chunk-1e5631cd7ac25578b2d193a7b3c692a1"
     ],
-    "count": 1,
-    "create_time": 1780379607,
-    "update_time": 1780379607,
+    "count": 2,
+    "update_time": 1784734254,
     "_id": "Multimodal Large Language Model"
   },
   "Vlm2-Bench": {
@@ -31359,15 +30803,6 @@
     "update_time": 1780380409,
     "_id": "Collective Intelligence"
   },
-  "Large Language Model Agents": {
-    "chunk_ids": [
-      "chunk-121ca295f22e17da9a2b408d052d49b7"
-    ],
-    "count": 1,
-    "create_time": 1780380415,
-    "update_time": 1780380415,
-    "_id": "Large Language Model Agents"
-  },
   "Moltbook": {
     "chunk_ids": [
       "chunk-121ca295f22e17da9a2b408d052d49b7"
@@ -31458,15 +30893,6 @@
     "update_time": 1780380694,
     "_id": "Tightly Coupled Coordination Logic"
   },
-  "Code Generation Dataset": {
-    "chunk_ids": [
-      "chunk-b0cee2fa51c6c918de503e03716bfe28"
-    ],
-    "count": 1,
-    "create_time": 1780380933,
-    "update_time": 1780380933,
-    "_id": "Code Generation Dataset"
-  },
   "Kgw Scheme": {
     "chunk_ids": [
       "chunk-b0cee2fa51c6c918de503e03716bfe28"
@@ -31475,15 +30901,6 @@
     "create_time": 1780380933,
     "update_time": 1780380933,
     "_id": "Kgw Scheme"
-  },
-  "Mathematical Reasoning Dataset": {
-    "chunk_ids": [
-      "chunk-b0cee2fa51c6c918de503e03716bfe28"
-    ],
-    "count": 1,
-    "create_time": 1780380940,
-    "update_time": 1780380940,
-    "_id": "Mathematical Reasoning Dataset"
   },
   "Next-Token Probability Distribution": {
     "chunk_ids": [
@@ -31688,8 +31105,7 @@
       "chunk-7a9ec640fdcba6c469bcb85fe356257c"
     ],
     "count": 1,
-    "create_time": 1780381452,
-    "update_time": 1780381452,
+    "update_time": 1784734624,
     "_id": "Magnetic Resonance Imaging"
   },
   "Positron Emission Tomography": {
@@ -31697,8 +31113,7 @@
       "chunk-7a9ec640fdcba6c469bcb85fe356257c"
     ],
     "count": 1,
-    "create_time": 1780381452,
-    "update_time": 1780381452,
+    "update_time": 1784734643,
     "_id": "Positron Emission Tomography"
   },
   "Robustness To Missing-Not-At-Random (Mnar) Data Patterns": {
@@ -32196,15 +31611,6 @@
     "update_time": 1780383466,
     "_id": "Adam"
   },
-  "Adaptive Decoupled Moment Routing": {
-    "chunk_ids": [
-      "chunk-350265fa6cfa6c36f900b8cfb64b92be"
-    ],
-    "count": 1,
-    "create_time": 1780383466,
-    "update_time": 1780383466,
-    "_id": "Adaptive Decoupled Moment Routing"
-  },
   "Continual Learning": {
     "chunk_ids": [
       "chunk-350265fa6cfa6c36f900b8cfb64b92be"
@@ -32219,8 +31625,7 @@
       "chunk-350265fa6cfa6c36f900b8cfb64b92be"
     ],
     "count": 1,
-    "create_time": 1780383470,
-    "update_time": 1780383470,
+    "update_time": 1784734656,
     "_id": "Decoupled Moment Routing"
   },
   "Gradient Modification": {
@@ -32538,15 +31943,6 @@
     "update_time": 1780385442,
     "_id": "Semantic Routing"
   },
-  "Multimodal Large Language Models": {
-    "chunk_ids": [
-      "chunk-c6a5122181d2ed5febf1d02419a59713"
-    ],
-    "count": 1,
-    "create_time": 1780385773,
-    "update_time": 1780385773,
-    "_id": "Multimodal Large Language Models"
-  },
   "Sou-Train": {
     "chunk_ids": [
       "chunk-c6a5122181d2ed5febf1d02419a59713"
@@ -32736,15 +32132,6 @@
     "update_time": 1780386602,
     "_id": "Energy Forecasting Use Cases"
   },
-  "Energy Time Series Forecasting": {
-    "chunk_ids": [
-      "chunk-ce1c37c5b36081e4b5e6571b03199e12"
-    ],
-    "count": 1,
-    "create_time": 1780386607,
-    "update_time": 1780386607,
-    "_id": "Energy Time Series Forecasting"
-  },
   "Fets Benchmark": {
     "chunk_ids": [
       "chunk-ce1c37c5b36081e4b5e6571b03199e12"
@@ -32770,7 +32157,7 @@
       "chunk-daa8db6b063cab5b2b36b29bd40793c3"
     ],
     "count": 2,
-    "update_time": 1780435377,
+    "update_time": 1784734661,
     "_id": "Answer Set Programming"
   },
   "Asp Code Generation": {
@@ -33036,11 +32423,12 @@
   },
   "3D Convolutional Neural Networks": {
     "chunk_ids": [
+      "chunk-88e79ecba6e5814d1641c2e8577c381c",
+      "chunk-41eb9f8066bcaa26bcf014dae9fefde1",
       "chunk-839c08c5d9756d8bf27447b401750622"
     ],
-    "count": 1,
-    "create_time": 1780387776,
-    "update_time": 1780387776,
+    "count": 3,
+    "update_time": 1784734229,
     "_id": "3D Convolutional Neural Networks"
   },
   "Adni-2Dpc": {
@@ -33300,18 +32688,8 @@
       "chunk-f60f05f398135c8b5b6183d844335bf5"
     ],
     "count": 1,
-    "create_time": 1780388800,
-    "update_time": 1780388800,
+    "update_time": 1784734663,
     "_id": "Confidence Score"
-  },
-  "Confidence Score Metric": {
-    "chunk_ids": [
-      "chunk-f60f05f398135c8b5b6183d844335bf5"
-    ],
-    "count": 1,
-    "create_time": 1780388805,
-    "update_time": 1780388805,
-    "_id": "Confidence Score Metric"
   },
   "Conventional Capacity-Approaching Short Codes": {
     "chunk_ids": [
@@ -33399,18 +32777,8 @@
       "chunk-f60f05f398135c8b5b6183d844335bf5"
     ],
     "count": 1,
-    "create_time": 1780388826,
-    "update_time": 1780388826,
+    "update_time": 1784734665,
     "_id": "Weighted Hamming Distance"
-  },
-  "Weighted Hamming Distance Metric": {
-    "chunk_ids": [
-      "chunk-f60f05f398135c8b5b6183d844335bf5"
-    ],
-    "count": 1,
-    "create_time": 1780388826,
-    "update_time": 1780388826,
-    "_id": "Weighted Hamming Distance Metric"
   },
   "Intelligent Transportation Systems (Its)": {
     "chunk_ids": [
@@ -33673,15 +33041,6 @@
     "update_time": 1780390369,
     "_id": "Annotated Financial Databases"
   },
-  "Code Generation Module": {
-    "chunk_ids": [
-      "chunk-148d7170998881a6f14bf78044b4ee2a"
-    ],
-    "count": 1,
-    "create_time": 1780390369,
-    "update_time": 1780390369,
-    "_id": "Code Generation Module"
-  },
   "Document-Level Metadata": {
     "chunk_ids": [
       "chunk-148d7170998881a6f14bf78044b4ee2a"
@@ -33795,8 +33154,7 @@
       "chunk-c43467a7f783d6e5706bae4a91fee0c3"
     ],
     "count": 1,
-    "create_time": 1780390665,
-    "update_time": 1780390665,
+    "update_time": 1784734604,
     "_id": "Explainable AI"
   },
   "Electric-Motor Production Line": {
@@ -34645,15 +34003,6 @@
     "update_time": 1780393628,
     "_id": "Public Datasets"
   },
-  "Generative Recommendation Models": {
-    "chunk_ids": [
-      "chunk-3dc81f5a7528411e1220bc62eebacde1"
-    ],
-    "count": 1,
-    "create_time": 1780393628,
-    "update_time": 1780393628,
-    "_id": "Generative Recommendation Models"
-  },
   "Clip-Reid": {
     "chunk_ids": [
       "chunk-2a45bf678ca7078a36ca306ecefdd317"
@@ -34962,11 +34311,11 @@
   },
   "Generative Recommendation": {
     "chunk_ids": [
+      "chunk-3dc81f5a7528411e1220bc62eebacde1",
       "chunk-b00b22e25c4f86957865cdcf9d4764b1"
     ],
-    "count": 1,
-    "create_time": 1780395632,
-    "update_time": 1780395632,
+    "count": 2,
+    "update_time": 1784734268,
     "_id": "Generative Recommendation"
   },
   "Openonerec-Rl": {
@@ -35034,11 +34383,11 @@
   },
   "Language Model": {
     "chunk_ids": [
+      "chunk-47fa4dc17610cc2664e562c4d35e3a45",
       "chunk-9c7a200c7ac9f8dc2e3514d80fb8da38"
     ],
-    "count": 1,
-    "create_time": 1780395820,
-    "update_time": 1780395820,
+    "count": 2,
+    "update_time": 1784734668,
     "_id": "Language Model"
   },
   "Misuse And Misalignment Benchmarks": {
@@ -36121,15 +35470,6 @@
     "update_time": 1780400672,
     "_id": "Hypothesis Space"
   },
-  "LLM-based Agents": {
-    "chunk_ids": [
-      "chunk-857766f52242eba047dec5cf4df6c0fe"
-    ],
-    "count": 1,
-    "create_time": 1780400672,
-    "update_time": 1780400672,
-    "_id": "LLM-based Agents"
-  },
   "Scientific Data Analysis": {
     "chunk_ids": [
       "chunk-857766f52242eba047dec5cf4df6c0fe"
@@ -36477,8 +35817,7 @@
       "chunk-3fe390e407e3b2d170fd3dab3d492fe0"
     ],
     "count": 1,
-    "create_time": 1780402633,
-    "update_time": 1780402633,
+    "update_time": 1784734673,
     "_id": "End-to-End LLM Approaches"
   },
   "Lightweight Predictors": {
@@ -36535,15 +35874,6 @@
     "update_time": 1780402655,
     "_id": "Computational Efficiency"
   },
-  "End-to-End Llm Approaches": {
-    "chunk_ids": [
-      "chunk-3fe390e407e3b2d170fd3dab3d492fe0"
-    ],
-    "count": 1,
-    "create_time": 1780402655,
-    "update_time": 1780402655,
-    "_id": "End-to-End Llm Approaches"
-  },
   "Long Ehrs": {
     "chunk_ids": [
       "chunk-3fe390e407e3b2d170fd3dab3d492fe0"
@@ -36579,15 +35909,6 @@
     "create_time": 1780402664,
     "update_time": 1780402664,
     "_id": "Patient-Trial Matching"
-  },
-  "Public Benchmarks": {
-    "chunk_ids": [
-      "chunk-3fe390e407e3b2d170fd3dab3d492fe0"
-    ],
-    "count": 1,
-    "create_time": 1780402668,
-    "update_time": 1780402668,
-    "_id": "Public Benchmarks"
   },
   "Antmaze Diagnostics": {
     "chunk_ids": [
@@ -36627,11 +35948,12 @@
   },
   "Offline Reinforcement Learning": {
     "chunk_ids": [
+      "chunk-36047dc281fd05d8be1315e99b53ecff",
+      "chunk-e3c7bf6aa95dbbb47a5109f81b1a609e",
       "chunk-4b322565b7266450558b778671cc682f"
     ],
-    "count": 1,
-    "create_time": 1780403066,
-    "update_time": 1780403066,
+    "count": 3,
+    "update_time": 1784734199,
     "_id": "Offline Reinforcement Learning"
   },
   "Product-Of-Experts (Poe) Composition": {
@@ -36963,18 +36285,8 @@
       "chunk-09b228c394510b3c035163922380f670"
     ],
     "count": 1,
-    "create_time": 1780404117,
-    "update_time": 1780404117,
+    "update_time": 1784734676,
     "_id": "Mochi"
-  },
-  "Mochi++": {
-    "chunk_ids": [
-      "chunk-09b228c394510b3c035163922380f670"
-    ],
-    "count": 1,
-    "create_time": 1780404117,
-    "update_time": 1780404117,
-    "_id": "Mochi++"
   },
   "Node Classification": {
     "chunk_ids": [
@@ -37179,8 +36491,7 @@
       "chunk-a9f318720814ff6662859952ff2ebba2"
     ],
     "count": 1,
-    "create_time": 1780425219,
-    "update_time": 1780425219,
+    "update_time": 1784734610,
     "_id": "Attack Success Rate"
   },
   "Autorise": {
@@ -37624,15 +36935,6 @@
     "update_time": 1780427035,
     "_id": "Task Space Graph"
   },
-  "Population-Based Methods": {
-    "chunk_ids": [
-      "chunk-b50eb193d4b7beed74fdee062999a545"
-    ],
-    "count": 1,
-    "create_time": 1780427035,
-    "update_time": 1780427035,
-    "_id": "Population-Based Methods"
-  },
   "Control Lyapunov Function Condition": {
     "chunk_ids": [
       "chunk-014b8ae28e95cbf89d881af21e70a6b0"
@@ -37740,15 +37042,6 @@
     "create_time": 1780427518,
     "update_time": 1780427518,
     "_id": "Speed-Conditioned Video Generation"
-  },
-  "Temporal Reasoning Models": {
-    "chunk_ids": [
-      "chunk-095492fc4bcb8832760d86b5dfbd65ca"
-    ],
-    "count": 1,
-    "create_time": 1780427525,
-    "update_time": 1780427525,
-    "_id": "Temporal Reasoning Models"
   },
   "Temporal Super-Resolution": {
     "chunk_ids": [
@@ -37885,15 +37178,6 @@
     "update_time": 1780428265,
     "_id": "HalluVL-DPO"
   },
-  "Hallucinations": {
-    "chunk_ids": [
-      "chunk-d3ba0f324a606c4227526581aeedb047"
-    ],
-    "count": 1,
-    "create_time": 1780428265,
-    "update_time": 1780428265,
-    "_id": "Hallucinations"
-  },
   "Halluscope": {
     "chunk_ids": [
       "chunk-d3ba0f324a606c4227526581aeedb047"
@@ -37908,8 +37192,7 @@
       "chunk-d3ba0f324a606c4227526581aeedb047"
     ],
     "count": 1,
-    "create_time": 1780428272,
-    "update_time": 1780428272,
+    "update_time": 1784734428,
     "_id": "Large Vision-Language Models"
   },
   "Preference Optimization Dataset": {
@@ -39226,15 +38509,6 @@
     "update_time": 1780433075,
     "_id": "Intra-Modal Dispersion"
   },
-  "Language Models": {
-    "chunk_ids": [
-      "chunk-47fa4dc17610cc2664e562c4d35e3a45"
-    ],
-    "count": 1,
-    "create_time": 1780433080,
-    "update_time": 1780433080,
-    "_id": "Language Models"
-  },
   "Modulating Cross-Modal Convergence With Single-Stimulus, Intra-Modal Dispersion": {
     "chunk_ids": [
       "chunk-47fa4dc17610cc2664e562c4d35e3a45"
@@ -39318,11 +38592,13 @@
   },
   "Machine Learning": {
     "chunk_ids": [
+      "chunk-1275d6a1c7d7e5d54c4d93057e8775c3",
+      "chunk-6c3d5e79f73521b9b3842125a8db8d6f",
+      "chunk-2169de40453700f85564e4af25b67ed6",
       "chunk-a0358c86a3f37fe89507f87e2710efdf"
     ],
-    "count": 1,
-    "create_time": 1780433334,
-    "update_time": 1780433334,
+    "count": 4,
+    "update_time": 1784734159,
     "_id": "Machine Learning"
   },
   "Modern AI Assistants": {
@@ -39750,11 +39026,11 @@
   },
   "Github Repository": {
     "chunk_ids": [
+      "chunk-5c1f856ba69b32fe77827c3c2e2ddf65",
       "chunk-e8a7aae6027dc88813cea2185b1070e7"
     ],
-    "count": 1,
-    "create_time": 1780434887,
-    "update_time": 1780434887,
+    "count": 2,
+    "update_time": 1784734588,
     "_id": "Github Repository"
   },
   "Night-Time Counterparts": {
@@ -39885,11 +39161,12 @@
   },
   "Code Generation": {
     "chunk_ids": [
+      "chunk-b0cee2fa51c6c918de503e03716bfe28",
+      "chunk-148d7170998881a6f14bf78044b4ee2a",
       "chunk-6bd352a27a958c6956e049f0b62e0794"
     ],
-    "count": 1,
-    "create_time": 1780435154,
-    "update_time": 1780435154,
+    "count": 3,
+    "update_time": 1784734261,
     "_id": "Code Generation"
   },
   "Commonsense Benchmarks": {
@@ -39903,11 +39180,12 @@
   },
   "Mathematical Reasoning Tasks": {
     "chunk_ids": [
+      "chunk-b0cee2fa51c6c918de503e03716bfe28",
       "chunk-6bd352a27a958c6956e049f0b62e0794",
       "chunk-ba5e4a7e12c31bf680a83aa4213bacce"
     ],
-    "count": 2,
-    "update_time": 1780435744,
+    "count": 3,
+    "update_time": 1784734652,
     "_id": "Mathematical Reasoning Tasks"
   },
   "Scientific Qa Tasks": {
@@ -40176,8 +39454,7 @@
       "chunk-94ca3346443d857d66379e5e10f6f04a"
     ],
     "count": 1,
-    "create_time": 1780436124,
-    "update_time": 1780436124,
+    "update_time": 1784734671,
     "_id": "Supervised Fine-Tuning"
   },
   "Western And Anglocentric Viewpoints": {
@@ -40218,11 +39495,11 @@
   },
   "Temporal Reasoning": {
     "chunk_ids": [
+      "chunk-095492fc4bcb8832760d86b5dfbd65ca",
       "chunk-8ad134369ff739731cc9f8c16a73a609"
     ],
-    "count": 1,
-    "create_time": 1780436285,
-    "update_time": 1780436285,
+    "count": 2,
+    "update_time": 1784734679,
     "_id": "Temporal Reasoning"
   },
   "Agentic AI-assisted coding": {
@@ -40950,8 +40227,7 @@
       "chunk-baaa108812ca4e7943f0f7559bc8aec0"
     ],
     "count": 1,
-    "create_time": 1780439141,
-    "update_time": 1780439141,
+    "update_time": 1784734683,
     "_id": "Video Copy Detection"
   },
   "Aggressive Frame Miniaturization": {
@@ -40989,15 +40265,6 @@
     "create_time": 1780439149,
     "update_time": 1780439149,
     "_id": "Similarity Strategies"
-  },
-  "Video Copy Detection Framework": {
-    "chunk_ids": [
-      "chunk-baaa108812ca4e7943f0f7559bc8aec0"
-    ],
-    "count": 1,
-    "create_time": 1780439153,
-    "update_time": 1780439153,
-    "_id": "Video Copy Detection Framework"
   },
   "BERT-small": {
     "chunk_ids": [
@@ -41571,8 +40838,7 @@
       "chunk-92a2643a6171ef0fb4676af3416e2e73"
     ],
     "count": 1,
-    "create_time": 1780442042,
-    "update_time": 1780442042,
+    "update_time": 1784734685,
     "_id": "Propositional Logic Reasoning Problems"
   },
   "Symbolic Reasoning": {
@@ -41583,15 +40849,6 @@
     "create_time": 1780442042,
     "update_time": 1780442042,
     "_id": "Symbolic Reasoning"
-  },
-  "Propositional Logic Reasoning Problems Dataset": {
-    "chunk_ids": [
-      "chunk-92a2643a6171ef0fb4676af3416e2e73"
-    ],
-    "count": 1,
-    "create_time": 1780442046,
-    "update_time": 1780442046,
-    "_id": "Propositional Logic Reasoning Problems Dataset"
   },
   "Classical Ensemble Methods (Voting)": {
     "chunk_ids": [
@@ -41925,15 +41182,6 @@
     "create_time": 1780443779,
     "update_time": 1780443779,
     "_id": "Dryrun"
-  },
-  "Large Language Models (LLM)": {
-    "chunk_ids": [
-      "chunk-a2f0b107ac5607c2f522733e662e18e6"
-    ],
-    "count": 1,
-    "create_time": 1780443786,
-    "update_time": 1780443786,
-    "_id": "Large Language Models (LLM)"
   },
   "Public Tests": {
     "chunk_ids": [
@@ -42997,15 +42245,6 @@
     "update_time": 1780448014,
     "_id": "Hardware-Efficient AI-Native CSI Prediction"
   },
-  "Large Language Model (LLM)-based Approaches": {
-    "chunk_ids": [
-      "chunk-2d92623b24805aae743314ad5136c703"
-    ],
-    "count": 1,
-    "create_time": 1780448018,
-    "update_time": 1780448018,
-    "_id": "Large Language Model (LLM)-based Approaches"
-  },
   "Real-Time Wireless Networks": {
     "chunk_ids": [
       "chunk-2d92623b24805aae743314ad5136c703"
@@ -43290,8 +42529,7 @@
       "chunk-994e37496006c2fcad059309dcd26a5f"
     ],
     "count": 1,
-    "create_time": 1780449231,
-    "update_time": 1780449231,
+    "update_time": 1784734543,
     "_id": "Variational Autoencoder"
   },
   "Diffusion-Based Planners": {
@@ -44581,15 +43819,6 @@
     "update_time": 1780453551,
     "_id": "Software Performance Requirements"
   },
-  "State-Of-The-Art Methods": {
-    "chunk_ids": [
-      "chunk-c26e2bb529e25ea9bdd3133cbb1c1695"
-    ],
-    "count": 1,
-    "create_time": 1780453555,
-    "update_time": 1780453555,
-    "_id": "State-Of-The-Art Methods"
-  },
   "Completeness Verifier": {
     "chunk_ids": [
       "chunk-7f9487c1ccf649744fdcd65cd29834a4"
@@ -44928,8 +44157,7 @@
       "chunk-10fcd2e0abe854632297bf050cd591ed"
     ],
     "count": 1,
-    "create_time": 1780455017,
-    "update_time": 1780455017,
+    "update_time": 1784734687,
     "_id": "Geographic Knowledge Bases"
   },
   "Geometric Regions": {
@@ -44967,15 +44195,6 @@
     "create_time": 1780455026,
     "update_time": 1780455026,
     "_id": "Spatial Relationships"
-  },
-  "Structured Geographic Knowledge Bases": {
-    "chunk_ids": [
-      "chunk-10fcd2e0abe854632297bf050cd591ed"
-    ],
-    "count": 1,
-    "create_time": 1780455026,
-    "update_time": 1780455026,
-    "_id": "Structured Geographic Knowledge Bases"
   },
   "Text Generation Problem": {
     "chunk_ids": [
@@ -45355,22 +44574,12 @@
     "update_time": 1780456734,
     "_id": "Whitehouse Press Briefings"
   },
-  "gpt-4.1-mini": {
-    "chunk_ids": [
-      "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
-    ],
-    "count": 1,
-    "create_time": 1780456738,
-    "update_time": 1780456738,
-    "_id": "gpt-4.1-mini"
-  },
   "gpt-5.1": {
     "chunk_ids": [
       "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
     ],
     "count": 1,
-    "create_time": 1780456738,
-    "update_time": 1780456738,
+    "update_time": 1784734689,
     "_id": "gpt-5.1"
   },
   "Evaluator Outputs": {
@@ -45381,15 +44590,6 @@
     "create_time": 1780456742,
     "update_time": 1780456742,
     "_id": "Evaluator Outputs"
-  },
-  "GPT-5.1": {
-    "chunk_ids": [
-      "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
-    ],
-    "count": 1,
-    "create_time": 1780456747,
-    "update_time": 1780456747,
-    "_id": "GPT-5.1"
   },
   "Holistic Accuracy": {
     "chunk_ids": [
@@ -45459,18 +44659,8 @@
       "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
     ],
     "count": 1,
-    "create_time": 1780456764,
-    "update_time": 1780456764,
+    "update_time": 1784734691,
     "_id": "Statistical Testing"
-  },
-  "Statistical Testing Method": {
-    "chunk_ids": [
-      "chunk-1f0bf00b7067d2eb7d65aa0644a5c208"
-    ],
-    "count": 1,
-    "create_time": 1780456768,
-    "update_time": 1780456768,
-    "_id": "Statistical Testing Method"
   },
   "Unsupported-Specifics Errors": {
     "chunk_ids": [
@@ -45616,15 +44806,6 @@
     "update_time": 1780458032,
     "_id": "Group-Relative Policy Optimization"
   },
-  "Mathematical Reasoning Benchmarks": {
-    "chunk_ids": [
-      "chunk-3ad0b77a42149394d78abd3785c28b27"
-    ],
-    "count": 1,
-    "create_time": 1780458036,
-    "update_time": 1780458036,
-    "_id": "Mathematical Reasoning Benchmarks"
-  },
   "Medium Consistency Region": {
     "chunk_ids": [
       "chunk-3ad0b77a42149394d78abd3785c28b27"
@@ -45765,26 +44946,15 @@
       "chunk-659cbb61768848a87e5629b60c6c2c74"
     ],
     "count": 1,
-    "create_time": 1780458739,
-    "update_time": 1780458739,
+    "update_time": 1784734695,
     "_id": "Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge"
-  },
-  "Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge Dataset": {
-    "chunk_ids": [
-      "chunk-659cbb61768848a87e5629b60c6c2c74"
-    ],
-    "count": 1,
-    "create_time": 1780458743,
-    "update_time": 1780458743,
-    "_id": "Ntire 2026 Remote Sensing Infrared Image Super-Resolution Challenge Dataset"
   },
   "State-Of-The-Art Performance": {
     "chunk_ids": [
       "chunk-659cbb61768848a87e5629b60c6c2c74"
     ],
     "count": 1,
-    "create_time": 1780458743,
-    "update_time": 1780458743,
+    "update_time": 1784734638,
     "_id": "State-Of-The-Art Performance"
   },
   "115 Participants": {
@@ -45795,5 +44965,23 @@
     "create_time": 1780458747,
     "update_time": 1780458747,
     "_id": "115 Participants"
+  },
+  "Blind Omnidirectional Image Quality Assessment (BOIQA)": {
+    "chunk_ids": [
+      "chunk-472f28845fadc58f0220b9bd97948210"
+    ],
+    "count": 1,
+    "create_time": 1784734212,
+    "update_time": 1784734212,
+    "_id": "Blind Omnidirectional Image Quality Assessment (BOIQA)"
+  },
+  "Vision-Language-Action (VLA)": {
+    "chunk_ids": [
+      "chunk-3d2c91b0eab1eef81deef1aacaf0b98a"
+    ],
+    "count": 1,
+    "create_time": 1784734406,
+    "update_time": 1784734406,
+    "_id": "Vision-Language-Action (VLA)"
   }
 }

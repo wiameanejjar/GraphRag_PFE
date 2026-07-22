@@ -1,11 +1,15 @@
 # eval_ragas_3.py
-import json, random
+import json, os, random
 from pathlib import Path
 from scipy import stats
 
 import pandas as pd
 from datasets import Dataset
+from dotenv import load_dotenv
+load_dotenv()
 from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from ragas import evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from ragas.llms import LangchainLLMWrapper
@@ -18,13 +22,13 @@ from ragas.run_config import RunConfig
 from src.agent.graph_v3 import run_agent
 
 # ── Config ────────────────────────────────────────────────────
-BENCHMARK_PATH = Path("data/processed/arxiv_multihop_v1.json")
+BENCHMARK_PATH = Path("data/processed/benchmark_true_multihop.json")
 OUTPUT_DIR     = Path("Eval_agentic")
 OUTPUT_CSV     = OUTPUT_DIR / "eval_agent_s4_lightrag.csv"
 OUTPUT_JSON    = OUTPUT_DIR / "agent_scores_s4_lightrag.json"
 
-N_TRUE_2HOP  = 10    # toutes les vraies (il n'y en a que 10 dans le benchmark)
-N_PSEUDO     = 4     # pseudo 2-hop
+
+N_QUESTIONS  = 20
 RANDOM_SEED  = 42
 
 # ── Chargement benchmark ──────────────────────────────────────
@@ -34,29 +38,9 @@ def load_benchmark(path: Path):
 
 def build_eval_items(all_items, seed: int):
     random.seed(seed)
-
-    true_2hop = [
-        ex for ex in all_items
-        if isinstance(ex.get("supporting_chunks"), list)
-        and len(ex["supporting_chunks"]) >= 2
-        and ex["supporting_chunks"][0] != ex["supporting_chunks"][1]
-    ]
-    pseudo_2hop = [
-        ex for ex in all_items
-        if isinstance(ex.get("supporting_chunks"), list)
-        and len(ex["supporting_chunks"]) >= 2
-        and ex["supporting_chunks"][0] == ex["supporting_chunks"][1]
-    ]
-
-    selected_true   = random.sample(true_2hop,   min(N_TRUE_2HOP, len(true_2hop)))
-    selected_pseudo = random.sample(pseudo_2hop, min(N_PSEUDO,    len(pseudo_2hop)))
-    selected        = selected_true + selected_pseudo
-    random.shuffle(selected)
-
-    print(f"Benchmark total   : {len(all_items)} questions")
-    print(f"True 2-hop dispo  : {len(true_2hop)}")
-    print(f"Pseudo 2-hop dispo: {len(pseudo_2hop)}")
-    print(f"Sélectionnés      : {len(selected_true)} true + {len(selected_pseudo)} pseudo = {len(selected)} questions\n")
+    selected = random.sample(all_items, min(N_QUESTIONS, len(all_items)))
+    print(f"Benchmark total (true multi-hop validé) : {len(all_items)} questions")
+    print(f"Sélectionnées                           : {len(selected)} questions\n")
     return selected
 
 def build_ragas_context(result: dict) -> list:
@@ -82,12 +66,8 @@ def run_evaluation():
     agent_scores = []
 
     for i, ex in enumerate(eval_items, 1):
-        hop_type = (
-            "true_2hop"
-            if ex["supporting_chunks"][0] != ex["supporting_chunks"][1]
-            else "pseudo_2hop"
-        )
-        print(f"[{i}/{len(eval_items)}] [{hop_type}] {ex['question'][:70]}")
+        hop_type = "true_multihop"
+        print(f"[{i}/{len(eval_items)}] {ex['question'][:70]}")
 
         result = run_agent(ex["question"])
 
@@ -113,7 +93,26 @@ def run_evaluation():
     # CORRIGÉ : ce bloc avait disparu (git diff confirmé la fois précédente),
     # laissant "ragas_result" non défini plus bas -> NameError garanti.
     print("Lancement RAGAS...")
-    llm_eval  = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
+    use_groq   = os.getenv("USE_GROQ", "false").lower() == "true"
+    groq_key   = os.getenv("GROQ_API_KEY", "")
+    use_nvidia = os.getenv("USE_NVIDIA", "false").lower() == "true"
+    nvidia_key = os.getenv("NVIDIA_API_KEY", "")
+
+    if use_groq and groq_key:
+        ragas_groq_model = os.getenv("RAGAS_GROQ_MODEL", "llama-3.1-8b-instant")
+        print(f"[RAGAS JUDGE] Groq {ragas_groq_model}")
+        llm_eval = ChatGroq(model=ragas_groq_model, api_key=groq_key, temperature=0)
+    elif use_nvidia and nvidia_key:
+        print(f"[RAGAS JUDGE] NVIDIA {os.getenv('NVIDIA_MODEL', 'z-ai/glm-5.2')}")
+        llm_eval = ChatOpenAI(
+            model=os.getenv("NVIDIA_MODEL", "z-ai/glm-5.2"),
+            api_key=nvidia_key,
+            base_url=os.getenv("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"),
+            temperature=0,
+        )
+    else:
+        print("[RAGAS JUDGE] Ollama llama3.1:8b (local)")
+        llm_eval = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
     ragas_llm = LangchainLLMWrapper(llm_eval)
     ragas_emb = LangchainEmbeddingsWrapper(emb_eval)

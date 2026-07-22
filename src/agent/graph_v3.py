@@ -12,6 +12,7 @@ from langchain_ollama import ChatOllama
 from lightrag import LightRAG, QueryParam
 from lightrag.utils import EmbeddingFunc
 from groq import AsyncGroq, Groq
+from openai import AsyncOpenAI, OpenAI
 from pathlib import Path
 
 # ══════════════════════════════════════════════════════════════
@@ -26,8 +27,15 @@ OLLAMA_NUM_CTX  = int(os.getenv("OLLAMA_NUM_CTX", "8192"))
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY",   "")
 INDEX_DIR       = Path(os.getenv("INDEX_DIR", "indexes/lightrag_500_connected_v2"))
 
+NVIDIA_API_KEY  = os.getenv("NVIDIA_API_KEY", "")
+NVIDIA_MODEL    = os.getenv("NVIDIA_MODEL",   "z-ai/glm-5.2")
+NVIDIA_BASE_URL = os.getenv("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1")
+USE_NVIDIA      = os.getenv("USE_NVIDIA",     "false").lower() == "true"
+
 USE_GROQ        = os.getenv("USE_GROQ",       "false").lower() == "true"
 USE_GROQ_JUDGE  = os.getenv("USE_GROQ_JUDGE", "true").lower()  == "true"
+GROQ_GENERATOR_MODEL = os.getenv("GROQ_GENERATOR_MODEL", "llama-3.1-8b-instant")
+GROQ_JUDGE_MODEL     = os.getenv("GROQ_JUDGE_MODEL",     "llama-3.3-70b-versatile")
 
 TOP_K_LIGHTRAG  = int(os.getenv("TOP_K_LIGHTRAG", "40"))
 CHUNK_TOP_K     = int(os.getenv("CHUNK_TOP_K", "20"))
@@ -39,6 +47,13 @@ if JUDGE_MODEL_NAME == MODEL_NAME:
         f"JUDGE_MODEL_NAME ('{JUDGE_MODEL_NAME}') ne peut PAS être égal à "
         f"MODEL_NAME ('{MODEL_NAME}') — le juge doit toujours être un modèle "
         f"différent du générateur."
+    )
+
+if USE_GROQ and USE_GROQ_JUDGE and GROQ_GENERATOR_MODEL == GROQ_JUDGE_MODEL:
+    raise ValueError(
+        f"GROQ_GENERATOR_MODEL et GROQ_JUDGE_MODEL sont tous les deux "
+        f"'{GROQ_GENERATOR_MODEL}' — le juge deviendrait le même modèle que "
+        f"le générateur (perte de l'indépendance du juge)."
     )
 
 # ══════════════════════════════════════════════════════════════
@@ -57,10 +72,26 @@ def _build_groq_sync(model="llama-3.3-70b-versatile", max_tokens=800):
             return _R()
     return _G()
 
+def _build_nvidia_sync(model=NVIDIA_MODEL, max_tokens=800):
+    client = OpenAI(base_url=NVIDIA_BASE_URL, api_key=NVIDIA_API_KEY)
+    class _N:
+        def invoke(self, messages):
+            msgs = [{"role": "system" if isinstance(m, SystemMessage)
+                     else "user", "content": m.content} for m in messages]
+            r = client.chat.completions.create(
+                model=model, messages=msgs, temperature=0, max_tokens=max_tokens)
+            class _R:
+                content = r.choices[0].message.content
+            return _R()
+    return _N()
+
 def _get_llm():
+    if USE_NVIDIA and NVIDIA_API_KEY:
+        print(f"[LLM GENERATOR] NVIDIA {NVIDIA_MODEL}")
+        return _build_nvidia_sync(NVIDIA_MODEL, 800)
     if USE_GROQ and GROQ_API_KEY:
-        print("[LLM GENERATOR] Groq llama-3.3-70b")
-        return _build_groq_sync("llama-3.3-70b-versatile", 800)
+        print(f"[LLM GENERATOR] Groq {GROQ_GENERATOR_MODEL}")
+        return _build_groq_sync(GROQ_GENERATOR_MODEL, 800)
     print(f"[LLM GENERATOR] Ollama {MODEL_NAME}")
     return ChatOllama(model=MODEL_NAME, base_url=OLLAMA_URL,
                       temperature=0, num_ctx=OLLAMA_NUM_CTX)
@@ -84,8 +115,8 @@ def _get_judge_llm():
     Retourne (judge_object_or_None, is_independent: bool)
     """
     if USE_GROQ_JUDGE and GROQ_API_KEY:
-        print("[LLM JUDGE] Groq llama-3.3-70b (indépendant du générateur)")
-        return _build_groq_sync("llama-3.3-70b-versatile", 300), True
+        print(f"[LLM JUDGE] Groq {GROQ_JUDGE_MODEL} (indépendant du générateur)")
+        return _build_groq_sync(GROQ_JUDGE_MODEL, 300), True
 
     try:
         candidate = ChatOllama(model=JUDGE_MODEL_NAME, base_url=OLLAMA_URL,
@@ -110,6 +141,7 @@ print(f"======= JUDGE STATUS ========== independent={JUDGE_IS_INDEPENDENT_AT_STA
 # INIT LIGHTRAG
 # ══════════════════════════════════════════════════════════════
 groq_async_client = AsyncGroq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
+nvidia_async_client = AsyncOpenAI(base_url=NVIDIA_BASE_URL, api_key=NVIDIA_API_KEY) if NVIDIA_API_KEY else None
 
 async def groq_llm_func(prompt, system_prompt=None, history_messages=None, **kwargs):
     history_messages = history_messages or []
@@ -121,7 +153,22 @@ async def groq_llm_func(prompt, system_prompt=None, history_messages=None, **kwa
             messages.append(m)
     messages.append({"role": "user", "content": prompt})
     r = await groq_async_client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=GROQ_GENERATOR_MODEL,
+        messages=messages, temperature=0.0, max_tokens=800)
+    return (r.choices[0].message.content or "").strip()
+
+
+async def nvidia_llm_func(prompt, system_prompt=None, history_messages=None, **kwargs):
+    history_messages = history_messages or []
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    for m in history_messages:
+        if isinstance(m, dict):
+            messages.append(m)
+    messages.append({"role": "user", "content": prompt})
+    r = await nvidia_async_client.chat.completions.create(
+        model=NVIDIA_MODEL,
         messages=messages, temperature=0.0, max_tokens=800)
     return (r.choices[0].message.content or "").strip()
 
@@ -147,7 +194,11 @@ async def local_ollama_llm_func(prompt, system_prompt=None, history_messages=Non
         return (r.json().get("message", {}).get("content") or "").strip()
 
 
-lightrag_llm_func = groq_llm_func if (USE_GROQ and GROQ_API_KEY) else local_ollama_llm_func
+lightrag_llm_func = (
+    nvidia_llm_func if (USE_NVIDIA and NVIDIA_API_KEY) else
+    groq_llm_func   if (USE_GROQ and GROQ_API_KEY) else
+    local_ollama_llm_func
+)
 
 
 async def embedding_func(texts):
@@ -321,13 +372,7 @@ def node_hybrid_search(state: AgentState) -> AgentState:
             "lightrag_retrieved_contexts": ctx_list, "trace": trace}
 
 
-def node_response(state: AgentState) -> AgentState:
-    q         = state["reformulated_q"]
-    context   = state.get("lightrag_context", "")
-    iteration = state.get("iteration", 0)
-    trace     = state.get("trace", [])
-
-    system = """You are a research assistant grounded EXCLUSIVELY in the
+RESPONSE_SYSTEM_PROMPT = """You are a research assistant grounded EXCLUSIVELY in the
 provided context.
 
 STRICT RULES:
@@ -340,6 +385,13 @@ STRICT RULES:
 5. If only partial information is available, state what is known AND
    mark what is missing as "[not in corpus]"."""
 
+
+def node_response(state: AgentState) -> AgentState:
+    q         = state["reformulated_q"]
+    context   = state.get("lightrag_context", "")
+    iteration = state.get("iteration", 0)
+    trace     = state.get("trace", [])
+
     user = f"""Context:
 {context}
 
@@ -347,7 +399,7 @@ Question: {q}
 
 Answer (use ONLY the context above, cite sources):"""
 
-    answer = _llm_call(system, user)
+    answer = _llm_call(RESPONSE_SYSTEM_PROMPT, user)
     trace.append(f"[RESPONSE iter={iteration}] {answer[:120]}...")
     print(f"[RESPONSE iter={iteration}] {answer[:150]}")
     return {**state, "response": answer, "trace": trace}
