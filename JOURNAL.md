@@ -1663,6 +1663,221 @@ Au cours de cette semaine :
 - analyse détaillée des résultats obtenus ;
 - identification des limites actuelles du système et des axes d'amélioration pour la suite du projet.
 
+### Semaine 1 (29/06/2026 – 06/07/2026)
+
+#### Travaux réalisés
+
+- Analyse et diagnostic de l'état actuel du projet à partir des résultats obtenus lors du Sprint 3 et des recommandations de l'encadrant.
+- Identification des principaux problèmes impactant les performances de l'Agentic GraphRAG, notamment le biais du nœud **CRITIQUE**, les hallucinations du LLM et le manque de cohérence entre les scores internes de l'agent et les métriques RAGAS.
+- Modification du nœud **CRITIQUE** afin d'utiliser un modèle de jugement indépendant du modèle générateur, dans le but d'obtenir un score d'évaluation plus objectif et d'éviter le biais d'auto-évaluation.
+- Amélioration du prompt de génération pour limiter les hallucinations en imposant au modèle de répondre uniquement à partir des informations présentes dans le contexte récupéré par LightRAG.
+- Réorganisation des composants **LLM Generator** et **LLM Judge** afin de séparer leurs rôles et d'améliorer la fiabilité des scores produits par l'agent.
+- Conservation des deux versions de l'agent (**Version 1** et **Version 2**) tout en intégrant progressivement les nouvelles améliorations afin de pouvoir comparer leurs performances.
+- Exécution d'une nouvelle campagne d'évaluation avec **RAGAS** pour mesurer l'impact des premières modifications.
+- Reprise du développement de l'agent et réorganisation de son architecture afin de préparer une nouvelle version de l'Agentic GraphRAG basée directement sur le mécanisme de retrieval de **LightRAG**.
+- Vérification de la cohérence entre les différentes versions de l'agent avant la poursuite des expérimentations.
+- Intégration du script **`merge_entity_aliases.py`** dans le pipeline afin de préparer le post-traitement du graphe et la fusion des entités dupliquées sans réindexer le corpus.
+
+#### Résultats obtenus
+
+- Les hallucinations du modèle ont été fortement réduites grâce à l'amélioration du prompt de génération.
+- Les versions 1 et 2 de l'agent ont produit des réponses plus pertinentes en exploitant les requêtes **Cypher** sur le graphe de connaissances.
+- Le nœud **SELF_CORRECT** s'est déclenché automatiquement lorsque la première réponse obtenue ne satisfaisait pas le seuil de qualité défini.
+- Les premiers résultats d'évaluation avec **RAGAS** ont été obtenus et ont servi de base pour identifier les améliorations à apporter au système lors des semaines suivantes.
+
+### 07/07/2026
+
+- Début des travaux sur la qualité du benchmark utilisé pour l'évaluation de l'Agentic GraphRAG.
+- Analyse de la structure des questions générées et vérification de leur conformité avec l'objectif d'évaluer un système de raisonnement multi-hop.
+- Génération de la première version du benchmark contenant **100 questions**, dont **2 questions issues directement de HotpotQA** utilisées comme référence, car dans HotpotQA(vérifié empiriquement et pas supposé)  sur 7405 questions, seulement 2 ont une entité qui existe exactement dans le graphe LightRAG, et ce sont des coïncidences lexicales sans rapport thématique réel (jeux de société type "Power Grid"/"Splendor", rien à voir avec l'IA/ML), donc il est impossible d'en trouver 20 de façon honnête , le corpus arXiv (papiers IA) et HotpotQA (culture générale/Wikipédia) n'ont quasiment aucun recouvrement de sujet.
+
+#### Résultats obtenus
+
+- Obtention d'une première version exploitable du benchmark destinée à l'évaluation de l'agent.
+
+---
+
+### 08/07/2026
+- Développement d'un script de diagnostic permettant d'analyser automatiquement la qualité du benchmark.
+- Mise en place de critères de validation afin d'identifier les questions nécessitant réellement plusieurs étapes de raisonnement.
+- Vérification de chaque question indépendamment de son étiquette (`hop_type`) afin de distinguer les vraies questions multi-hop des questions pseudo multi-hop.
+
+### Critères de validation des questions multi-hop
+
+| Critère de validation | Description | Décision si le critère n'est pas respecté |
+|------------------------|-------------|-------------------------------------------|
+| **Présence de l'entité de départ (`entity_A`) dans la question** | Vérifie que la question fait explicitement référence à l'entité de départ (`entity_A`) ou à un équivalent. Si cette entité n'est pas nécessaire pour comprendre la question, le premier saut est considéré comme inutile. | **SINGLE_HOP** |
+| **Absence de fuite de la réponse (`ground_truth`)** | Vérifie que la réponse attendue n'est pas déjà présente dans l'énoncé de la question. Si la réponse apparaît directement dans la question, aucun raisonnement n'est nécessaire. | **SINGLE_HOP** |
+| **Non-redondance des deux sauts (`hop1` et `hop2`)** | Compare les descriptions des deux relations à l'aide d'une similarité de Jaccard afin de vérifier qu'elles représentent deux faits distincts. Si les deux descriptions sont quasiment identiques, il n'existe pas de véritable raisonnement multi-hop. | **SINGLE_HOP** |
+| **Origine des informations dans des passages distincts** | Vérifie que les deux relations proviennent de **chunks différents** (et, lorsque l'information est disponible, de documents différents). Si les deux faits sont contenus dans le même passage, une seule récupération suffit pour répondre à la question. | **PSEUDO_MULTI_HOP** |
+
+### Règles de classification
+
+| Résultat de la validation | Interprétation |
+|----------------------------|----------------|
+| **TRUE_MULTI_HOP** | Tous les critères sont satisfaits. La question nécessite réellement de combiner plusieurs informations provenant de passages (et idéalement de documents) différents. |
+| **PSEUDO_MULTI_HOP** | Deux faits distincts existent, mais ils proviennent du même passage. La question ne teste donc pas réellement la capacité de retrieval multi-hop. |
+| **SINGLE_HOP** | Au moins un des trois premiers critères n'est pas satisfait. La question peut être résolue sans véritable raisonnement multi-hop. |
+
+### Résultat obtenu
+
+Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiquement le benchmark généré à partir du graphe de connaissances. Seules les questions classées **TRUE_MULTI_HOP** ont été conservées afin de constituer un benchmark plus représentatif des capacités de raisonnement multi-hop d'un système **Agentic GraphRAG**.
+
+---
+
+### 09/07/2026
+
+- Filtrage automatique du benchmark à partir des résultats du diagnostic.
+- Suppression des questions pseudo multi-hop.
+- Génération d'une nouvelle version du benchmark contenant uniquement les questions nécessitant réellement plusieurs étapes de raisonnement.
+
+#### Résultats obtenus
+
+- Obtention d'un benchmark final composé de **76 vraies questions multi-hop**, utilisé pour les nouvelles campagnes d'évaluation.
+
+---
+
+### 10/07/2026
+
+- Réalisation du post-traitement du graphe de connaissances sans réindexer le corpus.
+- Fusion des entités dupliquées à l'aide du script `merge_entity_aliases.py`.
+- Ajout automatique de nouvelles relations de co-occurrence entre les entités lorsque cela était pertinent.
+- Réduction des composantes isolées et amélioration de la connectivité globale du graphe.
+- Vérification des statistiques du graphe avant et après le post-traitement afin de mesurer les améliorations obtenues.
+
+#### Résultats obtenus
+
+- Fusion de **103 groupes d'entités dupliquées**.
+- Augmentation du nombre de relations de **5068 à 5593**.
+- Amélioration de la densité du graphe.
+- Augmentation du degré moyen des nœuds.
+- Suppression complète des nœuds isolés.
+- Augmentation de la composante géante de **43,3 % à 55,3 %**.
+- Réduction du nombre de composantes connexes de **534 à 385**, améliorant ainsi la navigation dans le graphe.
+
+---
+
+### 11/07/2026
+
+- Vérification de la cohérence du graphe après le post-traitement et préparation d'une nouvelle campagne d'évaluation.
+- Vérification du fonctionnement du mécanisme de récupération de contexte après les améliorations du graphe.
+- Préparation d'une nouvelle campagne d'évaluation de l'Agentic GraphRAG.
+
+#### Résultats obtenus
+
+- Validation du bon fonctionnement du graphe après le post-traitement.
+- Confirmation de l'amélioration de la structure du graphe avant l'évaluation.
+
+---
+
+### 12/07/2026
+
+- Exécution d'une nouvelle campagne d'évaluation avec RAGAS en utilisant le benchmark filtré.
+- Analyse des métriques obtenues (Faithfulness, Answer Relevancy, Context Precision et Context Recall).
+- Comparaison des nouveaux résultats avec ceux obtenus avant le post-traitement.
+
+#### Résultats obtenus
+- Les performances liées au retrieval (Context Precision et Context Recall) demeurent cependant insuffisantes malgré l'amélioration de la structure du graphe (réstent encore null).
+
+---
+
+### 13/07/2026
+- Analyse détaillée des résultats obtenus après l'évaluation.
+- Identification des limitations restantes du système de récupération de contexte.
+- Préparation des prochaines améliorations visant à optimiser le retrieval de LightRAG et à améliorer les performances globales de l'Agentic GraphRAG.
+
+#### Résultats obtenus
+
+- Mise en évidence que le principal axe d'amélioration concerne désormais la qualité du contexte récupéré par LightRAG et les performances du générateur.
+
+### 14/07/2026
+
+- Lancement d'une nouvelle campagne d'évaluation de LightRAG afin de mesurer l'impact des améliorations apportées au graphe après le post-traitement.
+- Analyse des nouvelles métriques RAGAS obtenues et comparaison avec les résultats des évaluations précédentes.
+- Constat que les métriques **Context Precision** et **Context Recall** demeuraient très faibles malgré l'amélioration de la structure du graphe.
+- Début de l'analyse du pipeline de retrieval afin d'identifier l'origine de ce problème.
+
+#### Résultats obtenus
+
+- Les résultats ont montré que le problème ne provenait probablement plus de mécanisme de récupération des contextes , mais de la qualité du graphe.
+
+---
+
+### 15/07/2026
+
+- Développement d'une nouvelle version de l'Agentic GraphRAG basée directement sur le mécanisme de retrieval de LightRAG.
+- Suppression des composants devenus inutiles afin d'utiliser directement les contextes retournés par LightRAG.
+- Première campagne d'évaluation de cette nouvelle version de l'agent.
+
+#### Résultats obtenus
+
+- Les performances liées au retrieval sont restées faibles, avec des valeurs de **Context Precision** et **Context Recall** toujours insuffisantes, indiquant qu'un dysfonctionnement persistait dans le pipeline de récupération des contextes.
+
+---
+
+### 16/07/2026
+
+- Analyse détaillée du fonctionnement interne du pipeline de retrieval dans `graph_v3.py`.
+- Inspection des fonctions responsables de la génération des embeddings et de la recherche vectorielle.
+- Vérification des journaux d'exécution afin d'identifier la cause des contextes vides retournés par LightRAG.
+
+#### Résultats obtenus
+
+- Identification d'une exception levée lors de la recherche vectorielle (`AttributeError: 'list' object has no attribute 'size'`).
+- Mise en évidence que cette erreur était interceptée silencieusement dans `node_hybrid_search`, empêchant la récupération des contextes sans interrompre l'exécution de l'agent.
+
+---
+
+### 17/07/2026
+
+
+- Analyse de la fonction `embedding_func()` afin de comprendre l'origine de l'erreur.
+- Vérification du type de données retourné par la fonction d'embedding.
+- Développement du correctif consistant à retourner les embeddings sous forme d'un tableau **NumPy** (`np.vstack(results)`) conformément aux attentes de LightRAG.
+
+#### Résultats obtenus
+
+- Le diagnostic a confirmé que le problème provenait de la fonction d'embedding et non de la qualité du graphe ou du mécanisme de critique.
+- Le correctif a été intégré afin de préparer une nouvelle campagne d'évaluation.
+
+---
+
+### 18/07/2026
+
+- Préparation d'une nouvelle campagne de tests après correction du pipeline de retrieval.
+- Vérification de la cohérence de la nouvelle architecture de l'Agentic GraphRAG et des différentes étapes du pipeline avant de relancer les évaluations.
+
+#### Résultats obtenus
+
+- L'agent est prêt pour une nouvelle phase d'évaluation afin de vérifier l'impact du correctif sur les performances de retrieval.
+
+### Période du 19/07/2026 au 22/07/2026
+
+- Réalisation de nouvelles campagnes d'évaluation de **LightRAG** et de la nouvelle version de l'**Agentic GraphRAG** à l'aide du benchmark validé et des métriques **RAGAS**.
+- Analyse détaillée des résultats obtenus afin d'identifier les principales causes des faibles performances observées sur les métriques **Context Precision** et **Context Recall**.
+- Diagnostic des réponses générées et classification des erreurs en trois catégories : **Retrieval Miss**, **Generation Miss** et **Context Insufficient**, afin d'orienter les prochaines optimisations du système.
+- Optimisation des paramètres de récupération de **LightRAG** par la réduction des valeurs de `top_k` et `chunk_top_k` (de **40/20** à **15/10**) afin de diminuer le temps de recherche tout en conservant des contextes pertinents.
+- Intégration et test du modèle **NVIDIA GLM-5.2** comme générateur alternatif. Les expérimentations ont montré un temps de réponse compris entre **60 et 124 secondes par requête**, ce qui le rend inadapté à une évaluation de grande échelle. Ce modèle a donc été conservé uniquement comme possibilité d'expérimentation.
+- Mise en place d'un mécanisme garantissant l'indépendance entre le **LLM générateur** et le **LLM juge**, en empêchant l'utilisation du même modèle pour les deux rôles afin de limiter les biais d'auto-évaluation.
+- Correction du script **`eval_ragas_3.py`** afin que le juge utilisé par **RAGAS** exploite également les modèles **Groq/NVIDIA**, en remplacement de l'utilisation exclusive d'Ollama local afin de réduire le temps d'inférence lors des campagnes d'évaluation.
+- Création du notebook **`Sprint4_Ablation_Study.ipynb`** permettant de comparer les performances des trois approches étudiées (**RAG vectoriel**, **LightRAG Hybride** et **Agentic GraphRAG**) sur les mêmes questions du benchmark, avec les mêmes métriques RAGAS, ainsi qu'un tableau récapitulatif des paramètres expérimentaux.
+- Correction de la configuration de l'environnement **Jupyter Notebook**, dont le noyau utilisait un interpréteur Python différent de celui de l'environnement virtuel du projet, provoquant des incohérences lors des expérimentations.
+- Réalisation de plusieurs campagnes de tests et de diagnostics afin de vérifier le bon fonctionnement des différentes modifications avant le lancement de l'évaluation finale.
+
+#### Résultats obtenus
+
+- Les optimisations réalisées ont permis de réduire le temps d'exécution des expérimentations tout en conservant la qualité des réponses générées.
+- Les diagnostics ont confirmé que les principales limitations restantes concernent toujours la qualité du **retrieval**, en particulier les métriques **Context Precision** et **Context Recall**.
+- Les différentes architectures d'évaluation (RAG, LightRAG et Agentic GraphRAG) sont désormais prêtes à être comparées dans des conditions expérimentales identiques.
+- Les scripts d'évaluation et l'environnement de développement ont été stabilisés en préparation de la campagne finale d'expérimentation.
+
+#### Travaux restants
+
+- Comparer les résultats finaux du **RAG vectoriel**, de **LightRAG** et de **l'Agentic GraphRAG**.
+- Analyser les résultats obtenus avec **RAGAS** et préparer la synthèse des performances pour le rapport de PFE.
+
+
+
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 28 Juin 2026_
+_Dernière mise à jour : 22 Juillet 2026_
