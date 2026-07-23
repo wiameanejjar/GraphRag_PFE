@@ -2190,5 +2190,305 @@
     "create_time": 1784750777,
     "update_time": 1784750777,
     "_id": "hybrid:keywords:31d294c00faff69b3fe8de5b79756156"
+  },
+  "hybrid:keywords:63e3d3f9baba747b02bd4512db9751aa": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplet validity\", \"Collaborative construction\", \"Artificial intelligence\"], \"low_level_keywords\": [\"MindTrellis\", \"Knowledge graph\", \"Triplet validity\", \"Context-dependent\", \"AI model\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model, specifically developed for context-dependent triplet validity, is utilized in the collaborative construction of knowledge graphs with AI in MindTrellis, and what is the name of this model?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754649,
+    "update_time": 1784754649,
+    "_id": "hybrid:keywords:63e3d3f9baba747b02bd4512db9751aa"
+  },
+  "hybrid:keywords:4f3f8b08ed5d7036c6b18f4d9937f0b0": {
+    "return": "{\"high_level_keywords\": [\"Image editing models\", \"Mathematical problem-solving techniques\", \"Improved performance\"], \"low_level_keywords\": [\"Convolutional neural networks\", \"Deep learning algorithms\", \"Optimization methods\", \"Gradient descent\", \"Image processing techniques\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing models have demonstrated improved performance by leveraging mathematical problem-solving techniques or methods?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754760,
+    "update_time": 1784754760,
+    "_id": "hybrid:keywords:4f3f8b08ed5d7036c6b18f4d9937f0b0"
+  },
+  "hybrid:keywords:5bcc74e3eb192f1b7eabfe8f2c7bd686": {
+    "return": "{\"high_level_keywords\": [\"Deep learning models\", \"Image editing performance\", \"Mathematical problem-solving techniques\", \"Chain-of-thought prompting\", \"Reasoning-based approaches\"], \"low_level_keywords\": [\"Convolutional neural networks\", \"Generative adversarial networks\", \"Reinforcement learning\", \"Optimization algorithms\", \"CoT prompting\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of deep learning models have shown improved image editing performance by leveraging mathematical problem-solving techniques or methods, specifically those that utilize chain-of-thought (CoT) prompting or similar reasoning-based approaches?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754785,
+    "update_time": 1784754785,
+    "_id": "hybrid:keywords:5bcc74e3eb192f1b7eabfe8f2c7bd686"
+  },
+  "hybrid:keywords:182d1ee2959e44f6562b4828fe441b2b": {
+    "return": "{\"high_level_keywords\": [\"Unified multi-modal understanding\", \"Generative models\", \"Fine-grained reasoning\", \"Math problem solving\"], \"low_level_keywords\": [\"Step-by-step solutions\", \"Mathematical reasoning\", \"Reasoning mechanisms\", \"Mathematical understanding\", \"Generative adversarial networks\", \"Attention mechanisms\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of unified multi-modal understanding/generative models have been shown to incorporate fine-grained reasoning from step-by-step solutions to math problems?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754809,
+    "update_time": 1784754809,
+    "_id": "hybrid:keywords:182d1ee2959e44f6562b4828fe441b2b"
+  },
+  "hybrid:keywords:3afdb3e18f86d740371ed575f277b5d7": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance challenges\", \"Academic literature\", \"Relevant studies\", \"Anomaly detection\", \"Machine learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models, which utilize a Bayesian Inference Module for anomaly localization, commonly face in dynamic real-world scenarios, as reported in relevant academic literature?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754876,
+    "update_time": 1784754876,
+    "_id": "hybrid:keywords:3afdb3e18f86d740371ed575f277b5d7"
+  },
+  "hybrid:keywords:bf41d9a4fed36a23be82fc43754958b1": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance challenges\", \"Empirical evidence\", \"Research studies\", \"Anomaly detection\", \"Machine learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization commonly face in dynamic real-world scenarios, as supported by empirical evidence from relevant research studies?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754900,
+    "update_time": 1784754900,
+    "_id": "hybrid:keywords:bf41d9a4fed36a23be82fc43754958b1"
+  },
+  "hybrid:keywords:31a3cb7fdf457a019e38e4252e1a8b7d": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance challenges\", \"Existing research\", \"Anomaly detection\", \"Machine learning\", \"Computer vision\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization commonly face in dynamic real-world scenarios, according to existing research?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754924,
+    "update_time": 1784754924,
+    "_id": "hybrid:keywords:31a3cb7fdf457a019e38e4252e1a8b7d"
+  },
+  "hybrid:keywords:28615fc703d3ba407c04c6000c288140": {
+    "return": "{\"high_level_keywords\": [\"Transfer learning\", \"Model adaptation\", \"Performance estimation\", \"Failure case identification\"], \"low_level_keywords\": [\"ProEval\", \"Deep learning models\", \"Convolutional neural networks\", \"Recurrent neural networks\", \"Estimation metrics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of models can be adapted using transfer learning, given that ProEval uses this approach for estimating performance and identifying failure cases?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754961,
+    "update_time": 1784754961,
+    "_id": "hybrid:keywords:28615fc703d3ba407c04c6000c288140"
+  },
+  "hybrid:keywords:814523e6489e7aadb4ce2ae2fa83e42d": {
+    "return": "{\"high_level_keywords\": [\"Learning approaches\", \"Performance estimation\", \"Failure case identification\", \"Model adaptation\"], \"low_level_keywords\": [\"ProEval\", \"Estimation methods\", \"Failure analysis\", \"Model adaptation techniques\", \"Performance metrics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What learning approaches are used by ProEval for estimating performance and identifying failure cases, and what are the implications for adapting other models?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784754986,
+    "update_time": 1784754986,
+    "_id": "hybrid:keywords:814523e6489e7aadb4ce2ae2fa83e42d"
+  },
+  "hybrid:keywords:392db588254e12301f0ed7ec8eb81c0d": {
+    "return": "{\"high_level_keywords\": [\"Pre-trained models\", \"Transfer learning\", \"Performance estimation\", \"Failure case identification\"], \"low_level_keywords\": [\"ProEval\", \"Adaptation techniques\", \"Model fine-tuning\", \"Domain knowledge transfer\", \"Performance metrics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of pre-trained models can be adapted using the transfer learning approach mentioned in the context of ProEval for estimating performance and identifying failure cases?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755010,
+    "update_time": 1784755010,
+    "_id": "hybrid:keywords:392db588254e12301f0ed7ec8eb81c0d"
+  },
+  "hybrid:keywords:c0b2e5a36fd0c9e381252c67ed14973f": {
+    "return": "{\"high_level_keywords\": [\"Machine learning\", \"Energy Time Series Forecasting\", \"Generalizable building blocks\"], \"low_level_keywords\": [\"Deep learning\", \"Transfer learning\", \"Feature engineering\", \"Time series analysis\", \"Energy forecasting\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are the specific machine learning approaches that have been consistently outperformed by generalizable building blocks in the field of Energy Time Series Forecasting, and what are the characteristics of these generalizable building blocks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755049,
+    "update_time": 1784755049,
+    "_id": "hybrid:keywords:c0b2e5a36fd0c9e381252c67ed14973f"
+  },
+  "hybrid:keywords:64037e917e3dcf8ae46b17cf553d716c": {
+    "return": "{\"high_level_keywords\": [\"Energy Time Series Forecasting\", \"Machine Learning\", \"Optimization\"], \"low_level_keywords\": [\"Building blocks\", \"Dataset-specific optimized\", \"Foundation Models\", \"Energy forecasting\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What field utilizes the building blocks that have consistently outperformed dataset-specific optimized machine learning approaches in Energy Time Series Forecasting, specifically excluding Foundation Models?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755074,
+    "update_time": 1784755074,
+    "_id": "hybrid:keywords:64037e917e3dcf8ae46b17cf553d716c"
+  },
+  "hybrid:keywords:234a380a7e7c02b1ffdf1be666c4a3b5": {
+    "return": "{\"high_level_keywords\": [\"Retrieval-Augmented Generation\", \"PhySE\", \"Accuracy enhancement\"], \"low_level_keywords\": [\"Methods integration\", \"Contextual understanding\", \"Knowledge retrieval\", \"Natural Language Processing\", \"PhySE improvements\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods will be integrated with Retrieval-Augmented Generation, as improved upon by PhySE, to enhance accuracy, according to the context?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755192,
+    "update_time": 1784755192,
+    "_id": "hybrid:keywords:234a380a7e7c02b1ffdf1be666c4a3b5"
+  },
+  "hybrid:keywords:5c74acf32ca0b035784e307aae4b1c84": {
+    "return": "{\"high_level_keywords\": [\"Retrieval-Augmented Generation\", \"PhySE improvements\", \"Methods integration\"], \"low_level_keywords\": [\"PhySE\", \"Retrieval-Augmented Generation\", \"Natural Language Processing\", \"Deep Learning\", \"Generative Models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are integrated with Retrieval-Augmented Generation in the context of PhySE improvements?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755215,
+    "update_time": 1784755215,
+    "_id": "hybrid:keywords:5c74acf32ca0b035784e307aae4b1c84"
+  },
+  "hybrid:keywords:bf3f42c0d9042696fcaac6cdc17174de": {
+    "return": "{\"high_level_keywords\": [\"Vision-language model\", \"Text response\", \"Image understanding\", \"Agentic coding\"], \"low_level_keywords\": [\"Kimi-K2\", \"Token consumption\", \"Contextual relevance\", \"Question answering\", \"Image processing\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What vision-language model responds with text when answering questions about images and is related to a model that consumes fewer tokens than Kimi-K2 for agentic coding tasks, excluding models that are not relevant to the provided context?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784755253,
+    "update_time": 1784755253,
+    "_id": "hybrid:keywords:bf3f42c0d9042696fcaac6cdc17174de"
   }
 }

@@ -1,0 +1,4 @@
+Système,Backend retrieval,Corpus indexé,Paramètres retrieval,Générateur,Boucle agentique
+RAG baseline (ChromaDB),ChromaDB — indexes/chroma_pfe500_baseline,"1587 chunks (nomic-embed-text, chunk_size=900, overlap=120, 500 documents)",top_k=5,Groq llama-3.1-8b-instant,Non
+LightRAG hybride (sans agent),LightRAG — indexes\lightrag_500_connected_v2 (post-traité : fusion entités + arêtes de co-occurrence),4945 nœuds / 5593 relations (après post-traitement du 22/07/2026),"mode=hybrid, top_k=15, chunk_top_k=10, enable_rerank=False",Groq llama-3.1-8b-instant,Non (1 seul appel de génération)
+Agentic GraphRAG,LightRAG — indexes\lightrag_500_connected_v2 (identique au système 2),4945 nœuds / 5593 relations (identique au système 2),"mode=hybrid, top_k=15, chunk_top_k=10, enable_rerank=False",Groq llama-3.1-8b-instant,"Oui — juge=Groq llama-3.3-70b-versatile (indépendant), seuil_critique=0.75, max_iterations=3"
