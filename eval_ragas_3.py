@@ -10,6 +10,7 @@ load_dotenv()
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 from ragas import evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from ragas.llms import LangchainLLMWrapper
@@ -28,7 +29,9 @@ OUTPUT_CSV     = OUTPUT_DIR / "eval_agent_s4_lightrag.csv"
 OUTPUT_JSON    = OUTPUT_DIR / "agent_scores_s4_lightrag.json"
 
 
-N_QUESTIONS  = 20
+# Recommandation prof : réduire l'échelle le temps de stabiliser le scoring
+# RAGAS (0 erreur / 0 NaN sur ce volume), puis remonter à 20 progressivement.
+N_QUESTIONS  = 10
 RANDOM_SEED  = 42
 
 # ── Chargement benchmark ──────────────────────────────────────
@@ -90,16 +93,40 @@ def run_evaluation():
               f"| iter={result.get('iteration', 0)}\n")
 
     # ── RAGAS ─────────────────────────────────────────────────
+    # Recommandations prof suite aux NaN observés avec batch_size=4 sur Groq :
+    # le problème vient de la CONCURRENCE + de l'instabilité du juge (429 /
+    # JSON mal formé), pas du pipeline lui-même. Corrections appliquées :
+    #  1) concurrence RAGAS abaissée (max_workers=2, batch_size réduit)
+    #  2) back-off plus généreux (max_retries, max_wait augmentés)
+    #  3) juge API plus fiable en option (OpenAI gpt-4o-mini) si Groq
+    #     reste instable — active via USE_OPENAI_JUDGE + OPENAI_API_KEY
+    #  4) échelle réduite (N_QUESTIONS) le temps de stabiliser
+    #  5) diagnostic NaN après coup (cf. plus bas)
     print("Lancement RAGAS...")
+    use_gemini_judge = os.getenv("USE_GEMINI_JUDGE", "false").lower() == "true"
+    gemini_key        = os.getenv("GEMINI_API_KEY", "")
+    use_openai_judge = os.getenv("USE_OPENAI_JUDGE", "false").lower() == "true"
+    openai_key        = os.getenv("OPENAI_API_KEY", "")
     use_groq   = os.getenv("USE_GROQ", "false").lower() == "true"
     groq_key   = os.getenv("GROQ_API_KEY", "")
     use_nvidia = os.getenv("USE_NVIDIA", "false").lower() == "true"
     nvidia_key = os.getenv("NVIDIA_API_KEY", "")
 
-    if use_groq and groq_key:
+    if use_gemini_judge and gemini_key:
+        gemini_judge_model = os.getenv("GEMINI_JUDGE_MODEL", "gemini-2.0-flash")
+        print(f"[RAGAS JUDGE] Google Gemini {gemini_judge_model} (juge API fiable, gratuit, fallback Groq)")
+        llm_eval = ChatGoogleGenerativeAI(model=gemini_judge_model, google_api_key=gemini_key, temperature=0)
+        ragas_batch_size = 2
+    elif use_openai_judge and openai_key:
+        openai_judge_model = os.getenv("OPENAI_JUDGE_MODEL", "gpt-4o-mini")
+        print(f"[RAGAS JUDGE] OpenAI {openai_judge_model} (juge API fiable, fallback Groq)")
+        llm_eval = ChatOpenAI(model=openai_judge_model, api_key=openai_key, temperature=0)
+        ragas_batch_size = 2
+    elif use_groq and groq_key:
         ragas_groq_model = os.getenv("RAGAS_GROQ_MODEL", "llama-3.1-8b-instant")
         print(f"[RAGAS JUDGE] Groq {ragas_groq_model}")
         llm_eval = ChatGroq(model=ragas_groq_model, api_key=groq_key, temperature=0)
+        ragas_batch_size = 2  # abaissé de 4 à 2 (recommandation prof, anti-429)
     elif use_nvidia and nvidia_key:
         print(f"[RAGAS JUDGE] NVIDIA {os.getenv('NVIDIA_MODEL', 'z-ai/glm-5.2')}")
         llm_eval = ChatOpenAI(
@@ -108,13 +135,15 @@ def run_evaluation():
             base_url=os.getenv("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"),
             temperature=0,
         )
+        ragas_batch_size = 1
     else:
         print("[RAGAS JUDGE] Ollama llama3.1:8b (local)")
         llm_eval = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
+        ragas_batch_size = 1
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
     ragas_llm = LangchainLLMWrapper(llm_eval)
     ragas_emb = LangchainEmbeddingsWrapper(emb_eval)
-    ragas_batch_size = 4 if (use_groq and groq_key) else 1
+    print(f"[RAGAS CONFIG] batch_size={ragas_batch_size}, max_workers=2, max_retries=5, max_wait=60")
 
     dataset = Dataset.from_dict(ragas_data)
 
@@ -126,13 +155,32 @@ def run_evaluation():
             ContextPrecision(llm=ragas_llm),
             ContextRecall(llm=ragas_llm),
         ],
-        run_config=RunConfig(timeout=180, max_retries=3, max_wait=30),
+        run_config=RunConfig(timeout=180, max_retries=5, max_wait=60, max_workers=2),
         batch_size=ragas_batch_size,
         raise_exceptions=False,
     )
 
     # ── Post-processing ────────────────────────────────────────
     df = ragas_result.to_pandas()
+
+    # Recommandation prof (5) : compter les NaN par métrique avant toute
+    # interprétation. Au-delà de 20-30% de NaN, les moyennes ne sont pas
+    # exploitables -> il faut relancer plutôt que de commenter le résultat.
+    print("\n=== Validité du run (NaN par métrique) ===")
+    NAN_THRESHOLD_PCT = 25
+    run_is_valid = True
+    for m in ["faithfulness", "answer_relevancy", "context_precision", "context_recall"]:
+        n_nan = df[m].isna().sum()
+        pct_nan = n_nan / len(df) * 100
+        flag = "⚠ INEXPLOITABLE" if pct_nan > NAN_THRESHOLD_PCT else "OK"
+        print(f"  {m:25s} : {n_nan}/{len(df)} NaN ({pct_nan:.0f}%) — {flag}")
+        if pct_nan > NAN_THRESHOLD_PCT:
+            run_is_valid = False
+    if not run_is_valid:
+        print(f"\n⚠ Plus de {NAN_THRESHOLD_PCT}% de NaN sur au moins une métrique : "
+              f"ce run n'est PAS exploitable tel quel. Relancer (cf. RAGAS CONFIG "
+              f"ci-dessus) avant d'utiliser ces chiffres dans le mémoire.")
+
     df["hop_type"]          = [s["hop_type"]          for s in agent_scores]
     df["agent_score"]       = [s["agent_score"]       for s in agent_scores]
     df["judge_independent"] = [s["judge_independent"] for s in agent_scores]

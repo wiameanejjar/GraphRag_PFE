@@ -1,128 +1,182 @@
 [
   {
-    "question": "What type of environments are overlooked by Federated Learning due to its assumption of unconditional collaboration?",
-    "ground_truth": "Multi-Stakeholder Environments",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What type of knowledge graph model is used to represent context-dependent triplet validity, which is developed from the knowledge graph created through collaborative construction with AI in MindTrellis?",
+    "ground_truth": "Quantum Knowledge Graph",
+    "answer": "Unfortunately, I couldn't find any information on \"MindTrellis\" being mentioned in the provided text. However, based on the context of knowledge graph models and techniques employed for representing context-dependent triplet validity in a collaborati",
+    "agent_score": 0.8,
     "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
+    "iterations": 2,
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What is evaluated using various metrics and techniques in PyPOTS?",
-    "ground_truth": "Anomaly Detection",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What method is designed to improve defenses against the type of models that often rely on the Model Context Protocol for external tool connections?",
+    "ground_truth": "Autorise Method",
+    "answer": "Unfortunately, there is no specific information in the provided text about defense methods that target models relying on the Model Context Protocol for external tool connections. The text discusses various topics related to large language model secur",
+    "agent_score": 0.85,
     "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
+    "iterations": 3,
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What study was conducted to evaluate the performance of Knee-xRAI and identify its key components?",
-    "ground_truth": "Ablation Study",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What system is built on Gemini 2.5 Flash, which exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism?",
+    "ground_truth": "Itas",
+    "answer": "ITAS is built on Gemini 2.5 Flash and uses Google Vertex AI as a cloud-based AI platform.",
+    "agent_score": 0.8,
     "judge_independent": true,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What type of system is MLLMs integrated into for complex navigation tasks?",
-    "ground_truth": "Gui Agents",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What type of cultural bias is exhibited by the LLM applied to synthetic patient profiles in reliability auditing?",
+    "ground_truth": "Western-Style Individualism",
+    "answer": "The first clear signs of cultural bias emerge after supervised fine-tuning during LLM training. Specifically, GPT-5.4 responds only to stated country identity.\n\nSource: The passage does not explicitly mention the specific cultural biases identified i",
+    "agent_score": 0.4,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What aspect of GPT-5.4 is affected when generic retry is applied to improve its performance, and this model only responds to it?",
+    "ground_truth": "GPT-5.4's Stated Country Identity",
+    "answer": "According to the provided text, there is no information about the specific effects of applying generic retry on GPT-5.4's performance. However, we can infer some general information from related passages.\n\nThe passage \"Code Broker → Retry Logic\" ment",
+    "agent_score": 0.85,
+    "judge_independent": true,
+    "iterations": 1,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What approach is based on the core idea of a learning method that Hindsight Preference Optimization draws from to generate training signals?",
+    "ground_truth": "Epm-Rl",
+    "answer": "Unfortunately, I don't see any information about Hindsight Preference Optimization (HPO) in the provided text. However, based on the general topic of preference optimization and learning methods mentioned in the text, it's possible that HPO might dra",
+    "agent_score": 0.85,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What type of models have shown improved image editing performance by incorporating the method used to solve math problems?",
+    "ground_truth": "Unified Multi-Modal Understanding/Generative Models",
+    "answer": "Unfortunately, I couldn't find any information that directly links a specific model with improved image editing performance due to incorporating methods for solving math problems. However, I can suggest some possible connections based on the provided",
+    "agent_score": 0.8,
     "judge_independent": true,
     "iterations": 0,
-    "hop_type": "true_2hop"
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What type of problems can be solved using a process that incorporates Chain-Of-Thought into its image editing performance?",
-    "ground_truth": "Math Problems",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What is the application of the method that outperforms UniVL-DR on the WebQA+ and EVQA+ datasets when considering shape and surface chemistry of certain sites?",
+    "ground_truth": "Target Binding",
+    "answer": "Unfortunately, I couldn't find any information in the provided text about a method that outperforms UniVL-DR on the WebQA+ and EVQA+ datasets for the specific application related to shape and surface chemistry of certain sites. The text mentions vari",
+    "agent_score": 0.85,
     "judge_independent": true,
     "iterations": 0,
-    "hop_type": "true_2hop"
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What is achieved by an Agentic AI Architecture?",
-    "ground_truth": "Full-Match Intent Accuracy",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What phenomenon occurs in TTRL as a result of the challenges posed by label noise in medical image classification addressed by risk-aware robust learning?",
+    "ground_truth": "Spurious Signal Amplification",
+    "answer": "According to the text, RTRL is vulnerable to spurious signal amplification due to label noise, which affects model adaptations. This phenomenon is mentioned in the context of Test-Time Reinforcement Learning (TTRL), where it is stated that \"Spurious ",
+    "agent_score": 0.0,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What aspect of performance do Vision-Language Models, which utilize Bayesian Inference Module for anomaly localization, often struggle with in dynamic real-world scenarios?",
+    "ground_truth": "Temporal Consistency",
+    "answer": "Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization often struggle with abstract visual reasoning benchmarks such as Bongard problems, indicating a limitation in their ability to reason about complex concepts and ",
+    "agent_score": 0.0,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What type of models can be adapted through the same learning approach used by ProEval for estimating performance and identifying failure cases?",
+    "ground_truth": "Age-Segmented Models",
+    "answer": "ProEval has been mentioned in the same context as various machine learning or AI models, including:\n\n1. Generative AI models\n2. Large Language Models (LLMs)\n3. Deep Neural Networks (DNNs)\n4. Bayesian Quadrature (BQ) and Gaussian Processes (GPS)\n5. Su",
+    "agent_score": 0.0,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What field utilizes the building blocks that have consistently outperformed dataset-specific optimized machine learning approaches in Energy Time Series Forecasting?",
+    "ground_truth": "Embodied AI",
+    "answer": "The field that has shown foundation models to outperform dataset-specific optimized machine learning approaches in Energy Time Series Forecasting tasks is Solar Power Forecasting. \n\nThis can be inferred from the passage where it mentions \"SolarTforme",
+    "agent_score": 0.0,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What validation method is used to ensure agreement between LLM-generated outputs and human-preferred outputs in systems that apply uncertainty propagation?",
+    "ground_truth": "Clinician-Authored Rubrics",
+    "answer": "Unfortunately, I couldn't find any specific information on a validation method used to ensure agreement between LLM-generated outputs and human-preferred outputs in systems that apply uncertainty propagation. The provided text snippet discusses vario",
+    "agent_score": 0.85,
     "judge_independent": true,
     "iterations": 0,
-    "hop_type": "pseudo_2hop"
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What task is critical to processing partially-observed time series data with PyPOTS and also evaluated through fine-tuning and one-shot in-context learning?",
-    "ground_truth": "Model Training",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What model is combined with a Convolutional Neural Network, which itself is affected by network depth, in the proposed framework?",
+    "ground_truth": "Transformer",
+    "answer": "The model combined with a Convolutional Neural Network (CNN) in the proposed framework is a Dense-Layer Design. \n\nThis can be inferred from the following context:\n\n• 3D Convolutional Neural Networks → Dense-Layer Design\n  The dense-layer design can a",
+    "agent_score": 0.0,
     "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
+    "iterations": 3,
+    "hop_type": "true_multihop"
   },
   {
-    "question": "What can be solved using the Chain-of-Thought method from multiple thinkers?",
-    "ground_truth": "Program Execution Traces",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "question": "What methods are used to address biases that may arise from using the three-phase calibration framework to improve LLM evaluations?",
+    "ground_truth": "Bias Mitigation Strategies",
+    "answer": "Dimension-specific calibration is proposed as a method to improve the accuracy of LLM evaluations using the three-phase framework. This approach involves calibrating models on specific dimensions or tasks to reduce biases and improve performance.\n\nSo",
+    "agent_score": 0.8,
     "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
+    "iterations": 3,
+    "hop_type": "true_multihop"
   },
   {
-    "question": "On what type of GPUs does FreeScale demonstrate its effectiveness in reducing computational bubbles by up to 90.3%?",
-    "ground_truth": "H100 Gpus",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
-    "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What task is eliminated by Memanto's use of thirteen predefined memory categories?",
-    "ground_truth": "Graph Schema Maintenance",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
-    "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "pseudo_2hop"
-  },
-  {
-    "question": "What technique improves Chain-of-Thought reasoning accuracy and stability of a single deployed solver by building upon it?",
-    "ground_truth": "Cycle Adversarial Prompt",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
-    "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
-  },
-  {
-    "question": "What system is designed to work with Multimodal Large Language Models for GUI navigation tasks?",
-    "ground_truth": "Solar-Rl",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
-    "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
-  },
-  {
-    "question": "What study applies the Chain-of-Thought method for learning with multiple thinkers?",
-    "ground_truth": "Learning To Think From Multiple Thinkers",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
-    "judge_independent": true,
-    "iterations": 0,
-    "hop_type": "true_2hop"
-  },
-  {
-    "question": "What is the name of the evaluation system used to assess the emotion dynamics understanding capabilities of Multimodal Large Language Models?",
+    "question": "What benchmark has its evaluation protocol and code publicly released, following from the public availability of the Trust-SSL code?",
     "ground_truth": "Emotrans",
-    "answer": "The corpus does not contain information to answer this question.",
-    "agent_score": 0.9,
+    "answer": "Unfortunately, I cannot verify which benchmarks have had their evaluation protocols and codes publicly released due to the public availability of the Trust-SSL code.",
+    "agent_score": 0.85,
+    "judge_independent": true,
+    "iterations": 2,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What variant of machine unlearning replaces random relabeling with entropy-based forgetting to mitigate clinical risk, which is related to the limitations addressed by the Separable Expert Architecture?",
+    "ground_truth": "Salun-Cra",
+    "answer": "SalUn-CRA.",
+    "agent_score": 0.85,
     "judge_independent": true,
     "iterations": 0,
-    "hop_type": "true_2hop"
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What type of systems must adhere to EU AI Act requirements and undergo multi-axis evaluation across five dimensions before deployment, addressing challenges like the Last Mile Challenge?",
+    "ground_truth": "AI Mental Health Systems",
+    "answer": "Based on the provided text, it appears that Large Language Models (LLMs) are a type of AI system that must undergo multi-axis evaluation across five dimensions before deployment. However, there is no specific mention of the EU AI Act requirements in ",
+    "agent_score": 0.85,
+    "judge_independent": true,
+    "iterations": 2,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What method will be integrated with Retrieval-Augmented Generation, which itself is improved upon by PhySE, to enhance accuracy?",
+    "ground_truth": "Chain-Of-Thought Prompting",
+    "answer": "Unfortunately, I couldn't find any specific information in the provided text that directly answers your question about which method will be integrated with Retrieval-Augmented Generation to enhance its accuracy. However, based on the context and the ",
+    "agent_score": 0.85,
+    "judge_independent": true,
+    "iterations": 1,
+    "hop_type": "true_multihop"
+  },
+  {
+    "question": "What model responds with text when answering questions about images and is related to a model that consumes fewer tokens than Kimi-K2 for agentic coding tasks?",
+    "ground_truth": "Gemini-3-Pro",
+    "answer": "Based on the provided context, I couldn't find any specific information that directly answers your question. However, I can suggest some possible models that might respond with text when answering questions about images and have a token consumption l",
+    "agent_score": 0.0,
+    "judge_independent": true,
+    "iterations": 3,
+    "hop_type": "true_multihop"
   }
 ]
