@@ -7,6 +7,8 @@
 agentic_graphrag/data/
 agentic_graphrag/indexes/
 neo4j_data/
+indexes/lightrag_500_connected_v2_backup_before_cooc_20260722_164116/
+indexes/lightrag_500_connected_v2_backup_before_merge_20260722_162530/
 
 # Python
 __pycache__/
