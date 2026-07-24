@@ -1,4 +1,4 @@
 system,faithfulness,answer_relevancy,context_precision,context_recall,latency_moy_s
-RAG baseline (ChromaDB),0.333,0.0,1.0,1.0,2.765
-LightRAG hybride (sans agent),,0.196,,,3.7700000000000005
-Agentic GraphRAG,,0.196,,,28.445
+RAG baseline (ChromaDB),,,,,8.798000000000002
+LightRAG hybride (sans agent),,,,,10.526
+Agentic GraphRAG,,,,,19.174
