@@ -1920,16 +1920,16 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 - Décision : passage direct au **Plan C** (évaluation manuelle, cellules déjà en place dans le notebook) plutôt que de perdre du temps sur le Plan B, qui échouerait pour la même raison.
 
 - Exécution du Plan C : notation manuelle des 30 réponses (3 systèmes × 10 questions) sur 3 critères (correct / ancré au contexte / clair-complet), export vers `Eval_agentic/plan_c_evaluation_manuelle.csv` et agrégation dans `Eval_agentic/plan_c_resultats_agreges.csv`.
-- Correction de la cellule "Tableau comparatif" du notebook pour basculer automatiquement sur les résultats du Plan C si les DataFrames RAGAS (Gemini/DeepSeek) n'existent pas, au lieu de planter avec un `NameError`.
+- Correction de la cellule "Tableau comparatif" du notebook pour basculer automatiquement sur les résultats du Plan C si les DataFrames RAGAS (Gemini/DeepSeek) n'existent pas au lieu de planter avec un `NameError`.
 - **Analyse des résultats du Plan C et modifications pour améliorer l'Agentic GraphRAG** : le score manuel montre LightRAG seul (0.567) légèrement devant l'Agentic GraphRAG (0.433), contraire à l'hypothèse de départ. Cause identifiée sur plusieurs cas (ex. question MindTrellis/Quantum Knowledge Graph) : l'agent déclare une information "absente du contexte" alors qu'elle y figure explicitement. Deux corrections apportées dans `src/agent/graph_v3.py` :
-  1. **Élargissement progressif du retrieval au SELF_CORRECT** (`TOP_K_LIGHTRAG_STEP=10`, `CHUNK_TOP_K_STEP=5`) : auparavant, seule la question était reformulée entre deux itérations, le budget de recherche (`top_k`/`chunk_top_k`) restant identique — ne compensait pas un retrieval initial incomplet sur un corpus restreint (500 documents).
-  2. **Alignement du contexte vu par le juge de critique sur celui du générateur** : le juge n'évaluait que les 800 premiers caractères du contexte contre 6000 pour le générateur, le rendant aveugle à des informations pourtant fournies au générateur — source probable de faux jugements de conformité. Troncature de la réponse à évaluer également augmentée (600 → 2000 caractères) pour ne pas couper la conclusion de réponses longues.
+  1. **Élargissement progressif du retrieval au SELF_CORRECT** (`TOP_K_LIGHTRAG_STEP=10`, `CHUNK_TOP_K_STEP=5`) : auparavant, seule la question était reformulée entre deux itérations le budget de recherche (`top_k`/`chunk_top_k`) restant identique , ne compensait pas un retrieval initial incomplet sur un corpus restreint (500 documents).
+  2. **Alignement du contexte vu par le juge de critique sur celui du générateur** : le juge n'évaluait que les 800 premiers caractères du contexte contre 6000 pour le générateur, le rendant aveugle à des informations pourtant fournies au générateur , source probable de faux jugements de conformité. Troncature de la réponse à évaluer également augmentée (600 → 2000 caractères) pour ne pas couper la conclusion de réponses longues.
 - Mise à jour du notebook (section 5 et "Limites identifiées") pour documenter ce diagnostic et ces corrections.
 
 #### Travaux restants
 
 - Relancer une nouvelle campagne d'évaluation (RAGAS si un juge API fonctionnel est disponible, sinon Plan C) avec les corrections du 25/07 pour vérifier leur effet réel sur les résultats de l'Agentic GraphRAG.
-- Envoyer le message au prof (retard, tentatives DeepSeek/Gemini, passage au Plan C, question sur le périmètre du mémoire).
+
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
 _Dernière mise à jour : 25 Juillet 2026_
