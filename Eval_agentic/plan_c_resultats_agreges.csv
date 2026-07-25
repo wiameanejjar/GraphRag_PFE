@@ -1,4 +1,4 @@
 system,correct_0_1,ancre_contexte_0_1,clair_complet_0_1,score_moyen
 RAG baseline (ChromaDB),0.1,1.0,0.0,0.367
 LightRAG hybride (sans agent),0.4,0.8,0.5,0.567
-Agentic GraphRAG,0.2,0.8,0.3,0.433
+Agentic GraphRAG,0.3,0.7,0.3,0.433

@@ -1926,10 +1926,10 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
   2. **Alignement du contexte vu par le juge de critique sur celui du générateur** : le juge n'évaluait que les 800 premiers caractères du contexte contre 6000 pour le générateur, le rendant aveugle à des informations pourtant fournies au générateur , source probable de faux jugements de conformité. Troncature de la réponse à évaluer également augmentée (600 → 2000 caractères) pour ne pas couper la conclusion de réponses longues.
 - Mise à jour du notebook (section 5 et "Limites identifiées") pour documenter ce diagnostic et ces corrections.
 
+- Les corrections apportées à l'agent (élargissement du retrieval au SELF_CORRECT, alignement du contexte du juge) n'ont pas amélioré le score manuel (Agentic GraphRAG toujours à 0.433, une régression détectée sur une question) : **restauration du code de l'agent (`src/agent/graph_v3.py`) et des résultats du tout premier run**, tels qu'obtenus avant ces modifications, en attendant une nouvelle piste d'amélioration.
+
 #### Travaux restants
-
-- Relancer une nouvelle campagne d'évaluation (RAGAS si un juge API fonctionnel est disponible, sinon Plan C) avec les corrections du 25/07 pour vérifier leur effet réel sur les résultats de l'Agentic GraphRAG.
-
+- Retenter une amélioration de l'Agentic GraphRAG.
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
 _Dernière mise à jour : 25 Juillet 2026_
