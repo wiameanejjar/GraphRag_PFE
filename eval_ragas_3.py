@@ -31,7 +31,8 @@ OUTPUT_JSON    = OUTPUT_DIR / "agent_scores_s4_lightrag.json"
 
 # Recommandation prof : réduire l'échelle le temps de stabiliser le scoring
 # RAGAS (0 erreur / 0 NaN sur ce volume), puis remonter à 20 progressivement.
-N_QUESTIONS  = 10
+# Plan B (repli, si Plan A echoue encore) : EVAL_N_QUESTIONS=5 dans .env
+N_QUESTIONS  = int(os.getenv("EVAL_N_QUESTIONS", "10"))
 RANDOM_SEED  = 42
 
 # ── Chargement benchmark ──────────────────────────────────────
@@ -161,6 +162,10 @@ def run_evaluation():
         llm_eval = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
         ragas_batch_size = 1
         ragas_max_workers = 1
+    # Plan B (repli, si Plan A echoue) : forcer batch_size/max_workers via .env
+    # (ex. RAGAS_BATCH_SIZE=1, RAGAS_MAX_WORKERS=1 -> config Plan B du prof)
+    ragas_batch_size = int(os.getenv("RAGAS_BATCH_SIZE", str(ragas_batch_size)))
+    ragas_max_workers = int(os.getenv("RAGAS_MAX_WORKERS", str(ragas_max_workers)))
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
     ragas_llm = LangchainLLMWrapper(llm_eval)
     ragas_emb = LangchainEmbeddingsWrapper(emb_eval)
