@@ -1910,10 +1910,19 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 - Diagnostic confirmé : ce n'est plus un problème de clé/quota (comme avec Gemini) mais un problème de concurrence pure sur cette clé DeepSeek.
 - Correctif appliqué (`max_workers=1` dédié au juge NVIDIA) dans `eval_ragas_3.py` et dans le notebook (via patch direct du fichier `.ipynb`) ; nouvelle exécution à faire pour confirmer 0 % de NaN.
 
+- Relance du notebook avec le juge Gemini reconfiguré selon le plan du prof (`convert_system_message_to_human=True`, `batch_size=2`, `max_workers=2`, seuil NaN à 10 % au lieu de 25 %).
+- Ajout du Plan B (repli via `.env` : `EVAL_N_QUESTIONS`, `RAGAS_BATCH_SIZE`, `RAGAS_MAX_WORKERS`, sans toucher au code) et du Plan C (évaluation manuelle) dans `eval_ragas_3.py` et le notebook : 3 nouvelles cellules après la section RAGAS (export CSV à noter à la main, puis agrégation par système).
+
+#### Résultats obtenus (suite)
+
+- Run Gemini (Plan A du prof, avec tous les correctifs appliqués) : **échec identique au run du 24/07**, `429 RESOURCE_EXHAUSTED` avec `limit: 0` sur toutes les métriques de quota (input tokens, requêtes/minute, requêtes/jour), dès la première requête.
+- Diagnostic : ce n'est ni un problème de code, ni de concurrence, ni de format de sortie (JSON) , c'est un blocage total au niveau du compte/projet Google associé à cette clé (zéro quota alloué). Le Plan B (réduction à 5 questions, `max_workers=1`) ne peut donc pas non plus fonctionner : un `limit: 0` bloque une requête unique aussi bien que quarante.
+- Décision : passage direct au **Plan C** (évaluation manuelle, cellules déjà en place dans le notebook) plutôt que de perdre du temps sur le Plan B, qui échouerait pour la même raison.
+
 #### Travaux restants
 
-- Relancer le notebook `Sprint4_Ablation_Study.ipynb` avec `max_workers=1` et vérifier l'absence de NaN sur les 3 systèmes.
-- Si le run est propre, remonter `N_QUESTIONS` à 20 et relancer une campagne finale pour le mémoire.
+- Exécuter les 3 systèmes pour générer `ragas_data_baseline`, `ragas_data_lightrag`, `ragas_data_agentic`, puis les 2 cellules du Plan C pour exporter et noter manuellement les réponses.
+- Si le run est propre après notation manuelle, consolider le tableau comparatif final pour le mémoire.
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
 _Dernière mise à jour : 25 Juillet 2026_
