@@ -103,6 +103,8 @@ def run_evaluation():
     #  4) échelle réduite (N_QUESTIONS) le temps de stabiliser
     #  5) diagnostic NaN après coup (cf. plus bas)
     print("Lancement RAGAS...")
+    use_nvidia_judge = os.getenv("USE_NVIDIA_JUDGE", "false").lower() == "true"
+    nvidia_judge_key  = os.getenv("NVIDIA_API_KEY", "")
     use_gemini_judge = os.getenv("USE_GEMINI_JUDGE", "false").lower() == "true"
     gemini_key        = os.getenv("GEMINI_API_KEY", "")
     use_openai_judge = os.getenv("USE_OPENAI_JUDGE", "false").lower() == "true"
@@ -112,21 +114,38 @@ def run_evaluation():
     use_nvidia = os.getenv("USE_NVIDIA", "false").lower() == "true"
     nvidia_key = os.getenv("NVIDIA_API_KEY", "")
 
-    if use_gemini_judge and gemini_key:
+    if use_nvidia_judge and nvidia_judge_key:
+        nvidia_judge_model = os.getenv("NVIDIA_JUDGE_MODEL", "deepseek-ai/deepseek-v4-pro")
+        print(f"[RAGAS JUDGE] NVIDIA {nvidia_judge_model} (DeepSeek, juge API)")
+        llm_eval = ChatOpenAI(
+            model=nvidia_judge_model,
+            api_key=nvidia_judge_key,
+            base_url=os.getenv("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"),
+            temperature=0,
+            max_tokens=16384,
+            model_kwargs={"extra_body": {"chat_template_kwargs": {"thinking": False}}},
+        )
+        ragas_batch_size = 1
+        ragas_max_workers = 1  # anti-429 : la clé NVIDIA/DeepSeek tolère mal la concurrence
+    elif use_gemini_judge and gemini_key:
         gemini_judge_model = os.getenv("GEMINI_JUDGE_MODEL", "gemini-2.0-flash")
         print(f"[RAGAS JUDGE] Google Gemini {gemini_judge_model} (juge API fiable, gratuit, fallback Groq)")
-        llm_eval = ChatGoogleGenerativeAI(model=gemini_judge_model, google_api_key=gemini_key, temperature=0)
+        llm_eval = ChatGoogleGenerativeAI(model=gemini_judge_model, google_api_key=gemini_key, temperature=0,
+                                           convert_system_message_to_human=True)
         ragas_batch_size = 2
+        ragas_max_workers = 2
     elif use_openai_judge and openai_key:
         openai_judge_model = os.getenv("OPENAI_JUDGE_MODEL", "gpt-4o-mini")
         print(f"[RAGAS JUDGE] OpenAI {openai_judge_model} (juge API fiable, fallback Groq)")
         llm_eval = ChatOpenAI(model=openai_judge_model, api_key=openai_key, temperature=0)
         ragas_batch_size = 2
+        ragas_max_workers = 2
     elif use_groq and groq_key:
         ragas_groq_model = os.getenv("RAGAS_GROQ_MODEL", "llama-3.1-8b-instant")
         print(f"[RAGAS JUDGE] Groq {ragas_groq_model}")
         llm_eval = ChatGroq(model=ragas_groq_model, api_key=groq_key, temperature=0)
         ragas_batch_size = 2  # abaissé de 4 à 2 (recommandation prof, anti-429)
+        ragas_max_workers = 2
     elif use_nvidia and nvidia_key:
         print(f"[RAGAS JUDGE] NVIDIA {os.getenv('NVIDIA_MODEL', 'z-ai/glm-5.2')}")
         llm_eval = ChatOpenAI(
@@ -136,14 +155,16 @@ def run_evaluation():
             temperature=0,
         )
         ragas_batch_size = 1
+        ragas_max_workers = 1
     else:
         print("[RAGAS JUDGE] Ollama llama3.1:8b (local)")
         llm_eval = ChatOllama(model="llama3.1:8b", base_url="http://localhost:11434", temperature=0)
         ragas_batch_size = 1
+        ragas_max_workers = 1
     emb_eval  = OllamaEmbeddings(model="nomic-embed-text", base_url="http://localhost:11434")
     ragas_llm = LangchainLLMWrapper(llm_eval)
     ragas_emb = LangchainEmbeddingsWrapper(emb_eval)
-    print(f"[RAGAS CONFIG] batch_size={ragas_batch_size}, max_workers=2, max_retries=5, max_wait=60")
+    print(f"[RAGAS CONFIG] batch_size={ragas_batch_size}, max_workers={ragas_max_workers}, max_retries=5, max_wait=60")
 
     dataset = Dataset.from_dict(ragas_data)
 
@@ -155,7 +176,7 @@ def run_evaluation():
             ContextPrecision(llm=ragas_llm),
             ContextRecall(llm=ragas_llm),
         ],
-        run_config=RunConfig(timeout=180, max_retries=5, max_wait=60, max_workers=2),
+        run_config=RunConfig(timeout=180, max_retries=5, max_wait=60, max_workers=ragas_max_workers),
         batch_size=ragas_batch_size,
         raise_exceptions=False,
     )

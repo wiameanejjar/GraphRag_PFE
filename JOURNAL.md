@@ -1881,18 +1881,17 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 
 ### 24/07/2026
 
-- Ajout de juges RAGAS alternatifs à Groq (Google Gemini `gemini-2.0-flash`, OpenAI `gpt-4o-mini`) dans `eval_ragas_3.py` et le notebook `Sprint4_Ablation_Study.ipynb`, activables via `USE_GEMINI_JUDGE`/`USE_OPENAI_JUDGE`, suite aux NaN déjà observés avec Groq en juge à `batch_size=4`.
+- Ajout de juges RAGAS alternatifs à Groq (Google Gemini `gemini-2.0-flash`) dans `eval_ragas_3.py` et le notebook `Sprint4_Ablation_Study.ipynb`, activables via `USE_GEMINI_JUDGE`/`USE_OPENAI_JUDGE`, suite aux NaN déjà observés avec Groq en juge à `batch_size=4`.
 - Réduction de la concurrence RAGAS (`max_workers=2`, `batch_size` abaissé à 1-2 selon le juge) et allongement du back-off (`max_retries=5`, `max_wait=60`) pour limiter les erreurs 429 / JSON mal formé.
 - Ajout d'un diagnostic automatique post-run comptant le pourcentage de NaN par métrique (seuil 25 %) afin de détecter immédiatement un run inexploitable plutôt que d'interpréter des moyennes faussées.
 - Réduction temporaire de `N_QUESTIONS` à 10 (au lieu de 20) le temps de stabiliser le scoring avant de remonter l'échelle.
 - Première exécution complète de l'ablation study (`v1_ablation_study`) comparant les 3 systèmes (RAG baseline ChromaDB, LightRAG hybride sans agent, Agentic GraphRAG) sur le même benchmark, avec juge Google Gemini.
-- Ajout du notebook `Sprint 2_Pipeline d'indexation hybride.ipynb` au dépôt et mise à jour du `.gitignore` (exclusion des dossiers de backup d'index, ~160 Mo chacun).
 
 #### Résultats obtenus
 
-- Le run `v1_ablation_study` a produit **100 % de NaN** sur les 4 métriques RAGAS (`faithfulness`, `answer_relevancy`, `context_precision`, `context_recall`) pour les 3 systèmes — résultat inexploitable en l'état.
+- Le run `v1_ablation_study` a produit **100 % de NaN** sur les 4 métriques RAGAS (`faithfulness`, `answer_relevancy`, `context_precision`, `context_recall`) pour les 3 systèmes , résultat inexploitable en l'état.
 - Diagnostic des logs : chaque appel au juge Gemini échoue avec `429 RESOURCE_EXHAUSTED` et un quota `limit: 0` sur le tier gratuit, épuisant les 5 tentatives de retry sans jamais obtenir de réponse.
-- Cause identifiée : la clé `GEMINI_API_KEY` dans `.env` a un format incorrect (préfixe `AQ.` au lieu du préfixe `AIzaSy` attendu pour une clé Gemini Developer API standard) — clé probablement invalide ou du mauvais type, indépendamment du pipeline lui-même (le générateur et le retrieval fonctionnent normalement, comme le montrent les réponses générées par les 3 systèmes).
+- Cause identifiée : 
 - Le protocole d'ablation study en lui-même (isolation retrieval/boucle agentique, mêmes questions, même générateur) est validé et prêt ; seul le juge RAGAS doit être corrigé avant de pouvoir exploiter les résultats.
 
 ### 25/07/2026
@@ -1900,14 +1899,20 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 - Remplacement du juge RAGAS défaillant (Gemini) par **DeepSeek** (`deepseek-ai/deepseek-v4-pro`) via l'API NVIDIA, déjà utilisée comme option de repli dans `eval_ragas_3.py`.
 - Ajout d'un branchement dédié `USE_NVIDIA_JUDGE`/`NVIDIA_JUDGE_MODEL` (indépendant du générateur principal) dans `eval_ragas_3.py` et dans le notebook d'ablation study, avec priorité la plus haute dans la sélection du juge.
 - Désactivation du juge Gemini (`USE_GEMINI_JUDGE=false`) dans `.env` suite au diagnostic de la veille, et configuration de la nouvelle clé NVIDIA fournie pour DeepSeek.
+- Test de validation isolé (1 appel) de la clé DeepSeek/NVIDIA hors notebook : réponse JSON propre en 8,2 s — clé et modèle fonctionnels.
+- Relance complète du notebook `Sprint4_Ablation_Study.ipynb` avec le juge DeepSeek (`batch_size=1`, `max_workers=2` hérité de la config précédente).
+- Réception du plan de récupération du prof : confirme que le pipeline agentique est correct (résultats Agentic complets et cohérents), situe le problème uniquement au niveau du juge RAGAS, et propose un plan A/B/C (Gemini avec `convert_system_message_to_human=True`, repli 5 questions/`max_workers=1`, ou évaluation manuelle en dernier recours) ainsi qu'un correctif spécifique pour Gemini.
+- Correction de `max_workers` (fixé à 1, spécifiquement pour le juge NVIDIA/DeepSeek) et ajout de `convert_system_message_to_human=True` sur la branche Gemini (recommandation du plan du prof), dans `eval_ragas_3.py` et le notebook.
 
 #### Résultats obtenus
 
-- Configuration prête pour relancer l'ablation study avec un juge RAGAS fonctionnel ; exécution et vérification des résultats à faire.
+- Premier run DeepSeek (avant le correctif `max_workers`) : nette amélioration par rapport à Gemini (60-70 % de NaN au lieu de 100 %), mais toujours inexploitable , cause différente cette fois : `429 Too Many Requests` réel de l'API NVIDIA, provoqué par `max_workers=2` qui fait tourner des requêtes en parallèle malgré `batch_size=1`.
+- Diagnostic confirmé : ce n'est plus un problème de clé/quota (comme avec Gemini) mais un problème de concurrence pure sur cette clé DeepSeek.
+- Correctif appliqué (`max_workers=1` dédié au juge NVIDIA) dans `eval_ragas_3.py` et dans le notebook (via patch direct du fichier `.ipynb`) ; nouvelle exécution à faire pour confirmer 0 % de NaN.
 
 #### Travaux restants
 
-- Relancer le notebook `Sprint4_Ablation_Study.ipynb` avec le juge DeepSeek et vérifier l'absence de NaN.
+- Relancer le notebook `Sprint4_Ablation_Study.ipynb` avec `max_workers=1` et vérifier l'absence de NaN sur les 3 systèmes.
 - Si le run est propre, remonter `N_QUESTIONS` à 20 et relancer une campagne finale pour le mémoire.
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_

@@ -2570,5 +2570,45 @@
     "create_time": 1784850295,
     "update_time": 1784850295,
     "_id": "hybrid:keywords:997cce837ccfe94ea8d167a021f9db5e"
+  },
+  "hybrid:keywords:6533bae1e1dfa8090f2bc878bf5b07c6": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world environments\"], \"low_level_keywords\": [\"Performance limitations\", \"Challenges\", \"Contextual understanding\", \"Adversarial attacks\", \"Uncertainty estimation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance limitations or challenges do Vision-Language Models that incorporate a Bayesian Inference Module for anomaly localization typically face in dynamic real-world environments, as directly supported by the provided context?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784937308,
+    "update_time": 1784937308,
+    "_id": "hybrid:keywords:6533bae1e1dfa8090f2bc878bf5b07c6"
+  },
+  "hybrid:keywords:5b7b19ac5021a17c4ed57a7d7fb780db": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance challenges\", \"Existing research\", \"Literature review\", \"Anomaly detection\", \"Machine learning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization commonly face in dynamic real-world scenarios, as directly supported by existing research or literature?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1784939706,
+    "update_time": 1784939706,
+    "_id": "hybrid:keywords:5b7b19ac5021a17c4ed57a7d7fb780db"
   }
 }
