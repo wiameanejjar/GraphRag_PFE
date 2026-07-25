@@ -188,7 +188,7 @@ def run_evaluation():
     # interprétation. Au-delà de 20-30% de NaN, les moyennes ne sont pas
     # exploitables -> il faut relancer plutôt que de commenter le résultat.
     print("\n=== Validité du run (NaN par métrique) ===")
-    NAN_THRESHOLD_PCT = 25
+    NAN_THRESHOLD_PCT = 10  # critere de succes du prof (plan de recuperation du 23/07)
     run_is_valid = True
     for m in ["faithfulness", "answer_relevancy", "context_precision", "context_recall"]:
         n_nan = df[m].isna().sum()
