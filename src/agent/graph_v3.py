@@ -41,6 +41,12 @@ TOP_K_LIGHTRAG  = int(os.getenv("TOP_K_LIGHTRAG", "40"))
 CHUNK_TOP_K     = int(os.getenv("CHUNK_TOP_K", "20"))
 CRITIQUE_SEUIL  = float(os.getenv("CRITIQUE_SEUIL", "0.75"))
 MAX_ITERATIONS  = 3
+# Elargissement progressif du retrieval a chaque SELF_CORRECT : reformuler la
+# question sur le meme budget top_k/chunk_top_k ne compense pas un retrieval
+# initial incomplet (corpus restreint, 500 documents) -> chaque iteration
+# interroge un peu plus large en plus de reformuler.
+TOP_K_LIGHTRAG_STEP = int(os.getenv("TOP_K_LIGHTRAG_STEP", "10"))
+CHUNK_TOP_K_STEP    = int(os.getenv("CHUNK_TOP_K_STEP", "5"))
 
 if JUDGE_MODEL_NAME == MODEL_NAME:
     raise ValueError(
@@ -340,16 +346,23 @@ def node_hybrid_search(state: AgentState) -> AgentState:
     Les deux proviennent de LA MÊME requête -> RAGAS évalue exactement ce qui
     a été donné au LLM, jamais une approximation Chroma.
     """
-    q     = state["reformulated_q"]
-    trace = state.get("trace", [])
+    q         = state["reformulated_q"]
+    trace     = state.get("trace", [])
+    iteration = state.get("iteration", 0)
+
+    # Elargissement progressif : chaque self-correct interroge un budget de
+    # retrieval plus large, pas seulement une question reformulee sur le
+    # meme top_k/chunk_top_k qu'au premier essai.
+    top_k       = TOP_K_LIGHTRAG + iteration * TOP_K_LIGHTRAG_STEP
+    chunk_top_k = CHUNK_TOP_K + iteration * CHUNK_TOP_K_STEP
 
     async def _query():
         return await rag_instance.aquery_data(
             q,
             param=QueryParam(
                 mode="hybrid",
-                top_k=TOP_K_LIGHTRAG,
-                chunk_top_k=CHUNK_TOP_K,
+                top_k=top_k,
+                chunk_top_k=chunk_top_k,
                 enable_rerank=False,
                 max_total_tokens=int(os.getenv("MAX_TOTAL_TOKENS", "12000")),
             ),
@@ -366,8 +379,8 @@ def node_hybrid_search(state: AgentState) -> AgentState:
     ctx_string = _format_context_from_raw(data)
     ctx_list   = _contexts_list_from_raw(data)
 
-    trace.append(f"[HYBRID_SEARCH] context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
-    print(f"[HYBRID_SEARCH] context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
+    trace.append(f"[HYBRID_SEARCH] top_k={top_k} chunk_top_k={chunk_top_k} | context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
+    print(f"[HYBRID_SEARCH] top_k={top_k} chunk_top_k={chunk_top_k} | context={len(ctx_string)} chars | {len(ctx_list)} passages RAGAS")
     return {**state, "lightrag_context": ctx_string,
             "lightrag_retrieved_contexts": ctx_list, "trace": trace}
 
@@ -413,7 +426,12 @@ Answer (use ONLY the context above, cite sources):"""
 def node_critique(state: AgentState) -> AgentState:
     q         = state["question"]
     response  = state.get("response", "")
-    context   = state.get("lightrag_context", "")[:800]
+    # Le juge doit evaluer exactement ce que le generateur a vu. Une
+    # troncature plus severe (800 chars, precedemment) lui masquait des
+    # informations pourtant presentes dans le contexte reellement utilise
+    # -> faux positifs "not grounded" / "correctement absent du corpus"
+    # alors que la reponse etait verifiable.
+    context   = state.get("lightrag_context", "")[:MAX_GENERATOR_CONTEXT_CHARS]
     iteration = state.get("iteration", 0)
     trace     = state.get("trace", [])
 
@@ -441,7 +459,7 @@ Context:
 {context}
 
 Answer to evaluate:
-{response[:600]}
+{response[:2000]}
 
 JSON:"""
 
