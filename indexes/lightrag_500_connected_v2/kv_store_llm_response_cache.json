@@ -3350,5 +3350,245 @@
     "create_time": 1785433403,
     "update_time": 1785433403,
     "_id": "hybrid:keywords:c4306c5bca0cfbba6f8e39b11ec391b7"
+  },
+  "hybrid:keywords:f9cf059978e73329fdccbc24fc949e41": {
+    "return": "{\"high_level_keywords\": [\"AI system\", \"Gemini 2.5 Flash\", \"Individualism-collectivism bias\", \"Western-Style Individualism\"], \"low_level_keywords\": [\"Gemini 2.5\", \"Flash technology\", \"Bias in AI\", \"Western culture\", \"Individualism\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What AI system is built on Gemini 2.5 Flash and exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism, and what are its key characteristics and features?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785433527,
+    "update_time": 1785433527,
+    "_id": "hybrid:keywords:f9cf059978e73329fdccbc24fc949e41"
+  },
+  "hybrid:keywords:254cabf858a75328cbe808891634ce30": {
+    "return": "{\"high_level_keywords\": [\"AI system\", \"Gemini 2.5 Flash\", \"Large Language Models\", \"Individualism-Collectivism Bias\"], \"low_level_keywords\": [\"Gemini 2.5\", \"Flash\", \"When AI Speaks\", \"Whose Values Does It Express\", \"Cross-Cultural Audit\", \"AI Speaks\", \"Whose Values Does It Express\", \"A Cross-Cultural Audit\", \"Individualism-Collectivism Bias\", \"Large Language Models\", \"Gemini\", \"AI system\", \"study\", \"values\", \"express\", \"bias\", \"language\", \"models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the name of the AI system built on Gemini 2.5 Flash, as described in the study \"When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models\" [Doc 6]?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785433577,
+    "update_time": 1785433577,
+    "_id": "hybrid:keywords:254cabf858a75328cbe808891634ce30"
+  },
+  "hybrid:keywords:03b1bc86d27c92403e4eac4d54df59cb": {
+    "return": "{\"high_level_keywords\": [\"AI systems\", \"Gemini\", \"Individualism-collectivism bias\", \"Cultural bias\", \"Philosophical roots\"], \"low_level_keywords\": [\"Gemini AI\", \"Cultural bias in AI\", \"Philosophical roots of AI\", \"Individualism-collectivism in AI\", \"AI systems with cultural bias\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What AI systems are based on Gemini and exhibit a significant individualism-collectivism bias due to their cultural or philosophical roots?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785433623,
+    "update_time": 1785433623,
+    "_id": "hybrid:keywords:03b1bc86d27c92403e4eac4d54df59cb"
+  },
+  "hybrid:keywords:dde9f9495ed6205b13a5061d5d1d8e71": {
+    "return": "{\"high_level_keywords\": [\"Defense mechanisms\", \"Backdoor attacks\", \"Distillation attacks\", \"Large language models\", \"Model Context Protocol\"], \"low_level_keywords\": [\"Model Context Protocol\", \"Backdoor attacks\", \"Distillation attacks\", \"Large language models\", \"External tool connections\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense mechanisms are effective against backdoor attacks and distillation attacks in large language models that utilize the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434091,
+    "update_time": 1785434091,
+    "_id": "hybrid:keywords:dde9f9495ed6205b13a5061d5d1d8e71"
+  },
+  "hybrid:keywords:f227c1841c655d817bf8ebecc2d029aa": {
+    "return": "{\"high_level_keywords\": [\"Effective defenses\", \"Large language models\", \"External tool connections\"], \"low_level_keywords\": [\"Model Context Protocol\", \"Corpus analysis\", \"Defense techniques\", \"Language model security\", \"External connections\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods or techniques are mentioned in the corpus as effective defenses against large language models that rely on external tool connections, such as the Model Context Protocol?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434118,
+    "update_time": 1785434118,
+    "_id": "hybrid:keywords:f227c1841c655d817bf8ebecc2d029aa"
+  },
+  "hybrid:keywords:5b11cba2749c5b7b0cb8139df9f0c54d": {
+    "return": "{\"high_level_keywords\": [\"Defense methods\", \"Backdoor attacks\", \"Multi-turn vulnerabilities\", \"Large language models\", \"Model Context Protocol\"], \"low_level_keywords\": [\"Countermeasures\", \"Security protocols\", \"External tool connections\", \"Model vulnerabilities\", \"Attack mitigation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense methods are used to counter backdoor attacks and multi-turn vulnerabilities in large language models that rely on the Model Context Protocol for external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434148,
+    "update_time": 1785434148,
+    "_id": "hybrid:keywords:5b11cba2749c5b7b0cb8139df9f0c54d"
+  },
+  "hybrid:keywords:2c2db8e7e9d4cf657d8d405a9fad9758": {
+    "return": "{\"high_level_keywords\": [\"AI system\", \"Gemini 2.5 Flash\", \"Individualism-collectivism bias\", \"Western-Style Individualism\"], \"low_level_keywords\": [\"Gemini\", \"Flash\", \"Bias\", \"Western-Style Individualism\", \"AI development\", \"Implementation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What AI system is built on Gemini 2.5 Flash and exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism, as discussed in the context of its development or implementation?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434190,
+    "update_time": 1785434190,
+    "_id": "hybrid:keywords:2c2db8e7e9d4cf657d8d405a9fad9758"
+  },
+  "hybrid:keywords:9000f906156d9745c8cffac410931f4e": {
+    "return": "{\"high_level_keywords\": [\"Model performance\", \"Generic retry\", \"Model architecture\", \"Training data\"], \"low_level_keywords\": [\"Retry mechanisms\", \"Model optimization\", \"GPT-5.4\", \"Training dataset\", \"Model fine-tuning\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspects of a model's performance are typically improved by applying generic retry, and how does this relate to the specific model architecture or training data used in GPT-5.4, assuming it exists?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434253,
+    "update_time": 1785434253,
+    "_id": "hybrid:keywords:9000f906156d9745c8cffac410931f4e"
+  },
+  "hybrid:keywords:246939511b1b85c27475e61ac025c2de": {
+    "return": "{\"high_level_keywords\": [\"Performance improvement mechanisms\", \"Generic retry\", \"AI models\", \"Benefits\"], \"low_level_keywords\": [\"GPT-5.4\", \"Retry mechanisms\", \"Model performance\", \"Training data\", \"Neural networks\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance improvement mechanisms are mentioned in the context, and how do they relate to the potential benefits of generic retry in AI models similar to GPT-5.4?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434281,
+    "update_time": 1785434281,
+    "_id": "hybrid:keywords:246939511b1b85c27475e61ac025c2de"
+  },
+  "hybrid:keywords:c48042cb4d2415018c4c88d8bd8b560b": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4 performance\", \"Generic retry\", \"OWL~2~DL compliance\", \"Model response\"], \"low_level_keywords\": [\"Aspect\", \"Improvement mechanism\", \"Query optimization\", \"Compliance queries\", \"Model update\", \"GPT-5.4 model\", \"OWL~2~DL\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspect of GPT-5.4's performance is improved when generic retry is applied in the context of OWL~2~DL compliance queries, and what is the nature of the model's response to this improvement mechanism?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434314,
+    "update_time": 1785434314,
+    "_id": "hybrid:keywords:c48042cb4d2415018c4c88d8bd8b560b"
+  },
+  "hybrid:keywords:87904203618aeea994502dbd5276dd71": {
+    "return": "{\"high_level_keywords\": [\"UniVL-DR\", \"WebQA+\", \"EVQA+\", \"Shape\", \"Surface chemistry\"], \"low_level_keywords\": [\"Methods\", \"Models\", \"Datasets\", \"Sites\", \"UniVL-DR performance\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods or models mentioned in the corpus outperform UniVL-DR on datasets similar to WebQA+ and EVQA+, considering factors such as shape and surface chemistry of certain sites?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434395,
+    "update_time": 1785434395,
+    "_id": "hybrid:keywords:87904203618aeea994502dbd5276dd71"
+  },
+  "hybrid:keywords:3ab9a0ef7e38a8305dacb199b9e9d943": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Performance limitations\", \"Dynamic real-world scenarios\", \"Bayesian Inference Modules\", \"Anomaly localization\"], \"low_level_keywords\": [\"Small objects detection\", \"Object localization\", \"Anomaly detection\", \"Bayesian inference\", \"Vision models\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance limitations do Vision-Language Models exhibit in dynamic real-world scenarios, particularly in relation to their ability to utilize Bayesian Inference Modules for anomaly localization and detection of small objects?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785434465,
+    "update_time": 1785434465,
+    "_id": "hybrid:keywords:3ab9a0ef7e38a8305dacb199b9e9d943"
   }
 }
