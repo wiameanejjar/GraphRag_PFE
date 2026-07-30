@@ -1931,5 +1931,74 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 #### Travaux restants
 - Retenter une amélioration de l'Agentic GraphRAG.
 
+### 26-30/07/2026
+
+#### Reprise du diagnostic sur le prompt RESPONSE
+
+- Nouvelle lecture du retour du prof du 25/07 (analyse question par question du fichier `eval_agent_s4.csv`et `plan_c_evaluation_manuelle.csv`) : sur plusieurs questions (MindTrellis/Quantum Knowledge Graph, PyPOTS, QED...), l'agent affirme "The corpus does not contain information..." alors que l'information est bien présente, parfois même citée juste après dans la même réponse , contradiction flagrante causée par la règle 2 du prompt RESPONSE, trop stricte sur les cas limites (trade-off precision/recall en faveur du refus).
+- **Option A du prof appliquée** : remplacement de la règle 2 par 3 règles plus nuancées dans `RESPONSE_SYSTEM_PROMPT` (`src/agent/graph_v3.py`) , extraire les faits présents avant de refuser, ne réserver le refus qu'au cas où aucun document ne mentionne le sujet.
+- J'ai relancé le notebook `Sprint4_Ablation_Study.ipynb` avec le prompt corrigé : RAGAS toujours indisponible (Gemini toujours en `quota=0`, DeepSeek/NVIDIA en `429`).
+
+#### Bug identifié : troncature du contexte trop agressive
+
+- Diagnostic du contexte réellement envoyé au générateur : en moyenne 30 000 caractères pour LightRAG/Agentic (jusqu'à 39 700), tronqué à 6000 caractères pour éviter l'erreur `413 Request too large` de Groq.
+- Cause : dans `_format_context_from_raw`, l'ordre était entités → relations → passages de documents , la troncature à 6000 caractères coupait donc quasi systématiquement avant d'atteindre les passages contenant le texte source, laissant le générateur avec seulement des listes d'entités/relations.
+- **Correctif appliqué** : réordonnancement (passages de documents en premier, puis relations, puis entités) + augmentation de la limite à 8000 caractères.
+
+#### Test d'un juge externe via OpenRouter
+
+- Test d'un modèle GPT via OpenRouter (GPT-OSS-20B (free)) comme juge RAGAS alternatif, après les échecs de Gemini et DeepSeek/NVIDIA : RAGAS reste trop lent avec ce juge également.
+- Décision : abandon des tentatives de juge RAGAS automatique, retour définitif à l'évaluation manuelle (Plan C) comme méthode d'évaluation retenue pour l'ablation study.
+
+#### Nouvelle notation Plan C (post-correctifs)
+
+- J'ai relancé le notebook avec les 2 correctifs (prompt + contexte) : ré-export de `plan_c_evaluation_manuelle.csv` avec les nouvelles réponses des 3 systèmes.
+- Notation selon la grille du prof (correct / ancré au contexte / clair-complet) : score moyen RAG baseline 0.333, LightRAG 0.500, Agentic GraphRAG 0.400.
+- Une réponse de LightRAG (question EPM-RL) s'est révélée être une erreur `429 rate limit` de Groq plutôt qu'une vraie génération.
+- Constat : le correctif du prompt (Option A) ne montre pas d'amélioration nette sur cet échantillon de 10 questions (Agentic toujours en dessous de LightRAG), à documenter comme résultat honnête plutôt qu'à masquer.
+
+#### Travaux restants
+- Isoler et relancer la question EPM-RL (LightRAG) pour un vrai score.
+- Décider entre creuser davantage la cause de la sous-performance de l'Agentic ou documenter le résultat tel quel (Option B du prof proposée le 25/07) dans le mémoire.
+
+
+- Reprendre la rédaction du mémoire final (chapitres État de l'art / Méthodologie), deadline de rédaction fixée au 30 août.
+
+### 30/07/2026 
+
+#### Nouvelle piste sur la sous-performance de l'Agentic
+
+- Diagnostic complémentaire : le nœud CRITIQUE tronquait toujours le contexte à 800 caractères (`node_critique`) alors que le générateur en reçoit désormais 8000 (`MAX_GENERATOR_CONTEXT_CHARS`) , le juge interne jugeait donc sur un contexte quasi vide comparé à ce que le générateur voyait réellement, ce qui pouvait déclencher des `SELF_CORRECT` injustifiés.
+- Autre défaut trouvé dans `FINALIZE` : l'agent renvoyait systématiquement la réponse de la **dernière** itération, sans garantie qu'elle soit meilleure qu'une itération précédente (aucun mécanisme ne comparait les scores entre itérations).
+- **Corrections appliquées** dans `src/agent/graph_v3.py` :
+  1. Contexte du juge aligné sur `MAX_GENERATOR_CONTEXT_CHARS` (800 → 8000).
+  2. Suivi de la **meilleure réponse** sur toutes les itérations (`best_response`/`best_score`/`best_retrieved_contexts` dans l'état de l'agent) : `FINALIZE` renvoie désormais la meilleure itération, pas la dernière.
+  - Note : l'alignement du contexte du juge avait déjà été tenté le 25/07 puis annulé (pas d'amélioration, une régression) , cette fois combiné au correctif de réordonnancement du contexte (passages en premier) et au suivi de meilleure réponse, jamais testés ensemble auparavant.
+
+#### Nouveau juge RAGAS : OpenRouter (Gemma, gratuit)
+
+- Ajout d'un juge RAGAS supplémentaire via OpenRouter (`google/gemma-3-27b-it:free`), en tête de priorité dans `eval_ragas_3.py` et le notebook, activable via `USE_OPENROUTER_JUDGE`/`OPENROUTER_API_KEY` dans `.env`.
+- Précision importante : ce nouveau juge concerne uniquement le **scoring RAGAS** (mesure externe), pas l'agent lui-même. Dans `graph_v3.py`, le générateur (Groq `llama-3.1-8b-instant`) et le juge de critique interne (Groq `llama-3.3-70b-versatile`) restent inchangés.
+
+#### Deux nouveaux problèmes trouvés après exécution du notebook complet
+
+1. **RAGAS échoue à 100% avec OpenRouter/Gemma** : `google/gemma-3-27b-it:free` renvoie une erreur 404 (*"This model is unavailable for free... use this slug instead: google/gemma-3-27b-it"*) , OpenRouter a retiré ce modèle de son offre gratuite, remplacé par une version payante. Résultat : 100% de NaN sur les 4 métriques, sur les 3 systèmes.
+   - **Solution retenue** : changement du modèle dans `.env` vers `meta-llama/llama-3.3-70b-instruct:free` (un autre modèle gratuit d'OpenRouter, plus adapté à l'évaluation RAGAS de par sa taille).
+
+2. **Cause principale (probable) de la stagnation de l'Agentic, trouvée en lisant les logs du CRITIQUE** : sur les 10 questions, les 10 scores de critique valent exactement 0.90, y compris pour des réponses qui refusent alors que l'information est présente dans le contexte. Le prompt du juge disait "si la réponse dit correctement 'pas dans le corpus' → score ≥ 0.8" mais **le juge ne vérifiait jamais réellement si l'info était vraiment absente** , il faisait confiance à la réponse elle-même. Résultat : `SELF_CORRECT` ne se déclenche quasiment jamais, même sur des refus injustifiés.
+   - **Correction appliquée** dans `node_critique` (`src/agent/graph_v3.py`) : ajout d'une étape de vérification obligatoire dans le prompt du juge , avant de noter un refus, le juge doit lui-même re-vérifier si le sujet/les entités de la question apparaissent dans le contexte, et noter < 0.4 si c'est le cas (au lieu de faire confiance à la réponse).
+
+#### Travaux restants
+- Relancer `eval_ragas_3.py` / le notebook avec l'ensemble des correctifs combinés (prompt Option A + contexte réordonné 8000 + juge critique aligné + meilleure réponse + juge critique qui vérifie les refus + juge RAGAS OpenRouter corrigé) pour une vraie mesure.
+- Si RAGAS échoue encore : je vais refaire l'évaluation manuelle (Plan C), déjà en place dans le notebook.
+
+#### Abandon de RAGAS via OpenRouter — décision de basculer sur l'évaluation manuelle
+
+- Deuxième échec OpenRouter : après `google/gemma-3-27b-it:free` (retiré de l'offre gratuite), le modèle de repli `meta-llama/llama-3.3-70b-instruct:free` échoue avec la **même erreur 404** ("model unavailable for free, use meta-llama/llama-3.3-70b-instruct instead") , OpenRouter a visiblement retiré ces deux modèles de son offre gratuite même s'il est écrit le mot free à côté. Résultat : de nouveau 100% de NaN sur les 4 métriques, sur les 3 systèmes.
+- **Décision** : compte tenu du temps déjà passé à tester Groq, Gemini, DeepSeek/NVIDIA puis deux modèles OpenRouter , tous instables ou indisponibles pour un usage gratuit , j'ai décidé d'abandonner la mesure automatique RAGAS pour cette échéance et de **basculer définitivement sur l'évaluation manuelle (Plan C)**, déjà en place et déjà fonctionnelle dans le notebook (repli automatique déjà codé).
+- Prochaine étape : relancer le notebook pour régénérer les réponses des 3 systèmes avec tous les correctifs (prompt Option A, contexte réordonné, juge critique qui vérifie les refus, meilleure réponse), puis noter manuellement les nouvelles réponses dans `plan_c_evaluation_manuelle.csv`.
+
+
+
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 25 Juillet 2026_
+_Dernière mise à jour : 30 Juillet 2026_

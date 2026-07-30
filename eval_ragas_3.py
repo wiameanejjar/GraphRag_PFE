@@ -104,6 +104,8 @@ def run_evaluation():
     #  4) échelle réduite (N_QUESTIONS) le temps de stabiliser
     #  5) diagnostic NaN après coup (cf. plus bas)
     print("Lancement RAGAS...")
+    use_openrouter_judge = os.getenv("USE_OPENROUTER_JUDGE", "false").lower() == "true"
+    openrouter_key        = os.getenv("OPENROUTER_API_KEY", "")
     use_nvidia_judge = os.getenv("USE_NVIDIA_JUDGE", "false").lower() == "true"
     nvidia_judge_key  = os.getenv("NVIDIA_API_KEY", "")
     use_gemini_judge = os.getenv("USE_GEMINI_JUDGE", "false").lower() == "true"
@@ -115,7 +117,18 @@ def run_evaluation():
     use_nvidia = os.getenv("USE_NVIDIA", "false").lower() == "true"
     nvidia_key = os.getenv("NVIDIA_API_KEY", "")
 
-    if use_nvidia_judge and nvidia_judge_key:
+    if use_openrouter_judge and openrouter_key:
+        openrouter_judge_model = os.getenv("OPENROUTER_JUDGE_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
+        print(f"[RAGAS JUDGE] OpenRouter {openrouter_judge_model} (gratuit)")
+        llm_eval = ChatOpenAI(
+            model=openrouter_judge_model,
+            api_key=openrouter_key,
+            base_url="https://openrouter.ai/api/v1",
+            temperature=0,
+        )
+        ragas_batch_size = 1
+        ragas_max_workers = 1  # modeles :free = quotas serres, rester sequentiel
+    elif use_nvidia_judge and nvidia_judge_key:
         nvidia_judge_model = os.getenv("NVIDIA_JUDGE_MODEL", "deepseek-ai/deepseek-v4-pro")
         print(f"[RAGAS JUDGE] NVIDIA {nvidia_judge_model} (DeepSeek, juge API)")
         llm_eval = ChatOpenAI(

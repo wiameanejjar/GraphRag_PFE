@@ -250,6 +250,9 @@ class AgentState(TypedDict):
     iteration                   : int
     final_response               : str
     trace                       : list
+    best_response                : str    # meilleure réponse vue sur toutes les itérations
+    best_score                   : float  # score correspondant à best_response
+    best_retrieved_contexts      : list   # contextes RAGAS correspondant à best_response
 
 # ══════════════════════════════════════════════════════════════
 # HELPERS
@@ -274,25 +277,36 @@ def _judge_call(system, user):
 
 def _format_context_from_raw(data: dict) -> str:
     """String fusionnée envoyée au générateur — construite depuis la même
-    donnée structurée que celle envoyée à RAGAS (garantit l'alignement)."""
+    donnée structurée que celle envoyée à RAGAS (garantit l'alignement).
+
+    ORDRE : passages de documents D'ABORD, puis relations, puis entités.
+    Raison : le contexte fusionné (souvent 30 000+ caractères pour
+    seulement 15/10 entités/relations) doit être tronqué avant l'envoi
+    au générateur (cf. MAX_GENERATOR_CONTEXT_CHARS, anti-413). Avec
+    l'ancien ordre (entités -> relations -> passages), la troncature à
+    6000 caractères coupait quasi systématiquement AVANT d'atteindre les
+    passages de documents, qui contiennent le texte source nécessaire
+    pour répondre correctement -> le LLM ne recevait que des listes
+    d'entités/relations sans le texte source. Mettre les passages en
+    premier garantit qu'ils survivent à la troncature."""
     entities = data.get("entities", []) or []
     relationships = data.get("relationships", []) or []
     chunks = data.get("chunks", []) or []
     parts = []
-    if entities:
-        parts.append("=== Entités du graphe ===")
-        for e in entities:
-            parts.append(f"• [{e.get('entity_type', 'entity')}: {e.get('entity_name', '')}]\n"
-                         f"  {e.get('description', '')}")
+    if chunks:
+        parts.append("=== Passages pertinents ===")
+        for i, c in enumerate(chunks, 1):
+            parts.append(f"[Doc {i}] {(c.get('content') or '')[:800]}")
     if relationships:
         parts.append("\n=== Relations (GraphRAG) ===")
         for r in relationships:
             parts.append(f"• {r.get('src_id', '')} → {r.get('tgt_id', '')}\n"
                          f"  {r.get('description', '')}")
-    if chunks:
-        parts.append("\n=== Passages pertinents ===")
-        for i, c in enumerate(chunks, 1):
-            parts.append(f"[Doc {i}] {(c.get('content') or '')[:800]}")
+    if entities:
+        parts.append("\n=== Entités du graphe ===")
+        for e in entities:
+            parts.append(f"• [{e.get('entity_type', 'entity')}: {e.get('entity_name', '')}]\n"
+                         f"  {e.get('description', '')}")
     return "\n".join(parts) if parts else "Aucun contexte disponible."
 
 
@@ -378,17 +392,27 @@ provided context.
 STRICT RULES:
 1. Use ONLY information explicitly present in the Knowledge Graph or
    Document chunks below.
-2. If the answer is not in the context, respond EXACTLY:
-   "The corpus does not contain information to answer this question."
-3. ALWAYS cite the source after each claim: [Graph: entity_name] or [Doc N].
-4. Never use external knowledge or general world facts.
-5. If only partial information is available, state what is known AND
-   mark what is missing as "[not in corpus]"."""
+2. If the context contains partial information, provide what you can and mark
+   the gaps with [not in corpus].
+3. Only reply EXACTLY "The corpus does not contain information to answer this
+   question." if NONE of the retrieved documents mentions the subject of the
+   question at all.
+4. When a document explicitly mentions an entity from the question, extract
+   the relevant facts BEFORE deciding to refuse.
+5. ALWAYS cite the source after each claim: [Graph: entity_name] or [Doc N].
+6. Never use external knowledge or general world facts."""
+# Règles 2-4 corrigées suite au retour du prof du 25/07 : l'ancienne règle 2
+# ("refuse dès que l'info n'est pas dans le contexte") provoquait des refus
+# injustifiés même quand l'information était présente dans le contexte
+# récupéré (ex: Q1/Q3/Q5 du Plan C) -> trade-off precision/recall trop
+# conservateur. La nouvelle formulation impose d'extraire les faits présents
+# avant de décider de refuser, et réserve le refus au cas où AUCUN document
+# ne mentionne le sujet.
 
 # Certains backends (ex: Groq llama-3.1-8b-instant) rejettent les requêtes
 # trop volumineuses (HTTP 413) bien avant la fenêtre de contexte nominale du
 # modèle -> troncature défensive du contexte envoyé au générateur.
-MAX_GENERATOR_CONTEXT_CHARS = int(os.getenv("MAX_GENERATOR_CONTEXT_CHARS", "6000"))
+MAX_GENERATOR_CONTEXT_CHARS = int(os.getenv("MAX_GENERATOR_CONTEXT_CHARS", "8000"))
 
 
 def node_response(state: AgentState) -> AgentState:
@@ -413,12 +437,19 @@ Answer (use ONLY the context above, cite sources):"""
 def node_critique(state: AgentState) -> AgentState:
     q         = state["question"]
     response  = state.get("response", "")
-    context   = state.get("lightrag_context", "")[:800]
+    # ALIGNE sur le contexte du générateur (800 -> MAX_GENERATOR_CONTEXT_CHARS) :
+    # un juge qui ne voit que 800/8000 caractères du contexte juge à l'aveugle
+    # et peut déclencher un SELF_CORRECT injustifié sur une réponse pourtant
+    # correcte et bien ancrée (diagnostic du 25/07, revert précédent car testé
+    # seul sans le fix de troncature du contexte -> à retester avec les 2
+    # correctifs combinés).
+    context   = state.get("lightrag_context", "")[:MAX_GENERATOR_CONTEXT_CHARS]
     iteration = state.get("iteration", 0)
     trace     = state.get("trace", [])
 
     system = """You are a STRICT RAG quality evaluator. You evaluate answers
-generated by a different AI model. Be critical and objective.
+generated by a different AI model. Be critical, objective, and verify claims
+YOURSELF against the context — never simply trust the answer's own framing.
 
 Score from 0.0 to 1.0:
 - Faithfulness (50%): Is EVERY claim explicitly supported by the context?
@@ -426,14 +457,26 @@ Score from 0.0 to 1.0:
 - Completeness (30%): Does it fully answer the question using available context?
 - Clarity (20%): Is it clear and well-structured?
 
+MANDATORY VERIFICATION STEP — do this BEFORE scoring any refusal:
+If the answer says "The corpus does not contain information...", you must
+independently re-check the context below for the specific entities/subject
+named in the question:
+- If NONE of the context mentions the subject/entities of the question ->
+  the refusal is CORRECT -> score >= 0.8.
+- If the context DOES mention the subject/entities (even partially, even in
+  a single entity description or one passage) -> the refusal is WRONG (the
+  model failed to extract information that was available) -> score < 0.4,
+  regardless of how confidently the answer asserts otherwise.
+Never accept a refusal at face value just because it is phrased correctly —
+a well-phrased refusal on a question whose answer WAS in the context is a
+failure, not a success.
+
 Rules:
 - Answer invents facts not in context → Faithfulness = 0.0
-- Answer correctly says "not in corpus" when info absent → score >= 0.8
-- Answer says "not in corpus" but context HAS the info → score < 0.4
 - Score < 0.75 triggers SELF_CORRECT
 
 Respond ONLY with valid JSON:
-{"score": 0.65, "reason": "Brief explanation"}"""
+{"score": 0.65, "reason": "Brief explanation, state explicitly whether you verified the refusal against the context"}"""
 
     user = f"""Question: {q}
 
@@ -456,7 +499,23 @@ JSON:"""
 
     trace.append(f"[CRITIQUE iter={iteration}] score={score:.2f} independent={was_independent} | {reason[:80]}")
     print(f"[CRITIQUE iter={iteration}] score={score:.2f} | judge_independent={was_independent}")
+
+    # Garde la MEILLEURE réponse vue sur toutes les itérations : sans ce
+    # suivi, FINALIZE renvoyait systématiquement la DERNIÈRE itération, même
+    # si un SELF_CORRECT a reformulé la question vers un moins bon retrieval
+    # (aucune garantie que la boucle converge vers une meilleure réponse).
+    best_score = state.get("best_score", -1.0)
+    if score >= best_score:
+        best_response = response
+        best_score = score
+        best_retrieved_contexts = state.get("lightrag_retrieved_contexts", [])
+    else:
+        best_response = state.get("best_response", response)
+        best_retrieved_contexts = state.get("best_retrieved_contexts", state.get("lightrag_retrieved_contexts", []))
+
     return {**state, "critique_score": score, "critique_reason": reason,
+            "best_response": best_response, "best_score": best_score,
+            "best_retrieved_contexts": best_retrieved_contexts,
             "critique_judge_independent": was_independent, "trace": trace}
 
 
@@ -487,9 +546,17 @@ def node_finalize(state: AgentState) -> AgentState:
     score = state.get("critique_score", 0)
     iter_ = state.get("iteration", 0)
     trace = state.get("trace", [])
-    trace.append(f"[FINALIZE] score={score:.2f}, iterations={iter_}")
-    print(f"[FINALIZE] score={score:.2f} après {iter_} iteration(s)")
-    return {**state, "final_response": state.get("response", ""), "trace": trace}
+    best_score    = state.get("best_score", score)
+    best_response = state.get("best_response") or state.get("response", "")
+    trace.append(f"[FINALIZE] dernier_score={score:.2f}, meilleur_score={best_score:.2f}, iterations={iter_}")
+    print(f"[FINALIZE] meilleur_score={best_score:.2f} (dernier={score:.2f}) après {iter_} iteration(s)")
+    return {
+        **state,
+        "final_response": best_response,
+        "critique_score": best_score,
+        "lightrag_retrieved_contexts": state.get("best_retrieved_contexts") or state.get("lightrag_retrieved_contexts", []),
+        "trace": trace,
+    }
 
 
 # ══════════════════════════════════════════════════════════════
@@ -560,6 +627,9 @@ def run_agent(question: str, use_phoenix: bool = False) -> dict:
         "iteration":                   0,
         "final_response":              "",
         "trace":                       [],
+        "best_response":               "",
+        "best_score":                  -1.0,
+        "best_retrieved_contexts":     [],
     }
 
     print(f"\n{'='*60}\nQUESTION : {question}\n{'='*60}")

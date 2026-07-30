@@ -2670,5 +2670,685 @@
     "create_time": 1784942707,
     "update_time": 1784942707,
     "_id": "hybrid:keywords:c621a44ec4526e77b597e760df4a165f"
+  },
+  "hybrid:keywords:0bb73513ee03a318378d9b65b821ac1e": {
+    "return": "{\"high_level_keywords\": [\"Knowledge graph model\", \"Context-dependent triplet validity\", \"Collaborative construction\", \"Knowledge graphs\", \"AI\"], \"low_level_keywords\": [\"MindTrellis\", \"Knowledge graph\", \"Triplet validity\", \"Context-dependent\", \"Collaborative AI\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What knowledge graph model, specifically developed for context-dependent triplet validity, is utilized in the collaborative construction of knowledge graphs with AI in MindTrellis?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785193417,
+    "update_time": 1785193417,
+    "_id": "hybrid:keywords:0bb73513ee03a318378d9b65b821ac1e"
+  },
+  "hybrid:keywords:f4b16dc653229e0d592c00b15aabb573": {
+    "return": "{\"high_level_keywords\": [\"Image editing models\", \"Mathematical problem-solving techniques\", \"Decomposition\", \"Complex problem-solving\"], \"low_level_keywords\": [\"Convolutional neural networks\", \"Deep learning\", \"Problem decomposition\", \"Sub-problem solving\", \"Image processing\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing models have demonstrated improved performance by leveraging mathematical problem-solving techniques or methods, specifically those that involve decomposition or breaking down complex problems into simpler sub-problems?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785193513,
+    "update_time": 1785193513,
+    "_id": "hybrid:keywords:f4b16dc653229e0d592c00b15aabb573"
+  },
+  "hybrid:keywords:1fac5bc24564b7fccc8174de1d5cb719": {
+    "return": "{\"high_level_keywords\": [\"Image editing models\", \"Mathematical problem-solving techniques\", \"Decomposition methods\"], \"low_level_keywords\": [\"Convolutional neural networks\", \"Deep learning algorithms\", \"Problem decomposition\", \"Sub-problem solving\", \"Image processing techniques\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of image editing models have demonstrated improved performance by leveraging mathematical problem-solving techniques or methods that involve decomposition or breaking down complex problems into simpler sub-problems?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785193538,
+    "update_time": 1785193538,
+    "_id": "hybrid:keywords:1fac5bc24564b7fccc8174de1d5cb719"
+  },
+  "hybrid:keywords:d02b9fe81227fa6a4f41682f34c4d3a0": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Performance limitations\", \"Dynamic real-world scenarios\", \"Anomaly localization\"], \"low_level_keywords\": [\"Bayesian Inference Module\", \"Research studies\", \"Performance metrics\", \"Scalability issues\", \"Real-world applications\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance limitations or challenges do Vision-Language Models, which utilize a Bayesian Inference Module for anomaly localization, exhibit in dynamic real-world scenarios, as reported in relevant research studies?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785193606,
+    "update_time": 1785193606,
+    "_id": "hybrid:keywords:d02b9fe81227fa6a4f41682f34c4d3a0"
+  },
+  "hybrid:keywords:b4674b006352214248d53c48c56faf4a": {
+    "return": "{\"high_level_keywords\": [\"Unified multi-modal understanding\", \"Generative models\", \"Image editing\", \"Fine-grained understanding\"], \"low_level_keywords\": [\"Image-to-image translation\", \"Text-to-image synthesis\", \"Attention mechanisms\", \"Deep learning architectures\", \"Neural style transfer\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What types of unified multi-modal understanding/generative models have demonstrated improved performance in image editing tasks through the incorporation of fine-grained understanding?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785253042,
+    "update_time": 1785253042,
+    "_id": "hybrid:keywords:b4674b006352214248d53c48c56faf4a"
+  },
+  "hybrid:keywords:32b0faa03ee2ae29a02b70573de5292c": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance challenges\", \"Anomaly detection\", \"Machine learning\", \"Deep learning\", \"Real-world applications\", \"Scalability issues\", \"Computational complexity\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models, which utilize Bayesian Inference Module for anomaly localization, experience in dynamic real-world scenarios, and what are the underlying causes of these challenges?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785253110,
+    "update_time": 1785253110,
+    "_id": "hybrid:keywords:32b0faa03ee2ae29a02b70573de5292c"
+  },
+  "hybrid:keywords:c54e135ebdd195b0b792fd8bdedff26a": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance limitations\", \"Challenges\", \"Vision-Language Model architecture\", \"Bayesian inference\", \"Anomaly detection\", \"Real-world applications\", \"Scalability issues\", \"Computational complexity\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance limitations or challenges do Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization typically encounter in dynamic real-world scenarios?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785253134,
+    "update_time": 1785253134,
+    "_id": "hybrid:keywords:c54e135ebdd195b0b792fd8bdedff26a"
+  },
+  "hybrid:keywords:386f0e514924a5719a33e0049a26c576": {
+    "return": "{\"high_level_keywords\": [\"Backdoor attacks\", \"Jailbreaking\", \"Large language models\", \"Security defenses\"], \"low_level_keywords\": [\"External tool connections\", \"Model vulnerabilities\", \"Attack mitigation\", \"Defense mechanisms\", \"Jailbreak detection\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are designed to improve defenses against backdoor attacks or jailbreaking in large language models, particularly those that utilize external tool connections?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429720,
+    "update_time": 1785429720,
+    "_id": "hybrid:keywords:386f0e514924a5719a33e0049a26c576"
+  },
+  "hybrid:keywords:9bd23ad2cd7e7664c29938b368c998c8": {
+    "return": "{\"high_level_keywords\": [\"Large language models\", \"Gemini 2.5 Flash\", \"Individualism-collectivism bias\", \"Western-Style Individualism\"], \"low_level_keywords\": [\"Language model architecture\", \"Bias in AI\", \"Cultural influence on AI\", \"Western cultural bias\", \"Individualism\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What large language models are built on Gemini 2.5 Flash and exhibit a lower but still significant individualism-collectivism bias due to their roots in Western-Style Individualism?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429752,
+    "update_time": 1785429752,
+    "_id": "hybrid:keywords:9bd23ad2cd7e7664c29938b368c998c8"
+  },
+  "hybrid:keywords:ba0265e1e85afc09f612d0d67b563f9b": {
+    "return": "{\"high_level_keywords\": [\"Individualism-collectivism bias\", \"Western-Style Individualism\", \"System design\"], \"low_level_keywords\": [\"Gemini 2.5 Flash\", \"Doc 5\", \"Individualism\", \"Collectivism\", \"Bias\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What system, as described in Doc 5, is built on Gemini 2.5 Flash and exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429779,
+    "update_time": 1785429779,
+    "_id": "hybrid:keywords:ba0265e1e85afc09f612d0d67b563f9b"
+  },
+  "hybrid:keywords:638b1398b2cf62b046cdfdb12df4efd1": {
+    "return": "{\"high_level_keywords\": [\"Cultural bias\", \"LLMs\", \"Reliability auditing\", \"Synthetic patient profiles\"], \"low_level_keywords\": [\"Regional bias\", \"Ideological bias\", \"Peer identity bias\", \"Auditing methods\", \"Patient data\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific types of cultural bias (e.g. regional, ideological, peer identity) exhibited by LLMs are relevant to reliability auditing of synthetic patient profiles, as discussed in the corpus?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429826,
+    "update_time": 1785429826,
+    "_id": "hybrid:keywords:638b1398b2cf62b046cdfdb12df4efd1"
+  },
+  "hybrid:keywords:9499cfd244655e0dd9f8c50e52a8fae1": {
+    "return": "{\"high_level_keywords\": [\"Model architecture\", \"Training process\", \"Performance improvement\", \"Generic retry\"], \"low_level_keywords\": [\"Model training\", \"Retry mechanism\", \"Corpus models\", \"Performance metrics\", \"Architecture design\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspects of the model's architecture or training process are affected when generic retry is applied to improve its performance, and which models in the corpus respond to this technique?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429872,
+    "update_time": 1785429872,
+    "_id": "hybrid:keywords:9499cfd244655e0dd9f8c50e52a8fae1"
+  },
+  "hybrid:keywords:e9f450b909e01fe0b6176e1726882a2a": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4 performance\", \"Generic retry\", \"Model response\"], \"low_level_keywords\": [\"Aspect of performance\", \"Improvement in performance\", \"Doc 4\", \"Model's response\", \"GPT-5.4\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspect of GPT-5.4's performance is improved when generic retry is applied, according to the information in Doc 4, and what is the nature of the model's response to this improvement?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429917,
+    "update_time": 1785429917,
+    "_id": "hybrid:keywords:e9f450b909e01fe0b6176e1726882a2a"
+  },
+  "hybrid:keywords:29179952ef3f3b4a1795ee682a2ffee3": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4 performance\", \"Generic retry\", \"Response improvement\"], \"low_level_keywords\": [\"GPT-5.4\", \"Doc 5\", \"Retry mechanism\", \"Response quality\", \"GPT-5.4 responses\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspect of GPT-5.4's performance is improved by applying generic retry, as mentioned in Doc 5, and what is the nature of the responses that GPT-5.4 provides when this improvement is applied?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785429929,
+    "update_time": 1785429929,
+    "_id": "hybrid:keywords:29179952ef3f3b4a1795ee682a2ffee3"
+  },
+  "hybrid:keywords:de2f1b07292a1449c0659a26856147e0": {
+    "return": "{\"high_level_keywords\": [\"Methods or models\", \"UniVL-DR\", \"Dataset characteristics\"], \"low_level_keywords\": [\"UniVL-DR\", \"Transfer learning\", \"Deep learning\", \"Computer vision\", \"Image classification\", \"Dataset bias\", \"Dataset size\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods or models mentioned in the context outperform UniVL-DR on specific datasets, and what are the characteristics of these datasets?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430013,
+    "update_time": 1785430013,
+    "_id": "hybrid:keywords:de2f1b07292a1449c0659a26856147e0"
+  },
+  "hybrid:keywords:9707e002fe4a74895daf1791765178fa": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Model\", \"UniVL-DR\", \"WebQA+\", \"EVQA+\", \"Shape and surface chemistry\"], \"low_level_keywords\": [\"WebQA\", \"EVQA\", \"UniVL\", \"Vision and Language\", \"Chemical properties\", \"Surface chemistry\", \"Shape analysis\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What Vision-Language Model outperforms UniVL-DR on the WebQA+ and EVQA+ datasets when considering shape and surface chemistry of certain sites, and what is the application of this model?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430043,
+    "update_time": 1785430043,
+    "_id": "hybrid:keywords:9707e002fe4a74895daf1791765178fa"
+  },
+  "hybrid:keywords:8f540549f3bea5a845b76eff73d06fd6": {
+    "return": "{\"high_level_keywords\": [\"Vision-language models\", \"Optical molecule recognition\", \"UniVL-DR\", \"WebQA+\", \"EVQA+\", \"Shape and surface chemistry analysis\"], \"low_level_keywords\": [\"UniVL-DR\", \"WebQA+\", \"EVQA+\", \"Shape analysis\", \"Surface chemistry\", \"Molecule recognition\", \"Vision models\", \"Optical recognition\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What vision-language models or optical molecule recognition methods have been shown to outperform UniVL-DR on the WebQA+ and EVQA+ datasets, particularly in the context of shape and surface chemistry analysis of specific sites?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430077,
+    "update_time": 1785430077,
+    "_id": "hybrid:keywords:8f540549f3bea5a845b76eff73d06fd6"
+  },
+  "hybrid:keywords:30aafab305c34b88466dd4c80b4fac45": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\", \"Object recognition\", \"Scene understanding\", \"Anomaly detection\"], \"low_level_keywords\": [\"Challenges\", \"Limitations\", \"Performance metrics\", \"Real-world applications\", \"Object detection\", \"Scene analysis\", \"Anomaly localization techniques\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific challenges or limitations do Vision-Language Models, which utilize a Bayesian Inference Module for anomaly localization, face in dynamic real-world scenarios, as observed in their performance on tasks such as object recognition, scene understanding, or anomaly detection?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430144,
+    "update_time": 1785430144,
+    "_id": "hybrid:keywords:30aafab305c34b88466dd4c80b4fac45"
+  },
+  "hybrid:keywords:be6f948199c9259d0173039039c4d655": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world scenarios\"], \"low_level_keywords\": [\"Performance limitations\", \"Hallucinations\", \"Linguistic priors\", \"Anomaly detection\", \"Vision and language\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance limitations of Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization are most commonly observed in dynamic real-world scenarios, such as hallucinations or over-reliance on linguistic priors?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430171,
+    "update_time": 1785430171,
+    "_id": "hybrid:keywords:be6f948199c9259d0173039039c4d655"
+  },
+  "hybrid:keywords:a4473aa68cea9913321c773dba035044": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world environments\"], \"low_level_keywords\": [\"Performance aspects\", \"Anomaly detection\", \"Studies\", \"Analyses\", \"Documents\", \"Vision-Language Model performance\", \"Bayesian inference challenges\", \"Anomaly localization challenges\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance aspects of Vision-Language Models that utilize a Bayesian Inference Module for anomaly localization are commonly challenged in dynamic real-world environments, as evidenced by studies or analyses in documents such as Doc 1, Doc 3, Doc 4, and Doc 5?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785430206,
+    "update_time": 1785430206,
+    "_id": "hybrid:keywords:a4473aa68cea9913321c773dba035044"
+  },
+  "hybrid:keywords:d756a4c2c3109a9a6cb14d1d288e504a": {
+    "return": "{\"high_level_keywords\": [\"Defense mechanisms\", \"Backdoor attacks\", \"Vulnerabilities\", \"Large language models\", \"Security measures\"], \"low_level_keywords\": [\"External tool connections\", \"Jailbreaking\", \"Social engineering attacks\", \"Countermeasures\", \"Prevention methods\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense mechanisms are used to counter backdoor attacks and other vulnerabilities in large language models that rely on external tool connections, and how do they differ from methods that prevent jailbreaking and social engineering attacks?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432322,
+    "update_time": 1785432322,
+    "_id": "hybrid:keywords:d756a4c2c3109a9a6cb14d1d288e504a"
+  },
+  "hybrid:keywords:098c7a8182246fedc6603f12bea1c5dc": {
+    "return": "{\"high_level_keywords\": [\"Individualism-collectivism bias\", \"Western-Style Individualism\", \"System design\"], \"low_level_keywords\": [\"Gemini 2.5 Flash\", \"Doc 2\", \"Individualism\", \"Collectivism\", \"Bias\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What system, as described in Doc 2, is built on Gemini 2.5 Flash and exhibits a lower but still significant individualism-collectivism bias due to its roots in Western-Style Individualism?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432360,
+    "update_time": 1785432360,
+    "_id": "hybrid:keywords:098c7a8182246fedc6603f12bea1c5dc"
+  },
+  "hybrid:keywords:7a753b472cf83bccd894f6ee0a40ad62": {
+    "return": "{\"high_level_keywords\": [\"Gemini 2.5 Flash\", \"Individualism-collectivism bias\", \"System functionality\", \"User experience\"], \"low_level_keywords\": [\"Gemini 2.5 Flash\", \"Flash memory\", \"Bias in AI\", \"System design\", \"User interface\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What systems or applications utilize Gemini 2.5 Flash, and what are the implications of its individualism-collectivism bias on their functionality or user experience?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432372,
+    "update_time": 1785432372,
+    "_id": "hybrid:keywords:7a753b472cf83bccd894f6ee0a40ad62"
+  },
+  "hybrid:keywords:1507b2e13fd8a06fe4ff7176b140eda7": {
+    "return": "{\"high_level_keywords\": [\"Model performance\", \"Generic retry\", \"Retry mechanisms\"], \"low_level_keywords\": [\"Model accuracy\", \"Model reliability\", \"Response time\", \"Error handling\", \"Model optimization\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What aspects of a model's performance are typically improved by applying generic retry, and how does this relate to the model's response to retry mechanisms in general?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432440,
+    "update_time": 1785432440,
+    "_id": "hybrid:keywords:1507b2e13fd8a06fe4ff7176b140eda7"
+  },
+  "hybrid:keywords:1774178315be57744994bfb41cd25689": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4 performance\", \"Generic retry\", \"OWL~2~DL compliance\", \"Query optimization\"], \"low_level_keywords\": [\"Retry mechanisms\", \"Query execution\", \"Compliance standards\", \"GPT-5.4 model\", \"Doc 6\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific aspects of GPT-5.4's performance are improved by applying generic retry, as discussed in the context of OWL~2~DL compliance queries in Doc 6?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432467,
+    "update_time": 1785432467,
+    "_id": "hybrid:keywords:1774178315be57744994bfb41cd25689"
+  },
+  "hybrid:keywords:340809686dadbeaf72f865fadc86e7cd": {
+    "return": "{\"high_level_keywords\": [\"GPT-5.4\", \"Performance improvement\", \"Generic retry\", \"Contextual information\"], \"low_level_keywords\": [\"Model performance\", \"Retry mechanism\", \"Contextual understanding\", \"GPT-5.4 architecture\", \"Model optimization\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance aspect of GPT-5.4 is improved when generic retry is applied, according to the information provided in the context?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432492,
+    "update_time": 1785432492,
+    "_id": "hybrid:keywords:340809686dadbeaf72f865fadc86e7cd"
+  },
+  "hybrid:keywords:547364e9551cb3cd1ddebc4cba49dc01": {
+    "return": "{\"high_level_keywords\": [\"UniVL-DR\", \"WebQA+\", \"EVQA+\", \"Shape\", \"Surface chemistry\"], \"low_level_keywords\": [\"Methods\", \"Models\", \"Datasets\", \"Sites\", \"Context\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods or models mentioned in the context outperform UniVL-DR on datasets similar to WebQA+ and EVQA+, considering factors such as shape and surface chemistry of certain sites?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432578,
+    "update_time": 1785432578,
+    "_id": "hybrid:keywords:547364e9551cb3cd1ddebc4cba49dc01"
+  },
+  "hybrid:keywords:38a2ad51d8db0c87d860dc513f3b1e79": {
+    "return": "{\"high_level_keywords\": [\"AI methods\", \"Language models\", \"Dataset evaluation\", \"Performance comparison\"], \"low_level_keywords\": [\"WebQA+\", \"EVQA+\", \"UniVL-DR\", \"Shape chemistry\", \"Surface chemistry\", \"Site evaluation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What AI methods or language models have been evaluated on the WebQA+ and EVQA+ datasets, particularly in the context of shape and surface chemistry of certain sites, and what are their performance comparisons to UniVL-DR?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432607,
+    "update_time": 1785432607,
+    "_id": "hybrid:keywords:38a2ad51d8db0c87d860dc513f3b1e79"
+  },
+  "hybrid:keywords:2a99c2cea8dd0ae0e205a585faa6df30": {
+    "return": "{\"high_level_keywords\": [\"Vision-language models\", \"UniVL-DR\", \"Visual understanding\", \"Shape and surface chemistry\"], \"low_level_keywords\": [\"VLMs\", \"UniVL-DR\", \"Datasets\", \"Visual understanding\", \"Shape\", \"Surface chemistry\", \"Applications\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What vision-language models (VLMs) have been shown to outperform UniVL-DR on datasets that involve visual understanding of shape and surface chemistry, and what are their applications in this context?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432637,
+    "update_time": 1785432637,
+    "_id": "hybrid:keywords:2a99c2cea8dd0ae0e205a585faa6df30"
+  },
+  "hybrid:keywords:6dbd7cb31e0a0fe8adfaa9473d7a16e7": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference Module\", \"Anomaly localization\", \"Dynamic real-world environments\"], \"low_level_keywords\": [\"Performance challenges\", \"Anomaly detection\", \"Machine learning\", \"Computer vision\", \"Real-world applications\", \"Bayesian inference\", \"Vision models\", \"Language models\", \"Anomaly localization module\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What specific performance challenges do Vision-Language Models that incorporate a Bayesian Inference Module for anomaly localization typically face in dynamic real-world environments, as discussed in the context of documents 1, 3, and 6?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432738,
+    "update_time": 1785432738,
+    "_id": "hybrid:keywords:6dbd7cb31e0a0fe8adfaa9473d7a16e7"
+  },
+  "hybrid:keywords:8886315bf5053c632e988a43d3f4a04e": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference\", \"Anomaly detection\", \"Dynamic environments\"], \"low_level_keywords\": [\"Performance challenges\", \"Real-world environments\", \"Bayesian inference techniques\", \"Anomaly detection algorithms\", \"Vision-Language model architectures\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are common performance challenges faced by Vision-Language Models that incorporate Bayesian Inference for anomaly detection in dynamic real-world environments?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432786,
+    "update_time": 1785432786,
+    "_id": "hybrid:keywords:8886315bf5053c632e988a43d3f4a04e"
+  },
+  "hybrid:keywords:82984f14b81440d206bebd6572ca89b6": {
+    "return": "{\"high_level_keywords\": [\"Vision-Language Models\", \"Bayesian Inference\", \"Anomaly detection\", \"Dynamic environments\"], \"low_level_keywords\": [\"Performance challenges\", \"Real-world environments\", \"Bayesian inference techniques\", \"Anomaly detection algorithms\", \"Vision-Language model architectures\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What are the common performance challenges faced by Vision-Language Models that incorporate Bayesian Inference for anomaly detection in dynamic real-world environments?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785432832,
+    "update_time": 1785432832,
+    "_id": "hybrid:keywords:82984f14b81440d206bebd6572ca89b6"
+  },
+  "hybrid:keywords:96a3003bce7260e06011c36f9a26edda": {
+    "return": "{\"high_level_keywords\": [\"Defense methods\", \"Model security\", \"External tool connections\", \"Contextual information sharing\"], \"low_level_keywords\": [\"Adversarial attacks\", \"Model evasion\", \"Protocol vulnerabilities\", \"Contextual information protocols\", \"Defense mechanisms\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What defense methods are designed to counter models that leverage external tool connections, specifically those utilizing a protocol that shares contextual information?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785433361,
+    "update_time": 1785433361,
+    "_id": "hybrid:keywords:96a3003bce7260e06011c36f9a26edda"
+  },
+  "hybrid:keywords:c4306c5bca0cfbba6f8e39b11ec391b7": {
+    "return": "{\"high_level_keywords\": [\"Model defenses\", \"External tool connections\", \"Protocol-based approach\"], \"low_level_keywords\": [\"Adversarial attacks\", \"Model security\", \"API integration\", \"Protocol-based integration\", \"External tool vulnerabilities\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What methods are designed to improve defenses against models that rely on external tool connections, specifically those that utilize a protocol-based approach for integrating external tools?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 15,
+      "chunk_top_k": 10,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 12000,
+      "user_prompt": "",
+      "enable_rerank": false
+    },
+    "create_time": 1785433403,
+    "update_time": 1785433403,
+    "_id": "hybrid:keywords:c4306c5bca0cfbba6f8e39b11ec391b7"
   }
 }
