@@ -1998,7 +1998,12 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 - **Décision** : compte tenu du temps déjà passé à tester Groq, Gemini, DeepSeek/NVIDIA puis deux modèles OpenRouter , tous instables ou indisponibles pour un usage gratuit , j'ai décidé d'abandonner la mesure automatique RAGAS pour cette échéance et de **basculer définitivement sur l'évaluation manuelle (Plan C)**, déjà en place et déjà fonctionnelle dans le notebook (repli automatique déjà codé).
 - Prochaine étape : relancer le notebook pour régénérer les réponses des 3 systèmes avec tous les correctifs (prompt Option A, contexte réordonné, juge critique qui vérifie les refus, meilleure réponse), puis noter manuellement les nouvelles réponses dans `plan_c_evaluation_manuelle.csv`.
 
+### Bilan de l'ablation study 
 
+- Avec les correctifs appliqués (prompt Option A, contexte réordonné, juge critique qui vérifie les refus, meilleure réponse conservée), l'écart entre l'Agentic GraphRAG et LightRAG hybride seul a disparu sur l'échantillon de 10 questions (0.500 vs 0.500, contre 0.433 vs 0.567 avant correctifs) , la couche agentique n'est plus pénalisante.
+- J'ai voulu passer à 30 questions pour avoir un échantillon plus large et vérifier si la contribution de la couche agentique (CRITIQUE + SELF_CORRECT) devient positivement visible à plus grande échelle plutôt que de rester à l'égalité observée sur seulement 10 questions.
+- **Limite rencontrée** : le quota gratuit Groq (100 000 tokens/jour sur le modèle juge) est systématiquement dépassé à 30 questions à cause du nombre d'appels multiplié par les itérations de SELF_CORRECT. Décision : rester sur un échantillon de 10 questions pour cette échéance, et documenter ce plafond d'API gratuite comme une limite matérielle du projet (cf. section Limites du mémoire), plutôt que de perdre du temps supplémentaire à contourner ce plafond.
+- Hypothèse à documenter dans le mémoire : la valeur ajoutée de la boucle agentique (capacité à reformuler et relancer une recherche après un premier échec) pourrait se manifester plus nettement sur un échantillon plus larges, là où les erreurs ponctuelles d'un système sans boucle de correction pèsent proportionnellement plus lourd , hypothèse cohérente avec l'égalité observée sur ce petit échantillon, mais non vérifiée faute de temps/quota pour la tester à plus grande échelle.
 
 _Journal mis à jour quotidiennement — Wiame Anejjar_
 _Dernière mise à jour : 30 Juillet 2026_
