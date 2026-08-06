@@ -2005,5 +2005,39 @@ Le script **`validate_multihop_benchmark.py`** a permis de filtrer automatiqueme
 - **Limite rencontrée** : le quota gratuit Groq (100 000 tokens/jour sur le modèle juge) est systématiquement dépassé à 30 questions à cause du nombre d'appels multiplié par les itérations de SELF_CORRECT. Décision : rester sur un échantillon de 10 questions pour cette échéance, et documenter ce plafond d'API gratuite comme une limite matérielle du projet (cf. section Limites du mémoire), plutôt que de perdre du temps supplémentaire à contourner ce plafond.
 - Hypothèse à documenter dans le mémoire : la valeur ajoutée de la boucle agentique (capacité à reformuler et relancer une recherche après un premier échec) pourrait se manifester plus nettement sur un échantillon plus larges, là où les erreurs ponctuelles d'un système sans boucle de correction pèsent proportionnellement plus lourd , hypothèse cohérente avec l'égalité observée sur ce petit échantillon, mais non vérifiée faute de temps/quota pour la tester à plus grande échelle.
 
+---
+
+### 31 Juillet – 06 Août 2026 — Checkpointing + rotation multi-comptes Groq : dépassement du plafond de 30 questions
+
+#### Retour sur la limite du 30/07
+
+Le bilan du 30/07 documentait le plafond de quota Groq comme une limite matérielle à accepter (retour à 10 questions). En reprenant le retour du prof (4 pistes : checkpointing après chaque question, étaler sur plusieurs jours, 2e compte Groq, génération locale via Ollama), j'ai décidé de combiner la piste 1 (checkpointing, déjà utilisée pour l'indexation aux Sprints 1-2) avec une rotation automatique sur **3 comptes Groq** (au lieu d'un seul 2e compte) pour éviter d'avoir à relancer manuellement chaque jour.
+
+#### Implémentation
+
+- **`src/utils/groq_rotation.py`** (nouveau module) : rotation automatique sur `GROQ_API_KEY` / `GROQ_API_KEY_2` / `GROQ_API_KEY_3` (3 comptes distincts). L'état (clé active, horodatage des clés marquées épuisées) est persisté dans `Eval_agentic/groq_key_state.json` , une clé épuisée redevient utilisable automatiquement après 24h (reset journalier du quota gratuit Groq). Lève une exception dédiée `AllGroqKeysExhaustedError` quand les 3 clés sont épuisées, à capturer par l'appelant.
+- **`src/agent/graph_v3.py`** : le générateur, le juge CRITIQUE, et l'extraction de mots-clés interne de LightRAG (`groq_llm_func`, appelée à chaque `hybrid_search`) utilisent désormais cette rotation au lieu d'une clé fixe capturée une seule fois à l'import du module.
+- **Bug important corrigé au passage** : `_llm_call`, `_judge_call` et `node_hybrid_search` avalaient TOUTES les exceptions dans des `try/except Exception` larges , sans correctif, un quota épuisé aurait été transformé en fausse réponse `"[LLM ERROR] ..."` au lieu d'arrêter proprement l'évaluation, ce qui aurait silencieusement pollué le checkpoint. Ajout d'un `except AllGroqKeysExhaustedError: raise` avant chaque `except Exception` générique pour laisser l'erreur remonter jusqu'à la boucle d'évaluation.
+- **`Sprint4_Ablation_Study.ipynb`**, nouvelle section 2bis : fonction `checkpointed_run()` , chaque réponse est écrite sur disque (`Eval_agentic/plan_c_checkpoint_30q.json`) dès qu'elle est calculée (pas de batching). Au relancement d'une cellule (même le lendemain, même sur un nouveau kernel), les questions déjà checkpointées sont relues et non régénérées. Les 3 boucles de génération (RAG baseline, LightRAG, Agentic) s'arrêtent proprement sur `AllGroqKeysExhaustedError` au lieu de planter, avec un message explicite indiquant où reprendre.
+- `EVAL_N_QUESTIONS` remonté de 10 à **30** dans `.env`.
+
+#### Résultats obtenus
+
+- Exécution complète du notebook avec le nouveau mécanisme : **30/30 questions terminées sur les 3 systèmes**, sans dépasser le quota grâce à la rotation automatique sur les 3 comptes.
+- Export des 90 réponses (30 questions × 3 systèmes) vers `Eval_agentic/plan_c_evaluation_manuelle.csv`.
+- Notation des 90 réponses selon la grille du prof (correct / ancré au contexte / clair-complet) : première passe de notation **relecture et correction complètes de ma part** avant validation finale (un correctif appliqué sur `ancre_contexte`, RAG baseline).
+- Résultats agrégés finaux (`Eval_agentic/plan_c_resultats_agreges.csv`) :
+
+| Système | Correct | Ancré | Clair/complet | Score moyen |
+|---|---|---|---|---|
+| RAG baseline (ChromaDB) | 0.100 | 0.967 | 0.200 | **0.422** |
+| LightRAG hybride (sans agent) | 0.100 | 1.000 | 0.300 | **0.467** |
+| Agentic GraphRAG | 0.133 | 1.000 | 0.433 | **0.522** |
+
+- L'Agentic GraphRAG reste en tête sur les 3 critères à 30 questions, confirmant avec un échantillon 3× plus grand la tendance déjà observée sur 10 questions (où l'écart avec LightRAG s'était résorbé après les correctifs du prompt RESPONSE).
+- **Correction de l'hypothèse du 30/07** : la limite de quota Groq à 30 questions, alors documentée comme limite matérielle définitive du projet, est finalement résolue par le mécanisme de checkpointing + rotation multi-comptes , plus besoin de la présenter comme une limite non résolue dans le mémoire. La démarche (diagnostic → plan A/B/C du prof → solution technique combinant checkpointing et rotation) reste intéressante à documenter comme exemple de gestion d'une contrainte d'infrastructure.
+
+
+
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 30 Juillet 2026_
+_Dernière mise à jour : 06 Août 2026_
