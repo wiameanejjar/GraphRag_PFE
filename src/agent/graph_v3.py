@@ -11,9 +11,14 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_ollama import ChatOllama
 from lightrag import LightRAG, QueryParam
 from lightrag.utils import EmbeddingFunc
-from groq import AsyncGroq, Groq
 from openai import AsyncOpenAI, OpenAI
 from pathlib import Path
+
+from src.utils.groq_rotation import (
+    groq_chat_completion,
+    agroq_chat_completion,
+    AllGroqKeysExhaustedError,
+)
 
 # ══════════════════════════════════════════════════════════════
 # CONFIG
@@ -60,12 +65,14 @@ if USE_GROQ and USE_GROQ_JUDGE and GROQ_GENERATOR_MODEL == GROQ_JUDGE_MODEL:
 # INIT LLM — Générateur
 # ══════════════════════════════════════════════════════════════
 def _build_groq_sync(model="llama-3.3-70b-versatile", max_tokens=800):
-    client = Groq(api_key=GROQ_API_KEY)
+    # Rotation automatique GROQ_API_KEY / _2 / _3 (voir src/utils/groq_rotation.py) :
+    # aucune cle fixe n'est capturee ici, chaque appel demande la cle active
+    # au moment de l'appel et bascule seule sur la suivante en cas de 429.
     class _G:
         def invoke(self, messages):
             msgs = [{"role": "system" if isinstance(m, SystemMessage)
                      else "user", "content": m.content} for m in messages]
-            r = client.chat.completions.create(
+            r = groq_chat_completion(
                 model=model, messages=msgs, temperature=0, max_tokens=max_tokens)
             class _R:
                 content = r.choices[0].message.content
@@ -140,10 +147,13 @@ print(f"======= JUDGE STATUS ========== independent={JUDGE_IS_INDEPENDENT_AT_STA
 # ══════════════════════════════════════════════════════════════
 # INIT LIGHTRAG
 # ══════════════════════════════════════════════════════════════
-groq_async_client = AsyncGroq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
 nvidia_async_client = AsyncOpenAI(base_url=NVIDIA_BASE_URL, api_key=NVIDIA_API_KEY) if NVIDIA_API_KEY else None
 
 async def groq_llm_func(prompt, system_prompt=None, history_messages=None, **kwargs):
+    # Rotation automatique GROQ_API_KEY / _2 / _3 — mêmes clés et même état
+    # de rotation que _build_groq_sync (voir src/utils/groq_rotation.py).
+    # Utilisé par LightRAG en interne (extraction de mots-clés hybrid/local/
+    # global) : consomme donc aussi du quota Groq à chaque hybrid_search.
     history_messages = history_messages or []
     messages = []
     if system_prompt:
@@ -152,7 +162,7 @@ async def groq_llm_func(prompt, system_prompt=None, history_messages=None, **kwa
         if isinstance(m, dict):
             messages.append(m)
     messages.append({"role": "user", "content": prompt})
-    r = await groq_async_client.chat.completions.create(
+    r = await agroq_chat_completion(
         model=GROQ_GENERATOR_MODEL,
         messages=messages, temperature=0.0, max_tokens=800)
     return (r.choices[0].message.content or "").strip()
@@ -261,6 +271,12 @@ def _llm_call(system, user):
     try:
         r = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return r.content
+    except AllGroqKeysExhaustedError:
+        # Ne PAS avaler cette erreur dans une réponse "[LLM ERROR] ..." : elle
+        # doit remonter jusqu'à la boucle d'évaluation (notebook) pour que le
+        # checkpoint s'arrête proprement au lieu d'enregistrer une fausse
+        # réponse pour cette question.
+        raise
     except Exception as e:
         return f"[LLM ERROR] {e}"
 
@@ -270,6 +286,8 @@ def _judge_call(system, user):
         try:
             r = judge_llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
             return r.content, True
+        except AllGroqKeysExhaustedError:
+            raise
         except Exception as e:
             print(f"[JUDGE] Erreur juge indépendant : {e} — repli sur le générateur POUR CET APPEL")
     return _llm_call(system, user), False
@@ -371,6 +389,11 @@ def node_hybrid_search(state: AgentState) -> AgentState:
 
     try:
         result = asyncio.get_event_loop().run_until_complete(_query())
+    except AllGroqKeysExhaustedError:
+        # cf. _llm_call : ne pas transformer un quota épuisé en contexte vide,
+        # ça produirait une fausse réponse "no context" au lieu d'arrêter
+        # proprement l'évaluation pour reprise ultérieure.
+        raise
     except Exception as e:
         result = {}
         trace.append(f"[HYBRID_SEARCH] Erreur : {e}")
