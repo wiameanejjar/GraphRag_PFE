@@ -1,0 +1,11 @@
+﻿metrique,avant_postTraitement,apres_postTraitement,delta,delta_pct,sens
+Noeuds (entites),5065,4945,-120,-2.4%,amelioration
+Aretes (relations),5068,5593,525,+10.4%,amelioration
+Degre moyen,2.001,2.262,0.261,+13.0%,amelioration
+Noeuds isoles (deg=0),28,0,-28,-100.0%,amelioration
+Noeuds a degre 1 (%),62.8,55.9,-7.0,-11.1%,amelioration
+Composantes connexes,534,385,-149,-27.9%,amelioration
+Composante geante (noeuds),2195,2733,538,+24.5%,amelioration
+Composante geante (%),43.3,55.3,11.9,+27.5%,amelioration
+Clustering moyen,0.0801,0.1199,0.0397,+49.6%,amelioration
+Densite,0.000395,0.000458,0.000062,+15.8%,amelioration

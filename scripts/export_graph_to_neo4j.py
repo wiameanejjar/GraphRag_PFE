@@ -16,7 +16,13 @@ Usage:
 """
 import argparse
 import os
+import sys
 from pathlib import Path
+
+# Sous Windows, stdout redirige vers un fichier retombe sur cp1252, qui ne sait
+# pas encoder les caracteres accentues/symboles des messages ci-dessous.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 from dotenv import load_dotenv
 load_dotenv()

@@ -37,5 +37,7 @@ Thumbs.db
 # horodatages de rotation, checkpoint intermediaire de l'evaluation 30 qsts)
 Eval_agentic/groq_key_state.json
 Eval_agentic/plan_c_checkpoint_30q.json
+Eval_agentic/agent_versions_checkpoint.json
+Eval_agentic/agent_versions_ragas_checkpoint.json
 
 

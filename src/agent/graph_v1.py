@@ -16,6 +16,8 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_chroma import Chroma
 from neo4j import GraphDatabase
 
+from src.utils.groq_rotation import groq_chat_completion, AllGroqKeysExhaustedError
+
 # ══════════════════════════════════════════════════════════════
 # CONFIG
 # ══════════════════════════════════════════════════════════════
@@ -42,16 +44,14 @@ MAX_ITERATIONS = 3     # max 3 self-corrections
 # ══════════════════════════════════════════════════════════════
 def _get_llm():
     if USE_GROQ and GROQ_API_KEY:
-        from groq import Groq
-        client = Groq(api_key=GROQ_API_KEY)
-        print("[LLM] Groq llama-3.3-70b-versatile")
+        print("[LLM] Groq llama-3.3-70b-versatile (rotation GROQ_API_KEY/_2/_3)")
         class _GroqLLM:
             def invoke(self, messages):
                 msgs = []
                 for m in messages:
                     role = "system" if isinstance(m, SystemMessage) else "user"
                     msgs.append({"role": role, "content": m.content})
-                r = client.chat.completions.create(
+                r = groq_chat_completion(
                     model="llama-3.3-70b-versatile",
                     messages=msgs, temperature=0, max_tokens=800)
                 class _R:
@@ -75,13 +75,11 @@ if hasattr(llm, "base_url"):
 
 def _get_judge_llm():
     if USE_GROQ_JUDGE and GROQ_API_KEY:
-        from groq import Groq
-        client = Groq(api_key=GROQ_API_KEY)
         class _GroqJudge:
             def invoke(self, messages):
-                msgs = [{"role": "system" if isinstance(m, SystemMessage) 
+                msgs = [{"role": "system" if isinstance(m, SystemMessage)
                          else "user", "content": m.content} for m in messages]
-                r = client.chat.completions.create(
+                r = groq_chat_completion(
                     model="llama-3.3-70b-versatile",
                     messages=msgs, temperature=0, max_tokens=300)
                 class _R:
@@ -140,6 +138,8 @@ def _llm_call(system: str, user: str) -> str:
     try:
         r = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return r.content
+    except AllGroqKeysExhaustedError:
+        raise
     except Exception as e:
         return f"[LLM ERROR] {e}"
 

@@ -33,6 +33,8 @@ from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langgraph.graph import END, StateGraph
 from neo4j import GraphDatabase
 
+from src.utils.groq_rotation import groq_chat_completion, AllGroqKeysExhaustedError
+
 load_dotenv()
 
 # =========================
@@ -65,9 +67,7 @@ MAX_ITERATIONS = int(os.getenv("MAX_ITERATIONS", "3"))
 def _get_llm():
     """Initialise le LLM principal."""
     if USE_GROQ and GROQ_API_KEY:
-        from groq import Groq
-
-        client = Groq(api_key=GROQ_API_KEY)
+        print("[LLM] Groq llama-3.3-70b-versatile (rotation GROQ_API_KEY/_2/_3)")
 
         class _GroqLLM:
             def invoke(self, messages):
@@ -75,7 +75,7 @@ def _get_llm():
                 for m in messages:
                     role = "system" if isinstance(m, SystemMessage) else "user"
                     msgs.append({"role": role, "content": m.content})
-                r = client.chat.completions.create(
+                r = groq_chat_completion(
                     model="llama-3.3-70b-versatile",
                     messages=msgs,
                     temperature=0,
@@ -99,17 +99,13 @@ def _get_llm():
 def _get_judge_llm():
     """Initialise le LLM de critique."""
     if USE_GROQ_JUDGE and GROQ_API_KEY:
-        from groq import Groq
-
-        client = Groq(api_key=GROQ_API_KEY)
-
         class _GroqJudge:
             def invoke(self, messages):
                 msgs = []
                 for m in messages:
                     role = "system" if isinstance(m, SystemMessage) else "user"
                     msgs.append({"role": role, "content": m.content})
-                r = client.chat.completions.create(
+                r = groq_chat_completion(
                     model="llama-3.3-70b-versatile",
                     messages=msgs,
                     temperature=0,
@@ -240,6 +236,8 @@ def _llm_call(system: str, user: str) -> str:
     try:
         r = llm.invoke([SystemMessage(content=system), HumanMessage(content=user)])
         return (r.content or "").strip()
+    except AllGroqKeysExhaustedError:
+        raise
     except Exception as e:
         return f"[LLM ERROR] {e}"
 
