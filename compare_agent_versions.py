@@ -96,6 +96,11 @@ def build_context_list(result: dict) -> list:
     """Reconstruit une liste de passages a partir de l'etat retourne par
     graph_v1/graph_v2 (memes champs : vector_results, fused_context)."""
     vector_chunks = result.get("vector_results", []) or []
+    # Attention : troncature a 1200 caracteres alors que fused_context fait
+    # ~5900 caracteres pour v1/v2. Le contexte archive est donc partiel ; pour
+    # juger si une reponse cite une source qu elle n a pas recuperee, il faut
+    # rejouer la question et inspecter fused_context en entier (c est ce qui a
+    # ete fait pour verifier les citations non ancrees de v1).
     graph_context = (result.get("fused_context", "") or "")[:1200]
     contexts = []
     if vector_chunks:
