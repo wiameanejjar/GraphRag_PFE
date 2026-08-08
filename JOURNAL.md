@@ -2039,5 +2039,125 @@ Le bilan du 30/07 documentait le plafond de quota Groq comme une limite matérie
 
 
 
+---
+
+### 07 – 08 Août 2026 — Comparaison des versions de l'agent, statistiques du graphe, réorganisation des livrables
+
+#### Comparaison des 3 versions de l'agent (v1, v2, v3)
+
+Objectif : montrer l'évolution de l'architecture agentique sur les **mêmes 30 questions** du benchmark true multi-hop (seed=42), et pas seulement le résultat final.
+
+- **`compare_agent_versions.py`** (nouveau) : génère les réponses de `graph_v1`, `graph_v2` et `graph_v3`, avec checkpoint après chaque question et rotation Groq. v3 n'est pas relancé — ses réponses existent déjà dans `plan_c_checkpoint_30q.json` et sont réutilisées telles quelles (aucun quota consommé).
+- **`graph_v1.py` / `graph_v2.py`** branchés sur `src/utils/groq_rotation.py`, avec le même correctif que v3 : `except AllGroqKeysExhaustedError: raise` avant chaque `except Exception` générique.
+- **v1 et v2 interrogent maintenant le graphe post-traité**, rechargé dans Neo4j via `scripts/export_graph_to_neo4j.py --clear` (4945 nœuds / 5593 relations). Leur logique Cypher est inchangée : seule la source de données a été mise à jour, pour que la comparaison porte sur l'architecture et non sur un graphe périmé.
+- Différence v1 → v2 : même architecture (Neo4j + Chroma → fusion → réponse → critique → auto-correction), v2 ajoute la gestion d'erreurs Neo4j/Chroma, la déduplication et un contexte plus ciblé. Dans les deux cas le juge n'est **pas** indépendant du générateur (même modèle Groq), contrairement à v3.
+
+#### Notation RAGAS de ces versions
+
+- **`evaluate_agent_versions_ragas.py`** (nouveau) : note les réponses déjà générées avec RAGAS (faithfulness, answer relevancy, context precision, context recall), sans relancer aucun agent. Juge Groq `llama-3.1-8b-instant`, embeddings Ollama locaux, séquentiel, checkpoint après chaque ligne.
+
+| Version | Faithful. | Ans. relev. | Ctx precision | Ctx recall | Moyenne |
+|---|---|---|---|---|---|
+| v1 (Sprint 3) | 0.521 | 0.207 | 0.269 | 0.216 | **0.303** |
+| v2 (Sprint 3, corrigé) | 0.266 | 0.125 | 0.189 | 0.440 | **0.255** |
+
+**Problèmes rencontrés et corrigés** (à documenter comme limites) :
+
+- `AnswerRelevancy` demande par défaut `n=3` complétions en un appel, ce que l'API Groq refuse (`'n' : number must be at most 1`) → métrique systématiquement NaN. Corrigé avec `strictness=1`, au prix d'une estimation plus bruitée.
+- Les contextes de v3 font ~36 000 caractères (~195 passages LightRAG) contre ~4 000 pour v1/v2, soit ~9× le coût de notation par question. Contexte plafonné à 6 000 caractères, **identique pour les 3 versions** pour rester équitable (sans effet sur v1/v2, déjà en dessous).
+- RAGAS avec `raise_exceptions=False` convertit silencieusement les 429 en NaN : la rotation de clé ne se déclenchait donc jamais. Diagnostic final : **limite Groq de 500 000 tokens par jour et par compte (TPD)**, distincte de la limite de 6 000 tokens/minute (TPM).
+
+**Limites assumées** : v3 n'est pas évaluée par RAGAS (quota journalier atteint sur les 3 comptes). Le détail des NaN par métrique figure dans `agent_versions_ragas_resultats.csv`. le blocage ne vient pas d'un quota mal géré ce jour-là, mais du volume de contexte que produit l'architecture de v3. Y remédier suppose un juge payant pas un nouvel essai.
+
+#### Pourquoi RAGAS pour v1 et v2, et une évaluation manuelle pour v3 : justification du protocole
+
+- Le protocole d'évaluation n'est pas le même pour toutes les versions. Ce n'est pas une incohérence, c'est une contrainte matérielle documentée, et voici le raisonnement complet.
+
+**1. Pourquoi RAGAS pour v1 et v2.** Ces deux versions partagent la même architecture (Neo4j + Chroma) et ne diffèrent que par des correctifs internes. La question posée est donc fine : « le nettoyage du retrieval de v2 améliore-t-il concrètement la qualité du contexte et de la réponse ? » Une grille manuelle binaire à 3 critères n'a pas la résolution nécessaire pour trancher ça. RAGAS, avec ses 4 métriques dont deux portant spécifiquement sur le contexte (`context_precision`, `context_recall`), sépare bien les deux. Et leurs contextes sont courts (~4 000 caractères) donc notables dans le quota disponible.
+
+**2. Pourquoi RAGAS n'a pas pu couvrir v3.** v3 n'utilise plus Neo4j + Chroma mais le retrieval hybride natif de LightRAG, qui renvoie ~195 passages, soit ~36 000 caractères de contexte par question , environ 9× le volume de v1/v2. Or les 3 métriques RAGAS qui envoient le contexte au juge (`faithfulness`, `context_precision`, `context_recall`) coûtent donc ~9× plus cher par question. Les 3 comptes Groq sont plafonnés à 500 000 tokens par jour chacun ; le budget a été épuisé avant d'atteindre v3. Ce n'est pas un choix méthodologique, c'est un mur de quota.
+
+**3. Pourquoi une grille manuelle plutôt que rien.** Laisser v3 hors comparaison aurait vidé l'exercice de son sens : c'est justement la version finale du projet. La grille manuelle à 3 critères a deux avantages décisifs ici : elle ne consomme aucun quota, et **c'est exactement la même grille que celle de l'ablation study**, donc les chiffres de v3 restent comparables à ceux déjà produits pour les 3 systèmes. La cohérence de l'instrument entre les deux études est ce qui rend la comparaison recevable.
+
+**Enchaînement à défendre en une phrase** : RAGAS départage v1 et v2 (architectures proches, écart fin, contextes courts) → le vainqueur v1, est confronté à v3 sur la grille manuelle, seule mesure applicable à v3 sous contrainte de quota et déjà utilisée dans l'ablation study.
+
+**Limite honnête** : les deux comparaisons ne sont pas exprimées dans la même unité. On ne peut pas dire « v3 fait 0.600 donc mieux que les 0.303 de v1 » , ce sont deux échelles différentes. Chaque comparaison n'est valable qu'à l'intérieur de son propre instrument : RAGAS pour v1 vs v2, grille manuelle pour v1 vs v3. 
+
+#### Évaluation manuelle v1 vs v3 (même grille que l'ablation study)
+
+Comparaison de v1, meilleure des deux anciennes versions selon RAGAS avec v3, sur les mêmes 30 questions et la grille à 3 critères. Deux scripts : `build_manual_eval_v1_v3.py` (assemble la grille, aucun appel LLM) et `aggregate_manual_eval_v1_v3.py` (moyennes + figure, refuse d'agréger tant que la grille est incomplète).
+
+| Version | Correct | Ancré contexte | Clair/complet | Score global |
+|---|---|---|---|---|
+| v1 (Sprint 3) | 0.067 | 0.933 | 0.800 | **0.600** |
+| v3 (Sprint 4, actuel) | 0.200 | 1.000 | 0.600 | **0.600** |
+
+Score global identique, profils opposés : v3 répond correctement 3× plus souvent, v1 compense par des refus longs et explicatifs qui gonflent le critère « clair/complet ».
+
+#### Citations non ancrées de v1 , vérification
+
+En relisant la grille, j'ai repéré deux réponses de v1 qui citent des entités absentes du contexte qu'elle a effectivement récupéré : `[Graph: Vibes]` (question Vision-Language Models / temporal consistency) et `Talking Slide Avatars` (question SalUn-CRA).
+
+La colonne `context_excerpt` du CSV ne contient qu'une partie du contexte (1200 caractères sur ~5900 pour v1/v2), donc son absence dans le CSV ne suffisait pas à conclure. Les deux questions ont été **rejouées sur v1** et le `fused_context` complet inspecté : les deux entités sont bel et bien absentes du contexte graphe complet **et** des résultats vectoriels. Elles existent en revanche dans `graph_chunk_entity_relation.graphml`.
+
+Conclusion : v1 attribue à son contexte des entités réelles du graphe qu'elle n'a pas récupérées pour cette question. v3 ne le fait sur aucune des 60 lignes évaluées.
+
+- Résumé : v1 produit occasionnellement des citations non ancrées sur les 30 questions, v3 n'en produit aucune. 
+
+#### Statistiques du graphe avant / après post-traitement
+
+`scripts/graph_stats_figures.py` produit les deux tableaux de bord et la figure comparative, à partir du backup `lightrag_500_connected_v2_backup_before_merge_20260722_162530` (état d'avant) et de l'index courant.
+
+| Métrique | Avant | Après | Variation |
+|---|---|---|---|
+| Nœuds | 5065 | 4945 | −2.4 % |
+| Relations | 5068 | 5593 | **+10.4 %** |
+| Degré moyen | 2.001 | 2.262 | +13.0 % |
+| Nœuds isolés | 28 | **0** | −100 % |
+| Composantes connexes | 534 | 385 | −27.9 % |
+| Composante géante | 43.3 % | **55.3 %** | +27.5 % |
+| Clustering moyen | 0.0801 | 0.1199 | +49.6 % |
+
+L'ancien graphe a aussi été rechargé temporairement dans Neo4j pour prendre la capture « avant », puis le graphe post-traité remis en place.
+
+#### Les 3 figures principales demandées par l'encadrant
+
+`scripts/make_report_figures.py`:
+
+1. **Schéma du pipeline global** : `figures/architecture/fig21_pipeline_global.png` : créé (corpus → indexation → 3 systèmes comparés → boucle agentique LangGraph → évaluation).
+2. **Statistiques du graphe post-traité** : `figures/graphe/fig17_stats_graphe_apres_postTrait.png`
+3. **Bar chart de l'ablation study** : `figures/evaluation/fig15_ablation_study_comparaison.png` 
+
+#### Réorganisation des livrables
+
+Rangement par thème pour préparer le rapport :
+
+```
+figures/                          Eval_agentic/
+├── architecture/  fig21          ├── ablation_study/      3 systèmes + Plan C
+├── corpus/        fig1-5         ├── versions_agent/      v1/v2/v3
+├── indexation/    fig6-7         ├── graphe/              stats avant/après
+├── graphe/        fig8-10,16-18  └── historique_sprints/  s3, s4, lightrag
+├── benchmark/     fig11-14
+└── evaluation/    fig15,19,20
+```
+
+Contenu détaillé de chaque dossier :
+
+| Dossier | Contenu | Produit par |
+|---|---|---|
+| `figures/corpus/` | Analyse du corpus arXiv : distribution des tokens, thèmes, HotpotQA, dashboard, wordcloud | `notebooks/Sprint1_Fondations.ipynb` |
+| `figures/indexation/` | Résultats du chunking, naive vs hybride | Sprint 1 / Sprint 2 |
+| `figures/graphe/` | Visualisations et statistiques du graphe, avant et après post-traitement, captures Neo4j | `scripts/graph_stats_figures.py`, `scripts/visualize_graph.py` |
+| `figures/benchmark/` | Benchmark true multi-hop : répartition, distribution des chunks, tableau récapitulatif | `scripts/generate_benchmark_dernière_v.py`, `scripts/validate_multihop_benchmark.py` |
+| `figures/evaluation/` | Ablation study, comparaison RAGAS des versions, comparaison manuelle v1/v3 | `Sprint4_Ablation_Study.ipynb`, `evaluate_agent_versions_ragas.py`, `aggregate_manual_eval_v1_v3.py` |
+| `Eval_agentic/ablation_study/` | Paramètres, détail par question, tableau comparatif, évaluation manuelle Plan C et moyennes agrégées | `Sprint4_Ablation_Study.ipynb` |
+| `Eval_agentic/versions_agent/` | Réponses brutes des 3 versions, notation RAGAS détaillée et agrégée, grille manuelle v1/v3 | `compare_agent_versions.py`, `evaluate_agent_versions_ragas.py` |
+| `Eval_agentic/graphe/` | Statistiques du graphe avant / après post-traitement | `scripts/graph_stats_figures.py` |
+| `Eval_agentic/historique_sprints/` | Évaluations RAGAS des sprints précédents (s3, s4, lightrag, run à 6 questions), conservées pour la comparaison Sprint 3 → Sprint 4 | `eval_ragas.py`, `ragas_age.py`, `eval_ragas_3.py` |
+- Les chemins ont été mis à jour dans tous les scripts et notebooks concernés pour que tout se régénère au bon endroit.
+
+---
+
 _Journal mis à jour quotidiennement — Wiame Anejjar_
-_Dernière mise à jour : 06 Août 2026_
+_Dernière mise à jour : 08 Août 2026_
