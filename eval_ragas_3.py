@@ -24,7 +24,7 @@ from src.agent.graph_v3 import run_agent
 
 # ── Config ────────────────────────────────────────────────────
 BENCHMARK_PATH = Path("data/processed/benchmark_true_multihop.json")
-OUTPUT_DIR     = Path("Eval_agentic")
+OUTPUT_DIR     = Path("Eval_agentic") / "historique_sprints"
 OUTPUT_CSV     = OUTPUT_DIR / "eval_agent_s4_lightrag.csv"
 OUTPUT_JSON    = OUTPUT_DIR / "agent_scores_s4_lightrag.json"
 

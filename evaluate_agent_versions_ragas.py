@@ -67,11 +67,12 @@ from src.utils import groq_rotation
 from src.utils.groq_rotation import AllGroqKeysExhaustedError, rotation_status
 
 # ── Config ────────────────────────────────────────────────────
-OUT_DIR = Path("Eval_agentic")
-FIG_DIR = Path("figures")
+EVAL_ROOT = Path("Eval_agentic")            # etat runtime (checkpoints, non versionne)
+OUT_DIR = EVAL_ROOT / "versions_agent"      # livrables de la comparaison des versions
+FIG_DIR = Path("figures") / "evaluation"
 
-SOURCE_CHECKPOINT = OUT_DIR / "agent_versions_checkpoint.json"
-RAGAS_CHECKPOINT = OUT_DIR / "agent_versions_ragas_checkpoint.json"
+SOURCE_CHECKPOINT = EVAL_ROOT / "agent_versions_checkpoint.json"
+RAGAS_CHECKPOINT = EVAL_ROOT / "agent_versions_ragas_checkpoint.json"
 DETAILS_CSV = OUT_DIR / "agent_versions_ragas_details.csv"
 AGG_CSV = OUT_DIR / "agent_versions_ragas_resultats.csv"
 FIG_PATH = FIG_DIR / "fig19_comparaison_versions_agentic_ragas.png"

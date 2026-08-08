@@ -56,13 +56,14 @@ BENCHMARK_PATH = Path("data/processed/benchmark_true_multihop.json")
 N_QUESTIONS = int(os.getenv("EVAL_N_QUESTIONS", "30"))
 SEED = 42
 
-OUTPUT_DIR = Path("Eval_agentic")
-CHECKPOINT_PATH = OUTPUT_DIR / "agent_versions_checkpoint.json"
+EVAL_ROOT = Path("Eval_agentic")            # etat runtime (checkpoints, non versionne)
+OUTPUT_DIR = EVAL_ROOT / "versions_agent"   # livrables de la comparaison des versions
+CHECKPOINT_PATH = EVAL_ROOT / "agent_versions_checkpoint.json"
 DETAILS_CSV = OUTPUT_DIR / "agent_versions_comparaison_details.csv"
 AGG_CSV = OUTPUT_DIR / "agent_versions_comparaison_resultats.csv"
 PARAMS_CSV = OUTPUT_DIR / "agent_versions_parametres.csv"
 
-V3_CHECKPOINT_PATH = OUTPUT_DIR / "plan_c_checkpoint_30q.json"
+V3_CHECKPOINT_PATH = EVAL_ROOT / "plan_c_checkpoint_30q.json"
 
 VERSIONS_TO_RUN = ["Agentic v1 (Sprint 3)", "Agentic v2 (Sprint 3, corrige)"]
 V3_LABEL = "Agentic v3 (Sprint 4, actuel)"

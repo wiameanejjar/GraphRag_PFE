@@ -20,7 +20,7 @@ from ragas.run_config import RunConfig
 from src.agent.graph_v2 import run_agent
 
 BENCHMARK_PATH = Path("data/processed/arxiv_multihop_v1.json")
-OUTPUT_DIR = Path("Eval_agentic")
+OUTPUT_DIR = Path("Eval_agentic") / "historique_sprints"
 OUTPUT_CSV = OUTPUT_DIR / "eval_agent_s3.csv"
 OUTPUT_JSON = OUTPUT_DIR / "agent_scores_s3.json"
 

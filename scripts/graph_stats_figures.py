@@ -35,8 +35,8 @@ import pandas as pd
 GRAPH_AVANT = Path("indexes/lightrag_500_connected_v2_backup_before_merge_20260722_162530/graph_chunk_entity_relation.graphml")
 GRAPH_APRES = Path("indexes/lightrag_500_connected_v2/graph_chunk_entity_relation.graphml")
 
-FIG_DIR = Path("figures")
-OUT_DIR = Path("Eval_agentic")
+FIG_DIR = Path("figures") / "graphe"
+OUT_DIR = Path("Eval_agentic") / "graphe"
 
 FIG_AVANT = FIG_DIR / "fig16_stats_graphe_avant_postTrait.png"
 FIG_APRES = FIG_DIR / "fig17_stats_graphe_apres_postTrait.png"
