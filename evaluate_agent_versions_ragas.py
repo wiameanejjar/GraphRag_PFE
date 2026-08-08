@@ -39,6 +39,7 @@ sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 import json
 import os
+import time
 import warnings
 from pathlib import Path
 
@@ -89,6 +90,37 @@ SHORT_LABELS = {
 METRICS = ["faithfulness", "answer_relevancy", "context_precision", "context_recall"]
 JUDGE_MODEL = os.getenv("RAGAS_GROQ_MODEL", "llama-3.1-8b-instant")
 
+# Budget de contexte envoye au juge, IDENTIQUE pour les 3 versions.
+# Necessaire : v3 (retrieval hybride LightRAG) renvoie ~195 passages et
+# ~36 000 caracteres par question, contre ~5 passages / ~4 000 caracteres
+# pour v1 et v2. A cette taille, chaque appel RAGAS depasse la limite
+# tokens/minute du palier gratuit Groq ; RAGAS avale l'erreur et renvoie NaN,
+# ce qui rendait 100% des lignes v3 non notables. On tronque donc au budget
+# ci-dessous en gardant les passages les mieux classes (ordre du retriever).
+# Le meme plafond est applique a v1 et v2 pour que la comparaison reste
+# equitable — en pratique il ne les affecte quasiment pas.
+# A signaler comme limite : pour v3, context_precision et context_recall
+# portent sur le haut du classement, pas sur la totalite du contexte recupere.
+CTX_CHAR_BUDGET = int(os.getenv("RAGAS_CTX_CHAR_BUDGET", "6000"))
+CTX_MAX_ITEMS = int(os.getenv("RAGAS_CTX_MAX_ITEMS", "20"))
+# Pause entre deux lignes, pour rester sous la limite tokens/minute de Groq.
+PACING_S = float(os.getenv("RAGAS_PACING_S", "8"))
+
+
+def trim_contexts(contexts: list) -> list:
+    """Tronque la liste de passages au budget commun (cf. CTX_CHAR_BUDGET)."""
+    out, used = [], 0
+    for c in (contexts or [])[:CTX_MAX_ITEMS]:
+        c = (c or "").strip()
+        if not c:
+            continue
+        remaining = CTX_CHAR_BUDGET - used
+        if remaining <= 0:
+            break
+        out.append(c[:remaining])
+        used += min(len(c), remaining)
+    return out or ["No context retrieved."]
+
 
 # ── Juge RAGAS (Groq + rotation multi-comptes) ────────────────
 def build_judge():
@@ -118,43 +150,66 @@ def build_metrics(ragas_llm, ragas_emb):
 RUN_CONFIG = RunConfig(timeout=180, max_retries=5, max_wait=60, max_workers=1)
 
 
+def _is_daily_quota_error(exc: Exception) -> bool:
+    """Distingue le quota JOURNALIER (TPD, 500 000 tokens/jour/compte, non
+    recuperable avant 24h -> il faut changer de cle) de la limite PAR MINUTE
+    (TPM, 6 000 tokens/min, qui se reconstitue en quelques secondes -> il
+    suffit d'attendre sur la meme cle).
+
+    C'est la distinction qui manquait : une TPM prise pour un epuisement
+    definitif retirait une cle parfaitement utilisable pour 24h."""
+    msg = str(exc).lower()
+    return "tokens per day" in msg or "tpd" in msg
+
+
 def score_one(entry: dict) -> dict:
-    """Note une seule ligne avec RAGAS. Si les 4 metriques ressortent NaN,
-    on suppose que la cle Groq active est saturee (RAGAS avale les 429 et
-    renvoie NaN) : on la marque epuisee et on retente avec la suivante."""
+    """Note une seule ligne avec RAGAS, avec rotation reelle sur les cles.
+
+    raise_exceptions=True (et non False) est essentiel : sinon RAGAS convertit
+    silencieusement les 429 en NaN, on ne voit jamais l'erreur, et la rotation
+    ne se declenche jamais. C'est exactement ce qui faisait echouer 100% des
+    lignes v3 sur les 3 metriques qui envoient le contexte."""
     dataset = Dataset.from_dict({
         "question": [entry["question"]],
         "answer": [entry.get("answer", "") or ""],
-        "contexts": [entry.get("contexts") or ["No context retrieved."]],
+        "contexts": [trim_contexts(entry.get("contexts"))],
         "ground_truth": [entry.get("ground_truth", "") or ""],
     })
 
     n_keys = max(1, len(groq_rotation._KEYS))
-    for attempt in range(n_keys):
-        ragas_llm, ragas_emb, key_idx = build_judge()
-        result = evaluate(
-            dataset,
-            metrics=build_metrics(ragas_llm, ragas_emb),
-            run_config=RUN_CONFIG,
-            batch_size=1,
-            raise_exceptions=False,
-        )
-        row = result.to_pandas().iloc[0]
-        scores = {m: (None if pd.isna(row.get(m)) else float(row[m])) for m in METRICS}
-
-        if any(v is not None for v in scores.values()):
-            return scores
-
-        # 4/4 NaN -> tres probablement un quota atteint, pas un vrai echec de
-        # scoring : on bascule de cle et on retente.
-        if attempt < n_keys - 1:
-            groq_rotation.mark_exhausted(key_idx)
-        else:
-            groq_rotation.mark_exhausted(key_idx)
-            raise AllGroqKeysExhaustedError(
-                "Toutes les cles Groq renvoient des scores RAGAS vides (quota atteint)."
+    tpm_waits = 0
+    attempts = 0
+    while attempts < n_keys + 3:
+        attempts += 1
+        ragas_llm, ragas_emb, key_idx = build_judge()  # leve si toutes epuisees
+        try:
+            result = evaluate(
+                dataset,
+                metrics=build_metrics(ragas_llm, ragas_emb),
+                run_config=RUN_CONFIG,
+                batch_size=1,
+                raise_exceptions=True,
             )
-    return {m: None for m in METRICS}
+        except Exception as exc:
+            if _is_daily_quota_error(exc):
+                groq_rotation.mark_exhausted(key_idx)  # bascule sur la cle suivante
+                continue
+            if groq_rotation._is_rate_limit_error(exc) and tpm_waits < 3:
+                tpm_waits += 1
+                print(f"      (limite par minute atteinte -> pause 60s, essai {tpm_waits}/3)")
+                time.sleep(60)
+                continue
+            # Echec propre a cette ligne (JSON du juge invalide, timeout...) :
+            # on enregistre NaN et on passe a la suivante.
+            print(f"      (echec de notation : {type(exc).__name__} - {str(exc)[:110]})")
+            return {m: None for m in METRICS}
+
+        row = result.to_pandas().iloc[0]
+        return {m: (None if pd.isna(row.get(m)) else float(row[m])) for m in METRICS}
+
+    raise AllGroqKeysExhaustedError(
+        "Les cles Groq configurees ont toutes atteint leur quota journalier."
+    )
 
 
 # ── Checkpoint ────────────────────────────────────────────────
@@ -313,6 +368,8 @@ def main():
     print(f"Source     : {SOURCE_CHECKPOINT}")
     print(f"Juge RAGAS : Groq {JUDGE_MODEL} (max_workers=1, batch_size=1)")
     print(f"Embeddings : Ollama nomic-embed-text (local, hors quota)")
+    print(f"Contexte   : plafonne a {CTX_CHAR_BUDGET} caracteres / {CTX_MAX_ITEMS} passages "
+          f"(identique pour les 3 versions)")
     print(f"[GROQ ROTATION] {rotation_status()}")
     print(f"A noter    : {total} lignes ({done} deja dans le checkpoint RAGAS)\n")
 
@@ -326,9 +383,15 @@ def main():
         print(f"=== {label} : {len(entries)} questions ===")
 
         for i, (qk, entry) in enumerate(entries.items(), 1):
-            if qk in cp[label]:
+            # Une ligne n'est consideree comme faite que si ses 4 metriques
+            # sont renseignees : les lignes partiellement NaN (echec quota au
+            # moment ou elles ont ete notees) sont automatiquement reprises.
+            done = cp[label].get(qk)
+            if done and all(done.get(m) is not None for m in METRICS):
                 print(f"  [{i}/{len(entries)}] (checkpoint) {entry['question'][:60]}")
                 continue
+            if done:
+                print(f"  [{i}/{len(entries)}] (reprise NaN) {entry['question'][:60]}")
             print(f"  [{i}/{len(entries)}] {entry['question'][:60]}")
             try:
                 scores = score_one(entry)
@@ -339,6 +402,7 @@ def main():
                 break
             cp[label][qk] = scores
             save_checkpoint(cp)
+            time.sleep(PACING_S)  # respiration anti tokens/minute
             shown = " | ".join(
                 f"{m.split('_')[0][:7]}={scores[m]:.2f}" if scores[m] is not None else f"{m.split('_')[0][:7]}=NaN"
                 for m in METRICS
